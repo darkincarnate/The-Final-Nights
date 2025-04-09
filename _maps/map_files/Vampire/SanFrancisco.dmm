@@ -9932,7 +9932,12 @@
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/clinic/haven)
 "cJf" = (
-/obj/matrix,
+/obj/transfer_point_vamp{
+	icon = 'icons/obj/stairs.dmi';
+	icon_state = "stairs";
+	id = 727;
+	name = "stairs"
+	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/pacificheights/forest)
 "cJk" = (
@@ -29194,6 +29199,12 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm)
+"ifh" = (
+/obj/vampire_car/track{
+	access = "pentex"
+	},
+/turf/open/floor/plating/vampgrass,
+/area/vtm/pacificheights/forest)
 "ifi" = (
 /obj/structure/vamptree,
 /turf/open/floor/plating/vampgrass,
@@ -54610,6 +54621,12 @@
 	},
 /turf/open/floor/plating/roofwalk,
 /area/vtm)
+"poK" = (
+/obj/vampire_car/rand{
+	access = "pentex"
+	},
+/turf/open/floor/plating/vampgrass,
+/area/vtm/pacificheights/forest)
 "poL" = (
 /obj/effect/decal/graffiti/large,
 /turf/open/floor/plating/sidewalk/poor,
@@ -54659,6 +54676,15 @@
 /obj/structure/curtain,
 /turf/open/floor/plating/toilet,
 /area/vtm/anarch)
+"ppL" = (
+/obj/transfer_point_vamp{
+	icon = 'icons/obj/stairs.dmi';
+	icon_state = "stairs";
+	id = 725;
+	name = "stairs"
+	},
+/turf/open/floor/plating/asphalt,
+/area/vtm/pacificheights/forest)
 "ppP" = (
 /obj/machinery/light,
 /turf/closed/wall/vampwall/city,
@@ -59252,6 +59278,15 @@
 /obj/vampire_car/taxi,
 /turf/open/floor/plating/asphalt,
 /area/vtm/fishermanswharf)
+"qBa" = (
+/obj/transfer_point_vamp{
+	icon = 'icons/obj/stairs.dmi';
+	icon_state = "stairs";
+	id = 726;
+	name = "stairs"
+	},
+/turf/open/floor/plating/asphalt,
+/area/vtm/pacificheights/forest)
 "qBf" = (
 /obj/structure/table,
 /obj/item/newspaper,
@@ -170915,7 +170950,7 @@ sba
 atu
 atu
 atu
-atu
+ifh
 atu
 atu
 atu
@@ -172468,7 +172503,7 @@ bVR
 dEo
 eKy
 dEo
-cJf
+ppL
 dVp
 qHD
 "}
@@ -172725,7 +172760,7 @@ pcT
 dEo
 dEo
 dEo
-cJf
+qBa
 dVp
 qHD
 "}
@@ -172970,9 +173005,9 @@ atu
 atu
 dnm
 atu
+poK
 atu
-atu
-atu
+poK
 atu
 cSx
 atu
