@@ -7035,8 +7035,8 @@
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/cog/pantry)
 "bVq" = (
-/obj/elevator_door/start_closed,
 /obj/effect/turf_decal/siding/white,
+/obj/structure/barrier_tape,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "bVr" = (
@@ -16137,7 +16137,6 @@
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/shop)
 "exx" = (
-/obj/elevator_door/start_closed,
 /obj/effect/turf_decal/siding/white,
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/endron_facility)
@@ -18635,10 +18634,7 @@
 /turf/closed/wall/vampwall/rich/old,
 /area/vtm/interior/oldchurch)
 "fjq" = (
-/obj/elevator_button_down{
-	pixel_y = -5;
-	id = 60
-	},
+/obj/structure/sign/warning/biohazard,
 /turf/closed/wall/vampwall/rich,
 /area/vtm/interior/endron_facility)
 "fjs" = (
@@ -19828,9 +19824,14 @@
 /area/vtm/fishermanswharf/lower)
 "fxT" = (
 /obj/structure/railing{
-	dir = 9;
-	pixel_x = 2;
-	pixel_y = 5
+	dir = 8;
+	layer = 4;
+	pixel_y = -4
+	},
+/obj/structure/railing{
+	dir = 1;
+	layer = 4;
+	pixel_y = 12
 	},
 /turf/open/openspace,
 /area/vtm/interior/endron_facility)
@@ -21051,8 +21052,8 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/pacificheights/community)
 "fOZ" = (
-/obj/elevator_door/start_closed,
-/turf/open/floor/plating/vampplating,
+/obj/effect/decal/cardboard,
+/turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/endron_facility)
 "fPj" = (
 /obj/structure/chair/wood/wings{
@@ -28015,11 +28016,13 @@
 /turf/open/floor/plating/vampdirt,
 /area/vtm)
 "hLE" = (
-/obj/elevator_button_down{
-	pixel_y = 24;
-	id = 60
+/obj/transfer_point_vamp{
+	icon = 'icons/obj/stairs.dmi';
+	icon_state = "stairs";
+	id = 852;
+	name = "stairs"
 	},
-/turf/open/floor/plating/vampplating/mono,
+/turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "hLG" = (
 /obj/structure/railing{
@@ -30758,9 +30761,10 @@
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/clinic)
 "iAL" = (
-/obj/structure/table,
-/obj/machinery/computer/stockexchange,
-/obj/structure/vampdoor/glass/pentex,
+/obj/structure/vampdoor/glass/pentex{
+	dir = 4;
+	lockpick_difficulty = 18
+	},
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "iAQ" = (
@@ -32827,10 +32831,7 @@
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/gnawer)
 "jfH" = (
-/obj/machinery/light{
-	dir = 8;
-	light_color = "#6488EA"
-	},
+/obj/effect/decal/litter,
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/endron_facility)
 "jfM" = (
@@ -36724,12 +36725,11 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/vjanitor)
 "kkQ" = (
-/obj/elevator_button_down{
-	pixel_y = 29;
-	id = 61;
-	pixel_x = 9
+/obj/structure/vampdoor/glass/pentex{
+	dir = 1;
+	lockpick_difficulty = 18
 	},
-/turf/closed/wall/vampwall/rich,
+/turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "kkR" = (
 /obj/structure/chair{
@@ -38606,13 +38606,7 @@
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/graveyard/interior)
 "kNq" = (
-/obj/elevator_button{
-	anchored = 1;
-	pixel_y = 34;
-	id = 61;
-	pixel_x = 8
-	},
-/turf/closed/wall/vampwall/rich,
+/turf/open/floor/plating/roofwalk,
 /area/vtm/interior/endron_facility)
 "kNr" = (
 /obj/structure/closet/cardboard,
@@ -59978,27 +59972,10 @@
 /area/vtm/anarch/basement)
 "qFc" = (
 /obj/structure/table,
-/obj/item/vamp/keys/pentex,
-/obj/item/vamp/keys/pentex,
-/obj/item/vamp/keys/pentex,
-/obj/item/vamp/keys/pentex,
-/obj/item/vamp/keys/pentex,
-/obj/item/vamp/keys/pentex,
-/obj/item/vamp/keys/pentex,
-/obj/item/vamp/keys/pentex,
-/obj/item/vamp/keys/pentex,
 /obj/machinery/light/small/red{
 	dir = 4;
 	pixel_x = -16
 	},
-/obj/item/vamp/keys/pentex,
-/obj/item/vamp/keys/pentex,
-/obj/item/vamp/keys/pentex,
-/obj/item/vamp/keys/pentex,
-/obj/item/vamp/keys/pentex,
-/obj/item/vamp/keys/pentex,
-/obj/item/vamp/keys/pentex,
-/obj/item/vamp/keys/pentex,
 /turf/open/indestructible/necropolis/air,
 /area/vtm/interior/endron_facility)
 "qFg" = (
@@ -65074,14 +65051,6 @@
 	},
 /turf/open/floor/plating/vampcanal,
 /area/vtm/sewer)
-"rUp" = (
-/obj/structure/chair/comfy/brown{
-	color = "#50C878";
-	dir = 1;
-	pixel_x = -16
-	},
-/turf/open/floor/carpet/green,
-/area/vtm/interior/endron_facility)
 "rUw" = (
 /turf/open/floor/plasteel/stairs{
 	dir = 8
@@ -65645,10 +65614,12 @@
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/park)
 "sai" = (
-/obj/elevator_button{
-	anchored = 1;
-	id = 61;
-	pixel_y = 27
+/obj/structure/window/reinforced/indestructable{
+	alpha = 0
+	},
+/obj/effect/decal/bordur,
+/obj/machinery/light/prince{
+	pixel_y = 22
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/endron_facility)
@@ -76209,11 +76180,7 @@
 /turf/open/floor/wood,
 /area/vtm/clinic)
 "vbr" = (
-/obj/effect/turf_decal/siding/white{
-	dir = 4;
-	pixel_x = 4;
-	pixel_y = -4
-	},
+/obj/effect/decal/pallet,
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/endron_facility)
 "vbt" = (
@@ -81097,9 +81064,12 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm/unionsquare)
 "wvE" = (
-/obj/elevator_button_down{
-	id = 61;
-	pixel_y = 24
+/obj/transfer_point_vamp{
+	icon = 'icons/obj/stairs.dmi';
+	icon_state = "stairs";
+	id = 852;
+	name = "stairs";
+	dir = 1
 	},
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/endron_facility)
@@ -87614,12 +87584,17 @@
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/chinatown)
 "ylQ" = (
-/obj/elevator_button{
-	anchored = 1;
-	pixel_y = 24;
-	id = 60
+/obj/structure/toilet{
+	dir = 1;
+	pixel_y = 6
 	},
-/turf/open/floor/plating/vampplating,
+/obj/machinery/light/small{
+	dir = 1;
+	pixel_y = -16
+	},
+/turf/open/floor/plating/toilet{
+	color = "#636363"
+	},
 /area/vtm/interior/endron_facility)
 "ylR" = (
 /obj/machinery/light/small{
@@ -146519,7 +146494,7 @@ dhF
 hTk
 hbZ
 puz
-niP
+puz
 puz
 puz
 iQg
@@ -147290,7 +147265,7 @@ dhF
 ohr
 ldi
 puz
-niP
+puz
 puz
 puz
 iQg
@@ -172838,8 +172813,8 @@ set
 qIs
 hyN
 hyN
-fjq
-wWN
+fAo
+vbr
 jfH
 wWN
 bVq
@@ -173097,8 +173072,8 @@ hyN
 hyN
 fAo
 wWN
-wWN
-wWN
+fOZ
+jfH
 bVq
 qdb
 qdb
@@ -173357,7 +173332,7 @@ fAo
 fAo
 fAo
 fAo
-ylQ
+qdb
 qdb
 fAo
 cYQ
@@ -175168,7 +175143,7 @@ qdb
 iHy
 bhC
 fAo
-akf
+vbt
 dvw
 aFI
 fAo
@@ -175425,7 +175400,7 @@ qdb
 qdb
 qdb
 fAo
-akf
+vbt
 fAo
 fAo
 fAo
@@ -175684,7 +175659,7 @@ qdb
 jcz
 akf
 dvw
-aFI
+ylQ
 fAo
 hyN
 hyN
@@ -241458,7 +241433,7 @@ ntq
 ntq
 fAo
 fAo
-fAo
+fjq
 orX
 qdb
 qdb
@@ -241972,7 +241947,7 @@ ntq
 ntq
 ntq
 ntq
-yki
+kNq
 fAo
 fAo
 fAo
@@ -242229,10 +242204,10 @@ ntq
 ntq
 ntq
 ntq
-yki
-yki
-yki
-yki
+kNq
+kNq
+kNq
+kNq
 fAo
 qdb
 fAo
@@ -242487,9 +242462,9 @@ ntq
 ntq
 ntq
 ntq
-yki
-yki
-yki
+kNq
+kNq
+kNq
 fAo
 fAo
 fAo
@@ -302886,10 +302861,10 @@ ntq
 ntq
 ntq
 ntq
-fAo
-fAo
-kkQ
-fAo
+ntq
+ntq
+ntq
+ntq
 ntq
 ntq
 ntq
@@ -303139,14 +303114,14 @@ lTQ
 ntq
 ntq
 ntq
-ntq
-ntq
-ntq
-ntq
 fAo
-wWN
-wWN
 fAo
+fAo
+fAo
+fAo
+ntq
+ntq
+ntq
 ntq
 ntq
 ntq
@@ -303396,14 +303371,14 @@ lTQ
 ntq
 ntq
 ntq
-ntq
-ntq
-ntq
-ntq
 fAo
-vbr
-vbr
+qdb
+qdb
+hLE
 fAo
+ntq
+ntq
+ntq
 ntq
 ntq
 ntq
@@ -303654,14 +303629,14 @@ ntq
 ntq
 ntq
 fAo
+qdb
+qdb
+hLE
 fAo
 fAo
 fAo
 fAo
-fOZ
-fOZ
 fAo
-kNq
 fAo
 fAo
 fAo
@@ -303911,10 +303886,10 @@ ntq
 ntq
 ntq
 fAo
-hLE
-jfH
-wWN
-bVq
+qdb
+qdb
+qdb
+gpp
 qdb
 qdb
 qdb
@@ -304168,10 +304143,10 @@ ntq
 ntq
 ntq
 fAo
-wWN
-wWN
-wWN
-bVq
+qdb
+qdb
+qdb
+gpp
 qdb
 qdb
 gnU
@@ -304429,12 +304404,12 @@ fAo
 fAo
 fAo
 fAo
-ylQ
+qdb
 qdb
 ygs
 ygs
 ygs
-iAL
+ygs
 qdb
 qdb
 gSK
@@ -305213,7 +305188,7 @@ gpp
 lfZ
 utN
 muG
-rUp
+vwC
 oBg
 oBg
 fAo
@@ -306478,12 +306453,12 @@ lTQ
 lTQ
 lTQ
 ntq
-ntq
-ntq
+lTQ
+lTQ
 fAo
 tSV
 qdb
-qdb
+iHy
 fAo
 fAo
 fAo
@@ -306735,8 +306710,8 @@ ntq
 ntq
 ntq
 ntq
-ntq
-ntq
+lTQ
+lTQ
 fAo
 gTe
 qdb
@@ -306992,8 +306967,8 @@ ntq
 ntq
 ntq
 ntq
-ntq
-ntq
+lTQ
+lTQ
 fAo
 qdb
 qdb
@@ -307265,7 +307240,7 @@ muG
 oBg
 oDU
 qdb
-oDU
+kkQ
 qdb
 qdb
 qdb
@@ -308035,7 +308010,7 @@ aIa
 fAo
 fAo
 fAo
-arV
+iAL
 fAo
 fAo
 fAo
@@ -308290,7 +308265,7 @@ ntq
 ntq
 ntq
 ntq
-ntq
+lTQ
 fAo
 qdb
 fAo
@@ -308547,7 +308522,7 @@ ntq
 ntq
 ntq
 ntq
-ntq
+lTQ
 fAo
 dhk
 fAo
@@ -446359,7 +446334,7 @@ bJQ
 tSk
 tSk
 foF
-ejc
+sai
 ckk
 dhc
 dhc
@@ -446856,7 +446831,7 @@ dhc
 ckk
 fNG
 fAo
-wWN
+wvE
 wWN
 exx
 uVl
@@ -447373,7 +447348,7 @@ fAo
 fAo
 fAo
 fAo
-sai
+byB
 uVl
 uVl
 iam
@@ -447644,7 +447619,7 @@ bJQ
 tSk
 tSk
 foF
-ejc
+sai
 ckk
 dhc
 dhc
