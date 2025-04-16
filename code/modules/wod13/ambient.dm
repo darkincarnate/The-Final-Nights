@@ -480,7 +480,7 @@
 	wall_rating = LOW_WALL_RATING
 
 /area/vtm/interior/endron_facility
-	name = "Endron Facility"
+	name = "Endron F1 - Lobby"
 	icon_state = "supply"
 	zone_type = "battle"
 	music = /datum/vampiremusic/forest
@@ -497,6 +497,36 @@
 	fire_controled = FALSE
 	yang_chi = 0
 	yin_chi = 2
+	wall_rating = LOW_WALL_RATING
+
+/area/vtm/interior/endron_facility/floor2
+	name = "Endron F2 - Office Block"
+	icon_state = "supply"
+	zone_type = "battle"
+	music = /datum/vampiremusic/forest
+	fire_controled = FALSE
+	yang_chi = 0
+	yin_chi = 1
+	wall_rating = LOW_WALL_RATING
+
+/area/vtm/interior/endron_facility/floor3
+	name = "Endron F3 - Corporate"
+	icon_state = "supply"
+	zone_type = "battle"
+	music = /datum/vampiremusic/forest
+	fire_controled = FALSE
+	yang_chi = 0
+	yin_chi = 1
+	wall_rating = LOW_WALL_RATING
+
+/area/vtm/interior/endron_facility/floor4
+	name = "Endron F4 - Roof & Helipad"
+	icon_state = "supply"
+	zone_type = "battle"
+	music = /datum/vampiremusic/forest
+	fire_controled = FALSE
+	yang_chi = 0
+	yin_chi = 1
 	wall_rating = LOW_WALL_RATING
 
 /area/vtm/interior/wyrm_corrupted
