@@ -5428,15 +5428,6 @@
 	},
 /turf/open/floor/carpet/black,
 /area/vtm/interior/bianchiBank)
-"bxF" = (
-/obj/effect/decal/bordur{
-	dir = 8
-	},
-/obj/effect/decal/crosswalk{
-	dir = 1
-	},
-/turf/open/floor/plating/asphalt,
-/area/vtm/financialdistrict/construction)
 "bxH" = (
 /obj/structure/table/wood/fancy/black,
 /obj/item/melee/vampirearms/knife,
@@ -6788,9 +6779,10 @@
 /turf/open/floor/carpet/lone,
 /area/vtm/interior/millennium_tower/ventrue)
 "bRz" = (
-/turf/open/floor/plasteel/stairs/left{
-	dir = 4
+/obj/structure/railing{
+	dir = 8
 	},
+/turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "bRF" = (
 /obj/structure/chair/sofa/corp/left{
@@ -10756,12 +10748,11 @@
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/setite/basement)
 "cUt" = (
-/obj/structure/railing{
-	layer = 4;
-	pixel_y = -2
+/obj/effect/decal/crosswalk{
+	dir = 1
 	},
-/turf/open/floor/plating/vampplating,
-/area/vtm/interior/endron_facility)
+/turf/open/floor/plating/asphalt,
+/area/vtm/financialdistrict/construction)
 "cUv" = (
 /obj/structure/railing{
 	layer = 4;
@@ -11275,9 +11266,12 @@
 /turf/closed/wall/vampwall/rich/old,
 /area/vtm/interior/chantry)
 "dcG" = (
-/obj/structure/closet/crate/bin,
-/turf/open/floor/plating/parquetry,
-/area/vtm/interior/endron_facility)
+/obj/effect/decal/bordur{
+	dir = 8
+	},
+/obj/effect/decal/bordur,
+/turf/open/floor/plating/sidewalk,
+/area/vtm/financialdistrict/construction)
 "dcI" = (
 /obj/transfer_point_vamp{
 	icon = 'icons/obj/stairs.dmi';
@@ -14213,6 +14207,13 @@
 	},
 /turf/closed/wall/vampwall/painted,
 /area/vtm/interior/banu/haven)
+"dUw" = (
+/obj/structure/railing{
+	layer = 4;
+	pixel_y = -2
+	},
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "dUF" = (
 /obj/structure/chair/pew/left{
 	dir = 4
@@ -15191,12 +15192,6 @@
 /obj/structure/railing,
 /turf/open/floor/plating/vampwood,
 /area/vtm/sewer/cappadocian)
-"eih" = (
-/obj/structure/railing{
-	dir = 4
-	},
-/turf/open/floor/plating/vampplating,
-/area/vtm/interior/endron_facility)
 "eir" = (
 /turf/open/floor/plating/rough,
 /area/vtm/sewer/nosferatu_town)
@@ -15417,6 +15412,9 @@
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/techshop)
 "elu" = (
+/obj/effect/decal/bordur{
+	dir = 8
+	},
 /obj/effect/decal/crosswalk{
 	dir = 1
 	},
@@ -18646,13 +18644,11 @@
 /turf/closed/wall/vampwall/rich/old,
 /area/vtm/interior/oldchurch)
 "fjq" = (
-/obj/structure/railing{
-	dir = 1;
-	layer = 4;
-	pixel_y = 12
+/obj/effect/decal/bordur{
+	dir = 8
 	},
-/turf/open/floor/plating/vampplating,
-/area/vtm/interior/endron_facility)
+/turf/open/floor/plating/asphalt,
+/area/vtm/financialdistrict/construction)
 "fjs" = (
 /obj/structure/chair{
 	dir = 4
@@ -21068,7 +21064,12 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/pacificheights/community)
 "fOZ" = (
-/turf/open/floor/plating/roofwalk,
+/obj/structure/railing{
+	dir = 1;
+	layer = 4;
+	pixel_y = 12
+	},
+/turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "fPj" = (
 /obj/structure/chair/wood/wings{
@@ -32849,7 +32850,7 @@
 /area/vtm/interior/gnawer)
 "jfH" = (
 /obj/structure/railing{
-	dir = 8
+	dir = 4
 	},
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
@@ -51166,6 +51167,7 @@
 /area/vtm/park)
 "okV" = (
 /obj/structure/coclock,
+/obj/structure/closet/crate/bin,
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/endron_facility)
 "okW" = (
@@ -51648,10 +51650,6 @@
 	},
 /turf/open/floor/plating/vampwood,
 /area/vtm/interior/chantry/basement)
-"osu" = (
-/obj/effect/decal/graffiti,
-/turf/open/floor/plating/asphalt,
-/area/vtm/financialdistrict/construction)
 "osx" = (
 /obj/structure/fluff/hedge,
 /obj/structure/railing{
@@ -60218,6 +60216,13 @@
 /obj/structure/vampdoor/simple,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior)
+"qHL" = (
+/obj/structure/rack,
+/obj/item/reagent_containers/glass/bucket,
+/obj/item/mop,
+/obj/item/reagent_containers/spray/cleaner,
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "qHS" = (
 /obj/structure/fluff/hedge,
 /obj/structure/flora/ausbushes/ywflowers,
@@ -61549,11 +61554,8 @@
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/supply)
 "qYn" = (
-/obj/effect/decal/bordur{
-	dir = 8
-	},
-/obj/effect/decal/bordur,
-/turf/open/floor/plating/sidewalk,
+/obj/effect/decal/graffiti,
+/turf/open/floor/plating/asphalt,
 /area/vtm/financialdistrict/construction)
 "qYr" = (
 /obj/effect/decal/bordur{
@@ -70990,12 +70992,6 @@
 /obj/structure/vampdoor/glass/laundromat,
 /turf/open/floor/carpet/black,
 /area/vtm/interior/laundromat)
-"tCB" = (
-/obj/effect/decal/bordur{
-	dir = 8
-	},
-/turf/open/floor/plating/asphalt,
-/area/vtm/financialdistrict/construction)
 "tCC" = (
 /obj/item/reagent_containers/food/drinks/coffee/vampire,
 /turf/open/floor/plating/concrete,
@@ -171060,7 +171056,7 @@ cjG
 gCl
 gCl
 pRI
-qYn
+dcG
 oZH
 oZH
 lWo
@@ -171834,8 +171830,8 @@ gwt
 mVM
 oZH
 oZH
-bxF
-tCB
+elu
+fjq
 biz
 biz
 biz
@@ -172091,7 +172087,7 @@ set
 set
 oZH
 oZH
-elu
+cUt
 oZH
 biz
 biz
@@ -172346,9 +172342,9 @@ fMU
 jOL
 oLs
 set
-osu
+qYn
 oZH
-elu
+cUt
 oZH
 nOy
 biz
@@ -173642,9 +173638,9 @@ fAo
 tSV
 qdb
 gQS
-fjq
+fOZ
 qdb
-cUt
+dUw
 xqh
 nIp
 qdb
@@ -173898,11 +173894,11 @@ qdb
 fAo
 qdb
 qdb
-jfH
+bRz
 qdb
 qdb
 qdb
-jfH
+bRz
 qdb
 aPN
 fAo
@@ -174412,11 +174408,11 @@ qdb
 fAo
 qdb
 qdb
-eih
+jfH
 qdb
 qdb
 qdb
-eih
+jfH
 qdb
 qdb
 fKi
@@ -174670,9 +174666,9 @@ fAo
 qdb
 qdb
 gQS
-fjq
+fOZ
 qdb
-cUt
+dUw
 xqh
 nIp
 qdb
@@ -238407,9 +238403,9 @@ xqh
 qdb
 ljc
 lZd
-bRz
-bRz
-bRz
+qdb
+qdb
+qdb
 lZd
 ljc
 qdb
@@ -241484,10 +241480,10 @@ ntq
 ntq
 ntq
 fAo
-orX
 qdb
 qdb
-orX
+qdb
+qdb
 qdb
 fKi
 qYb
@@ -241741,10 +241737,10 @@ ntq
 ntq
 ntq
 fAo
-fAo
-fEj
-fEj
-fAo
+qdb
+qdb
+qdb
+qdb
 qdb
 qCy
 sou
@@ -241997,11 +241993,11 @@ ntq
 ntq
 ntq
 ntq
-fOZ
 fAo
-fAo
-fAo
-fAo
+orX
+qdb
+qdb
+orX
 qdb
 rjq
 svG
@@ -242254,18 +242250,18 @@ ntq
 ntq
 ntq
 ntq
-fOZ
-fOZ
-fOZ
-fOZ
 fAo
-qdb
+fAo
+fEj
+fEj
+fAo
+qHL
 fAo
 voy
 aur
 qYb
 aur
-dcG
+qYb
 fAo
 mnW
 tXX
@@ -242512,9 +242508,9 @@ ntq
 ntq
 ntq
 ntq
-fOZ
-fOZ
-fOZ
+fAo
+fAo
+fAo
 fAo
 fAo
 fAo
