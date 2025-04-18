@@ -8107,15 +8107,6 @@
 /obj/elevator_door,
 /turf/closed/wall/vampwall/rich,
 /area/vtm/jazzclub)
-"ckH" = (
-/obj/structure/railing{
-	dir = 8
-	},
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 1
-	},
-/turf/open/floor/plating/vampplating/mono,
-/area/vtm/interior/endron_facility)
 "ckI" = (
 /obj/structure/railing{
 	dir = 1;
@@ -21114,14 +21105,6 @@
 /obj/structure/vampmap,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/pacificheights/community)
-"fOZ" = (
-/obj/structure/railing{
-	dir = 1;
-	layer = 4;
-	pixel_y = 12
-	},
-/turf/open/floor/plating/vampplating/mono,
-/area/vtm/interior/endron_facility)
 "fPj" = (
 /obj/structure/chair/wood/wings{
 	dir = 4
@@ -22478,12 +22461,13 @@
 /turf/open/floor/carpet/red,
 /area/vtm/clinic/haven)
 "ghU" = (
-/obj/structure/railing{
-	dir = 4
+/obj/machinery/shower{
+	dir = 8;
+	pixel_x = 1
 	},
-/obj/effect/turf_decal/siding/thinplating/dark,
-/turf/open/floor/plating/vampplating/mono,
-/area/vtm/interior/endron_facility)
+/obj/structure/curtain/cloth,
+/turf/open/floor/plating/circled,
+/area/vtm/interior/wyrm_corrupted)
 "ghY" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 6
@@ -22806,14 +22790,6 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/oldchurch)
-"glF" = (
-/obj/machinery/shower{
-	dir = 8;
-	pixel_x = 1
-	},
-/obj/structure/curtain/cloth,
-/turf/open/floor/plating/circled,
-/area/vtm/interior/wyrm_corrupted)
 "glN" = (
 /obj/effect/decal/cardboard,
 /obj/effect/decal/bordur,
@@ -23620,13 +23596,6 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/chantry)
-"gwi" = (
-/obj/structure/railing{
-	layer = 4;
-	pixel_y = -2
-	},
-/turf/open/floor/plating/vampplating/mono,
-/area/vtm/interior/endron_facility)
 "gwl" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 10
@@ -27403,15 +27372,6 @@
 	},
 /turf/open/floor/carpet/royalblue,
 /area/vtm/jazzclub)
-"hAP" = (
-/obj/structure/railing{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 1
-	},
-/turf/open/floor/plating/vampplating/mono,
-/area/vtm/interior/endron_facility)
 "hAX" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/plating/vampgrass,
@@ -62300,13 +62260,6 @@
 /obj/structure/vampfence/rich,
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/financialdistrict)
-"rdV" = (
-/obj/structure/railing{
-	dir = 8
-	},
-/obj/effect/turf_decal/siding/thinplating/dark,
-/turf/open/floor/plating/vampplating/mono,
-/area/vtm/interior/endron_facility)
 "rec" = (
 /turf/closed/wall/vampwall/painted,
 /area/vtm/interior/banu)
@@ -148128,9 +148081,9 @@ puz
 puz
 xkX
 czn
-glF
-glF
-glF
+ghU
+ghU
+ghU
 puz
 puz
 nYS
@@ -174203,9 +174156,9 @@ fAo
 tSV
 qdb
 gQS
-fOZ
 wWN
-gwi
+wWN
+wWN
 xqh
 nIp
 qdb
@@ -174459,11 +174412,11 @@ qdb
 fAo
 qdb
 qdb
-ckH
+jPM
 wWN
 wWN
 wWN
-rdV
+xeW
 qdb
 aPN
 fAo
@@ -174973,11 +174926,11 @@ qdb
 fAo
 qdb
 qdb
-hAP
+jPM
 wWN
 wWN
 wWN
-ghU
+xeW
 qdb
 qdb
 fKi
@@ -175231,9 +175184,9 @@ fAo
 qdb
 qdb
 gQS
-fOZ
 wWN
-gwi
+wWN
+wWN
 xqh
 nIp
 qdb
