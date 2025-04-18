@@ -48745,11 +48745,6 @@
 "nys" = (
 /turf/closed/wall/vampwall/rock,
 /area/vtm/graveyard)
-"nyA" = (
-/obj/effect/turf_decal/siding/thinplating/dark,
-/obj/structure/vampdoor/wood/pentex,
-/turf/open/floor/plating/vampplating,
-/area/vtm/interior/endron_facility)
 "nyC" = (
 /obj/structure/table/wood,
 /obj/structure/mirror{
@@ -52857,10 +52852,8 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/vjanitor)
 "oDU" = (
-/obj/structure/vampdoor/glass/pentex{
-	dir = 1
-	},
 /obj/effect/turf_decal/siding/thinplating/dark,
+/obj/structure/vampdoor/wood/pentex,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "oDW" = (
@@ -305538,7 +305531,7 @@ rqF
 qdb
 qdb
 qdb
-nyA
+oDU
 lfZ
 utN
 dyM
@@ -305795,7 +305788,7 @@ gnU
 qdb
 qdb
 qdb
-nyA
+oDU
 lfZ
 utN
 mFE
