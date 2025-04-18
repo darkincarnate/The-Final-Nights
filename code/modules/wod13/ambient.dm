@@ -482,7 +482,7 @@
 /area/vtm/interior/endron_facility
 	name = "Endron Headquarters"
 	icon_state = "supply"
-	zone_type = "battle"
+	zone_type = "masquerade"
 	music = /datum/vampiremusic/forest
 	fire_controled = FALSE
 	yang_chi = 0
