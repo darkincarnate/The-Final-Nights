@@ -1550,9 +1550,9 @@
 	shoes = list(/obj/item/clothing/shoes/vampire)
 	uniforms = list(/obj/item/clothing/under/pentex/pentex_shortsleeve)
 	pockets = list(/obj/item/vamp/keys/npc, /obj/item/stack/dollar/rand)
-	hands = list(/obj/item/clothing/gloves/vampire/work)
-	suit = list(/obj/item/clothing/suit/vampire/vest)
-	eyes = list(/obj/item/clothing/glasses/vampire/sun)
+	gloves = list(/obj/item/clothing/gloves/vampire/work)
+	suits = list(/obj/item/clothing/suit/vampire/vest)
+	glasses = list(/obj/item/clothing/glasses/vampire/sun)
 
 	neutral_phrases = list(
 		"No loitering.",
