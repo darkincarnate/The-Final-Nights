@@ -31403,7 +31403,7 @@
 /turf/open/floor/wood,
 /area/vtm/interior/penumbra/enoch)
 "iHy" = (
-/mob/living/carbon/human/npc/endronsecurity,
+/mob/living/carbon/human/npc/bouncer/endron,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "iHJ" = (
@@ -41557,6 +41557,9 @@
 	lockpick_difficulty = 16
 	},
 /obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/obj/effect/vip_barrier/endron{
 	dir = 4
 	},
 /turf/open/floor/plating/vampplating,
@@ -55081,6 +55084,9 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 8
 	},
+/obj/effect/vip_barrier/endron{
+	dir = 8
+	},
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "pjx" = (
@@ -55630,7 +55636,7 @@
 	dir = 8;
 	light_color = "#6488EA"
 	},
-/mob/living/carbon/human/npc/endronsecurity,
+/mob/living/carbon/human/npc/bouncer/endron,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "psh" = (
@@ -72316,6 +72322,10 @@
 	},
 /turf/open/floor/plating/granite,
 /area/vtm/interior/millennium_tower)
+"tQg" = (
+/mob/living/carbon/human/npc/bouncer/endron,
+/turf/open/floor/plating/asphalt,
+/area/vtm/interior/endron_facility)
 "tQj" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
@@ -172892,7 +172902,7 @@ biz
 biz
 biz
 biz
-biz
+tQg
 biz
 biz
 biz
@@ -307046,7 +307056,7 @@ lTQ
 fAo
 tSV
 qdb
-qdb
+tXX
 fAo
 fAo
 fAo
@@ -307303,7 +307313,7 @@ lTQ
 fAo
 gTe
 qdb
-qdb
+mnW
 fAo
 hHO
 pFN
