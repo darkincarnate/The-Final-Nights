@@ -2491,7 +2491,9 @@
 /turf/open/floor/mineral/plastitanium,
 /area/vtm/cabaret/basement)
 "aIa" = (
-/obj/structure/curtain/bounty,
+/obj/structure/curtain/cloth/fancy/mechanical/luxurious{
+	id = endronbranchlead
+	},
 /turf/closed/wall/vampwall/rich/low/window/reinforced,
 /area/vtm/interior/endron_facility)
 "aIe" = (
@@ -19328,7 +19330,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 4
 	},
-/obj/effect/vip_barrier/endron_2{
+/obj/effect/vip_barrier/endron/endron_2{
 	dir = 4
 	},
 /turf/open/floor/plating/vampplating,
@@ -25394,8 +25396,7 @@
 /obj/structure/table,
 /obj/machinery/button/door{
 	pixel_y = 3;
-	id_tag = endronparking;
-	id = endronparking
+	id = "endronparking"
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/financialdistrict/construction)
@@ -29431,13 +29432,6 @@
 	},
 /turf/open/openspace,
 /area/vtm/interior/bianchiBank)
-"icU" = (
-/obj/structure/curtain/bounty{
-	pixel_x = -32;
-	id_tag = endronexecutive
-	},
-/turf/open/openspace,
-/area/vtm)
 "icY" = (
 /obj/machinery/light/cold{
 	dir = 4
@@ -31046,8 +31040,7 @@
 	},
 /obj/machinery/button/door{
 	pixel_y = 26;
-	id_tag = endronparking;
-	id = endronparking
+	id = "endronparking"
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/endron_facility)
@@ -36943,7 +36936,7 @@
 	dir = 9
 	},
 /obj/machinery/door/poddoor/shutters{
-	id_tag = endronparking
+	id = "endronparking"
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/endron_facility)
@@ -37534,12 +37527,6 @@
 /obj/effect/decal/bordur,
 /turf/closed/wall/vampwall/market,
 /area/vtm/interior/police/upstairs)
-"kuA" = (
-/obj/structure/curtain/bounty{
-	id_tag = endronbranchlead
-	},
-/turf/closed/wall/vampwall/rich/low/window/reinforced,
-/area/vtm/interior/endron_facility)
 "kuC" = (
 /obj/effect/decal/bordur{
 	dir = 4
@@ -43921,7 +43908,7 @@
 /area/vtm/interior)
 "miw" = (
 /obj/machinery/door/poddoor/shutters{
-	id_tag = endronparking
+	id = "endronparking"
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/endron_facility)
@@ -55154,7 +55141,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 8
 	},
-/obj/effect/vip_barrier/endron_backdoor{
+/obj/effect/vip_barrier/endron/endron_backdoor{
 	dir = 8
 	},
 /turf/open/floor/plating/vampplating,
@@ -60268,9 +60255,8 @@
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/trujah)
 "qCy" = (
-/obj/structure/curtain/bounty{
-	pixel_x = -32;
-	id_tag = endronexecutive
+/obj/structure/curtain/cloth/fancy/mechanical/luxurious{
+	id = endronexecutive
 	},
 /turf/closed/wall/vampwall/rich/low/window,
 /area/vtm/interior/endron_facility)
@@ -62807,11 +62793,10 @@
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/millennium_tower/f4)
 "rjq" = (
-/obj/structure/curtain/bounty{
-	pixel_x = -32;
-	id_tag = endronexecutive
+/obj/structure/curtain/cloth/fancy/mechanical/luxurious{
+	id = endronexecutive
 	},
-/turf/closed/wall/vampwall/rich,
+/turf/closed/wall/vampwall/rich/low/window/reinforced,
 /area/vtm/interior/endron_facility)
 "rjy" = (
 /obj/effect/decal/litter,
@@ -79939,8 +79924,8 @@
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior)
 "vVK" = (
-/obj/structure/curtain/bounty{
-	id_tag = endronmeeting
+/obj/structure/curtain/cloth/fancy/mechanical/luxurious{
+	id = endronmeeting
 	},
 /turf/closed/wall/vampwall/rich/low/window/reinforced,
 /area/vtm/interior/endron_facility)
@@ -86706,7 +86691,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 8
 	},
-/obj/effect/vip_barrier/endron_lab{
+/obj/effect/vip_barrier/endron/endron_lab{
 	dir = 8
 	},
 /turf/open/floor/plating/circled,
@@ -242140,13 +242125,13 @@ qdb
 qdb
 qdb
 qdb
-fKi
+qCy
 qYb
 qYb
 uKy
 qYb
 qYb
-fKi
+qCy
 qdb
 aPN
 ugZ
@@ -242654,13 +242639,13 @@ fAo
 fAo
 fAo
 qdb
-rjq
+fAo
 svG
 qYb
 fVr
 qYb
 qYb
-rjq
+fAo
 qdb
 qdb
 fAo
@@ -243170,9 +243155,9 @@ fAo
 fAo
 fAo
 fAo
-gcy
-gcy
-gcy
+rjq
+rjq
+rjq
 fAo
 fAo
 fAo
@@ -243427,9 +243412,9 @@ ntq
 ntq
 ntq
 ntq
-icU
-icU
-icU
+ntq
+ntq
+ntq
 ntq
 ntq
 ntq
@@ -304857,7 +304842,7 @@ gnU
 qdb
 qdb
 cPh
-kuA
+aIa
 bgT
 lfZ
 lfZ
@@ -305114,7 +305099,7 @@ ygs
 qdb
 qdb
 gSK
-kuA
+aIa
 oVC
 lfZ
 vzd
@@ -306399,7 +306384,7 @@ ygs
 qdb
 qdb
 cPh
-kuA
+aIa
 bgT
 lfZ
 tUL
@@ -306656,7 +306641,7 @@ rqF
 qdb
 qdb
 gSK
-kuA
+aIa
 oVC
 lfZ
 lfZ
