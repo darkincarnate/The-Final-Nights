@@ -31402,7 +31402,7 @@
 /turf/open/floor/wood,
 /area/vtm/interior/penumbra/enoch)
 "iHy" = (
-/mob/living/carbon/human/npc/guard,
+/mob/living/carbon/human/npc/endronsecurity,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "iHJ" = (
@@ -33085,7 +33085,7 @@
 /obj/structure/chair/office{
 	dir = 8
 	},
-/mob/living/carbon/human/npc/guard,
+/mob/living/carbon/human/npc/endronsecurity,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "jis" = (
@@ -41550,13 +41550,6 @@
 /obj/item/vamp/keys/tzimisce,
 /turf/open/floor/carpet/red,
 /area/vtm/interior/tzimisce_manor)
-"lAN" = (
-/mob/living/carbon/human/npc/guard,
-/obj/structure/chair/office{
-	dir = 8
-	},
-/turf/open/floor/plating/vampplating,
-/area/vtm/interior/endron_facility)
 "lAP" = (
 /obj/structure/table,
 /obj/item/storage/backpack/duffelbag/med/surgery,
@@ -55609,11 +55602,11 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/interior)
 "psf" = (
-/mob/living/carbon/human/npc/guard,
 /obj/machinery/light{
 	dir = 8;
 	light_color = "#6488EA"
 	},
+/mob/living/carbon/human/npc/endronsecurity,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "psh" = (
@@ -57164,7 +57157,7 @@
 /obj/structure/chair/office{
 	dir = 4
 	},
-/mob/living/carbon/human/npc/guard,
+/mob/living/carbon/human/npc/endronsecurity,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "pLC" = (
@@ -76093,7 +76086,7 @@
 /obj/structure/chair/office{
 	dir = 1
 	},
-/mob/living/carbon/human/npc/guard,
+/mob/living/carbon/human/npc/endronsecurity,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "uTZ" = (
@@ -239950,7 +239943,7 @@ qdb
 qdb
 gcy
 qdb
-lAN
+jhT
 qdb
 gcy
 qdb
