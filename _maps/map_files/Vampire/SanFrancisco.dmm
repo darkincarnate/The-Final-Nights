@@ -58962,6 +58962,9 @@
 	dir = 8
 	},
 /obj/structure/fluff/hedge,
+/obj/structure/railing{
+	dir = 8
+	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/interior/endron_facility)
 "qkt" = (
