@@ -8997,6 +8997,11 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior)
+"cvF" = (
+/obj/effect/decal/cleanable/blood/bubblegum,
+/obj/machinery/light/small/red,
+/turf/open/floor/plating/circled,
+/area/vtm/interior/wyrm_corrupted)
 "cvN" = (
 /obj/structure/closet,
 /obj/item/clothing/under/pentex/pentex_shortsleeve,
@@ -60207,13 +60212,12 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/anarch/basement)
 "qFc" = (
-/obj/structure/table,
+/obj/effect/decal/cleanable/blood/bubblegum,
 /obj/machinery/light/small/red{
-	dir = 4;
-	pixel_x = -16
+	dir = 1
 	},
-/turf/open/indestructible/necropolis/air,
-/area/vtm/interior/endron_facility)
+/turf/open/floor/plating/circled,
+/area/vtm/interior/wyrm_corrupted)
 "qFg" = (
 /obj/effect/turf_decal/siding/white,
 /obj/machinery/light{
@@ -130496,7 +130500,7 @@ qvk
 cxS
 hup
 cxS
-qFc
+hup
 cxS
 qvk
 cxS
@@ -151546,9 +151550,9 @@ dhc
 dhc
 nYS
 puz
-kqv
+cvF
 oDn
-kqv
+qFc
 puz
 nYS
 dhc
