@@ -6,6 +6,6 @@
 
 
 /obj/effect/vip_barrier/endron/check_entry_permission_custom(var/mob/living/carbon/human/entering_mob)
-	if(!ishumanbasic(entering_mob) || if(isgarou(entering_mob) || (entering_mob.mind && entering_mob.mind.assigned_role == "Stripper"))
+	if(!ishumanbasic(entering_mob) || (entering_mob.mind && entering_mob.mind.assigned_role == "Stripper"))
 		return TRUE
 	return FALSE
