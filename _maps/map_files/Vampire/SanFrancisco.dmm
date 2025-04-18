@@ -340,6 +340,11 @@
 "aff" = (
 /turf/closed/wall/vampwall/rich/old,
 /area/vtm/church/interior/haven)
+"afi" = (
+/turf/open/floor/plating/sidewalk/poor{
+	color = "#8f8f8f"
+	},
+/area/vtm/interior/endron_facility)
 "afj" = (
 /obj/structure/table,
 /obj/vampire_computer{
@@ -14341,6 +14346,16 @@
 "dWl" = (
 /turf/closed/wall/vampwall/bar,
 /area/vtm/interior/shop)
+"dWp" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/table,
+/obj/item/binoculars,
+/turf/open/floor/plating/sidewalk/poor{
+	color = "#8f8f8f"
+	},
+/area/vtm/interior/endron_facility)
 "dWq" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/closed/wall/vampwall/rich,
@@ -37793,6 +37808,20 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/oldchurch)
+"kyS" = (
+/obj/structure/railing{
+	dir = 1;
+	layer = 4;
+	pixel_y = 16
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/item/kirbyplants/random,
+/turf/open/floor/plating/sidewalk/poor{
+	color = "#8f8f8f"
+	},
+/area/vtm/interior/endron_facility)
 "kyT" = (
 /obj/structure/fluff/hedge,
 /obj/structure/flora/ausbushes/ppflowers,
@@ -40152,6 +40181,15 @@
 	},
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/tzimisce_manor)
+"leX" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/chair/plastic,
+/turf/open/floor/plating/sidewalk/poor{
+	color = "#8f8f8f"
+	},
+/area/vtm/interior/endron_facility)
 "leY" = (
 /obj/effect/decal/bordur{
 	dir = 9
@@ -41064,6 +41102,14 @@
 "ltY" = (
 /turf/open/floor/plating/rough,
 /area/vtm/interior/mansion)
+"ltZ" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/plating/sidewalk/poor{
+	color = "#8f8f8f"
+	},
+/area/vtm/interior/endron_facility)
 "lua" = (
 /obj/manholedown,
 /turf/open/floor/plating/asphalt,
@@ -57540,9 +57586,6 @@
 /area/vtm/financialdistrict/construction)
 "pRM" = (
 /obj/fusebox,
-/obj/machinery/light{
-	dir = 4
-	},
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "pRV" = (
@@ -65315,6 +65358,14 @@
 /obj/item/melee/vampirearms/shovel,
 /turf/open/floor/plating/concrete,
 /area/vtm/graveyard/interior)
+"rTR" = (
+/obj/structure/chair/plastic{
+	dir = 4
+	},
+/turf/open/floor/plating/sidewalk/poor{
+	color = "#8f8f8f"
+	},
+/area/vtm/interior/endron_facility)
 "rUa" = (
 /obj/structure/chair/sofa/left,
 /turf/open/floor/plating/parquetry/old,
@@ -80481,6 +80532,17 @@
 /obj/structure/vampfence/rich,
 /turf/open/floor/plating/vampgrass,
 /area/vtm/interior/giovanni/outside)
+"wgu" = (
+/obj/structure/railing{
+	dir = 1;
+	layer = 4;
+	pixel_y = 16
+	},
+/obj/item/kirbyplants/random,
+/turf/open/floor/plating/sidewalk/poor{
+	color = "#8f8f8f"
+	},
+/area/vtm/interior/endron_facility)
 "wgA" = (
 /obj/structure/table,
 /obj/item/newspaper,
@@ -242114,7 +242176,7 @@ ntq
 ntq
 ntq
 fAo
-fAo
+gTe
 fEj
 fEj
 fAo
@@ -242371,7 +242433,7 @@ ntq
 ntq
 ntq
 fAo
-fAo
+gxd
 fAo
 fAo
 fAo
@@ -242627,10 +242689,10 @@ ntq
 ntq
 ntq
 ntq
-fAo
-qdb
-qdb
-qdb
+wgu
+afi
+afi
+rTR
 fAo
 wvE
 fAo
@@ -242884,10 +242946,10 @@ ntq
 ntq
 ntq
 ntq
-fAo
-fAo
-fAo
-fAo
+kyS
+ltZ
+leX
+dWp
 fAo
 fAo
 fAo
