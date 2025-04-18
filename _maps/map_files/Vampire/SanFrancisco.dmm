@@ -4272,16 +4272,6 @@
 /obj/item/food/fish/catfish,
 /turf/open/water,
 /area/vtm/interior/chantry)
-"bhe" = (
-/obj/structure/vampdoor/glass/pentex{
-	dir = 4;
-	lockpick_difficulty = 16
-	},
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 4
-	},
-/turf/open/floor/plating/vampplating,
-/area/vtm/interior/endron_facility)
 "bhg" = (
 /obj/structure/chair/sofa/corp/right{
 	dir = 4
@@ -5933,6 +5923,13 @@
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/millennium_tower/f5)
+"bDL" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "bDM" = (
 /obj/structure/fluff/hedge,
 /obj/structure/railing{
@@ -9954,6 +9951,14 @@
 /obj/structure/trashcan,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/sewer)
+"cIw" = (
+/obj/structure/chair/plastic{
+	dir = 4
+	},
+/turf/open/floor/plating/sidewalk/poor{
+	color = "#8f8f8f"
+	},
+/area/vtm/interior/endron_facility)
 "cIB" = (
 /obj/structure/vampdoor/wood{
 	locked = 1;
@@ -10772,10 +10777,6 @@
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/setite/basement)
 "cUt" = (
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 8;
-	pixel_y = -1
-	},
 /turf/open/openspace,
 /area/vtm/interior/endron_facility)
 "cUv" = (
@@ -24862,6 +24863,15 @@
 	},
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/interior)
+"gOC" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/chair/plastic,
+/turf/open/floor/plating/sidewalk/poor{
+	color = "#8f8f8f"
+	},
+/area/vtm/interior/endron_facility)
 "gOG" = (
 /turf/closed/wall/vampwall/metal,
 /area/vtm/interior/wyrm_corrupted)
@@ -30868,11 +30878,6 @@
 /obj/structure/bed/maint,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/gnawer)
-"iAo" = (
-/turf/open/floor/plating/sidewalk/poor{
-	color = "#8f8f8f"
-	},
-/area/vtm/interior/endron_facility)
 "iAr" = (
 /obj/structure/railing,
 /obj/structure/table,
@@ -35445,17 +35450,6 @@
 "jPo" = (
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/financialdistrict/construction)
-"jPp" = (
-/obj/structure/railing{
-	dir = 1;
-	layer = 4;
-	pixel_y = 16
-	},
-/obj/item/kirbyplants/random,
-/turf/open/floor/plating/sidewalk/poor{
-	color = "#8f8f8f"
-	},
-/area/vtm/interior/endron_facility)
 "jPw" = (
 /obj/structure/table,
 /obj/structure/table/wood,
@@ -37288,15 +37282,6 @@
 /obj/effect/landmark/start/citizen,
 /turf/open/floor/carpet/red,
 /area/vtm/hotel)
-"kqN" = (
-/obj/structure/railing{
-	dir = 4
-	},
-/obj/structure/chair/plastic,
-/turf/open/floor/plating/sidewalk/poor{
-	color = "#8f8f8f"
-	},
-/area/vtm/interior/endron_facility)
 "kqV" = (
 /obj/police_department{
 	dir = 1
@@ -39604,20 +39589,6 @@
 /obj/machinery/disposal/bin,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/vjanitor)
-"kXG" = (
-/obj/structure/railing{
-	dir = 1;
-	layer = 4;
-	pixel_y = 16
-	},
-/obj/structure/railing{
-	dir = 4
-	},
-/obj/item/kirbyplants/random,
-/turf/open/floor/plating/sidewalk/poor{
-	color = "#8f8f8f"
-	},
-/area/vtm/interior/endron_facility)
 "kXM" = (
 /obj/structure/lamppost/one{
 	dir = 4
@@ -41479,6 +41450,15 @@
 /obj/structure/closet/secure_closet/personal,
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/millennium_tower/f3)
+"lzg" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "lzn" = (
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/carpet/royalblack,
@@ -44509,6 +44489,14 @@
 	},
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/financialdistrict/construction)
+"msC" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/plating/sidewalk/poor{
+	color = "#8f8f8f"
+	},
+/area/vtm/interior/endron_facility)
 "msU" = (
 /obj/machinery/light{
 	dir = 8
@@ -51042,6 +51030,17 @@
 /obj/mytherceria_trap/disorient,
 /turf/open/floor/carpet,
 /area/vtm/church/interior/haven)
+"ofP" = (
+/obj/structure/railing{
+	dir = 1;
+	layer = 4;
+	pixel_y = 16
+	},
+/obj/item/kirbyplants/random,
+/turf/open/floor/plating/sidewalk/poor{
+	color = "#8f8f8f"
+	},
+/area/vtm/interior/endron_facility)
 "ofV" = (
 /obj/machinery/shower,
 /obj/structure/curtain,
@@ -51225,6 +51224,12 @@
 /obj/item/toy/cards/deck,
 /turf/open/floor/carpet/royalblack,
 /area/vtm/interior/millennium_tower/f2)
+"oiq" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "oir" = (
 /obj/structure/chair/pew/left{
 	dir = 4
@@ -55887,6 +55892,11 @@
 	},
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/giovanni/basement)
+"pwt" = (
+/turf/open/floor/plating/sidewalk/poor{
+	color = "#8f8f8f"
+	},
+/area/vtm/interior/endron_facility)
 "pww" = (
 /obj/structure/table/wood,
 /obj/item/clothing/mask/vampire/venetian_mask,
@@ -58219,9 +58229,6 @@
 	dir = 1;
 	pixel_y = 12
 	},
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 8
-	},
 /turf/open/openspace,
 /area/vtm/interior/endron_facility)
 "qbo" = (
@@ -60153,6 +60160,16 @@
 /obj/item/bailer,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/forest)
+"qCC" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/table,
+/obj/item/binoculars,
+/turf/open/floor/plating/sidewalk/poor{
+	color = "#8f8f8f"
+	},
+/area/vtm/interior/endron_facility)
 "qCY" = (
 /obj/structure/clothinghanger,
 /turf/open/floor/carpet/green,
@@ -65387,14 +65404,6 @@
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/supply)
-"rUB" = (
-/obj/structure/chair/plastic{
-	dir = 4
-	},
-/turf/open/floor/plating/sidewalk/poor{
-	color = "#8f8f8f"
-	},
-/area/vtm/interior/endron_facility)
 "rUD" = (
 /obj/effect/mob_spawn/human/corpse/charredskeleton,
 /turf/open/floor/plating/vampplating/mono,
@@ -66011,14 +66020,6 @@
 	},
 /turf/open/floor/plating/vampwood,
 /area/vtm/interior/trujah)
-"saZ" = (
-/obj/structure/railing{
-	dir = 4
-	},
-/turf/open/floor/plating/sidewalk/poor{
-	color = "#8f8f8f"
-	},
-/area/vtm/interior/endron_facility)
 "sba" = (
 /obj/structure/vamptree/pine,
 /turf/open/floor/plating/vampgrass,
@@ -66113,16 +66114,6 @@
 /obj/structure/glowshroom/single,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/gnawer)
-"scB" = (
-/obj/structure/railing{
-	dir = 4
-	},
-/obj/structure/table,
-/obj/item/binoculars,
-/turf/open/floor/plating/sidewalk/poor{
-	color = "#8f8f8f"
-	},
-/area/vtm/interior/endron_facility)
 "scR" = (
 /turf/open/floor/plating/bacotell,
 /area/vtm/interior/shop)
@@ -79977,6 +79968,20 @@
 	},
 /turf/open/floor/plating/shit,
 /area/vtm/sewer)
+"vXY" = (
+/obj/structure/railing{
+	dir = 1;
+	layer = 4;
+	pixel_y = 16
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/item/kirbyplants/random,
+/turf/open/floor/plating/sidewalk/poor{
+	color = "#8f8f8f"
+	},
+/area/vtm/interior/endron_facility)
 "vYe" = (
 /obj/structure/curtain/bounty,
 /turf/open/floor/carpet/green,
@@ -88001,10 +88006,14 @@
 /turf/open/floor/plating/vampgrass,
 /area/vtm/pacificheights/forest)
 "yki" = (
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 8
+/obj/structure/vampdoor/glass/pentex{
+	dir = 4;
+	lockpick_difficulty = 16
 	},
-/turf/open/openspace,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "ykl" = (
 /obj/structure/sink{
@@ -238852,9 +238861,9 @@ xqh
 qdb
 ljc
 lZd
-qdb
-qdb
-qdb
+lzg
+oiq
+bDL
 xZW
 ljc
 qdb
@@ -239111,7 +239120,7 @@ qdb
 fAo
 qbk
 cUt
-yki
+cUt
 xTY
 qdb
 qdb
@@ -242443,7 +242452,7 @@ ntq
 ntq
 ntq
 fAo
-bhe
+yki
 fAo
 fAo
 fAo
@@ -242699,10 +242708,10 @@ ntq
 ntq
 ntq
 ntq
-jPp
-iAo
-iAo
-rUB
+ofP
+pwt
+pwt
+cIw
 fAo
 wvE
 fAo
@@ -242956,10 +242965,10 @@ ntq
 ntq
 ntq
 ntq
-kXG
-saZ
-kqN
-scB
+vXY
+msC
+gOC
+qCC
 fAo
 fAo
 fAo
