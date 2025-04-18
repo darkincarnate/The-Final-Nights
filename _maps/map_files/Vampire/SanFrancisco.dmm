@@ -5349,14 +5349,11 @@
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/northbeach)
 "bwb" = (
-/obj/effect/decal/bordur{
-	dir = 8
+/obj/vampire_car/track{
+	access = "pentex"
 	},
-/obj/structure/vampfence/rich{
-	pixel_y = 6
-	},
-/turf/open/floor/plating/sidewalk,
-/area/vtm/financialdistrict/construction)
+/turf/open/floor/plating/asphalt,
+/area/vtm/interior/endron_facility)
 "bwe" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/beer/vampire,
@@ -27304,8 +27301,8 @@
 /obj/effect/decal/asphaltline/alt{
 	dir = 8
 	},
-/obj/vampire_car/rand{
-	access = "pentex"
+/obj/effect/decal/bordur{
+	dir = 8
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/endron_facility)
@@ -32889,14 +32886,11 @@
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/gnawer)
 "jfH" = (
-/obj/effect/decal/bordur{
-	dir = 8
+/obj/vampire_car/rand{
+	access = "pentex"
 	},
-/obj/structure/vampfence/rich{
-	dir = 1
-	},
-/turf/open/floor/plating/sidewalk,
-/area/vtm/financialdistrict/construction)
+/turf/open/floor/plating/asphalt,
+/area/vtm/interior/endron_facility)
 "jfM" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/plating/vampgrass,
@@ -44638,9 +44632,14 @@
 /turf/open/floor/plating/toilet,
 /area/vtm/interior/millennium_tower)
 "mwr" = (
-/obj/structure/roadsign/parking,
+/obj/structure/vampfence/rich{
+	dir = 1
+	},
+/obj/effect/decal/bordur{
+	dir = 8
+	},
 /turf/open/floor/plating/sidewalk,
-/area/vtm/financialdistrict/construction)
+/area/vtm/interior/endron_facility)
 "mwy" = (
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/fishermanswharf/ghetto)
@@ -58725,6 +58724,7 @@
 /obj/effect/decal/bordur{
 	dir = 8
 	},
+/obj/structure/fluff/hedge,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/interior/endron_facility)
 "qkt" = (
@@ -69314,6 +69314,12 @@
 /obj/structure/clothinghanger,
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/setite/basement)
+"tcE" = (
+/obj/effect/decal/bordur{
+	dir = 9
+	},
+/turf/open/floor/plating/asphalt,
+/area/vtm/interior/endron_facility)
 "tcI" = (
 /obj/effect/decal/bordur,
 /obj/effect/decal/pallet,
@@ -71134,7 +71140,7 @@
 	dir = 8
 	},
 /obj/effect/decal/crosswalk{
-	dir = 1
+	dir = 4
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/financialdistrict/construction)
@@ -80907,11 +80913,8 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/chantry)
 "wqn" = (
-/obj/effect/decal/asphaltline/alt{
+/obj/effect/decal/bordur{
 	dir = 8
-	},
-/obj/vampire_car/track{
-	access = "pentex"
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/endron_facility)
@@ -83160,6 +83163,12 @@
 /obj/structure/vampfence/corner/rich{
 	dir = 4;
 	icon_state = "fence_end"
+	},
+/obj/effect/decal/bordur{
+	dir = 1
+	},
+/obj/effect/decal/bordur{
+	dir = 8
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/endron_facility)
@@ -87756,7 +87765,7 @@
 /area/vtm/chinatown)
 "ylQ" = (
 /obj/effect/decal/crosswalk{
-	dir = 1
+	dir = 4
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/financialdistrict/construction)
@@ -171692,28 +171701,28 @@ ptd
 oZH
 oZH
 vzL
-mwr
+hyN
 wXK
-biz
-biz
-jNx
-biz
-jNx
-biz
-hAP
-biz
-jNx
-biz
-jNx
-biz
-hAP
-biz
-hAP
-biz
 wqn
-biz
 wqn
-biz
+hAP
+wqn
+hAP
+wqn
+hAP
+wqn
+hAP
+wqn
+hAP
+wqn
+hAP
+wqn
+hAP
+wqn
+hAP
+wqn
+hAP
+wqn
 pXM
 pXM
 pXM
@@ -171950,25 +171959,25 @@ oZH
 oZH
 tCY
 dcG
-biz
+tcE
 biz
 biz
 jNx
 biz
 jNx
-biz
+jfH
 jNx
 biz
 jNx
 biz
 jNx
-biz
+jfH
 jNx
-biz
+jfH
 jNx
-biz
+bwb
 jNx
-biz
+bwb
 jNx
 biz
 nmF
@@ -172717,9 +172726,9 @@ rsu
 bQK
 jOL
 set
-jfH
-bwb
-jfH
+gCl
+gCl
+gCl
 fAo
 fAo
 fAo
@@ -172741,7 +172750,7 @@ fAo
 fAo
 fAo
 fAo
-qDF
+mwr
 nmF
 ijz
 nmF
