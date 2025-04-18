@@ -23024,6 +23024,7 @@
 /area/vtm/interior/strip)
 "gpp" = (
 /obj/structure/vampdoor/glass/pentex,
+/obj/effect/turf_decal/siding/white,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "gpv" = (
@@ -41550,6 +41551,16 @@
 /obj/item/vamp/keys/tzimisce,
 /turf/open/floor/carpet/red,
 /area/vtm/interior/tzimisce_manor)
+"lAN" = (
+/obj/structure/vampdoor/glass/pentex{
+	dir = 4;
+	lockpick_difficulty = 16
+	},
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "lAP" = (
 /obj/structure/table,
 /obj/item/storage/backpack/duffelbag/med/surgery,
@@ -52039,6 +52050,9 @@
 	dir = 4;
 	lockpick_difficulty = 16
 	},
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/endron_facility)
 "ouL" = (
@@ -55059,6 +55073,16 @@
 /obj/item/storage/belt/vampire/sheathe/sabre,
 /turf/open/floor/carpet/lone,
 /area/vtm/interior)
+"pjt" = (
+/obj/structure/vampdoor/glass/pentex{
+	dir = 4;
+	lockpick_difficulty = 16
+	},
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "pjx" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 1
@@ -85668,6 +85692,13 @@
 /obj/structure/closet/cardboard,
 /turf/open/floor/plating/vampcanal,
 /area/vtm/sewer)
+"xDl" = (
+/obj/structure/vampdoor/glass/pentex{
+	lockpick_difficulty = 6
+	},
+/obj/effect/turf_decal/siding/white,
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "xDG" = (
 /obj/structure/railing{
 	dir = 1;
@@ -172349,9 +172380,9 @@ biz
 jNx
 biz
 jNx
-gXm
-jNx
 biz
+jNx
+gXm
 jNx
 biz
 jNx
@@ -173119,7 +173150,7 @@ fAo
 fAo
 fAo
 fAo
-fAo
+pjt
 fAo
 qkr
 qkr
@@ -173375,8 +173406,8 @@ fjq
 wWN
 wWN
 bVq
-qdb
 qPT
+qdb
 fAo
 fAo
 fAo
@@ -174659,7 +174690,7 @@ gcy
 wlz
 qdb
 qdb
-lZd
+xDl
 qdb
 qdb
 jPM
@@ -175431,7 +175462,7 @@ fAo
 fAo
 fAo
 fAo
-gxd
+lAN
 fAo
 fAo
 fAo
@@ -175439,7 +175470,7 @@ ouH
 fAo
 fAo
 fAo
-gxd
+lAN
 fAo
 fAo
 fAo
@@ -307015,7 +307046,7 @@ lTQ
 fAo
 tSV
 qdb
-iHy
+qdb
 fAo
 fAo
 fAo
