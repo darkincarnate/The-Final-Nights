@@ -252,12 +252,6 @@
 /obj/machinery/photocopier,
 /turf/open/floor/plating/parquetry,
 /area/vtm/clinic)
-"adO" = (
-/obj/machinery/door/poddoor/shutters/window/preopen{
-	id_tag = endronwindowlockdown
-	},
-/turf/closed/wall/vampwall/rich/low/window/reinforced,
-/area/vtm/interior/endron_facility)
 "adT" = (
 /obj/effect/landmark/npcwall,
 /turf/open/floor/plating/vampgrass,
@@ -4500,6 +4494,14 @@
 /obj/structure/fluff/hedge,
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/chinatown)
+"bks" = (
+/obj/machinery/button/door{
+	pixel_y = 9;
+	pixel_x = -5;
+	id_tag = endronparking
+	},
+/turf/closed/wall/vampwall/rich,
+/area/vtm/interior/endron_facility)
 "bkw" = (
 /obj/structure/fluff/hedge,
 /obj/structure/flora/ausbushes/lavendergrass{
@@ -6184,6 +6186,13 @@
 /obj/structure/curtain/bounty,
 /turf/closed/wall/vampwall/rich/old/low/window,
 /area/vtm/interior/tzimisce_manor)
+"bHN" = (
+/obj/machinery/button/curtain{
+	id = endronmeeting;
+	pixel_y = -7
+	},
+/turf/closed/wall/vampwall/rich,
+/area/vtm/interior/endron_facility)
 "bIg" = (
 /obj/structure/closet/crate/large{
 	pixel_x = 6;
@@ -7225,13 +7234,6 @@
 	},
 /turf/open/space/basic,
 /area/space)
-"bXM" = (
-/obj/machinery/button/curtain{
-	id = endronmeeting;
-	pixel_y = -7
-	},
-/turf/closed/wall/vampwall/rich,
-/area/vtm/interior/endron_facility)
 "bXP" = (
 /obj/effect/decal/bordur{
 	dir = 5
@@ -9525,12 +9527,6 @@
 "cCY" = (
 /turf/open/floor/mineral/plastitanium,
 /area/vtm/jazzclub)
-"cDf" = (
-/obj/structure/curtain/bounty{
-	id_tag = endronmeeting
-	},
-/turf/closed/wall/vampwall/rich/low/window/reinforced,
-/area/vtm/interior/endron_facility)
 "cDr" = (
 /obj/effect/decal/litter,
 /turf/open/floor/carpet,
@@ -11928,19 +11924,6 @@
 /obj/item/storage/box/evidence,
 /turf/open/floor/plating/vampwood,
 /area/vtm/interior/police/fed)
-"dkI" = (
-/obj/structure/vampdoor/glass/pentex{
-	dir = 4;
-	lockpick_difficulty = 16
-	},
-/obj/effect/turf_decal/siding/white{
-	dir = 4
-	},
-/obj/effect/vip_barrier/endron_2{
-	dir = 4
-	},
-/turf/open/floor/plating/vampplating,
-/area/vtm/interior/endron_facility)
 "dkL" = (
 /obj/structure/fluff/hedge{
 	pixel_y = 6
@@ -15147,12 +15130,6 @@
 	},
 /turf/open/floor/plating/vampwood,
 /area/vtm/cabaret)
-"egD" = (
-/obj/machinery/door/poddoor/shutters/preopen{
-	id_tag = endronparking
-	},
-/turf/open/floor/plating/asphalt,
-/area/vtm/interior/endron_facility)
 "egY" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 8
@@ -17779,18 +17756,6 @@
 /obj/effect/decal/wallpaper/light,
 /turf/closed/wall/vampwall/old,
 /area/vtm/interior)
-"eVT" = (
-/obj/structure/vampdoor/glass/pentex{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 8
-	},
-/obj/effect/vip_barrier/endron_lab{
-	dir = 8
-	},
-/turf/open/floor/plating/circled,
-/area/vtm/interior/wyrm_corrupted)
 "eVU" = (
 /obj/structure/railing{
 	dir = 4
@@ -23092,6 +23057,19 @@
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/plating/vampgrass,
 /area/vtm/forest)
+"gpG" = (
+/obj/structure/vampdoor/glass/pentex{
+	dir = 4;
+	lockpick_difficulty = 16
+	},
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/obj/effect/vip_barrier/endron_2{
+	dir = 4
+	},
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "gpH" = (
 /obj/structure/chair/plastic{
 	dir = 1
@@ -27382,6 +27360,18 @@
 /obj/structure/flora/ausbushes,
 /turf/open/floor/plating/vampgrass,
 /area/vtm/church)
+"hAg" = (
+/obj/structure/vampdoor/glass/pentex{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/effect/vip_barrier/endron_lab{
+	dir = 8
+	},
+/turf/open/floor/plating/circled,
+/area/vtm/interior/wyrm_corrupted)
 "hAi" = (
 /obj/structure/table,
 /obj/item/vamp/keys/techstore,
@@ -29207,6 +29197,12 @@
 	},
 /turf/closed/wall/vampwall/old,
 /area/vtm/interior/tzimisce_manor)
+"hZJ" = (
+/obj/structure/curtain/bounty{
+	id_tag = endronbranchlead
+	},
+/turf/closed/wall/vampwall/rich/low/window/reinforced,
+/area/vtm/interior/endron_facility)
 "hZO" = (
 /obj/effect/decal/trash,
 /turf/open/floor/plating/rough/cave,
@@ -36627,6 +36623,12 @@
 /mob/living/carbon/human/npc/shop,
 /turf/open/floor/carpet,
 /area/vtm/interior/bianchiBank)
+"kff" = (
+/obj/structure/curtain/bounty{
+	id_tag = endronmeeting
+	},
+/turf/closed/wall/vampwall/rich/low/window/reinforced,
+/area/vtm/interior/endron_facility)
 "kfi" = (
 /turf/closed/wall/vampwall/rock,
 /area/space)
@@ -37600,6 +37602,13 @@
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/sewer/nosferatu_town)
+"kvu" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/mob/living/carbon/human/npc/bouncer/endron/endron_lab,
+/turf/open/floor/plating/vampplating/mono,
+/area/vtm/interior/wyrm_corrupted)
 "kvE" = (
 /obj/structure/dresser,
 /obj/structure/coclock,
@@ -42612,6 +42621,14 @@
 	},
 /turf/open/floor/carpet,
 /area/vtm/interior/giovanni)
+"lOa" = (
+/obj/machinery/button/door{
+	pixel_y = -1;
+	pixel_x = -7;
+	id_tag = endronparking
+	},
+/turf/closed/wall/vampwall/rich,
+/area/vtm/interior/endron_facility)
 "lOe" = (
 /obj/structure/bed/maint{
 	pixel_y = 2
@@ -45417,14 +45434,6 @@
 /obj/effect/decal/rugs,
 /turf/open/floor/plating/toilet,
 /area/vtm/interior)
-"mEy" = (
-/obj/machinery/button/door{
-	pixel_y = 9;
-	pixel_x = -5;
-	id_tag = endronparking
-	},
-/turf/closed/wall/vampwall/rich,
-/area/vtm/interior/endron_facility)
 "mEC" = (
 /obj/structure/table,
 /obj/item/paper_bin{
@@ -54156,6 +54165,12 @@
 /obj/structure/closet/cardboard,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/setite)
+"oUc" = (
+/obj/machinery/door/poddoor/shutters/window/preopen{
+	id_tag = endronwindowlockdown
+	},
+/turf/closed/wall/vampwall/rich/low/window/reinforced,
+/area/vtm/interior/endron_facility)
 "oUn" = (
 /obj/structure/fluff/hedge,
 /obj/structure/railing{
@@ -56372,12 +56387,6 @@
 	},
 /turf/open/floor/plasteel/grimy,
 /area/vtm/interior/millennium_tower/f4)
-"pAB" = (
-/obj/structure/curtain/bounty{
-	id_tag = endronbranchlead
-	},
-/turf/closed/wall/vampwall/rich/low/window/reinforced,
-/area/vtm/interior/endron_facility)
 "pAM" = (
 /obj/effect/landmark/npcbeacon/directed{
 	dir = 4
@@ -57237,16 +57246,6 @@
 	},
 /turf/open/floor/plating/vampcanal,
 /area/vtm/sewer)
-"pLu" = (
-/obj/structure/table/wood/fancy/green,
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/obj/machinery/button/curtain{
-	id = endronbranchlead
-	},
-/turf/open/floor/carpet/green,
-/area/vtm/interior/endron_facility)
 "pLw" = (
 /obj/structure/railing{
 	dir = 4
@@ -69978,14 +69977,6 @@
 	},
 /turf/open/space/basic,
 /area/space)
-"tgM" = (
-/obj/machinery/button/door{
-	pixel_y = -1;
-	pixel_x = -7;
-	id_tag = endronparking
-	},
-/turf/closed/wall/vampwall/rich,
-/area/vtm/interior/endron_facility)
 "tgP" = (
 /obj/structure/closet/crate,
 /obj/item/drinkable_bloodpack/elite,
@@ -70073,6 +70064,22 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior)
+"thG" = (
+/obj/structure/table,
+/obj/machinery/button/door{
+	id_tag = endronwindowlockdown;
+	pixel_y = 6;
+	pixel_x = -7;
+	name = "window lockdown"
+	},
+/obj/machinery/button/door{
+	pixel_y = 6;
+	pixel_x = 5;
+	name = "blastdoors";
+	id_tag = endronblastdoors
+	},
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "thT" = (
 /turf/open/floor/plating/asphalt,
 /area/vtm/pacificheights/old)
@@ -72377,6 +72384,16 @@
 "tOQ" = (
 /turf/closed/wall/vampwall/rich,
 /area/vtm/interior/strip/elysium)
+"tOW" = (
+/obj/structure/table/wood/fancy/green,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/machinery/button/curtain{
+	id = endronbranchlead
+	},
+/turf/open/floor/carpet/green,
+/area/vtm/interior/endron_facility)
 "tOX" = (
 /obj/structure/table/wood,
 /turf/open/floor/plating/parquetry,
@@ -77336,13 +77353,6 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/laundromat)
-"vjw" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/mob/living/carbon/human/npc/bouncer/endron/endron_lab,
-/turf/open/floor/plating/vampplating/mono,
-/area/vtm/interior/wyrm_corrupted)
 "vjA" = (
 /obj/machinery/light/small/red{
 	dir = 1
@@ -79558,6 +79568,12 @@
 	},
 /turf/open/floor/carpet/royalblue,
 /area/vtm/clinic)
+"vQf" = (
+/obj/machinery/door/poddoor/preopen{
+	id_tag = endronblastdoors
+	},
+/turf/open/floor/plating/vampplating/mono,
+/area/vtm/interior/endron_facility)
 "vQj" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 8
@@ -80736,12 +80752,6 @@
 /obj/structure/vampfence/rich,
 /turf/open/floor/plating/vampgrass,
 /area/vtm/interior/giovanni/outside)
-"wgu" = (
-/obj/machinery/door/poddoor/preopen{
-	id_tag = endronblastdoors
-	},
-/turf/open/floor/plating/vampplating/mono,
-/area/vtm/interior/endron_facility)
 "wgA" = (
 /obj/structure/table,
 /obj/item/newspaper,
@@ -84629,6 +84639,15 @@
 	},
 /turf/open/floor/carpet,
 /area/vtm/hotel)
+"xlk" = (
+/obj/machinery/button/door{
+	pixel_y = -5;
+	pixel_x = -1;
+	name = "WARNING - BUILDING LOCKDOWN";
+	id_tag = endronblastdoors
+	},
+/turf/closed/wall/vampwall/metal/reinforced,
+/area/vtm/interior/wyrm_corrupted)
 "xln" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/effect/turf_decal/weather/dirt{
@@ -86806,6 +86825,12 @@
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/laundromat)
+"xQV" = (
+/obj/machinery/door/poddoor/shutters/preopen{
+	id_tag = endronparking
+	},
+/turf/open/floor/plating/asphalt,
+/area/vtm/interior/endron_facility)
 "xQX" = (
 /obj/machinery/light{
 	dir = 8
@@ -87126,22 +87151,6 @@
 /obj/effect/landmark/start/giovannielder,
 /turf/open/floor/carpet/green,
 /area/vtm/interior/bianchiBank)
-"xVq" = (
-/obj/structure/table,
-/obj/machinery/button/door{
-	id_tag = endronwindowlockdown;
-	pixel_y = 6;
-	pixel_x = -7;
-	name = "window lockdown"
-	},
-/obj/machinery/button/door{
-	pixel_y = 6;
-	pixel_x = 5;
-	name = "blastdoors";
-	id_tag = endronblastdoors
-	},
-/turf/open/floor/plating/vampplating,
-/area/vtm/interior/endron_facility)
 "xVr" = (
 /obj/effect/decal/bordur{
 	dir = 8
@@ -146444,7 +146453,7 @@ nYS
 niP
 wRw
 iMN
-vjw
+kvu
 niP
 nYS
 nYS
@@ -146700,7 +146709,7 @@ nYS
 puz
 puz
 puz
-eVT
+hAg
 puz
 puz
 puz
@@ -147724,7 +147733,7 @@ dhc
 (232,1,1) = {"
 dhc
 nYS
-puz
+xlk
 xPh
 dhF
 dhF
@@ -172768,7 +172777,7 @@ oZH
 oZH
 ylQ
 oZH
-egD
+xQV
 biz
 biz
 biz
@@ -173025,7 +173034,7 @@ vls
 oZH
 ylQ
 oZH
-egD
+xQV
 biz
 biz
 biz
@@ -173281,11 +173290,11 @@ set
 gCl
 gCl
 gCl
-mEy
+bks
 fAo
 fAo
 fAo
-tgM
+lOa
 fAo
 pjt
 fAo
@@ -173541,7 +173550,7 @@ hyN
 fAo
 fjq
 wWN
-wgu
+vQf
 bVq
 qPT
 qdb
@@ -173798,7 +173807,7 @@ hyN
 fAo
 bwb
 wWN
-wgu
+vQf
 bVq
 qdb
 qdb
@@ -174061,7 +174070,7 @@ qdb
 qdb
 fAo
 hXO
-wgu
+vQf
 wFb
 fAo
 qdb
@@ -174566,7 +174575,7 @@ set
 hyN
 hyN
 hyN
-adO
+oUc
 uSi
 bpD
 qdb
@@ -174823,7 +174832,7 @@ set
 hyN
 hyN
 hyN
-adO
+oUc
 wlz
 qdb
 qdb
@@ -175080,7 +175089,7 @@ set
 hyN
 hyN
 hyN
-adO
+oUc
 uSi
 bpD
 qdb
@@ -175095,7 +175104,7 @@ xeW
 qdb
 qdb
 fKi
-xVq
+thG
 uTY
 qdb
 qdb
@@ -175607,7 +175616,7 @@ ouH
 fAo
 fAo
 fAo
-dkI
+gpG
 fAo
 fAo
 fAo
@@ -176108,7 +176117,7 @@ set
 hyN
 oDI
 hyN
-adO
+oUc
 tkW
 oBg
 myR
@@ -176365,7 +176374,7 @@ jBt
 hyN
 hyN
 hyN
-adO
+oUc
 pyP
 oBg
 myR
@@ -177653,9 +177662,9 @@ hyN
 fAo
 fAo
 fAo
-adO
-adO
-adO
+oUc
+oUc
+oUc
 fAo
 fAo
 peb
@@ -177663,9 +177672,9 @@ fAo
 peb
 fAo
 fAo
-adO
-adO
-adO
+oUc
+oUc
+oUc
 fAo
 fAo
 fAo
@@ -304881,7 +304890,7 @@ gnU
 qdb
 qdb
 cPh
-pAB
+hZJ
 bgT
 lfZ
 lfZ
@@ -305138,7 +305147,7 @@ ygs
 qdb
 qdb
 gSK
-pAB
+hZJ
 oVC
 lfZ
 vzd
@@ -306423,12 +306432,12 @@ ygs
 qdb
 qdb
 cPh
-pAB
+hZJ
 bgT
 lfZ
 tUL
 bmW
-pLu
+tOW
 aur
 fAo
 ntq
@@ -306680,7 +306689,7 @@ rqF
 qdb
 qdb
 gSK
-pAB
+hZJ
 oVC
 lfZ
 lfZ
@@ -307187,9 +307196,9 @@ tXX
 fAo
 fAo
 fAo
-cDf
-cDf
-cDf
+kff
+kff
+kff
 fAo
 fAo
 fAo
@@ -307441,7 +307450,7 @@ fAo
 gTe
 qdb
 mnW
-bXM
+bHN
 hHO
 pFN
 oBg
@@ -308729,9 +308738,9 @@ fAo
 fAo
 fAo
 fAo
-cDf
-cDf
-cDf
+kff
+kff
+kff
 fAo
 fAo
 fAo
