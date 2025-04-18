@@ -27389,6 +27389,19 @@
 "hBt" = (
 /turf/closed/wall/vampwall/market/low/window,
 /area/vtm/interior/police)
+"hBv" = (
+/obj/structure/vampdoor/glass/pentex{
+	dir = 4;
+	lockpick_difficulty = 16
+	},
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/obj/effect/vip_barrier/endron_2{
+	dir = 4
+	},
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "hBw" = (
 /obj/effect/landmark/npcwall,
 /obj/machinery/light{
@@ -31403,7 +31416,7 @@
 /turf/open/floor/wood,
 /area/vtm/interior/penumbra/enoch)
 "iHy" = (
-/mob/living/carbon/human/npc/bouncer/endron,
+/mob/living/carbon/human/npc/bouncer/endron/endron_2,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "iHJ" = (
@@ -51058,6 +51071,18 @@
 	color = "#8f8f8f"
 	},
 /area/vtm/interior/endron_facility)
+"ofQ" = (
+/obj/structure/vampdoor/glass/pentex{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/effect/vip_barrier/endron_lab{
+	dir = 8
+	},
+/turf/open/floor/plating/circled,
+/area/vtm/interior/wyrm_corrupted)
 "ofV" = (
 /obj/machinery/shower,
 /obj/structure/curtain,
@@ -55084,7 +55109,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 8
 	},
-/obj/effect/vip_barrier/endron{
+/obj/effect/vip_barrier/endron_backdoor{
 	dir = 8
 	},
 /turf/open/floor/plating/vampplating,
@@ -57544,6 +57569,13 @@
 "pQI" = (
 /turf/open/floor/plating/bacotell,
 /area/vtm/clinic/haven)
+"pQK" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/mob/living/carbon/human/npc/bouncer/endron/endron_lab,
+/turf/open/floor/plating/vampplating/mono,
+/area/vtm/interior/wyrm_corrupted)
 "pQV" = (
 /obj/structure/table/wood,
 /obj/item/gun/ballistic/automatic/vampire/glock19,
@@ -72323,7 +72355,7 @@
 /turf/open/floor/plating/granite,
 /area/vtm/interior/millennium_tower)
 "tQg" = (
-/mob/living/carbon/human/npc/bouncer/endron,
+/mob/living/carbon/human/npc/bouncer/endron/endron_backdoor,
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/endron_facility)
 "tQj" = (
@@ -146317,7 +146349,7 @@ nYS
 niP
 wRw
 iMN
-wRw
+pQK
 niP
 nYS
 nYS
@@ -146573,7 +146605,7 @@ nYS
 puz
 puz
 puz
-mDp
+ofQ
 puz
 puz
 puz
@@ -175480,7 +175512,7 @@ ouH
 fAo
 fAo
 fAo
-lAN
+hBv
 fAo
 fAo
 fAo
