@@ -22806,10 +22806,6 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/oldchurch)
-"glF" = (
-/obj/effect/decal/cleanable/blood/footprints,
-/turf/open/floor/plating/circled,
-/area/vtm/interior/wyrm_corrupted)
 "glN" = (
 /obj/effect/decal/cardboard,
 /obj/effect/decal/bordur,
@@ -149161,7 +149157,7 @@ niP
 wTV
 dhF
 dhF
-kqv
+dhF
 jyN
 niP
 puz
@@ -149929,10 +149925,10 @@ hTk
 dhF
 dhF
 hWE
-glF
-glF
-glF
 dhF
+dhF
+dhF
+kqv
 dhF
 jkE
 dhF
@@ -151216,7 +151212,7 @@ nYS
 nYS
 puz
 kqv
-oDn
+dhF
 dhF
 puz
 nYS
