@@ -9,3 +9,4 @@
 	if(!ishumanbasic(entering_mob) || (entering_mob.mind && entering_mob.mind.assigned_role == "Stripper"))
 		return TRUE
 	return FALSE
+
