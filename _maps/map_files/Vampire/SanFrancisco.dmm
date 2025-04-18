@@ -22806,6 +22806,14 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/oldchurch)
+"glF" = (
+/obj/machinery/shower{
+	dir = 8;
+	pixel_x = 1
+	},
+/obj/structure/curtain/cloth,
+/turf/open/floor/plating/circled,
+/area/vtm/interior/wyrm_corrupted)
 "glN" = (
 /obj/effect/decal/cardboard,
 /obj/effect/decal/bordur,
@@ -148120,9 +148128,9 @@ puz
 puz
 xkX
 czn
-ilj
-ilj
-ilj
+glF
+glF
+glF
 puz
 puz
 nYS
