@@ -5,8 +5,9 @@
 	social_roll_difficulty = 9
 
 
-/obj/effect/vip_barrier/endron/check_entry_permission_custom(var/mob/living/carbon/human/entering_mob)
-	if(!ishumanbasic(entering_mob) || (entering_mob.mind && entering_mob.mind.assigned_role == "Stripper"))
+/obj/effect/vip_barrier/elysium/check_entry_permission_custom(var/mob/living/carbon/human/entering_mob)
+	if(iskindred(entering_mob) || isghoul(entering_mob))
 		return TRUE
 	return FALSE
+
 
