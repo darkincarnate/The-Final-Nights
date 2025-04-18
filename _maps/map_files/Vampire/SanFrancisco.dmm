@@ -5890,13 +5890,14 @@
 	alpha = 0;
 	dir = 1
 	},
-/obj/structure/window/reinforced/indestructable{
-	dir = 8
-	},
 /obj/effect/decal/bordur{
 	dir = 1
 	},
 /obj/effect/decal/bordur{
+	dir = 8
+	},
+/obj/structure/window/reinforced/indestructable{
+	alpha = 0;
 	dir = 8
 	},
 /turf/open/floor/plating/rough,
@@ -8997,11 +8998,6 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior)
-"cvF" = (
-/obj/effect/decal/cleanable/blood/bubblegum,
-/obj/machinery/light/small/red,
-/turf/open/floor/plating/circled,
-/area/vtm/interior/wyrm_corrupted)
 "cvN" = (
 /obj/structure/closet,
 /obj/item/clothing/under/pentex/pentex_shortsleeve,
@@ -50261,10 +50257,9 @@
 /turf/open/floor/carpet/red,
 /area/vtm/interior/strip/toreador)
 "nTC" = (
-/obj/structure/bed/dogbed,
-/mob/living/simple_animal/pet/dog/corgi/ian,
-/turf/open/floor/plating/vampplating,
-/area/vtm/interior/endron_facility)
+/obj/machinery/light/small/red,
+/turf/closed/wall/vampwall/metal/reinforced,
+/area/vtm/interior/wyrm_corrupted)
 "nTE" = (
 /obj/item/kirbyplants/random,
 /obj/structure/coclock,
@@ -151549,8 +151544,8 @@ dhc
 dhc
 dhc
 nYS
-puz
-cvF
+nTC
+kqv
 oDn
 qFc
 puz
@@ -242376,9 +242371,9 @@ ntq
 ntq
 ntq
 fAo
-qdb
-qdb
-qdb
+fAo
+fAo
+fAo
 fAo
 qdb
 rjq
@@ -242633,7 +242628,7 @@ ntq
 ntq
 ntq
 fAo
-nTC
+qdb
 qdb
 qdb
 fAo
