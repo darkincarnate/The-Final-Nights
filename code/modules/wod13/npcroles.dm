@@ -948,6 +948,16 @@
 		base_body_mod = "s"
 	AssignSocialRole(pick(/datum/socialrole/poormale, /datum/socialrole/poorfemale))
 
+/mob/living/carbon/human/npc/endronemployee
+	bloodquality = BLOOD_QUALITY_LOW
+	staying = TRUE
+
+/mob/living/carbon/human/npc/endronemployee/Initialize()
+	. = ..()
+	if(prob(33))
+		base_body_mod = "s"
+	AssignSocialRole(pick(/datum/socialrole/endronemployee))
+
 /mob/living/carbon/human/npc/business
 	bloodquality = BLOOD_QUALITY_HIGH
 
