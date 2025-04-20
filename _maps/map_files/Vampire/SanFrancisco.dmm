@@ -1952,6 +1952,11 @@
 "aAj" = (
 /turf/open/floor/plasteel/dark,
 /area/vtm/pacificheights/old)
+"aAp" = (
+/obj/structure/chair/greyscale,
+/mob/living/carbon/human/npc/endronemployee,
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/oilrig)
 "aAt" = (
 /obj/effect/decal/trash,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -9718,6 +9723,13 @@
 /obj/fusebox,
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/clinic/haven)
+"cFG" = (
+/obj/structure/railing/metal{
+	dir = 4
+	},
+/mob/living/carbon/human/npc/endronemployee,
+/turf/open/floor/plating/rust,
+/area/vtm/interior/oilrig)
 "cFJ" = (
 /obj/effect/decal/pallet{
 	pixel_x = -3;
@@ -23144,6 +23156,18 @@
 	},
 /turf/open/floor/plating/bacotell,
 /area/vtm/clinic/haven)
+"goA" = (
+/obj/structure/railing/metal{
+	dir = 8
+	},
+/obj/machinery/light/prince{
+	light_power = 0.45;
+	name = "dim light fixture";
+	dir = 8
+	},
+/mob/living/carbon/human/npc/endronemployee,
+/turf/open/floor/plating/rust,
+/area/vtm/interior/oilrig)
 "goC" = (
 /obj/structure/lamppost/sidewalk,
 /turf/open/floor/plating/vampdirt,
@@ -40178,6 +40202,13 @@
 /obj/item/melee/vampirearms/tire,
 /turf/open/floor/plating/concrete,
 /area/vtm/graveyard/interior)
+"lcV" = (
+/obj/structure/chair/greyscale{
+	dir = 8
+	},
+/mob/living/carbon/human/npc/endronemployee,
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/oilrig)
 "lcY" = (
 /obj/item/clothing/suit/vampire/slickbackcoat,
 /obj/item/clothing/suit/vampire/fancy_gray,
@@ -43084,6 +43115,16 @@
 	},
 /turf/open/floor/carpet/lone,
 /area/vtm/interior/chantry)
+"lUt" = (
+/obj/structure/railing/metal{
+	dir = 4
+	},
+/obj/machinery/light/prince{
+	dir = 4
+	},
+/mob/living/carbon/human/npc/endronemployee,
+/turf/open/floor/plating/rust,
+/area/vtm/interior/oilrig)
 "lUu" = (
 /obj/structure/vampstatue/angel,
 /obj/structure/railing{
@@ -55388,6 +55429,7 @@
 /obj/structure/chair/greyscale{
 	dir = 4
 	},
+/mob/living/carbon/human/npc/endronemployee,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/oilrig)
 "plN" = (
@@ -70320,6 +70362,13 @@
 /obj/structure/bookcase/random/kindred,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/chantry/basement)
+"tjr" = (
+/obj/structure/railing/metal{
+	dir = 1
+	},
+/mob/living/carbon/human/npc/endronemployee,
+/turf/open/floor/plating/rust,
+/area/vtm/interior/oilrig)
 "tjB" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/under/vampire/biker,
@@ -77385,6 +77434,16 @@
 /obj/effect/decal/kopatich,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/forest)
+"viO" = (
+/obj/structure/railing/metal{
+	dir = 8
+	},
+/obj/structure/railing/metal{
+	dir = 8
+	},
+/mob/living/carbon/human/npc/endronemployee,
+/turf/open/floor/plating/rust,
+/area/vtm/interior/oilrig)
 "vjc" = (
 /obj/structure/chair/plastic{
 	dir = 4
@@ -88039,6 +88098,11 @@
 /obj/structure/stairs/north,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/police)
+"yhc" = (
+/obj/structure/railing/metal,
+/mob/living/carbon/human/npc/endronemployee,
+/turf/open/floor/plating/rust,
+/area/vtm/interior/oilrig)
 "yhf" = (
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/police)
@@ -450794,7 +450858,7 @@ tIM
 tIM
 tIM
 tIM
-dmx
+tjr
 uvm
 uvm
 twA
@@ -450826,7 +450890,7 @@ tIM
 tIM
 tIM
 uMa
-aCF
+goA
 aCF
 oau
 tIM
@@ -451063,7 +451127,7 @@ bWW
 bWW
 bWW
 bWW
-bWW
+viO
 bWW
 bWW
 bWW
@@ -451342,7 +451406,7 @@ mdA
 mdA
 uvm
 uvm
-twA
+yhc
 tIM
 tIM
 tIM
@@ -452362,7 +452426,7 @@ xPP
 uvm
 xPP
 niN
-niN
+lcV
 xPP
 wuf
 oWt
@@ -453135,7 +453199,7 @@ xPP
 xPP
 ste
 xPP
-wuf
+aAp
 oWt
 uvm
 twA
@@ -453903,7 +453967,7 @@ xPP
 xPP
 rdL
 xPP
-wuf
+aAp
 oWt
 xPP
 xPP
@@ -454163,7 +454227,7 @@ xPP
 wuf
 oWt
 xPP
-wuf
+aAp
 qkB
 uvm
 twA
@@ -454420,7 +454484,7 @@ xPP
 xPP
 wRO
 xPP
-wuf
+aAp
 oWt
 uvm
 twA
@@ -456964,7 +457028,7 @@ tIM
 tIM
 tIM
 tIM
-dmx
+tjr
 mdA
 uvm
 uvm
@@ -458511,7 +458575,7 @@ oce
 oce
 dAR
 dAR
-dAR
+cFG
 dAR
 dAR
 dAR
@@ -459800,7 +459864,7 @@ tIM
 tIM
 tIM
 tIM
-dmx
+tjr
 uvm
 hQB
 dnF
@@ -460602,7 +460666,7 @@ dAR
 mdA
 uvm
 uvm
-twA
+yhc
 tIM
 tIM
 tIM
@@ -461114,7 +461178,7 @@ tIM
 tIM
 tIM
 xzw
-oce
+lUt
 oce
 qES
 tIM
