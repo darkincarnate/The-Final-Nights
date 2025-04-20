@@ -479,7 +479,7 @@
 	fire_controled = TRUE
 	wall_rating = LOW_WALL_RATING
 
-/area/vtm/interior/endron_oilrig
+/area/vtm/interior/oilrig
 	name = "The Oil Rig"
 	icon_state = "graveyard"
 	zone_type = "battle"
