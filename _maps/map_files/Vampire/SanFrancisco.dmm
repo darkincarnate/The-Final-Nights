@@ -12909,6 +12909,13 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
+/obj/item/stamp{
+	pixel_x = 12
+	},
+/obj/item/stamp/denied{
+	pixel_y = 12;
+	pixel_x = 12
+	},
 /turf/open/floor/carpet/green,
 /area/vtm/interior/endron_facility)
 "dyP" = (
@@ -17251,6 +17258,9 @@
 /obj/item/clothing/head/pentex/pentex_beret,
 /obj/item/clothing/glasses/vampire/yellow,
 /obj/item/ammo_box/vampire/c44/silver,
+/obj/item/vamp/keys/pentex,
+/obj/item/vamp/keys/pentex,
+/obj/item/vamp/keys/pentex,
 /turf/open/floor/plating/parquetry/rich,
 /area/vtm/interior/endron_facility)
 "eOW" = (
@@ -59925,6 +59935,10 @@
 	},
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/millennium_tower/f2)
+"qya" = (
+/obj/machinery/photocopier,
+/turf/open/floor/plating/parquetry/rich,
+/area/vtm/interior/endron_facility)
 "qyp" = (
 /obj/structure/lamppost/one{
 	dir = 4
@@ -77587,9 +77601,7 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm/fishermanswharf/lower)
 "voy" = (
-/obj/structure/table,
-/obj/item/storage/fancy/cigarettes/cigpack_robust,
-/obj/item/lighter,
+/obj/machinery/photocopier,
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/endron_facility)
 "voA" = (
@@ -306903,7 +306915,7 @@ wWY
 lfZ
 lfZ
 eOR
-lfZ
+qya
 faG
 fAo
 ntq
