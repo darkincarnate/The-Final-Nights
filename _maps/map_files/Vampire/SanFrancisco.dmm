@@ -585,11 +585,6 @@
 	},
 /turf/open/floor/carpet,
 /area/vtm/interior/chantry)
-"aiK" = (
-/obj/machinery/light/floor,
-/obj/structure/lattice/catwalk,
-/turf/open/floor/plating/rust,
-/area/vtm/interior/oilrig)
 "aiL" = (
 /obj/structure/chair/sofa/corp/left{
 	dir = 8
@@ -927,11 +922,6 @@
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/pacificheights/forest)
-"amz" = (
-/turf/open/floor/plasteel/stairs/right{
-	dir = 4
-	},
-/area/vtm/interior/oilrig)
 "amH" = (
 /obj/effect/decal/bordur{
 	dir = 1
@@ -1759,6 +1749,11 @@
 	},
 /turf/open/floor/plating/rough,
 /area/space)
+"ayc" = (
+/obj/machinery/light/floor,
+/obj/structure/lattice/catwalk,
+/turf/open/floor/plating/rust,
+/area/vtm/interior/oilrig)
 "ayf" = (
 /mob/living/carbon/human/npc/shop{
 	resistant_to_disciplines = 1
@@ -2632,6 +2627,13 @@
 "aJi" = (
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/interior/strip/toreador)
+"aJj" = (
+/obj/structure/railing/metal{
+	dir = 8
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/floor/plating/rust,
+/area/vtm/interior/oilrig)
 "aJm" = (
 /obj/effect/decal/cardboard,
 /turf/open/floor/plating/vampcanal,
@@ -9622,13 +9624,6 @@
 /obj/effect/landmark/npcwall,
 /turf/open/floor/plating/vampgrass,
 /area/vtm/pacificheights/forest)
-"cDA" = (
-/obj/structure/railing/metal{
-	dir = 1
-	},
-/obj/structure/lattice/catwalk,
-/turf/open/floor/plating/rust,
-/area/vtm/interior/oilrig)
 "cDC" = (
 /obj/item/binoculars,
 /obj/structure/table/wood,
@@ -15422,6 +15417,13 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/pacificheights)
+"ehW" = (
+/obj/structure/railing/metal{
+	dir = 1
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/floor/plating/rust,
+/area/vtm/interior/oilrig)
 "eig" = (
 /obj/structure/railing,
 /turf/open/floor/plating/vampwood,
@@ -16654,6 +16656,11 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/cabaret/basement)
+"eBC" = (
+/turf/open/floor/plasteel/stairs/right{
+	dir = 4
+	},
+/area/vtm/interior/oilrig)
 "eBJ" = (
 /obj/effect/turf_decal/siding/white,
 /obj/structure/vampdoor/camarilla,
@@ -19857,6 +19864,34 @@
 /obj/effect/decal/graffiti,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/fishermanswharf/lower)
+"fuW" = (
+/obj/structure/rack,
+/obj/item/clothing/mask/gas/explorer{
+	name = "First Team gas mask"
+	},
+/obj/item/clothing/mask/gas/explorer{
+	name = "First Team gas mask"
+	},
+/obj/item/clothing/mask/gas/explorer{
+	name = "First Team gas mask"
+	},
+/obj/item/clothing/mask/gas/explorer{
+	name = "First Team gas mask"
+	},
+/obj/item/clothing/mask/gas/explorer{
+	name = "First Team gas mask"
+	},
+/obj/item/clothing/mask/gas/explorer{
+	name = "First Team gas mask"
+	},
+/obj/item/clothing/mask/gas/explorer{
+	name = "First Team gas mask"
+	},
+/obj/item/clothing/mask/gas/explorer{
+	name = "First Team gas mask"
+	},
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/oilrig)
 "fuY" = (
 /obj/effect/decal/rugs,
 /turf/open/floor/plating/parquetry/old,
@@ -25072,6 +25107,13 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/police)
+"gNu" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/metal{
+	dir = 1
+	},
+/turf/open/floor/plating/rust,
+/area/vtm/interior/oilrig)
 "gNw" = (
 /obj/structure/railing,
 /obj/effect/turf_decal/siding/wood,
@@ -43579,12 +43621,6 @@
 "lXm" = (
 /turf/open/floor/plating/toilet,
 /area/vtm/interior/theatre)
-"lXp" = (
-/obj/structure/railing/metal{
-	dir = 4
-	},
-/turf/open/floor/plasteel/stairs/right,
-/area/vtm/interior/oilrig)
 "lXr" = (
 /obj/structure/railing{
 	dir = 8;
@@ -48662,13 +48698,6 @@
 "nqY" = (
 /turf/open/floor/plating/vampgrass,
 /area/vtm/ghetto/old)
-"nqZ" = (
-/obj/structure/railing/metal{
-	dir = 4
-	},
-/obj/structure/lattice/catwalk,
-/turf/open/floor/plating/rust,
-/area/vtm/interior/oilrig)
 "nrc" = (
 /turf/closed/wall/vampwall/wood,
 /area/vtm/forest)
@@ -51381,12 +51410,6 @@
 /obj/effect/decal/wallpaper/red,
 /turf/closed/wall/vampwall/rich,
 /area/vtm/interior/strip/elysium)
-"obr" = (
-/obj/structure/railing/metal{
-	dir = 8
-	},
-/turf/open/floor/plasteel/stairs/right,
-/area/vtm/interior/oilrig)
 "obM" = (
 /obj/effect/decal/bordur{
 	dir = 1
@@ -51857,6 +51880,13 @@
 	},
 /turf/open/floor/carpet/green,
 /area/vtm/interior/millennium_tower/f2)
+"oiD" = (
+/obj/structure/railing/metal{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/floor/plating/rust,
+/area/vtm/interior/oilrig)
 "oiF" = (
 /obj/structure/chair/comfy/black{
 	dir = 8
@@ -52715,9 +52745,6 @@
 /obj/structure/trashcan,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/fishermanswharf/ghetto)
-"ovD" = (
-/turf/open/floor/plasteel/stairs/right,
-/area/vtm/interior/oilrig)
 "ovE" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 5
@@ -62341,6 +62368,12 @@
 /obj/structure/toilet,
 /turf/open/floor/plating/vampcanalplating,
 /area/vtm/interior)
+"qVs" = (
+/obj/structure/railing/metal{
+	dir = 8
+	},
+/turf/open/floor/plasteel/stairs/right,
+/area/vtm/interior/oilrig)
 "qVv" = (
 /obj/machinery/light/small{
 	dir = 8;
@@ -69526,6 +69559,12 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/interior/shop)
+"sRc" = (
+/obj/structure/railing/metal{
+	dir = 4
+	},
+/turf/open/floor/plasteel/stairs/right,
+/area/vtm/interior/oilrig)
 "sRj" = (
 /obj/structure/vampstatue,
 /turf/open/floor/plating/parquetry/old,
@@ -71389,6 +71428,9 @@
 /obj/structure/table/wood,
 /turf/open/floor/carpet/green,
 /area/vtm/hotel)
+"tsq" = (
+/turf/open/floor/plasteel/stairs/right,
+/area/vtm/interior/oilrig)
 "tsB" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/plating/vampdirt,
@@ -80829,13 +80871,6 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/millennium_tower/f5)
-"vZO" = (
-/obj/structure/railing/metal{
-	dir = 8
-	},
-/obj/structure/lattice/catwalk,
-/turf/open/floor/plating/rust,
-/area/vtm/interior/oilrig)
 "vZP" = (
 /obj/effect/decal/bordur{
 	dir = 10
@@ -86326,13 +86361,6 @@
 /obj/item/clothing/gloves/vampire/leather,
 /turf/open/floor/plating/concrete,
 /area/vtm/anarch)
-"xBZ" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing/metal{
-	dir = 1
-	},
-/turf/open/floor/plating/rust,
-/area/vtm/interior/oilrig)
 "xCa" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 8
@@ -451384,7 +451412,7 @@ tIM
 tIM
 uMa
 aCF
-vZO
+aJj
 oau
 tIM
 tIM
@@ -451608,7 +451636,7 @@ tIM
 tIM
 tIM
 tIM
-xBZ
+gNu
 bHU
 bHU
 bHU
@@ -451638,7 +451666,7 @@ bWW
 bWW
 bWW
 bWW
-vZO
+aJj
 bHU
 bHU
 bHU
@@ -452124,7 +452152,7 @@ tIM
 tIM
 bhY
 tIM
-cDA
+ehW
 mdA
 mdA
 mdA
@@ -452154,8 +452182,8 @@ mdA
 mdA
 mdA
 bHU
-nqZ
-nqZ
+oiD
+oiD
 qES
 tIM
 tIM
@@ -452381,7 +452409,7 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 mdA
 uvm
 uvm
@@ -452638,7 +452666,7 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 mdA
 uvm
 iZi
@@ -452895,7 +452923,7 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 mdA
 tXq
 xPP
@@ -453152,7 +453180,7 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 mdA
 tXq
 xPP
@@ -453161,8 +453189,8 @@ xPP
 xPP
 xPP
 qJi
-ovD
-aiK
+tsq
+ayc
 mdA
 uvm
 xPP
@@ -453409,7 +453437,7 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 mdA
 tXq
 xPP
@@ -453666,7 +453694,7 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 mdA
 uvm
 iZi
@@ -453923,7 +453951,7 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 mdA
 uvm
 uvm
@@ -454180,9 +454208,9 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 nLI
-cDA
+ehW
 bHU
 bHU
 bHU
@@ -454191,7 +454219,7 @@ bHU
 bHU
 dmx
 bHU
-obr
+qVs
 rdL
 xPP
 xPP
@@ -454437,7 +454465,7 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 mdA
 uvm
 uvm
@@ -454448,7 +454476,7 @@ uvm
 uvm
 mdA
 bHU
-lXp
+sRc
 rdL
 xPP
 xPP
@@ -454694,7 +454722,7 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 mdA
 uvm
 wQB
@@ -454951,10 +454979,10 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 mdA
 gdr
-xPP
+fuW
 xPP
 xPP
 xPP
@@ -455208,7 +455236,7 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 mdA
 uvm
 jxv
@@ -455217,8 +455245,8 @@ xPP
 xPP
 xPP
 odX
-ovD
-aiK
+tsq
+ayc
 mdA
 tXq
 wuf
@@ -455465,7 +455493,7 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 mdA
 uvm
 lDZ
@@ -455722,7 +455750,7 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 mdA
 uvm
 uoY
@@ -455979,7 +456007,7 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 mdA
 uvm
 uvm
@@ -456236,7 +456264,7 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 mdA
 uvm
 iPD
@@ -456493,7 +456521,7 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 mdA
 uvm
 qYx
@@ -456510,8 +456538,8 @@ mdA
 mdA
 mdA
 xdh
-amz
-amz
+eBC
+eBC
 rIA
 hzI
 mdA
@@ -456523,14 +456551,14 @@ mdA
 mdA
 mdA
 mdA
-vZO
-vZO
-vZO
-vZO
+aJj
+aJj
+aJj
+aJj
 xZp
-vZO
-vZO
-vZO
+aJj
+aJj
+aJj
 oMK
 lOc
 tIM
@@ -456750,7 +456778,7 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 mdA
 uvm
 mml
@@ -456778,8 +456806,8 @@ mdA
 mdA
 mdA
 mdA
-amz
-amz
+eBC
+eBC
 mdA
 mdA
 mdA
@@ -457007,7 +457035,7 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 mdA
 uvm
 uJi
@@ -457264,7 +457292,7 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 mdA
 uvm
 mVT
@@ -457778,7 +457806,7 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 mdA
 mdA
 mdA
@@ -458035,7 +458063,7 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 cFr
 hqj
 cFr
@@ -458292,7 +458320,7 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 uvm
 bHU
 uvm
@@ -458549,7 +458577,7 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 bHU
 bHU
 bHU
@@ -458806,7 +458834,7 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 uvm
 bHU
 uvm
@@ -459067,20 +459095,20 @@ pOx
 oce
 niS
 oce
-nqZ
+oiD
 hsf
-nqZ
-nqZ
-nqZ
+oiD
+oiD
+oiD
 bHU
 mdA
 mdA
-amz
+eBC
 mdA
 mdA
 mdA
 mdA
-amz
+eBC
 mdA
 nLI
 mdA
@@ -459329,7 +459357,7 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 uvm
 uvm
 qpT
@@ -459586,7 +459614,7 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 uvm
 grc
 hQB
@@ -460100,7 +460128,7 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 uvm
 uvm
 shJ
@@ -460376,8 +460404,8 @@ cFr
 mdA
 cFr
 mdA
-amz
-amz
+eBC
+eBC
 mdA
 cFr
 mdA
@@ -460614,7 +460642,7 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 uvm
 iIB
 puo
@@ -460871,7 +460899,7 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 uvm
 uvm
 uvm
@@ -460901,7 +460929,7 @@ mdA
 mdA
 bHU
 bHU
-vZO
+aJj
 oMK
 tIM
 tIM
@@ -461129,33 +461157,33 @@ tIM
 tIM
 aDv
 xzw
-nqZ
-nqZ
-nqZ
-nqZ
-nqZ
-nqZ
-nqZ
-nqZ
-nqZ
-nqZ
-nqZ
-nqZ
-nqZ
-nqZ
+oiD
+oiD
+oiD
+oiD
+oiD
+oiD
+oiD
+oiD
+oiD
+oiD
+oiD
+oiD
+oiD
+oiD
 oce
-nqZ
+oiD
 oce
-nqZ
-nqZ
-nqZ
-nqZ
+oiD
+oiD
+oiD
+oiD
 oce
-nqZ
+oiD
 oce
-nqZ
+oiD
 qnq
-nqZ
+oiD
 bHU
 bHU
 bHU
@@ -461413,7 +461441,7 @@ tIM
 tIM
 tIM
 tIM
-cDA
+ehW
 bHU
 bHU
 twA
@@ -461672,7 +461700,7 @@ tIM
 tIM
 xzw
 hsf
-nqZ
+oiD
 qES
 tIM
 tIM
