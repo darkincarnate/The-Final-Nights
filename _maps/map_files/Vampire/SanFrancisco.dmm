@@ -3067,6 +3067,13 @@
 /obj/structure/table,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/millennium_tower/f2)
+"aPL" = (
+/obj/structure/lattice/catwalk{
+	color = "#454545"
+	},
+/obj/structure/railing/metal,
+/turf/open/floor/plating/rust,
+/area/vtm/interior/oilrig)
 "aPP" = (
 /obj/fusebox,
 /obj/structure/closet/secure_closet/freezer/meat/open,
@@ -5549,11 +5556,9 @@
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/strip)
 "bxT" = (
-/obj/structure/rack,
-/obj/item/police_radio,
-/obj/item/police_radio,
-/obj/item/police_radio,
-/turf/open/floor/plating/vampplating,
+/turf/open/floor/plating/vampocean{
+	color = "#90EE90"
+	},
 /area/vtm/interior/oilrig)
 "bxW" = (
 /obj/structure/railing,
@@ -9276,6 +9281,16 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/anarch/basement)
+"cxO" = (
+/obj/structure/railing/metal{
+	dir = 1
+	},
+/obj/structure/lattice/catwalk{
+	color = "#454545"
+	},
+/obj/structure/railing/metal,
+/turf/open/floor/plating/rust,
+/area/vtm/interior/oilrig)
 "cxS" = (
 /turf/open/indestructible/necropolis/air,
 /area/vtm/interior/endron_facility)
@@ -10681,16 +10696,6 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/interior/shop)
-"cRs" = (
-/obj/structure/lattice/catwalk{
-	color = "#454545"
-	},
-/obj/structure/railing/metal{
-	dir = 1
-	},
-/obj/structure/railing/metal,
-/turf/open/floor/plating/rust,
-/area/vtm/interior/oilrig)
 "cRC" = (
 /obj/effect/decal/cardboard,
 /obj/machinery/light{
@@ -11456,16 +11461,6 @@
 /obj/structure/trashcan,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/ghetto)
-"dco" = (
-/obj/structure/railing/metal{
-	dir = 1
-	},
-/obj/structure/lattice/catwalk{
-	color = "#454545"
-	},
-/obj/structure/railing/metal,
-/turf/open/floor/plating/rust,
-/area/vtm/interior/oilrig)
 "dct" = (
 /obj/effect/decal/shadow{
 	pixel_y = -32
@@ -18503,13 +18498,6 @@
 /obj/effect/landmark/npcwall,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/pacificheights/community)
-"fcD" = (
-/obj/structure/lattice/catwalk{
-	color = "#454545"
-	},
-/obj/structure/railing/metal,
-/turf/open/floor/plating/rust,
-/area/vtm/interior/oilrig)
 "fcN" = (
 /turf/open/floor/plating/roofwalk,
 /area/vtm/interior)
@@ -19894,28 +19882,49 @@
 "fuW" = (
 /obj/structure/rack,
 /obj/item/clothing/mask/gas/explorer{
-	name = "First Team gas mask"
+	name = "First Team gas mask";
+	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 90, "rad" = 90, "fire" = 80, "acid" = 90, "wound" = 35);
+	color = "#454545"
 	},
 /obj/item/clothing/mask/gas/explorer{
-	name = "First Team gas mask"
+	name = "First Team gas mask";
+	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 90, "rad" = 90, "fire" = 80, "acid" = 90, "wound" = 35);
+	color = "#454545"
 	},
 /obj/item/clothing/mask/gas/explorer{
-	name = "First Team gas mask"
+	name = "First Team gas mask";
+	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 90, "rad" = 90, "fire" = 80, "acid" = 90, "wound" = 35);
+	color = "#454545"
 	},
 /obj/item/clothing/mask/gas/explorer{
-	name = "First Team gas mask"
+	name = "First Team gas mask";
+	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 90, "rad" = 90, "fire" = 80, "acid" = 90, "wound" = 35);
+	color = "#454545"
 	},
 /obj/item/clothing/mask/gas/explorer{
-	name = "First Team gas mask"
+	name = "First Team gas mask";
+	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 90, "rad" = 90, "fire" = 80, "acid" = 90, "wound" = 35);
+	color = "#454545"
 	},
 /obj/item/clothing/mask/gas/explorer{
-	name = "First Team gas mask"
+	name = "First Team gas mask";
+	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 90, "rad" = 90, "fire" = 80, "acid" = 90, "wound" = 35);
+	color = "#454545"
 	},
 /obj/item/clothing/mask/gas/explorer{
-	name = "First Team gas mask"
+	name = "First Team gas mask";
+	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 90, "rad" = 90, "fire" = 80, "acid" = 90, "wound" = 35);
+	color = "#454545"
 	},
 /obj/item/clothing/mask/gas/explorer{
-	name = "First Team gas mask"
+	name = "First Team gas mask";
+	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 90, "rad" = 90, "fire" = 80, "acid" = 90, "wound" = 35);
+	color = "#454545"
+	},
+/obj/item/clothing/mask/gas/explorer{
+	name = "First Team gas mask";
+	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 90, "rad" = 90, "fire" = 80, "acid" = 90, "wound" = 35);
+	color = "#454545"
 	},
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/oilrig)
@@ -24627,6 +24636,15 @@
 	},
 /turf/open/floor/plating/toilet,
 /area/vtm/interior/strip/toreador)
+"gGA" = (
+/obj/structure/railing/metal{
+	dir = 1
+	},
+/obj/structure/railing/metal,
+/turf/open/floor/plasteel/stairs/right{
+	dir = 4
+	},
+/area/vtm/interior/oilrig)
 "gGC" = (
 /obj/machinery/mineral/equipment_vendor/fastfood/coffeevendor,
 /turf/open/floor/plating/parquetry,
@@ -25830,6 +25848,12 @@
 /obj/item/kirbyplants/random,
 /turf/open/floor/carpet,
 /area/vtm/interior/shop)
+"gXi" = (
+/obj/structure/railing/metal,
+/turf/open/floor/plasteel/stairs/right{
+	dir = 4
+	},
+/area/vtm/interior/oilrig)
 "gXq" = (
 /obj/structure/lamppost/one{
 	dir = 4
@@ -27686,13 +27710,6 @@
 	},
 /turf/open/floor/plating/bacotell,
 /area/vtm/clinic/haven)
-"hzW" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing/metal{
-	dir = 4
-	},
-/turf/open/floor/plating/rust,
-/area/vtm/interior/oilrig)
 "hAa" = (
 /obj/structure/flora/ausbushes,
 /turf/open/floor/plating/vampgrass,
@@ -29035,13 +29052,6 @@
 "hSH" = (
 /turf/closed/wall/vampwall/market/low/window/reinforced,
 /area/vtm/interior/police)
-"hSL" = (
-/obj/structure/railing/metal,
-/obj/structure/lattice/catwalk{
-	color = "#454545"
-	},
-/turf/open/floor/plating/rust,
-/area/vtm/interior/oilrig)
 "hSN" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 5
@@ -30692,15 +30702,6 @@
 	},
 /turf/open/floor/carpet/lone,
 /area/vtm/interior/chantry)
-"irC" = (
-/obj/structure/railing/metal{
-	dir = 1
-	},
-/obj/structure/railing/metal,
-/turf/open/floor/plasteel/stairs/right{
-	dir = 4
-	},
-/area/vtm/interior/oilrig)
 "irD" = (
 /obj/structure/table/wood/fancy/red,
 /obj/vampire_computer,
@@ -35615,6 +35616,13 @@
 	},
 /turf/open/floor/carpet/red,
 /area/vtm/clinic/haven)
+"jLo" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/metal{
+	dir = 4
+	},
+/turf/open/floor/plating/rust,
+/area/vtm/interior/oilrig)
 "jLq" = (
 /obj/structure/fluff/hedge,
 /obj/structure/flora/ausbushes/lavendergrass{
@@ -35945,6 +35953,13 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm)
+"jPR" = (
+/obj/structure/table,
+/obj/item/police_radio,
+/obj/item/police_radio,
+/obj/item/police_radio,
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/oilrig)
 "jPU" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/plating/parquetry/old,
@@ -38668,12 +38683,6 @@
 	},
 /turf/open/water,
 /area/vtm/interior/millennium_tower)
-"kDk" = (
-/obj/structure/railing/metal,
-/turf/open/floor/plasteel/stairs/right{
-	dir = 4
-	},
-/area/vtm/interior/oilrig)
 "kDn" = (
 /obj/effect/turf_decal/siding/brown{
 	dir = 5
@@ -45034,15 +45043,30 @@
 /area/vtm/sewer/nosferatu_town)
 "mso" = (
 /obj/structure/rack,
-/obj/item/storage/backpack,
-/obj/item/storage/backpack,
-/obj/item/storage/backpack,
-/obj/item/storage/backpack,
-/obj/item/storage/backpack,
-/obj/item/storage/backpack,
-/obj/item/storage/backpack,
-/obj/item/storage/backpack,
-/obj/item/storage/backpack,
+/obj/item/storage/backpack{
+	color = "#454545"
+	},
+/obj/item/storage/backpack{
+	color = "#454545"
+	},
+/obj/item/storage/backpack{
+	color = "#454545"
+	},
+/obj/item/storage/backpack{
+	color = "#454545"
+	},
+/obj/item/storage/backpack{
+	color = "#454545"
+	},
+/obj/item/storage/backpack{
+	color = "#454545"
+	},
+/obj/item/storage/backpack{
+	color = "#454545"
+	},
+/obj/item/storage/backpack{
+	color = "#454545"
+	},
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/oilrig)
 "msq" = (
@@ -54859,6 +54883,10 @@
 /obj/effect/decal/painting/second,
 /turf/closed/wall/vampwall/rich,
 /area/vtm/interior/millennium_tower/ventrue)
+"oVW" = (
+/obj/structure/lattice/catwalk,
+/turf/closed/wall/vampwall/metal,
+/area/vtm/interior/oilrig)
 "oWd" = (
 /obj/structure/closet/cardboard,
 /turf/open/floor/plating/sidewalk/rich,
@@ -67046,6 +67074,16 @@
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/financialdistrict)
+"sdZ" = (
+/obj/structure/lattice/catwalk{
+	color = "#454545"
+	},
+/obj/structure/railing/metal{
+	dir = 1
+	},
+/obj/structure/railing/metal,
+/turf/open/floor/plating/rust,
+/area/vtm/interior/oilrig)
 "sej" = (
 /obj/structure/fluff/hedge{
 	pixel_y = 6
@@ -69845,10 +69883,6 @@
 /obj/structure/stairs/east,
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/bianchiBank)
-"sUR" = (
-/obj/structure/lattice/catwalk,
-/turf/closed/wall/vampwall/metal,
-/area/vtm/interior/oilrig)
 "sUY" = (
 /obj/structure/sign/poster/random,
 /turf/closed/wall/vampwall/rich/old,
@@ -69966,13 +70000,41 @@
 /area/vtm/interior/bianchiBank)
 "sWR" = (
 /obj/structure/rack,
-/obj/item/clothing/suit/vampire/vest/army,
-/obj/item/clothing/suit/vampire/vest/army,
-/obj/item/clothing/suit/vampire/vest/army,
-/obj/item/clothing/suit/vampire/vest/army,
-/obj/item/clothing/suit/vampire/vest/army,
-/obj/item/clothing/suit/vampire/vest/army,
-/obj/item/clothing/suit/vampire/vest/army,
+/obj/item/clothing/suit/vampire/vest/army{
+	name = "first team vest";
+	color = "#06402B";
+	armor = list("melee" = 80, "bullet" = 80, "laser" = 60, "energy" = 60, "bomb" = 55, "bio" = 90, "rad" = 90, "fire" = 45, "acid" = 50, "wound" = 35)
+	},
+/obj/item/clothing/suit/vampire/vest/army{
+	name = "first team vest";
+	color = "#06402B";
+	armor = list("melee" = 80, "bullet" = 80, "laser" = 60, "energy" = 60, "bomb" = 55, "bio" = 90, "rad" = 90, "fire" = 45, "acid" = 50, "wound" = 35)
+	},
+/obj/item/clothing/suit/vampire/vest/army{
+	name = "first team vest";
+	color = "#06402B";
+	armor = list("melee" = 80, "bullet" = 80, "laser" = 60, "energy" = 60, "bomb" = 55, "bio" = 90, "rad" = 90, "fire" = 45, "acid" = 50, "wound" = 35)
+	},
+/obj/item/clothing/suit/vampire/vest/army{
+	name = "first team vest";
+	color = "#06402B";
+	armor = list("melee" = 80, "bullet" = 80, "laser" = 60, "energy" = 60, "bomb" = 55, "bio" = 90, "rad" = 90, "fire" = 45, "acid" = 50, "wound" = 35)
+	},
+/obj/item/clothing/suit/vampire/vest/army{
+	name = "first team vest";
+	color = "#06402B";
+	armor = list("melee" = 80, "bullet" = 80, "laser" = 60, "energy" = 60, "bomb" = 55, "bio" = 90, "rad" = 90, "fire" = 45, "acid" = 50, "wound" = 35)
+	},
+/obj/item/clothing/suit/vampire/vest/army{
+	name = "first team vest";
+	color = "#06402B";
+	armor = list("melee" = 80, "bullet" = 80, "laser" = 60, "energy" = 60, "bomb" = 55, "bio" = 90, "rad" = 90, "fire" = 45, "acid" = 50, "wound" = 35)
+	},
+/obj/item/clothing/suit/vampire/vest/army{
+	name = "first team vest";
+	color = "#06402B";
+	armor = list("melee" = 80, "bullet" = 80, "laser" = 60, "energy" = 60, "bomb" = 55, "bio" = 90, "rad" = 90, "fire" = 45, "acid" = 50, "wound" = 35)
+	},
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/oilrig)
 "sWZ" = (
@@ -71489,6 +71551,12 @@
 /turf/open/floor/carpet/green,
 /area/vtm/hotel)
 "tsq" = (
+/obj/structure/railing/metal{
+	dir = 8
+	},
+/obj/structure/railing/metal{
+	dir = 4
+	},
 /turf/open/floor/plasteel/stairs/right,
 /area/vtm/interior/oilrig)
 "tsB" = (
@@ -74347,6 +74415,13 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/pacificheights)
+"ujK" = (
+/obj/structure/railing/metal,
+/obj/structure/lattice/catwalk{
+	color = "#454545"
+	},
+/turf/open/floor/plating/rust,
+/area/vtm/interior/oilrig)
 "ujL" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/drinkingglass,
@@ -74461,11 +74536,6 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm)
-"ulz" = (
-/turf/open/floor/plating/vampocean{
-	color = "#90EE90"
-	},
-/area/vtm/interior/oilrig)
 "ulB" = (
 /obj/structure/table,
 /turf/open/floor/plating/vampplating,
@@ -76194,7 +76264,8 @@
 /obj/structure/rack,
 /obj/item/vampire_flamethrower,
 /obj/item/clothing/mask/gas/atmos{
-	name = "pyro gas mask"
+	name = "pyro gas mask";
+	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 10, "fire" = 95, "acid" = 90)
 	},
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/oilrig)
@@ -83838,22 +83909,36 @@
 "wQB" = (
 /obj/structure/rack,
 /obj/item/clothing/gloves/vampire/investigator{
-	name = "first team gloves"
+	name = "first team gloves";
+	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 70, "rad" = 70, "fire" = 70, "acid" = 70)
 	},
 /obj/item/clothing/gloves/vampire/investigator{
-	name = "first team gloves"
+	name = "first team gloves";
+	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 70, "rad" = 70, "fire" = 70, "acid" = 70)
 	},
 /obj/item/clothing/gloves/vampire/investigator{
-	name = "first team gloves"
+	name = "first team gloves";
+	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 70, "rad" = 70, "fire" = 70, "acid" = 70)
 	},
 /obj/item/clothing/gloves/vampire/investigator{
-	name = "first team gloves"
+	name = "first team gloves";
+	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 70, "rad" = 70, "fire" = 70, "acid" = 70)
 	},
 /obj/item/clothing/gloves/vampire/investigator{
-	name = "first team gloves"
+	name = "first team gloves";
+	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 70, "rad" = 70, "fire" = 70, "acid" = 70)
 	},
 /obj/item/clothing/gloves/vampire/investigator{
-	name = "first team gloves"
+	name = "first team gloves";
+	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 70, "rad" = 70, "fire" = 70, "acid" = 70)
+	},
+/obj/item/clothing/gloves/vampire/investigator{
+	name = "first team gloves";
+	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 70, "rad" = 70, "fire" = 70, "acid" = 70)
+	},
+/obj/item/clothing/gloves/vampire/investigator{
+	name = "first team gloves";
+	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 70, "rad" = 70, "fire" = 70, "acid" = 70)
 	},
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/oilrig)
@@ -450198,8 +450283,8 @@ wDy
 wDy
 wDy
 wDy
-ulz
-ulz
+bxT
+bxT
 wDy
 wDy
 wDy
@@ -450420,12 +450505,10 @@ wDy
 wDy
 wDy
 wDy
-ulz
-ulz
+bxT
+bxT
 wDy
-ulz
-wDy
-wDy
+bxT
 wDy
 wDy
 wDy
@@ -450439,12 +450522,14 @@ wDy
 wDy
 wDy
 wDy
-ulz
+wDy
+wDy
+bxT
 wDy
 wDy
 wDy
-ulz
-ulz
+bxT
+bxT
 wDy
 wDy
 wDy
@@ -450453,10 +450538,10 @@ wDy
 wDy
 wDy
 wDy
-ulz
-ulz
-ulz
-ulz
+bxT
+bxT
+bxT
+bxT
 wDy
 wDy
 wDy
@@ -450671,48 +450756,48 @@ wDy
 wDy
 wDy
 wDy
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
 wDy
 wDy
 wDy
@@ -450927,49 +451012,49 @@ wDy
 wDy
 wDy
 wDy
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
 wDy
 wDy
 wDy
@@ -451183,8 +451268,8 @@ wDy
 wDy
 wDy
 wDy
-ulz
-ulz
+bxT
+bxT
 tIM
 tIM
 mDK
@@ -451208,8 +451293,8 @@ tIM
 tIM
 tIM
 tIM
-ulz
-ulz
+bxT
+bxT
 tIM
 tIM
 tIM
@@ -451224,7 +451309,7 @@ tIM
 tIM
 tIM
 tIM
-ulz
+bxT
 wDy
 wDy
 wDy
@@ -451439,9 +451524,9 @@ wDy
 wDy
 wDy
 wDy
-ulz
-ulz
-ulz
+bxT
+bxT
+bxT
 tIM
 tIM
 rvn
@@ -451481,8 +451566,8 @@ tIM
 mDK
 tIM
 tIM
-ulz
-ulz
+bxT
+bxT
 wDy
 wDy
 wDy
@@ -451697,8 +451782,8 @@ wDy
 wDy
 wDy
 wDy
-ulz
-ulz
+bxT
+bxT
 tIM
 tIM
 uba
@@ -451738,8 +451823,8 @@ aJj
 oau
 tIM
 tIM
-ulz
-ulz
+bxT
+bxT
 wDy
 wDy
 wDy
@@ -451955,8 +452040,8 @@ wDy
 wDy
 wDy
 wDy
-ulz
-ulz
+bxT
+bxT
 tIM
 gNu
 bHU
@@ -451995,9 +452080,9 @@ bHU
 bUW
 tIM
 tIM
-ulz
-ulz
-ulz
+bxT
+bxT
+bxT
 wDy
 wDy
 wDy
@@ -452213,10 +452298,10 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 jOx
-sUR
+oVW
 bHU
 mdA
 mdA
@@ -452252,10 +452337,10 @@ bHU
 eAV
 tIM
 tIM
-ulz
-ulz
-ulz
-ulz
+bxT
+bxT
+bxT
+bxT
 wDy
 wDy
 wDy
@@ -452470,11 +452555,11 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
-irC
+gGA
 mdA
 uvm
 uvm
@@ -452504,14 +452589,14 @@ uvm
 uvm
 uvm
 eBC
-hzW
-hzW
+jLo
+jLo
 uvm
 tIM
 tIM
-ulz
-ulz
-ulz
+bxT
+bxT
+bxT
 wDy
 wDy
 wDy
@@ -452727,11 +452812,11 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
-cRs
+sdZ
 mdA
 uvm
 iZi
@@ -452760,14 +452845,14 @@ wRO
 gTS
 oWt
 uvm
-hSL
+ujK
 tIM
 tIM
 bhY
 tIM
 tIM
-ulz
-ulz
+bxT
+bxT
 wDy
 wDy
 wDy
@@ -452983,12 +453068,12 @@ wDy
 wDy
 wDy
 wDy
-ulz
-ulz
+bxT
+bxT
 tIM
 tIM
 tIM
-cRs
+sdZ
 mdA
 tXq
 xPP
@@ -453017,14 +453102,14 @@ xPP
 wuf
 oWt
 uvm
-fcD
+aPL
 tIM
 tIM
 tIM
 tIM
 tIM
-ulz
-ulz
+bxT
+bxT
 wDy
 wDy
 wDy
@@ -453240,12 +453325,12 @@ wDy
 wDy
 wDy
 wDy
-ulz
-ulz
+bxT
+bxT
 tIM
 tIM
 tIM
-cRs
+sdZ
 mdA
 tXq
 xPP
@@ -453274,13 +453359,13 @@ xPP
 wuf
 oWt
 uvm
-fcD
+aPL
 tIM
 tIM
 tIM
 tIM
 tIM
-ulz
+bxT
 wDy
 wDy
 wDy
@@ -453497,12 +453582,12 @@ wDy
 wDy
 wDy
 wDy
-ulz
-ulz
+bxT
+bxT
 tIM
 tIM
 tIM
-cRs
+sdZ
 mdA
 tXq
 xPP
@@ -453531,13 +453616,13 @@ xPP
 xPP
 wRO
 tXq
-fcD
+aPL
 tIM
 tIM
 tIM
 tIM
 tIM
-ulz
+bxT
 wDy
 wDy
 wDy
@@ -453755,11 +453840,11 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
-cRs
+sdZ
 mdA
 uvm
 iZi
@@ -453788,13 +453873,13 @@ xPP
 wmU
 oWt
 uvm
-fcD
+aPL
 tIM
 tIM
 tIM
 tIM
 tIM
-ulz
+bxT
 wDy
 wDy
 wDy
@@ -454012,11 +454097,11 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
-cRs
+sdZ
 mdA
 uvm
 uvm
@@ -454045,15 +454130,15 @@ xPP
 wuf
 qkB
 uvm
-fcD
+aPL
 tIM
 tIM
 tIM
-ulz
-ulz
-ulz
-ulz
-ulz
+bxT
+bxT
+bxT
+bxT
+bxT
 wDy
 wDy
 wDy
@@ -454269,11 +454354,11 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
-cRs
+sdZ
 nLI
 ehW
 bHU
@@ -454302,14 +454387,14 @@ xPP
 xPP
 wRO
 tXq
-fcD
+aPL
 tIM
 tIM
 tIM
-ulz
-ulz
-ulz
-ulz
+bxT
+bxT
+bxT
+bxT
 wDy
 wDy
 wDy
@@ -454526,11 +454611,11 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
-cRs
+sdZ
 mdA
 uvm
 uvm
@@ -454559,13 +454644,13 @@ xPP
 xPP
 wRO
 tXq
-fcD
+aPL
 tIM
 tIM
 tIM
 tIM
 tIM
-ulz
+bxT
 wDy
 wDy
 wDy
@@ -454783,15 +454868,15 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
-cRs
+sdZ
 mdA
 uvm
 wQB
-bxT
+xPP
 kHH
 lmf
 cYm
@@ -454816,13 +454901,13 @@ xPP
 wmU
 qkB
 uvm
-fcD
+aPL
 tIM
 tIM
 tIM
 tIM
 tIM
-ulz
+bxT
 wDy
 wDy
 wDy
@@ -455040,11 +455125,11 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
-cRs
+sdZ
 mdA
 gdr
 fuW
@@ -455073,13 +455158,13 @@ xPP
 wuf
 oWt
 uvm
-fcD
+aPL
 tIM
 tIM
 tIM
 tIM
 tIM
-ulz
+bxT
 wDy
 wDy
 wDy
@@ -455297,11 +455382,11 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
-cRs
+sdZ
 mdA
 uvm
 jxv
@@ -455315,7 +455400,7 @@ ayc
 mdA
 tXq
 wuf
-ste
+jPR
 dgH
 rqI
 xPP
@@ -455330,19 +455415,19 @@ xPP
 xPP
 wRO
 tXq
-fcD
+aPL
 tIM
 tIM
 tIM
 tIM
 tIM
-ulz
+bxT
 wDy
-ulz
-ulz
+bxT
+bxT
 wDy
 wDy
-ulz
+bxT
 wDy
 wDy
 wDy
@@ -455553,12 +455638,12 @@ wDy
 wDy
 wDy
 wDy
-ulz
-ulz
+bxT
+bxT
 tIM
 tIM
 tIM
-cRs
+sdZ
 mdA
 uvm
 lDZ
@@ -455587,19 +455672,19 @@ xPP
 wuf
 oWt
 uvm
-fcD
+aPL
 tIM
 tIM
 tIM
 tIM
 tIM
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
 wDy
 wDy
 wDy
@@ -455811,11 +455896,11 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
-cRs
+sdZ
 mdA
 uvm
 uoY
@@ -455844,7 +455929,7 @@ xPP
 wuf
 oWt
 uvm
-fcD
+aPL
 tIM
 tIM
 tIM
@@ -455856,10 +455941,10 @@ tIM
 tIM
 tIM
 tIM
-ulz
+bxT
 wDy
-ulz
-ulz
+bxT
+bxT
 wDy
 wDy
 wDy
@@ -456068,11 +456153,11 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
-cRs
+sdZ
 mdA
 uvm
 uvm
@@ -456101,7 +456186,7 @@ wRO
 wgx
 oWt
 uvm
-fcD
+aPL
 tIM
 tIM
 tIM
@@ -456113,9 +456198,9 @@ tIM
 tIM
 tIM
 tIM
-ulz
-ulz
-ulz
+bxT
+bxT
+bxT
 wDy
 wDy
 wDy
@@ -456325,11 +456410,11 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
-cRs
+sdZ
 mdA
 uvm
 iPD
@@ -456358,7 +456443,7 @@ tXq
 uvm
 uvm
 uvm
-kDk
+gXi
 tIM
 tIM
 tIM
@@ -456372,7 +456457,7 @@ tIM
 tIM
 tIM
 tIM
-ulz
+bxT
 wDy
 wDy
 wDy
@@ -456582,11 +456667,11 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
-cRs
+sdZ
 mdA
 uvm
 qYx
@@ -456629,8 +456714,8 @@ lOc
 tIM
 tIM
 tIM
-ulz
-ulz
+bxT
+bxT
 wDy
 wDy
 wDy
@@ -456839,11 +456924,11 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
-cRs
+sdZ
 mdA
 uvm
 mml
@@ -456886,8 +456971,8 @@ tIM
 tIM
 tIM
 tIM
-ulz
-ulz
+bxT
+bxT
 wDy
 wDy
 wDy
@@ -457096,11 +457181,11 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
-cRs
+sdZ
 mdA
 uvm
 uJi
@@ -457143,9 +457228,9 @@ tIM
 tIM
 tIM
 tIM
-ulz
-ulz
-ulz
+bxT
+bxT
+bxT
 wDy
 wDy
 wDy
@@ -457353,11 +457438,11 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
-cRs
+sdZ
 mdA
 uvm
 mVT
@@ -457400,9 +457485,9 @@ tIM
 tIM
 tIM
 tIM
-ulz
-ulz
-ulz
+bxT
+bxT
+bxT
 wDy
 wDy
 wDy
@@ -457610,11 +457695,11 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
-cRs
+sdZ
 mdA
 uvm
 uvm
@@ -457657,7 +457742,7 @@ tIM
 tIM
 tIM
 tIM
-ulz
+bxT
 wDy
 wDy
 wDy
@@ -457867,11 +457952,11 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
-dco
+cxO
 mdA
 mdA
 mdA
@@ -457914,7 +457999,7 @@ tIM
 tIM
 tIM
 tIM
-ulz
+bxT
 wDy
 wDy
 wDy
@@ -458124,11 +458209,11 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
-irC
+gGA
 cFr
 hqj
 cFr
@@ -458171,7 +458256,7 @@ tIM
 tIM
 tIM
 tIM
-ulz
+bxT
 wDy
 wDy
 wDy
@@ -458381,7 +458466,7 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
@@ -458428,8 +458513,8 @@ tIM
 tIM
 tIM
 tIM
-ulz
-ulz
+bxT
+bxT
 wDy
 wDy
 wDy
@@ -458638,7 +458723,7 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
@@ -458685,7 +458770,7 @@ tIM
 tIM
 tIM
 tIM
-ulz
+bxT
 wDy
 wDy
 wDy
@@ -458895,7 +458980,7 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
@@ -458942,7 +459027,7 @@ tIM
 tIM
 tIM
 tIM
-ulz
+bxT
 wDy
 wDy
 wDy
@@ -459152,7 +459237,7 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
@@ -459199,7 +459284,7 @@ tIM
 tIM
 tIM
 tIM
-ulz
+bxT
 wDy
 wDy
 wDy
@@ -459409,7 +459494,7 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
@@ -459456,7 +459541,7 @@ tIM
 tIM
 tIM
 tIM
-ulz
+bxT
 wDy
 wDy
 wDy
@@ -459666,7 +459751,7 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
@@ -459713,7 +459798,7 @@ tIM
 tIM
 tIM
 tIM
-ulz
+bxT
 wDy
 wDy
 wDy
@@ -459923,7 +460008,7 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
@@ -459970,7 +460055,7 @@ tIM
 tIM
 tIM
 tIM
-ulz
+bxT
 wDy
 wDy
 wDy
@@ -460180,8 +460265,8 @@ wDy
 wDy
 wDy
 wDy
-ulz
-ulz
+bxT
+bxT
 tIM
 tIM
 tIM
@@ -460227,7 +460312,7 @@ tIM
 tIM
 tIM
 tIM
-ulz
+bxT
 wDy
 wDy
 wDy
@@ -460437,7 +460522,7 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
@@ -460484,7 +460569,7 @@ tIM
 tIM
 tIM
 tIM
-ulz
+bxT
 wDy
 wDy
 wDy
@@ -460694,7 +460779,7 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
@@ -460741,7 +460826,7 @@ tIM
 mDK
 tIM
 tIM
-ulz
+bxT
 wDy
 wDy
 wDy
@@ -460951,7 +461036,7 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
@@ -460998,10 +461083,10 @@ aJj
 oMK
 tIM
 tIM
-ulz
-ulz
-ulz
-ulz
+bxT
+bxT
+bxT
+bxT
 wDy
 wDy
 wDy
@@ -461208,7 +461293,7 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
@@ -461255,9 +461340,9 @@ bHU
 eAV
 tIM
 tIM
-ulz
-ulz
-ulz
+bxT
+bxT
+bxT
 wDy
 wDy
 wDy
@@ -461465,7 +461550,7 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
@@ -461512,7 +461597,7 @@ bHU
 twA
 tIM
 tIM
-ulz
+bxT
 wDy
 wDy
 wDy
@@ -461722,7 +461807,7 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 tIM
 tIM
 tIM
@@ -461731,7 +461816,7 @@ tIM
 tIM
 tIM
 tIM
-ulz
+bxT
 tIM
 tIM
 tIM
@@ -461768,8 +461853,8 @@ hsf
 oiD
 qES
 tIM
-ulz
-ulz
+bxT
+bxT
 wDy
 wDy
 wDy
@@ -461978,9 +462063,9 @@ wDy
 wDy
 wDy
 wDy
-ulz
-ulz
-ulz
+bxT
+bxT
+bxT
 tIM
 tIM
 tIM
@@ -461988,15 +462073,8 @@ tIM
 tIM
 tIM
 tIM
-ulz
-ulz
-tIM
-tIM
-tIM
-tIM
-tIM
-tIM
-tIM
+bxT
+bxT
 tIM
 tIM
 tIM
@@ -462020,12 +462098,19 @@ tIM
 tIM
 tIM
 tIM
-bhY
+tIM
+tIM
+tIM
+tIM
+tIM
 tIM
 tIM
 bhY
 tIM
-ulz
+tIM
+bhY
+tIM
+bxT
 wDy
 wDy
 wDy
@@ -462234,56 +462319,56 @@ wDy
 wDy
 wDy
 wDy
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
-ulz
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
+bxT
 wDy
 wDy
 wDy
@@ -462504,8 +462589,8 @@ wDy
 wDy
 wDy
 wDy
-ulz
-ulz
+bxT
+bxT
 wDy
 wDy
 wDy
@@ -462522,9 +462607,9 @@ wDy
 wDy
 wDy
 wDy
-ulz
-ulz
-ulz
+bxT
+bxT
+bxT
 wDy
 wDy
 wDy
@@ -462538,9 +462623,9 @@ wDy
 wDy
 wDy
 wDy
-ulz
-ulz
-ulz
+bxT
+bxT
+bxT
 wDy
 wDy
 wDy
@@ -462761,7 +462846,7 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 wDy
 wDy
 wDy
@@ -462780,7 +462865,7 @@ wDy
 wDy
 wDy
 wDy
-ulz
+bxT
 wDy
 wDy
 wDy
