@@ -3067,13 +3067,6 @@
 /obj/structure/table,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/millennium_tower/f2)
-"aPL" = (
-/obj/structure/lattice/catwalk{
-	color = "#454545"
-	},
-/obj/structure/railing/metal,
-/turf/open/floor/plating/rust,
-/area/vtm/interior/oilrig)
 "aPP" = (
 /obj/fusebox,
 /obj/structure/closet/secure_closet/freezer/meat/open,
@@ -6156,6 +6149,13 @@
 /obj/item/clothing/mask/cigarette/rollie,
 /turf/open/floor/plating/vampwood,
 /area/vtm/interior)
+"bGD" = (
+/obj/structure/table,
+/obj/item/police_radio,
+/obj/item/police_radio,
+/obj/item/police_radio,
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/oilrig)
 "bGN" = (
 /obj/structure/table/wood,
 /turf/open/floor/carpet,
@@ -9281,16 +9281,6 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/anarch/basement)
-"cxO" = (
-/obj/structure/railing/metal{
-	dir = 1
-	},
-/obj/structure/lattice/catwalk{
-	color = "#454545"
-	},
-/obj/structure/railing/metal,
-/turf/open/floor/plating/rust,
-/area/vtm/interior/oilrig)
 "cxS" = (
 /turf/open/indestructible/necropolis/air,
 /area/vtm/interior/endron_facility)
@@ -13137,6 +13127,13 @@
 /obj/vampire_computer,
 /turf/open/floor/carpet,
 /area/vtm/interior/giovanni)
+"dzc" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/metal{
+	dir = 4
+	},
+/turf/open/floor/plating/rust,
+/area/vtm/interior/oilrig)
 "dzd" = (
 /obj/structure/toilet{
 	dir = 4;
@@ -24636,15 +24633,6 @@
 	},
 /turf/open/floor/plating/toilet,
 /area/vtm/interior/strip/toreador)
-"gGA" = (
-/obj/structure/railing/metal{
-	dir = 1
-	},
-/obj/structure/railing/metal,
-/turf/open/floor/plasteel/stairs/right{
-	dir = 4
-	},
-/area/vtm/interior/oilrig)
 "gGC" = (
 /obj/machinery/mineral/equipment_vendor/fastfood/coffeevendor,
 /turf/open/floor/plating/parquetry,
@@ -25848,12 +25836,6 @@
 /obj/item/kirbyplants/random,
 /turf/open/floor/carpet,
 /area/vtm/interior/shop)
-"gXi" = (
-/obj/structure/railing/metal,
-/turf/open/floor/plasteel/stairs/right{
-	dir = 4
-	},
-/area/vtm/interior/oilrig)
 "gXq" = (
 /obj/structure/lamppost/one{
 	dir = 4
@@ -35616,13 +35598,6 @@
 	},
 /turf/open/floor/carpet/red,
 /area/vtm/clinic/haven)
-"jLo" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing/metal{
-	dir = 4
-	},
-/turf/open/floor/plating/rust,
-/area/vtm/interior/oilrig)
 "jLq" = (
 /obj/structure/fluff/hedge,
 /obj/structure/flora/ausbushes/lavendergrass{
@@ -35953,13 +35928,6 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm)
-"jPR" = (
-/obj/structure/table,
-/obj/item/police_radio,
-/obj/item/police_radio,
-/obj/item/police_radio,
-/turf/open/floor/plating/vampplating,
-/area/vtm/interior/oilrig)
 "jPU" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/plating/parquetry/old,
@@ -54883,10 +54851,6 @@
 /obj/effect/decal/painting/second,
 /turf/closed/wall/vampwall/rich,
 /area/vtm/interior/millennium_tower/ventrue)
-"oVW" = (
-/obj/structure/lattice/catwalk,
-/turf/closed/wall/vampwall/metal,
-/area/vtm/interior/oilrig)
 "oWd" = (
 /obj/structure/closet/cardboard,
 /turf/open/floor/plating/sidewalk/rich,
@@ -67074,16 +67038,6 @@
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/financialdistrict)
-"sdZ" = (
-/obj/structure/lattice/catwalk{
-	color = "#454545"
-	},
-/obj/structure/railing/metal{
-	dir = 1
-	},
-/obj/structure/railing/metal,
-/turf/open/floor/plating/rust,
-/area/vtm/interior/oilrig)
 "sej" = (
 /obj/structure/fluff/hedge{
 	pixel_y = 6
@@ -69038,6 +68992,16 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior)
+"sGt" = (
+/obj/structure/railing/metal{
+	dir = 1
+	},
+/obj/structure/lattice/catwalk{
+	color = "#454545"
+	},
+/obj/structure/railing/metal,
+/turf/open/floor/plating/rust,
+/area/vtm/interior/oilrig)
 "sGC" = (
 /obj/effect/decal/trash,
 /turf/open/floor/plating/vampwood,
@@ -74415,13 +74379,6 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/pacificheights)
-"ujK" = (
-/obj/structure/railing/metal,
-/obj/structure/lattice/catwalk{
-	color = "#454545"
-	},
-/turf/open/floor/plating/rust,
-/area/vtm/interior/oilrig)
 "ujL" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/drinkingglass,
@@ -78194,6 +78151,13 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/graveyard/interior)
+"vlB" = (
+/obj/structure/lattice/catwalk{
+	color = "#454545"
+	},
+/obj/structure/railing/metal,
+/turf/open/floor/plating/rust,
+/area/vtm/interior/oilrig)
 "vlC" = (
 /obj/structure/closet/secure_closet/weapons{
 	pixel_y = 10
@@ -80527,6 +80491,13 @@
 /obj/effect/landmark/npcability,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/ghetto)
+"vTm" = (
+/obj/structure/railing/metal,
+/obj/structure/lattice/catwalk{
+	color = "#454545"
+	},
+/turf/open/floor/plating/rust,
+/area/vtm/interior/oilrig)
 "vTo" = (
 /obj/structure/table/wood,
 /obj/item/clothing/gloves/vampire/latex,
@@ -83027,6 +82998,22 @@
 "wDy" = (
 /turf/open/floor/plating/vampocean,
 /area/vtm/interior/oilrig)
+"wDD" = (
+/obj/structure/railing/metal,
+/turf/open/floor/plasteel/stairs/right{
+	dir = 4
+	},
+/area/vtm/interior/oilrig)
+"wDE" = (
+/obj/structure/lattice/catwalk{
+	color = "#454545"
+	},
+/obj/structure/railing/metal{
+	dir = 1
+	},
+/obj/structure/railing/metal,
+/turf/open/floor/plating/rust,
+/area/vtm/interior/oilrig)
 "wDG" = (
 /turf/open/floor/plating/asphalt,
 /area/vtm/church)
@@ -85364,6 +85351,10 @@
 	},
 /turf/open/floor/carpet,
 /area/vtm/hotel)
+"xlm" = (
+/obj/structure/lattice/catwalk,
+/turf/closed/wall/vampwall/metal,
+/area/vtm/interior/oilrig)
 "xln" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/effect/turf_decal/weather/dirt{
@@ -87726,6 +87717,15 @@
 /obj/structure/lamppost/one,
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/financialdistrict)
+"xTf" = (
+/obj/structure/railing/metal{
+	dir = 1
+	},
+/obj/structure/railing/metal,
+/turf/open/floor/plasteel/stairs/right{
+	dir = 4
+	},
+/area/vtm/interior/oilrig)
 "xTh" = (
 /turf/open/floor/plating/rough,
 /area/vtm/supply)
@@ -452301,7 +452301,7 @@ wDy
 bxT
 tIM
 jOx
-oVW
+xlm
 bHU
 mdA
 mdA
@@ -452559,7 +452559,7 @@ bxT
 tIM
 tIM
 tIM
-gGA
+xTf
 mdA
 uvm
 uvm
@@ -452589,8 +452589,8 @@ uvm
 uvm
 uvm
 eBC
-jLo
-jLo
+dzc
+dzc
 uvm
 tIM
 tIM
@@ -452816,7 +452816,7 @@ bxT
 tIM
 tIM
 tIM
-sdZ
+wDE
 mdA
 uvm
 iZi
@@ -452845,7 +452845,7 @@ wRO
 gTS
 oWt
 uvm
-ujK
+vTm
 tIM
 tIM
 bhY
@@ -453073,7 +453073,7 @@ bxT
 tIM
 tIM
 tIM
-sdZ
+wDE
 mdA
 tXq
 xPP
@@ -453102,7 +453102,7 @@ xPP
 wuf
 oWt
 uvm
-aPL
+vlB
 tIM
 tIM
 tIM
@@ -453330,7 +453330,7 @@ bxT
 tIM
 tIM
 tIM
-sdZ
+wDE
 mdA
 tXq
 xPP
@@ -453359,7 +453359,7 @@ xPP
 wuf
 oWt
 uvm
-aPL
+vlB
 tIM
 tIM
 tIM
@@ -453587,7 +453587,7 @@ bxT
 tIM
 tIM
 tIM
-sdZ
+wDE
 mdA
 tXq
 xPP
@@ -453616,7 +453616,7 @@ xPP
 xPP
 wRO
 tXq
-aPL
+vlB
 tIM
 tIM
 tIM
@@ -453844,7 +453844,7 @@ bxT
 tIM
 tIM
 tIM
-sdZ
+wDE
 mdA
 uvm
 iZi
@@ -453873,7 +453873,7 @@ xPP
 wmU
 oWt
 uvm
-aPL
+vlB
 tIM
 tIM
 tIM
@@ -454101,7 +454101,7 @@ bxT
 tIM
 tIM
 tIM
-sdZ
+wDE
 mdA
 uvm
 uvm
@@ -454130,7 +454130,7 @@ xPP
 wuf
 qkB
 uvm
-aPL
+vlB
 tIM
 tIM
 tIM
@@ -454358,7 +454358,7 @@ bxT
 tIM
 tIM
 tIM
-sdZ
+wDE
 nLI
 ehW
 bHU
@@ -454387,7 +454387,7 @@ xPP
 xPP
 wRO
 tXq
-aPL
+vlB
 tIM
 tIM
 tIM
@@ -454615,7 +454615,7 @@ bxT
 tIM
 tIM
 tIM
-sdZ
+wDE
 mdA
 uvm
 uvm
@@ -454644,7 +454644,7 @@ xPP
 xPP
 wRO
 tXq
-aPL
+vlB
 tIM
 tIM
 tIM
@@ -454872,7 +454872,7 @@ bxT
 tIM
 tIM
 tIM
-sdZ
+wDE
 mdA
 uvm
 wQB
@@ -454901,7 +454901,7 @@ xPP
 wmU
 qkB
 uvm
-aPL
+vlB
 tIM
 tIM
 tIM
@@ -455129,7 +455129,7 @@ bxT
 tIM
 tIM
 tIM
-sdZ
+wDE
 mdA
 gdr
 fuW
@@ -455158,7 +455158,7 @@ xPP
 wuf
 oWt
 uvm
-aPL
+vlB
 tIM
 tIM
 tIM
@@ -455386,7 +455386,7 @@ bxT
 tIM
 tIM
 tIM
-sdZ
+wDE
 mdA
 uvm
 jxv
@@ -455400,7 +455400,7 @@ ayc
 mdA
 tXq
 wuf
-jPR
+bGD
 dgH
 rqI
 xPP
@@ -455415,7 +455415,7 @@ xPP
 xPP
 wRO
 tXq
-aPL
+vlB
 tIM
 tIM
 tIM
@@ -455643,7 +455643,7 @@ bxT
 tIM
 tIM
 tIM
-sdZ
+wDE
 mdA
 uvm
 lDZ
@@ -455672,7 +455672,7 @@ xPP
 wuf
 oWt
 uvm
-aPL
+vlB
 tIM
 tIM
 tIM
@@ -455900,7 +455900,7 @@ bxT
 tIM
 tIM
 tIM
-sdZ
+wDE
 mdA
 uvm
 uoY
@@ -455929,7 +455929,7 @@ xPP
 wuf
 oWt
 uvm
-aPL
+vlB
 tIM
 tIM
 tIM
@@ -456157,7 +456157,7 @@ bxT
 tIM
 tIM
 tIM
-sdZ
+wDE
 mdA
 uvm
 uvm
@@ -456186,7 +456186,7 @@ wRO
 wgx
 oWt
 uvm
-aPL
+vlB
 tIM
 tIM
 tIM
@@ -456414,7 +456414,7 @@ bxT
 tIM
 tIM
 tIM
-sdZ
+wDE
 mdA
 uvm
 iPD
@@ -456443,7 +456443,7 @@ tXq
 uvm
 uvm
 uvm
-gXi
+wDD
 tIM
 tIM
 tIM
@@ -456671,7 +456671,7 @@ bxT
 tIM
 tIM
 tIM
-sdZ
+wDE
 mdA
 uvm
 qYx
@@ -456928,7 +456928,7 @@ bxT
 tIM
 tIM
 tIM
-sdZ
+wDE
 mdA
 uvm
 mml
@@ -457185,7 +457185,7 @@ bxT
 tIM
 tIM
 tIM
-sdZ
+wDE
 mdA
 uvm
 uJi
@@ -457442,7 +457442,7 @@ bxT
 tIM
 tIM
 tIM
-sdZ
+wDE
 mdA
 uvm
 mVT
@@ -457699,7 +457699,7 @@ bxT
 tIM
 tIM
 tIM
-sdZ
+wDE
 mdA
 uvm
 uvm
@@ -457956,7 +457956,7 @@ bxT
 tIM
 tIM
 tIM
-cxO
+sGt
 mdA
 mdA
 mdA
@@ -458213,7 +458213,7 @@ bxT
 tIM
 tIM
 tIM
-gGA
+xTf
 cFr
 hqj
 cFr
@@ -460525,7 +460525,7 @@ wDy
 bxT
 tIM
 tIM
-tIM
+bxT
 tIM
 tIM
 tIM
@@ -460780,9 +460780,9 @@ wDy
 wDy
 wDy
 bxT
-tIM
-tIM
-tIM
+bxT
+bxT
+bxT
 tIM
 tIM
 tIM
@@ -461037,11 +461037,11 @@ wDy
 wDy
 wDy
 bxT
+bxT
+bxT
 tIM
 tIM
-tIM
-tIM
-tIM
+bxT
 tIM
 tIM
 tIM
@@ -461294,12 +461294,12 @@ wDy
 wDy
 wDy
 bxT
+bxT
+bxT
 tIM
 tIM
-tIM
-tIM
-tIM
-tIM
+bxT
+bxT
 tIM
 tIM
 tIM
@@ -461551,12 +461551,12 @@ wDy
 wDy
 wDy
 bxT
+bxT
 tIM
 tIM
-tIM
-tIM
-tIM
-tIM
+bxT
+bxT
+bxT
 tIM
 tIM
 tIM
@@ -461808,11 +461808,11 @@ wDy
 wDy
 wDy
 bxT
-tIM
-tIM
-tIM
-tIM
-tIM
+bxT
+bxT
+bxT
+bxT
+bxT
 tIM
 tIM
 tIM
@@ -462066,10 +462066,10 @@ wDy
 bxT
 bxT
 bxT
-tIM
-tIM
-tIM
-tIM
+bxT
+bxT
+bxT
+bxT
 tIM
 tIM
 tIM
