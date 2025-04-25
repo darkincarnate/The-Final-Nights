@@ -14745,6 +14745,9 @@
 /obj/effect/turf_decal/siding/thinplating{
 	dir = 1
 	},
+/obj/structure/railing/metal{
+	dir = 4
+	},
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/oilrig)
 "dYJ" = (
@@ -25262,11 +25265,9 @@
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/millennium_tower/f2)
 "gPr" = (
+/obj/effect/turf_decal/siding/thinplating,
 /obj/structure/railing/metal,
-/obj/structure/lattice/catwalk{
-	color = "#454545"
-	},
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/vampplating,
 /area/vtm/interior/oilrig)
 "gPu" = (
 /obj/effect/decal/bordur{
@@ -31814,10 +31815,10 @@
 /turf/open/floor/wood,
 /area/vtm/interior/penumbra/enoch)
 "iHB" = (
-/obj/structure/lattice/catwalk{
-	color = "#454545"
-	},
 /obj/structure/railing/metal,
+/obj/structure/lattice/catwalk{
+	color = "#595959"
+	},
 /turf/open/floor/plating/rust,
 /area/vtm/interior/oilrig)
 "iHJ" = (
@@ -35269,6 +35270,9 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/siding/thinplating,
+/obj/structure/railing/metal{
+	dir = 4
+	},
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/oilrig)
 "jEh" = (
@@ -74192,7 +74196,6 @@
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/oilrig)
 "ugo" = (
-/obj/structure/railing/metal,
 /obj/effect/turf_decal/siding/thinplating,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/oilrig)
@@ -86222,6 +86225,9 @@
 /area/vtm/clinic)
 "xyf" = (
 /obj/effect/turf_decal/siding/thinplating{
+	dir = 4
+	},
+/obj/structure/railing/metal{
 	dir = 4
 	},
 /turf/open/floor/plating/vampplating,
@@ -452885,7 +452891,7 @@ vPy
 aXW
 xPP
 ugo
-xPP
+fMg
 xPP
 uvm
 wRO
@@ -452895,7 +452901,7 @@ wRO
 gTS
 oWt
 uvm
-gPr
+iHB
 tIM
 tIM
 bhY
@@ -453141,8 +453147,8 @@ xPP
 vPy
 xPP
 xPP
-ugo
-xPP
+gPr
+fMg
 xPP
 uvm
 xPP
