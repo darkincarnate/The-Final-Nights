@@ -3694,7 +3694,7 @@
 /obj/machinery/light/warm{
 	dir = 8
 	},
-/turf/open/floor/plating/vampplating,
+/turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/oilrig)
 "aXX" = (
 /obj/effect/decal/bordur{
@@ -14748,7 +14748,7 @@
 /obj/structure/railing/metal{
 	dir = 4
 	},
-/turf/open/floor/plating/vampplating,
+/turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/oilrig)
 "dYJ" = (
 /obj/structure/window/reinforced/indestructable{
@@ -21822,6 +21822,9 @@
 	},
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/chinatown)
+"fUh" = (
+/turf/open/floor/plating/vampplating/mono,
+/area/vtm/interior/oilrig)
 "fUk" = (
 /obj/structure/table/wood,
 /obj/vampire_computer,
@@ -25267,7 +25270,7 @@
 "gPr" = (
 /obj/effect/turf_decal/siding/thinplating,
 /obj/structure/railing/metal,
-/turf/open/floor/plating/vampplating,
+/turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/oilrig)
 "gPu" = (
 /obj/effect/decal/bordur{
@@ -35273,7 +35276,7 @@
 /obj/structure/railing/metal{
 	dir = 4
 	},
-/turf/open/floor/plating/vampplating,
+/turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/oilrig)
 "jEh" = (
 /obj/structure/lamppost/one{
@@ -74197,7 +74200,7 @@
 /area/vtm/interior/oilrig)
 "ugo" = (
 /obj/effect/turf_decal/siding/thinplating,
-/turf/open/floor/plating/vampplating,
+/turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/oilrig)
 "ugp" = (
 /obj/effect/decal/trash,
@@ -80291,7 +80294,7 @@
 /obj/effect/turf_decal/siding/thinplating{
 	dir = 1
 	},
-/turf/open/floor/plating/vampplating,
+/turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/oilrig)
 "vPA" = (
 /obj/structure/closet/cardboard,
@@ -86230,7 +86233,7 @@
 /obj/structure/railing/metal{
 	dir = 4
 	},
-/turf/open/floor/plating/vampplating,
+/turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/oilrig)
 "xyh" = (
 /obj/effect/decal/wallpaper/light,
@@ -452889,7 +452892,7 @@ xPP
 xPP
 vPy
 aXW
-xPP
+fUh
 ugo
 fMg
 xPP
@@ -453145,8 +453148,8 @@ uvm
 xPP
 xPP
 vPy
-xPP
-xPP
+fUh
+fUh
 gPr
 fMg
 xPP
