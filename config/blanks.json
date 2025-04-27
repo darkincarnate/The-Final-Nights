@@ -896,5 +896,35 @@
               "<code>Division Director Approval Code: [___________________]</code>",
             "</center>"
 		]
+	},
+	{
+		"code": "END-ADV",
+		"category": "Endron",
+		"name": "Endron advertisement",
+		"info": [
+			"<center><font size=\"5\" color=\"green\"><b>WELCOME TO A CLEANER, STRONGER SAN FRANCISCO</b></font></center>",
+
+"<hr>",
+
+"<center><b>POWERING PROGRESS – THE ENDRON WAY</b></center>",
+
+"Endron International is proud to fuel San Francisco’s bright future. Through clean development and active local investment, we’re delivering real results for real citizens:",
+
+"<ul>",
+"<li><b>LOWER GAS PRICES:</b> Endron fuel stations across the Bay now offer some of the <font color=\"green\">lowest prices in the nation</font>. That’s energy you can afford.</li>",
+
+"<li><b>HEALTHY HIRING:</b> Our new Employee Health Integration Program ensures all new hires receive full biometric screening, orientation wellness, and support. Join the <i>Endron family</i>.</li>",
+
+"<li><b>CELEBRATING DIVERSITY:</b> Endron proudly recruits from all communities. Language, heritage, and background are strengths — not obstacles.</li>",
+
+"<li><b>SAFETY THROUGH PARTNERSHIP:</b> We work hand-in-hand with <i>San Francisco Police Department</i> and emergency services to ensure your streets — and our sites — remain safe, secure, and trusted.</li>",
+"</ul>",
+
+"<hr>",
+
+"<center><font color=\"green\"><b>ENERGY THAT WORKS. PEOPLE WHO CARE. A FUTURE THAT LASTS.</b></font></center>",
+
+"<center><font size=\"2\">For local opportunities or inquiries, please contact your regional Endron Civic Liaison or your district’s Forward Outreach Officer.</font></center>"
+		]
 	}
 ]
