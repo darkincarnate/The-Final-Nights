@@ -11439,6 +11439,10 @@
 /obj/item/trash/can,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/strip)
+"deo" = (
+/obj/structure/filingcabinet/chestdrawer,
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "der" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 4
@@ -11515,11 +11519,6 @@
 	},
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/giovanni/basement)
-"dfo" = (
-/obj/effect/turf_decal/siding/thinplating/dark,
-/obj/structure/vampdoor/wood/pentex/high_security,
-/turf/open/floor/plating/vampplating,
-/area/vtm/interior/endron_facility)
 "dfu" = (
 /obj/structure/fluff/hedge{
 	pixel_y = 6
@@ -17833,6 +17832,11 @@
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/millennium_tower/f4)
+"eWN" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/structure/vampdoor/wood/pentex/high_security,
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "eWX" = (
 /obj/effect/turf_decal/siding/white/corner,
 /turf/open/floor/plating/vampplating/stone,
@@ -18113,14 +18117,6 @@
 	},
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/glasswalker)
-"fbl" = (
-/obj/structure/table,
-/obj/machinery/button/curtain{
-	id = endroniaa;
-	pixel_y = 4
-	},
-/turf/open/floor/plating/granite,
-/area/vtm/interior/endron_facility)
 "fbo" = (
 /obj/structure/trashcan,
 /turf/open/floor/plating/sidewalk,
@@ -24551,6 +24547,10 @@
 	},
 /turf/open/floor/plating/parquetry/rich,
 /area/vtm/interior/tzimisce_manor)
+"gIG" = (
+/obj/structure/filingcabinet/employment,
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "gIJ" = (
 /turf/open/floor/plating/vampwood,
 /area/vtm/pacificheights/forest)
@@ -28062,16 +28062,6 @@
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/strip)
-"hIh" = (
-/obj/structure/filingcabinet/employment,
-/turf/open/floor/plating/vampplating,
-/area/vtm/interior/endron_facility)
-"hIj" = (
-/obj/structure/curtain/cloth/fancy/mechanical/luxurious{
-	id = endroniaa
-	},
-/turf/closed/wall/vampwall/rich/low/window,
-/area/vtm/interior/endron_facility)
 "hIs" = (
 /obj/structure/chair/comfy/black{
 	dir = 4
@@ -38466,9 +38456,6 @@
 /obj/structure/sink{
 	dir = 8;
 	pixel_x = 10
-	},
-/obj/structure/mirror{
-	pixel_x = 26
 	},
 /turf/open/floor/plating/toilet{
 	color = "#636363"
@@ -59743,8 +59730,12 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/baali)
 "qsW" = (
-/obj/structure/filingcabinet/chestdrawer,
-/turf/open/floor/plating/vampplating,
+/obj/structure/table,
+/obj/machinery/button/curtain{
+	id = endroniaa;
+	pixel_y = 4
+	},
+/turf/open/floor/plating/granite,
 /area/vtm/interior/endron_facility)
 "qtg" = (
 /obj/structure/chair/wood,
@@ -69163,9 +69154,6 @@
 	pixel_y = -2;
 	dir = 1
 	},
-/obj/structure/mirror{
-	pixel_y = -30
-	},
 /turf/open/floor/plating/toilet{
 	color = "#636363"
 	},
@@ -75698,6 +75686,12 @@
 /mob/living/carbon/human/npc/incel,
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/strip)
+"uIB" = (
+/obj/structure/curtain/cloth/fancy/mechanical/luxurious{
+	id = endroniaa
+	},
+/turf/closed/wall/vampwall/rich/low/window,
+/area/vtm/interior/endron_facility)
 "uII" = (
 /obj/structure/chair,
 /turf/open/floor/wood,
@@ -78657,9 +78651,6 @@
 	dir = 4;
 	pixel_x = -12;
 	pixel_y = 2
-	},
-/obj/structure/mirror{
-	pixel_x = -31
 	},
 /turf/open/floor/plating/toilet{
 	color = "#636363"
@@ -239836,7 +239827,7 @@ qdb
 dhk
 tSV
 qdb
-qsW
+deo
 oBr
 fAo
 ntq
@@ -240864,7 +240855,7 @@ qdb
 fKi
 qdb
 qdb
-qsW
+deo
 oBr
 fAo
 ntq
@@ -241892,7 +241883,7 @@ aPN
 fAo
 vtl
 uWB
-qsW
+deo
 tSa
 fAo
 ntq
@@ -242403,11 +242394,11 @@ qYb
 qCy
 qdb
 qdb
-dfo
+eWN
 qdb
 ljc
 qdb
-hIh
+gIG
 fAo
 ntq
 ntq
@@ -242660,7 +242651,7 @@ qYb
 qCy
 qdb
 qdb
-hIj
+uIB
 qdb
 qdb
 qdb
@@ -243177,8 +243168,8 @@ tXX
 fAo
 tSa
 efH
-fbl
 qsW
+deo
 fAo
 ntq
 ntq
