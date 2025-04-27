@@ -11439,6 +11439,16 @@
 /obj/item/trash/can,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/strip)
+"deo" = (
+/obj/structure/vampdoor/glass/pentex{
+	lockpick_difficulty = 6
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/structure/vampdoor/glass/pentex{
+	lockpick_difficulty = 6
+	},
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "der" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 4
@@ -18109,14 +18119,12 @@
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/glasswalker)
 "fbl" = (
-/obj/structure/vampdoor/glass/pentex{
-	lockpick_difficulty = 6
+/obj/structure/table,
+/obj/machinery/button/curtain{
+	id = endroniaa;
+	pixel_y = 4
 	},
-/obj/effect/turf_decal/siding/thinplating/dark,
-/obj/structure/vampdoor/glass/pentex{
-	lockpick_difficulty = 6
-	},
-/turf/open/floor/plating/vampplating,
+/turf/open/floor/plating/granite,
 /area/vtm/interior/endron_facility)
 "fbo" = (
 /obj/structure/trashcan,
@@ -24548,10 +24556,6 @@
 	},
 /turf/open/floor/plating/parquetry/rich,
 /area/vtm/interior/tzimisce_manor)
-"gIG" = (
-/obj/structure/filingcabinet/chestdrawer,
-/turf/open/floor/plating/vampplating,
-/area/vtm/interior/endron_facility)
 "gIJ" = (
 /turf/open/floor/plating/vampwood,
 /area/vtm/pacificheights/forest)
@@ -27454,8 +27458,7 @@
 /turf/open/water,
 /area/vtm/jazzclub)
 "hAn" = (
-/obj/effect/turf_decal/siding/thinplating/dark,
-/obj/structure/vampdoor/wood/pentex/high_security,
+/obj/structure/filingcabinet/employment,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "hAp" = (
@@ -55114,7 +55117,8 @@
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/laundromat)
 "pgr" = (
-/obj/structure/filingcabinet/employment,
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/structure/vampdoor/wood/pentex/high_security,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "pgt" = (
@@ -59739,6 +59743,12 @@
 /obj/structure/curtain/cloth,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/baali)
+"qsW" = (
+/obj/structure/curtain/cloth/fancy/mechanical/luxurious{
+	id = endroniaa
+	},
+/turf/closed/wall/vampwall/rich/low/window,
+/area/vtm/interior/endron_facility)
 "qtg" = (
 /obj/structure/chair/wood,
 /obj/machinery/light{
@@ -67098,10 +67108,8 @@
 /turf/open/floor/carpet/purple,
 /area/vtm/interior/millennium_tower/ventrue)
 "smD" = (
-/obj/structure/curtain/cloth/fancy/mechanical/luxurious{
-	id = endroniaa
-	},
-/turf/closed/wall/vampwall/rich/low/window,
+/obj/structure/filingcabinet/chestdrawer,
+/turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "smK" = (
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -81291,14 +81299,6 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/sewer)
-"wlt" = (
-/obj/structure/table,
-/obj/machinery/button/curtain{
-	id = endroniaa;
-	pixel_y = 4
-	},
-/turf/open/floor/plating/granite,
-/area/vtm/interior/endron_facility)
 "wlz" = (
 /obj/structure/filingcabinet/chestdrawer/wheeled,
 /turf/open/floor/plating/vampplating,
@@ -239827,7 +239827,7 @@ qdb
 dhk
 tSV
 qdb
-gIG
+smD
 oBr
 fAo
 ntq
@@ -240081,7 +240081,7 @@ fAo
 qdb
 qdb
 qdb
-fbl
+deo
 qdb
 eIv
 fAo
@@ -240855,7 +240855,7 @@ qdb
 fAo
 qdb
 qdb
-gIG
+smD
 oBr
 fAo
 ntq
@@ -241883,8 +241883,8 @@ aPN
 fAo
 vtl
 uWB
-gIG
-tSa
+smD
+oBr
 fAo
 ntq
 ntq
@@ -242394,11 +242394,11 @@ qYb
 qCy
 qdb
 qdb
-hAn
+pgr
 qdb
 ljc
 qdb
-pgr
+hAn
 fAo
 ntq
 ntq
@@ -242651,7 +242651,7 @@ qYb
 qCy
 qdb
 qdb
-smD
+qsW
 qdb
 qdb
 qdb
@@ -243168,8 +243168,8 @@ tXX
 fAo
 tSa
 efH
-wlt
-gIG
+fbl
+smD
 fAo
 ntq
 ntq
