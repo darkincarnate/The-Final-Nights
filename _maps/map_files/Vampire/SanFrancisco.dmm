@@ -11439,12 +11439,6 @@
 /obj/item/trash/can,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/strip)
-"deo" = (
-/obj/structure/curtain/cloth/fancy/mechanical/luxurious{
-	id = endroniaa
-	},
-/turf/closed/wall/vampwall/rich/low/window/reinforced,
-/area/vtm/interior/endron_facility)
 "der" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 4
@@ -11522,10 +11516,7 @@
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/giovanni/basement)
 "dfo" = (
-/obj/effect/turf_decal/siding/thinplating/dark,
-/obj/structure/vampdoor/glass/pentex{
-	lockpick_difficulty = 6
-	},
+/obj/structure/filingcabinet,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "dfu" = (
@@ -15077,7 +15068,12 @@
 "efH" = (
 /obj/structure/table,
 /obj/vampire_computer{
-	owner = "Clerk"
+	owner = "Clerk";
+	pixel_y = 5
+	},
+/obj/machinery/light/small{
+	dir = 1;
+	pixel_y = -16
 	},
 /turf/open/floor/plating/granite,
 /area/vtm/interior/endron_facility)
@@ -17841,10 +17837,6 @@
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/millennium_tower/f4)
-"eWN" = (
-/obj/structure/filingcabinet,
-/turf/open/floor/plating/vampplating,
-/area/vtm/interior/endron_facility)
 "eWX" = (
 /obj/effect/turf_decal/siding/white/corner,
 /turf/open/floor/plating/vampplating/stone,
@@ -24555,14 +24547,6 @@
 	},
 /turf/open/floor/plating/parquetry/rich,
 /area/vtm/interior/tzimisce_manor)
-"gIG" = (
-/obj/structure/table,
-/obj/machinery/button/curtain{
-	id = endroniaa;
-	pixel_y = 4
-	},
-/turf/open/floor/plating/granite,
-/area/vtm/interior/endron_facility)
 "gIJ" = (
 /turf/open/floor/plating/vampwood,
 /area/vtm/pacificheights/forest)
@@ -27465,10 +27449,9 @@
 /turf/open/water,
 /area/vtm/jazzclub)
 "hAn" = (
-/obj/structure/curtain/cloth/fancy/mechanical/luxurious{
-	id = endroniaa
-	},
-/turf/closed/wall/vampwall/rich/low/window,
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/structure/vampdoor/wood/pentex/high_security,
+/turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "hAp" = (
 /obj/effect/decal/bordur{
@@ -28080,7 +28063,7 @@
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/strip)
-"hIj" = (
+"hIh" = (
 /obj/structure/filingcabinet/chestdrawer,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
@@ -45273,6 +45256,13 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/interior/strip/toreador)
+"mzj" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/structure/vampdoor/glass/pentex{
+	lockpick_difficulty = 6
+	},
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "mzn" = (
 /obj/structure/table/wood/poker,
 /obj/item/toy/cards/deck,
@@ -55130,12 +55120,10 @@
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/laundromat)
 "pgr" = (
-/obj/structure/table,
-/obj/vampire_computer{
-	owner = "Clerk";
-	pixel_y = 5
+/obj/structure/curtain/cloth/fancy/mechanical/luxurious{
+	id = endroniaa
 	},
-/turf/open/floor/plating/granite,
+/turf/closed/wall/vampwall/rich/low/window/reinforced,
 /area/vtm/interior/endron_facility)
 "pgt" = (
 /turf/open/floor/plating/vampwood,
@@ -59759,11 +59747,6 @@
 /obj/structure/curtain/cloth,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/baali)
-"qsW" = (
-/obj/effect/turf_decal/siding/thinplating/dark,
-/obj/structure/vampdoor/wood/pentex/high_security,
-/turf/open/floor/plating/vampplating,
-/area/vtm/interior/endron_facility)
 "qtg" = (
 /obj/structure/chair/wood,
 /obj/machinery/light{
@@ -67122,6 +67105,14 @@
 /obj/item/candle,
 /turf/open/floor/carpet/purple,
 /area/vtm/interior/millennium_tower/ventrue)
+"smD" = (
+/obj/structure/table,
+/obj/machinery/button/curtain{
+	id = endroniaa;
+	pixel_y = 4
+	},
+/turf/open/floor/plating/granite,
+/area/vtm/interior/endron_facility)
 "smK" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/vamptree/pine,
@@ -69066,13 +69057,11 @@
 /turf/closed/wall/vampwall/rich/old,
 /area/vtm/interior/strip)
 "sPB" = (
-/obj/structure/table,
-/obj/item/paper_bin{
-	pixel_y = 6
+/obj/machinery/photocopier,
+/obj/machinery/light{
+	dir = 4
 	},
-/obj/item/pen/fourcolor,
-/obj/structure/coclock,
-/turf/open/floor/plating/granite,
+/turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "sPH" = (
 /obj/vampire_car/track/volkswagen,
@@ -75098,10 +75087,12 @@
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/millennium_tower/f4)
 "uzP" = (
-/obj/structure/chair/office{
-	dir = 4
+/obj/structure/table,
+/obj/vampire_computer{
+	owner = "Clerk";
+	pixel_y = 5
 	},
-/turf/open/floor/plating/vampplating,
+/turf/open/floor/plating/granite,
 /area/vtm/interior/endron_facility)
 "uzY" = (
 /obj/machinery/light{
@@ -239323,7 +239314,7 @@ qdb
 qdb
 fAo
 mrb
-eWN
+dfo
 ilT
 tSa
 fAo
@@ -239582,7 +239573,7 @@ fKi
 qdb
 qdb
 wRJ
-pgr
+efH
 fAo
 ntq
 vMH
@@ -239835,10 +239826,10 @@ fAo
 qdb
 qdb
 qdb
-dfo
+mzj
 qdb
 qdb
-hIj
+hIh
 oBr
 fAo
 ntq
@@ -240610,7 +240601,7 @@ fAo
 qdb
 qdb
 wRJ
-pgr
+efH
 fAo
 ntq
 ntq
@@ -240866,7 +240857,7 @@ qdb
 fAo
 qdb
 qdb
-hIj
+hIh
 oBr
 fAo
 ntq
@@ -241638,7 +241629,7 @@ fAo
 qdb
 qdb
 wRJ
-pgr
+efH
 fAo
 ntq
 ntq
@@ -241892,9 +241883,9 @@ fAo
 qdb
 aPN
 fAo
-vtl
-uWB
-hIj
+sPB
+qdb
+hIh
 oBr
 fAo
 ntq
@@ -242150,7 +242141,7 @@ qdb
 qdb
 fAo
 fAo
-fAo
+pgr
 fAo
 fAo
 fAo
@@ -242405,11 +242396,11 @@ qYb
 qCy
 qdb
 qdb
-qsW
+hAn
 qdb
-ljc
 qdb
-uOW
+qPT
+hIh
 fAo
 ntq
 ntq
@@ -242662,11 +242653,11 @@ qYb
 qCy
 qdb
 qdb
-hAn
+pgr
 qdb
 qdb
 qdb
-vtl
+smD
 fAo
 ntq
 ntq
@@ -242920,10 +242911,10 @@ fAo
 qdb
 qdb
 fAo
-sPB
-uzP
-qdb
 eIv
+qdb
+wRJ
+uzP
 fAo
 ntq
 ntq
@@ -243177,10 +243168,10 @@ fAo
 mnW
 tXX
 fAo
+vtl
+uOW
+ilT
 tSa
-efH
-gIG
-hIj
 fAo
 ntq
 ntq
@@ -243435,8 +243426,8 @@ fAo
 fAo
 fAo
 fAo
-deo
-deo
+pgr
+pgr
 fAo
 fAo
 ntq
