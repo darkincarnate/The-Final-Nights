@@ -11439,6 +11439,11 @@
 /obj/item/trash/can,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/strip)
+"deo" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/structure/vampdoor/wood/pentex/high_security,
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "der" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 4
@@ -16212,6 +16217,10 @@
 /obj/structure/closet/crate/coffin,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/trujah)
+"exE" = (
+/obj/structure/filingcabinet/employment,
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "exJ" = (
 /obj/structure/vampfence/rich{
 	dir = 8
@@ -18108,13 +18117,6 @@
 	},
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/glasswalker)
-"fbl" = (
-/obj/structure/table,
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/plating/granite,
-/area/vtm/interior/endron_facility)
 "fbo" = (
 /obj/structure/trashcan,
 /turf/open/floor/plating/sidewalk,
@@ -24545,6 +24547,14 @@
 	},
 /turf/open/floor/plating/parquetry/rich,
 /area/vtm/interior/tzimisce_manor)
+"gIG" = (
+/obj/structure/table,
+/obj/machinery/button/curtain{
+	id = endroniaa;
+	pixel_y = 4
+	},
+/turf/open/floor/plating/granite,
+/area/vtm/interior/endron_facility)
 "gIJ" = (
 /turf/open/floor/plating/vampwood,
 /area/vtm/pacificheights/forest)
@@ -38450,6 +38460,9 @@
 /obj/structure/sink{
 	dir = 8;
 	pixel_x = 10
+	},
+/obj/structure/mirror{
+	pixel_x = 26
 	},
 /turf/open/floor/plating/toilet{
 	color = "#636363"
@@ -59723,6 +59736,16 @@
 /obj/structure/curtain/cloth,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/baali)
+"qsW" = (
+/obj/structure/vampdoor/glass/pentex{
+	lockpick_difficulty = 6
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/structure/vampdoor/glass/pentex{
+	lockpick_difficulty = 6
+	},
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "qtg" = (
 /obj/structure/chair/wood,
 /obj/machinery/light{
@@ -67081,6 +67104,10 @@
 /obj/item/candle,
 /turf/open/floor/carpet/purple,
 /area/vtm/interior/millennium_tower/ventrue)
+"smD" = (
+/obj/structure/filingcabinet/chestdrawer,
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "smK" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/vamptree/pine,
@@ -69127,8 +69154,11 @@
 /area/vtm/interior/shop)
 "sRr" = (
 /obj/structure/sink{
-	pixel_y = 9;
+	pixel_y = -2;
 	dir = 1
+	},
+/obj/structure/mirror{
+	pixel_y = -30
 	},
 /turf/open/floor/plating/toilet{
 	color = "#636363"
@@ -78622,6 +78652,9 @@
 	pixel_x = -12;
 	pixel_y = 2
 	},
+/obj/structure/mirror{
+	pixel_x = -31
+	},
 /turf/open/floor/plating/toilet{
 	color = "#636363"
 	},
@@ -81270,8 +81303,12 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/sewer)
 "wlt" = (
-/obj/structure/reagent_dispensers/water_cooler,
-/obj/structure/coclock,
+/obj/structure/closet,
+/obj/item/storage/box/handcuffs,
+/obj/item/clothing/head/vampire/blackbag,
+/obj/item/clothing/head/vampire/blackbag,
+/obj/item/clothing/mask/vampire/balaclava,
+/obj/item/melee/classic_baton/vampire,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "wlz" = (
@@ -86035,6 +86072,12 @@
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/tzimisce_manor)
+"xDN" = (
+/obj/structure/curtain/cloth/fancy/mechanical/luxurious{
+	id = endroniaa
+	},
+/turf/closed/wall/vampwall/rich/low/window,
+/area/vtm/interior/endron_facility)
 "xDO" = (
 /turf/open/floor/glass,
 /area/vtm/interior/tzimisce_manor)
@@ -239799,10 +239842,10 @@ fAo
 qdb
 qdb
 aPN
-fAo
-wlt
+dhk
+tSV
 qdb
-qdb
+smD
 oBr
 fAo
 ntq
@@ -240056,11 +240099,11 @@ fAo
 qdb
 qdb
 qdb
-dhk
+qsW
 qdb
-qdb
-qdb
-wlz
+eIv
+fAo
+fAo
 fAo
 ntq
 ntq
@@ -240313,11 +240356,11 @@ gcy
 qdb
 qdb
 qdb
-ugZ
+fKi
 qdb
 qdb
-qdb
-fbl
+ilT
+tSa
 fAo
 ntq
 ntq
@@ -240570,7 +240613,7 @@ dhk
 qdb
 qdb
 qdb
-fKi
+fAo
 qdb
 qdb
 wRJ
@@ -240827,11 +240870,11 @@ gcy
 qdb
 qdb
 qdb
-fAo
-vtl
-eIv
-ilT
-tSa
+fKi
+qdb
+qdb
+smD
+oBr
 fAo
 ntq
 ntq
@@ -241084,10 +241127,10 @@ dXU
 qdb
 qdb
 qdb
-fAo
-fAo
 fKi
-fKi
+qdb
+eIv
+fAo
 fAo
 fAo
 ntq
@@ -241342,10 +241385,10 @@ qdb
 qdb
 qdb
 fAo
-vtl
-eIv
+qdb
+qdb
+uzP
 ilT
-tSa
 fAo
 ntq
 ntq
@@ -241598,11 +241641,11 @@ qdb
 qdb
 qdb
 qdb
-fKi
-qdb
-qdb
-wRJ
+fAo
+vtl
+oBr
 efH
+tSa
 fAo
 ntq
 ntq
@@ -241854,12 +241897,12 @@ fAo
 fAo
 fAo
 qdb
-qdb
+aPN
 fAo
-ctP
-qdb
-qdb
-fbl
+fAo
+fAo
+fAo
+fAo
 fAo
 ntq
 ntq
@@ -242112,11 +242155,11 @@ qYb
 fAo
 qdb
 qdb
-dhk
+fAo
+wlt
 qdb
 qdb
-qdb
-wlz
+exE
 fAo
 ntq
 ntq
@@ -242368,12 +242411,12 @@ qYb
 qYb
 qCy
 qdb
-aPN
-ugZ
+qdb
+deo
 qdb
 qdb
 qdb
-ilT
+uOW
 fAo
 ntq
 ntq
@@ -242626,11 +242669,11 @@ qYb
 qCy
 qdb
 qdb
-fKi
+xDN
 qdb
 qdb
-wRJ
-efH
+qdb
+vtl
 fAo
 ntq
 ntq
@@ -242887,7 +242930,7 @@ fAo
 sPB
 uzP
 qdb
-oBr
+eIv
 fAo
 ntq
 ntq
@@ -243141,10 +243184,10 @@ fAo
 mnW
 tXX
 fAo
-oBr
-efH
 tSa
-uOW
+efH
+gIG
+smD
 fAo
 ntq
 ntq
