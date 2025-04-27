@@ -1131,7 +1131,7 @@
 "aqr" = (
 /obj/machinery/door/poddoor/shutters{
 	damage_deflection = 60;
-	id = "prince";
+	id = 1;
 	max_integrity = 300;
 	name = "Parking Shutter"
 	},
@@ -1513,7 +1513,7 @@
 "auT" = (
 /obj/structure/table,
 /obj/machinery/button/door{
-	id = "pentexhq_heavycell1";
+	id = 21;
 	name = "cell door button"
 	},
 /turf/open/floor/plating/circled,
@@ -1593,7 +1593,7 @@
 /area/vtm/interior)
 "awd" = (
 /obj/machinery/door/poddoor/shutters{
-	id = "isolator";
+	id = 23;
 	name = "Isolator"
 	},
 /turf/open/floor/plating/vampplating,
@@ -5807,7 +5807,7 @@
 /area/vtm/interior/laundromat)
 "bBp" = (
 /obj/machinery/button/door{
-	id = "pddock"
+	id = 12
 	},
 /turf/closed/wall/vampwall/market,
 /area/vtm/interior/police)
@@ -6794,7 +6794,7 @@
 /obj/structure/table/wood,
 /obj/item/vtm_artifact/rand,
 /obj/machinery/button/curtain{
-	id = malkav
+	id = 24
 	},
 /obj/item/paper_bin{
 	pixel_y = 8;
@@ -7199,7 +7199,7 @@
 "bWv" = (
 /obj/structure/table,
 /obj/machinery/button/door{
-	id = "prince";
+	id = 1;
 	name = "Parking Shutters Control"
 	},
 /obj/effect/decal/rugs,
@@ -7317,7 +7317,7 @@
 /area/vtm/unionsquare)
 "bXU" = (
 /obj/machinery/button/door{
-	id = "armouryaccess";
+	id = 2;
 	name = "Parking Shutters Control"
 	},
 /turf/closed/wall/vampwall/market,
@@ -7535,7 +7535,7 @@
 	light_color = "#6488EA"
 	},
 /obj/machinery/button/door{
-	id = "pentexhq_heavycells";
+	id = 9;
 	pixel_y = 30
 	},
 /turf/open/floor/plating/circled,
@@ -9091,7 +9091,7 @@
 	dir = 1
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = "emergencylockdown";
+	id = 4;
 	max_integrity = 1000
 	},
 /turf/open/floor/plating/vampwood,
@@ -9210,7 +9210,7 @@
 /obj/item/reagent_containers/glass/bottle/morphine,
 /obj/item/reagent_containers/syringe,
 /obj/machinery/button/door{
-	id = "isolator";
+	id = 23;
 	name = "Isolator button";
 	pixel_x = 9;
 	pixel_y = 9
@@ -10377,7 +10377,7 @@
 	},
 /obj/effect/turf_decal/siding/wideplating/dark,
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = "emergencylockdown";
+	id = 4;
 	max_integrity = 1000
 	},
 /turf/open/floor/carpet/green,
@@ -11602,7 +11602,7 @@
 /area/vtm/interior/strip)
 "deo" = (
 /obj/machinery/button/door{
-	id = "pentexhq_cells"
+	id = 18
 	},
 /turf/closed/wall/vampwall/metal,
 /area/vtm/interior/endron_facility/restricted)
@@ -11684,7 +11684,7 @@
 /area/vtm/interior/giovanni/basement)
 "dfo" = (
 /obj/machinery/button/door{
-	id = "pentexhq_armory"
+	id = 15
 	},
 /turf/closed/wall/vampwall/metal,
 /area/vtm/interior/endron_facility/restricted)
@@ -14341,7 +14341,7 @@
 "dTd" = (
 /obj/structure/curtain/bounty,
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = "emergencylockdown";
+	id = 4;
 	max_integrity = 1000
 	},
 /turf/closed/wall/vampwall/rich/old/low/window,
@@ -15166,7 +15166,7 @@
 	dir = 1
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = "emergencylockdown";
+	id = 4;
 	max_integrity = 1000
 	},
 /turf/open/floor/carpet/green,
@@ -16427,7 +16427,7 @@
 "exE" = (
 /obj/structure/table,
 /obj/machinery/button/door{
-	id = "pentexhq_storage"
+	id = 8
 	},
 /obj/machinery/light{
 	dir = 4
@@ -17345,7 +17345,7 @@
 	},
 /obj/effect/turf_decal/stripes,
 /obj/machinery/door/poddoor/shutters{
-	id = "pdsecure"
+	id = 13
 	},
 /turf/open/floor/plating/toilet{
 	color = "#636363"
@@ -17624,7 +17624,7 @@
 "ePT" = (
 /obj/structure/bodycontainer/crematorium{
 	dir = 8;
-	id = "cleanatorium"
+	id = 5
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/vjanitor)
@@ -18078,7 +18078,7 @@
 /area/vtm/interior/millennium_tower/f4)
 "eWN" = (
 /obj/machinery/button/door{
-	id = "pentexhq_BSD";
+	id = 6;
 	pixel_y = 30;
 	pixel_x = 32
 	},
@@ -18192,7 +18192,7 @@
 "eYH" = (
 /obj/structure/table,
 /obj/machinery/button/door{
-	id = "supply"
+	id = 16
 	},
 /obj/item/stack/dollar/hundred,
 /obj/item/stack/dollar/hundred,
@@ -19133,7 +19133,7 @@
 "flt" = (
 /obj/structure/table,
 /obj/machinery/button/door{
-	id = "pentexhq_heavycell2";
+	id = 19;
 	name = "cell door button"
 	},
 /turf/open/floor/plating/circled,
@@ -20818,7 +20818,7 @@
 "fGj" = (
 /obj/structure/curtain/bounty,
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = "emergencylockdown";
+	id = 4;
 	max_integrity = 1000
 	},
 /turf/closed/wall/vampwall/old/low/window,
@@ -21802,7 +21802,7 @@
 /area/vtm)
 "fTM" = (
 /obj/structure/curtain/cloth/fancy/mechanical/luxurious{
-	id = malkav
+	id = 24
 	},
 /turf/closed/wall/vampwall/painted/low/window,
 /area/vtm/clinic/haven)
@@ -22307,7 +22307,7 @@
 /area/vtm/jazzclub)
 "gbm" = (
 /obj/machinery/button/door{
-	id = "pentexhq_heavycells";
+	id = 9;
 	pixel_y = 30
 	},
 /turf/open/floor/plating/circled,
@@ -24232,7 +24232,7 @@
 /area/vtm/interior/techshop)
 "gBp" = (
 /obj/structure/curtain/cloth/fancy/mechanical/luxurious{
-	id = lasombraprim
+	id = 25
 	},
 /turf/closed/wall/vampwall/rich/old/low/window/reinforced,
 /area/vtm/church/interior/haven)
@@ -24840,7 +24840,7 @@
 	locked = 1
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = "emergencylockdown";
+	id = 4;
 	max_integrity = 1000
 	},
 /turf/open/floor/plating/parquetry/rich,
@@ -24848,7 +24848,7 @@
 "gIG" = (
 /obj/structure/table,
 /obj/machinery/button/door{
-	id = "pentexhq_exec"
+	id = 7
 	},
 /turf/open/floor/carpet/green,
 /area/vtm/interior/wyrm_corrupted)
@@ -25044,7 +25044,7 @@
 /area/vtm/interior/bianchiBank)
 "gMa" = (
 /obj/structure/bodycontainer/crematorium{
-	id = "cliniccretorium"
+	id = 10
 	},
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/clinic)
@@ -26286,7 +26286,7 @@
 	lockpick_difficulty = 17
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = "emergencylockdownV";
+	id = 14;
 	max_integrity = 3500;
 	name = "reinforced shutters"
 	},
@@ -27759,7 +27759,7 @@
 /area/vtm/jazzclub)
 "hAn" = (
 /obj/machinery/door/poddoor{
-	id = "pentexhq_armory"
+	id = 15
 	},
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/endron_facility/restricted)
@@ -28373,7 +28373,7 @@
 /area/vtm/interior/strip)
 "hIh" = (
 /obj/machinery/button/door{
-	id = "pentexhq_storage"
+	id = 8
 	},
 /turf/closed/wall/vampwall/metal/reinforced,
 /area/vtm/interior/endron_facility/restricted)
@@ -29360,7 +29360,7 @@
 /area/vtm/interior)
 "hWE" = (
 /obj/machinery/door/poddoor{
-	id = "pentexhq_heavycell1"
+	id = 21
 	},
 /turf/open/floor/plating/circled,
 /area/vtm/interior/wyrm_corrupted)
@@ -30618,7 +30618,7 @@
 /obj/machinery/door/poddoor/shutters{
 	damage_deflection = 50;
 	dir = 1;
-	id = "clinic";
+	id = 22;
 	max_integrity = 200;
 	name = "Parking Shutter"
 	},
@@ -31813,7 +31813,7 @@
 /obj/effect/decal/trash,
 /obj/transfer_point_vamp{
 	name = "Shadowlands Portal";
-	id = Enoch
+	id = "Enoch"
 	},
 /turf/open/floor/wood,
 /area/vtm/interior/penumbra/enoch)
@@ -32070,7 +32070,7 @@
 "iLl" = (
 /obj/structure/table,
 /obj/machinery/button/door{
-	id = "clinic";
+	id = 22;
 	name = "Parking Shutters Control";
 	req_one_access_txt = "5";
 	pixel_y = 8
@@ -32309,7 +32309,7 @@
 	dir = 1
 	},
 /obj/transfer_point_vamp{
-	id = Graveyard4
+	id = "Graveyard4"
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm)
@@ -33737,7 +33737,7 @@
 /area/vtm/interior/ghetto)
 "jkE" = (
 /obj/machinery/door/poddoor{
-	id = "pentexhq_heavycell2"
+	id = 19
 	},
 /turf/open/floor/plating/circled,
 /area/vtm/interior/wyrm_corrupted)
@@ -34845,7 +34845,7 @@
 	},
 /obj/structure/table,
 /obj/machinery/button/door{
-	id = "pentexhq_cellwindow2";
+	id = 17;
 	name = "window button"
 	},
 /turf/open/floor/plating/circled,
@@ -35132,7 +35132,7 @@
 /area/vtm/sewer)
 "jBQ" = (
 /obj/structure/curtain/cloth/fancy/mechanical/luxurious{
-	id = ventrueprim
+	id = 29
 	},
 /turf/closed/wall/vampwall/rich/low/window,
 /area/vtm/interior/millennium_tower/ventrue)
@@ -35430,7 +35430,7 @@
 "jGV" = (
 /obj/effect/decal/wallpaper/paper/darkred/low,
 /obj/structure/curtain/cloth/fancy/mechanical/luxurious{
-	id = sheriffcurtain
+	id = 27
 	},
 /turf/closed/wall/vampwall/rich/low/window/reinforced,
 /area/vtm/interior/millennium_tower/f3)
@@ -40920,7 +40920,7 @@
 /obj/machinery/button/door{
 	pixel_y = 30;
 	pixel_x = -6;
-	id = "pdsecure";
+	id = 13;
 	name = "Armoury Shutters"
 	},
 /turf/open/floor/plating/toilet{
@@ -43059,13 +43059,13 @@
 /area/vtm/interior/millennium_tower)
 "lNi" = (
 /obj/transfer_point_vamp{
-	id = Graveyard3
+	id = "Graveyard3"
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm)
 "lNj" = (
 /obj/structure/curtain/cloth/fancy/mechanical/luxurious{
-	id = lasombra
+	id = 28
 	},
 /turf/closed/wall/vampwall/rich/old/low/window,
 /area/vtm/church/interior/haven)
@@ -44027,7 +44027,7 @@
 "mbV" = (
 /obj/machinery/button/door{
 	pixel_y = 14;
-	id = "pddock"
+	id = 12
 	},
 /turf/closed/wall/vampwall/market,
 /area/vtm/interior/police)
@@ -44517,7 +44517,7 @@
 	},
 /obj/effect/turf_decal/siding/wood,
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = "emergencylockdownV";
+	id = 14;
 	max_integrity = 3500;
 	name = "reinforced shutters"
 	},
@@ -45665,7 +45665,7 @@
 /area/vtm/interior/strip/toreador)
 "mzj" = (
 /obj/machinery/door/poddoor{
-	id = "pentexhq_cells"
+	id = 18
 	},
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/endron_facility/restricted)
@@ -46427,7 +46427,7 @@
 "mJx" = (
 /obj/effect/turf_decal/loading_area,
 /obj/machinery/door/poddoor/shutters{
-	id = "pddock"
+	id = 12
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/police)
@@ -47528,7 +47528,7 @@
 	lockpick_difficulty = 8
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = "emergencylockdown";
+	id = 4;
 	max_integrity = 1000
 	},
 /turf/open/floor/plating/parquetry/rich,
@@ -52677,7 +52677,7 @@
 	pixel_x = 16
 	},
 /obj/machinery/door/poddoor/shutters{
-	id = "pdsecure"
+	id = 13
 	},
 /turf/open/floor/plating/toilet{
 	color = "#636363"
@@ -54694,7 +54694,7 @@
 	lockpick_difficulty = 8
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = "emergencylockdown";
+	id = 4;
 	max_integrity = 1000
 	},
 /obj/effect/turf_decal/siding/wood{
@@ -55584,7 +55584,7 @@
 /area/vtm/interior/laundromat)
 "pgr" = (
 /obj/machinery/button/door{
-	id = "pentexhq_BSD"
+	id = 6
 	},
 /turf/closed/wall/vampwall/metal/reinforced,
 /area/vtm/interior/wyrm_corrupted)
@@ -55864,7 +55864,7 @@
 /area/vtm/interior/banu/haven)
 "pjT" = (
 /obj/structure/curtain/cloth/fancy/mechanical/luxurious{
-	id = lasombra
+	id = 28
 	},
 /obj/effect/decal/wallpaper/blue/low,
 /turf/closed/wall/vampwall/rich/old/low/window,
@@ -56901,7 +56901,7 @@
 "pyO" = (
 /obj/structure/curtain/bounty,
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = "emergencylockdown";
+	id = 4;
 	max_integrity = 1000
 	},
 /turf/closed/wall/vampwall/old/low/window/reinforced,
@@ -59873,7 +59873,7 @@
 	lock_id = "tzimisce"
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = "emergencylockdown";
+	id = 4;
 	max_integrity = 1000
 	},
 /turf/open/floor/plating/parquetry/old,
@@ -60252,7 +60252,7 @@
 /area/vtm/interior/baali)
 "qsW" = (
 /obj/machinery/door/poddoor{
-	id = "pentexhq_exec"
+	id = 7
 	},
 /turf/open/floor/carpet/green,
 /area/vtm/interior/wyrm_corrupted)
@@ -60273,7 +60273,7 @@
 	lockpick_difficulty = 15
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = "emergencylockdown";
+	id = 4;
 	max_integrity = 1000
 	},
 /turf/open/floor/plating/parquetry/rich,
@@ -60459,7 +60459,7 @@
 	},
 /obj/effect/turf_decal/siding/wood,
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = "emergencylockdown";
+	id = 4;
 	max_integrity = 1000
 	},
 /turf/open/floor/plating/parquetry/old,
@@ -61252,7 +61252,7 @@
 /area/vtm/church)
 "qGl" = (
 /obj/structure/curtain/cloth/fancy/mechanical/luxurious{
-	id = sheriffcurtain
+	id = 27
 	},
 /turf/closed/wall/vampwall/rich/low/window/reinforced,
 /area/vtm/interior/millennium_tower/f3)
@@ -62570,7 +62570,7 @@
 "qWc" = (
 /obj/structure/table/wood/fancy/black,
 /obj/machinery/button/curtain{
-	id = lasombraprim
+	id = 25
 	},
 /turf/open/floor/plating/church,
 /area/vtm/church/interior/haven)
@@ -62633,7 +62633,7 @@
 /area/vtm/sewer/cappadocian)
 "qXd" = (
 /obj/machinery/button/crematorium{
-	id = "cleanatorium";
+	id = 5;
 	pixel_x = 23
 	},
 /turf/open/floor/plating/rough,
@@ -63928,7 +63928,7 @@
 /area/vtm/hotel)
 "ron" = (
 /obj/structure/curtain/cloth/fancy/mechanical{
-	id = banu
+	id = 26
 	},
 /turf/closed/wall/vampwall/painted/low/window/reinforced,
 /area/vtm/interior/banu/haven)
@@ -64948,7 +64948,7 @@
 "rBK" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/button/door{
-	id = "pentexhq_waste"
+	id = 3
 	},
 /turf/closed/wall/vampwall/metal/reinforced,
 /area/vtm/interior/wyrm_corrupted)
@@ -66412,7 +66412,7 @@
 	lockpick_difficulty = 17
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = "emergencylockdown";
+	id = 4;
 	max_integrity = 1000
 	},
 /turf/open/floor/plating/parquetry/rich,
@@ -67696,7 +67696,7 @@
 /area/vtm/interior/millennium_tower/ventrue)
 "smD" = (
 /obj/machinery/door/poddoor{
-	id = "pentexhq_storage"
+	id = 8
 	},
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/endron_facility/restricted)
@@ -69159,7 +69159,7 @@
 /area/vtm/interior/trujah)
 "sHZ" = (
 /obj/machinery/door/poddoor{
-	id = "pentexhq_heavycells"
+	id = 9
 	},
 /turf/open/floor/plating/circled,
 /area/vtm/interior/wyrm_corrupted)
@@ -69585,7 +69585,7 @@
 /obj/item/paper_bin,
 /obj/item/pen/fountain,
 /obj/machinery/button/curtain{
-	id = lasombraprim;
+	id = 25;
 	pixel_y = 11
 	},
 /turf/open/floor/carpet/royalblack,
@@ -69871,7 +69871,7 @@
 /area/vtm/pacificheights/forest)
 "sUs" = (
 /obj/transfer_point_vamp{
-	id = Graveyard2
+	id = "Graveyard2"
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm)
@@ -70242,7 +70242,7 @@
 "sZF" = (
 /obj/transfer_point_vamp{
 	name = "Shadowlands Portal";
-	id = Enoch
+	id = "Enoch"
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/trujah)
@@ -70360,7 +70360,7 @@
 "tbs" = (
 /obj/machinery/door/poddoor/shutters{
 	damage_deflection = 60;
-	id = "armouryaccess";
+	id = 2;
 	max_integrity = 300;
 	name = "Parking Shutter"
 	},
@@ -70668,7 +70668,7 @@
 "tfo" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/door/poddoor{
-	id = "pentexhq_waste"
+	id = 3
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/wyrm_corrupted)
@@ -71116,11 +71116,7 @@
 	},
 /obj/machinery/button/door{
 	name = "Emergency Lockdown";
-	id = "emergencylockdown"
-	},
-/obj/machinery/button/door{
-	name = "Emergency Lockdown";
-	id = "emergencylockdownV";
+	id = 14;
 	pixel_x = 9
 	},
 /turf/open/floor/plating/granite/black,
@@ -72122,7 +72118,7 @@
 /area/vtm/interior/bianchiBank)
 "tAj" = (
 /obj/machinery/button/door{
-	id = "pentexhq_BSDhall"
+	id = 20
 	},
 /turf/closed/wall/vampwall/metal/reinforced,
 /area/vtm/interior/endron_facility)
@@ -74558,7 +74554,7 @@
 "ulq" = (
 /obj/effect/decal/bordur,
 /obj/transfer_point_vamp{
-	id = Graveyard1
+	id = "Graveyard1"
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm)
@@ -75843,7 +75839,7 @@
 /area/vtm/interior/millennium_tower)
 "uDd" = (
 /obj/structure/curtain/cloth/fancy/mechanical/luxurious{
-	id = lasombraprim
+	id = 25
 	},
 /obj/effect/decal/wallpaper/blue/low,
 /turf/closed/wall/vampwall/rich/old/low/window/reinforced,
@@ -76127,7 +76123,7 @@
 /obj/item/paper_bin,
 /obj/item/pen/fountain,
 /obj/machinery/button/curtain{
-	id = banu;
+	id = 26;
 	pixel_y = 12
 	},
 /turf/open/floor/plating/parquetry/old,
@@ -76220,7 +76216,7 @@
 /area/vtm/interior/strip)
 "uIB" = (
 /obj/machinery/door/poddoor{
-	id = "pentexhq_BSD"
+	id = 6
 	},
 /turf/open/indestructible/necropolis/air,
 /area/vtm/interior/wyrm_corrupted)
@@ -76271,7 +76267,7 @@
 	lockpick_difficulty = 18
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = "emergencylockdown";
+	id = 4;
 	max_integrity = 1000
 	},
 /turf/open/floor/plasteel/dark,
@@ -78522,7 +78518,7 @@
 /area/vtm/forest)
 "vql" = (
 /obj/machinery/door/poddoor{
-	id = "pentexhq_BSDhall"
+	id = 20
 	},
 /turf/open/indestructible/necropolis/air,
 /area/vtm/interior/endron_facility)
@@ -78906,7 +78902,7 @@
 /area/vtm/interior/banu/haven)
 "vvx" = (
 /obj/structure/curtain/cloth/fancy/mechanical{
-	id = banu
+	id = 26
 	},
 /turf/closed/wall/vampwall/painted/low/window,
 /area/vtm/interior/banu/haven)
@@ -81103,7 +81099,7 @@
 /area/vtm/sewer)
 "wag" = (
 /obj/machinery/button/curtain{
-	id = ventrueprim
+	id = 29
 	},
 /obj/structure/table/wood/fancy/royalblue,
 /turf/open/floor/carpet/royalblue,
@@ -81858,7 +81854,7 @@
 "wlL" = (
 /obj/structure/table,
 /obj/machinery/button/door{
-	id = "armouryaccess";
+	id = 2;
 	name = "Parking Shutters Control";
 	pixel_y = 6
 	},
@@ -82461,7 +82457,7 @@
 /obj/item/stack/dollar/hundred,
 /obj/item/stack/dollar/hundred,
 /obj/machinery/button/curtain{
-	id = sheriffcurtain
+	id = 27
 	},
 /turf/open/floor/carpet/black,
 /area/vtm/interior/millennium_tower/f3)
@@ -83118,7 +83114,7 @@
 	},
 /obj/machinery/door/poddoor/shutters{
 	damage_deflection = 50;
-	id = "supply";
+	id = 16;
 	max_integrity = 200;
 	name = "Supply Shutter"
 	},
@@ -83347,7 +83343,7 @@
 "wHW" = (
 /obj/structure/table,
 /obj/machinery/button/crematorium{
-	id = "cliniccretorium";
+	id = 10;
 	pixel_y = 22
 	},
 /obj/item/storage/box/bodybags{
@@ -84025,7 +84021,7 @@
 "wRj" = (
 /obj/structure/table/wood/fancy/royalblack,
 /obj/machinery/button/curtain{
-	id = lasombra
+	id = 28
 	},
 /turf/open/floor/plating/church,
 /area/vtm/church/interior/haven)
@@ -84186,7 +84182,7 @@
 	},
 /obj/structure/table,
 /obj/machinery/button/door{
-	id = "pentexhq_cellwindow1";
+	id = 11;
 	name = "window button"
 	},
 /turf/open/floor/plating/circled,
@@ -85193,7 +85189,7 @@
 /area/vtm/pacificheights/old)
 "xhF" = (
 /obj/machinery/door/poddoor/shutters/window{
-	id = "pentexhq_cellwindow1"
+	id = 11
 	},
 /turf/closed/wall/vampwall/metal/glass,
 /area/vtm/interior/wyrm_corrupted)
@@ -86187,7 +86183,7 @@
 	},
 /obj/machinery/door/poddoor/shutters{
 	dir = 8;
-	id = "pddock"
+	id = 12
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/police)
@@ -86653,7 +86649,7 @@
 /area/vtm/interior/tzimisce_manor)
 "xDN" = (
 /obj/machinery/button/door{
-	id = "pentexhq_exec";
+	id = 7;
 	pixel_y = 30
 	},
 /turf/open/floor/carpet/green,
@@ -87755,7 +87751,7 @@
 "xSy" = (
 /obj/effect/decal/wallpaper/gold/low,
 /obj/structure/curtain/cloth/fancy/mechanical/luxurious{
-	id = ventrueprim
+	id = 29
 	},
 /turf/closed/wall/vampwall/rich/low/window,
 /area/vtm/interior/millennium_tower/ventrue)
@@ -87945,7 +87941,7 @@
 /area/vtm/interior)
 "xUZ" = (
 /obj/machinery/door/poddoor/shutters/window{
-	id = "pentexhq_cellwindow2"
+	id = 17
 	},
 /turf/closed/wall/vampwall/metal/glass,
 /area/vtm/interior/wyrm_corrupted)
