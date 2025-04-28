@@ -14100,21 +14100,6 @@
 /obj/structure/dresser,
 /turf/open/floor/plating/vampwood,
 /area/vtm/interior/chantry/basement)
-"dSl" = (
-/obj/structure/table,
-/obj/item/paper_bin{
-	pixel_y = 6
-	},
-/obj/item/pen/fourcolor,
-/obj/item/stamp/endroniaa{
-	pixel_x = -13
-	},
-/obj/item/stamp/denied{
-	pixel_y = 11;
-	pixel_x = -13
-	},
-/turf/open/floor/plating/granite,
-/area/vtm/interior/endron_facility)
 "dSs" = (
 /obj/structure/table/wood,
 /obj/structure/coclock,
@@ -30195,6 +30180,17 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/ghetto/old)
+"inW" = (
+/obj/structure/closet{
+	pixel_x = -7
+	},
+/obj/item/clothing/under/pentex/pentex_shortsleeve,
+/obj/item/clothing/under/pentex/pentex_shortsleeve,
+/obj/item/clothing/under/pentex/pentex_shortsleeve,
+/turf/open/floor/plating/toilet{
+	color = "#636363"
+	},
+/area/vtm/interior/endron_facility)
 "inY" = (
 /mob/living/carbon/human/npc/walkby,
 /turf/open/floor/plating/sidewalk,
@@ -33036,6 +33032,17 @@
 	},
 /turf/open/floor/plating/vampwood,
 /area/vtm/hotel)
+"jea" = (
+/obj/structure/closet{
+	pixel_x = -7
+	},
+/obj/item/clothing/under/pentex/pentex_suit,
+/obj/item/clothing/under/pentex/pentex_suit,
+/obj/item/clothing/under/pentex/pentex_suit,
+/turf/open/floor/plating/toilet{
+	color = "#636363"
+	},
+/area/vtm/interior/endron_facility)
 "jem" = (
 /obj/machinery/light{
 	dir = 1
@@ -46332,10 +46339,12 @@
 /turf/open/floor/plating/toilet,
 /area/vtm/interior/gnawer)
 "mNM" = (
-/obj/machinery/light/small{
-	dir = 4;
-	pixel_x = -16
+/obj/structure/closet{
+	pixel_x = -7
 	},
+/obj/item/clothing/under/pentex/pentex_turtleneck,
+/obj/item/clothing/under/pentex/pentex_turtleneck,
+/obj/item/clothing/under/pentex/pentex_turtleneck,
 /turf/open/floor/plating/toilet{
 	color = "#636363"
 	},
@@ -51379,6 +51388,15 @@
 /obj/structure/trashcan,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/fishermanswharf/ghetto)
+"ogn" = (
+/obj/machinery/light/small{
+	dir = 8;
+	pixel_x = 16
+	},
+/turf/open/floor/plating/toilet{
+	color = "#636363"
+	},
+/area/vtm/interior/endron_facility)
 "ogp" = (
 /obj/effect/decal/wallpaper/light,
 /turf/closed/wall/vampwall/rich,
@@ -51890,6 +51908,17 @@
 	},
 /turf/open/floor/carpet/red,
 /area/vtm/interior/millennium_tower/ventrue)
+"onf" = (
+/obj/structure/closet{
+	pixel_x = -7
+	},
+/obj/item/clothing/under/pentex/pentex_suitskirt,
+/obj/item/clothing/under/pentex/pentex_suitskirt,
+/obj/item/clothing/under/pentex/pentex_suitskirt,
+/turf/open/floor/plating/toilet{
+	color = "#636363"
+	},
+/area/vtm/interior/endron_facility)
 "onq" = (
 /obj/effect/decal/bordur{
 	dir = 5
@@ -56316,16 +56345,14 @@
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/giovanni/basement)
 "pxs" = (
-/obj/structure/toilet{
+/obj/machinery/shower{
+	dir = 8;
+	pixel_x = 1
+	},
+/obj/effect/turf_decal/siding/white{
 	dir = 8
 	},
-/obj/machinery/light/small{
-	dir = 8;
-	pixel_x = 16
-	},
-/turf/open/floor/plating/toilet{
-	color = "#636363"
-	},
+/turf/open/floor/mineral/titanium/tiled/white,
 /area/vtm/interior/endron_facility)
 "pxy" = (
 /obj/effect/decal/bordur{
@@ -63170,6 +63197,21 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/trujah)
+"rkL" = (
+/obj/structure/table,
+/obj/item/paper_bin{
+	pixel_y = 6
+	},
+/obj/item/pen/fourcolor,
+/obj/item/stamp/endroniaa{
+	pixel_x = -13
+	},
+/obj/item/stamp/denied{
+	pixel_y = 11;
+	pixel_x = -13
+	},
+/turf/open/floor/plating/granite,
+/area/vtm/interior/endron_facility)
 "rkQ" = (
 /obj/structure/chair/stool/bar,
 /turf/open/floor/plating/rough,
@@ -78671,11 +78713,12 @@
 /turf/open/floor/plating/vampgrass,
 /area/vtm/forest)
 "vAy" = (
-/obj/structure/sink{
-	dir = 4;
-	pixel_x = -12;
-	pixel_y = 2
+/obj/structure/closet{
+	pixel_x = -7
 	},
+/obj/item/clothing/under/pentex/pentex_longleeve,
+/obj/item/clothing/under/pentex/pentex_longleeve,
+/obj/item/clothing/under/pentex/pentex_longleeve,
 /turf/open/floor/plating/toilet{
 	color = "#636363"
 	},
@@ -173798,9 +173841,9 @@ fAo
 qPT
 qdb
 fAo
-vAy
-mNM
-vAy
+inW
+jea
+onf
 mNM
 vAy
 fAo
@@ -174056,9 +174099,9 @@ qdb
 qdb
 jcz
 akf
+ogn
 akf
-akf
-akf
+ogn
 akf
 fAo
 hyN
@@ -243192,7 +243235,7 @@ tXX
 fAo
 vtl
 uOW
-dSl
+rkL
 tSa
 fAo
 ntq
