@@ -12932,7 +12932,7 @@
 	pixel_y = 12;
 	pixel_x = 12
 	},
-/obj/item/stamp/endroncorporate{
+/obj/item/stamp{
 	pixel_x = 12
 	},
 /turf/open/floor/carpet/green,
@@ -43344,7 +43344,7 @@
 	id = endronexecutive;
 	pixel_y = 4
 	},
-/obj/item/stamp/endroncorporate{
+/obj/item/stamp{
 	pixel_x = 12
 	},
 /turf/open/floor/plating/parquetry,
@@ -57833,11 +57833,11 @@
 	pixel_y = 6
 	},
 /obj/item/pen/fourcolor,
-/obj/item/stamp/endroniaa{
-	pixel_x = -13
-	},
 /obj/item/stamp/denied{
 	pixel_y = 11;
+	pixel_x = -13
+	},
+/obj/item/stamp{
 	pixel_x = -13
 	},
 /turf/open/floor/plating/granite,
