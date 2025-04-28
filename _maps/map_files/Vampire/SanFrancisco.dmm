@@ -19886,51 +19886,12 @@
 /area/vtm/fishermanswharf/lower)
 "fuW" = (
 /obj/structure/rack,
-/obj/item/clothing/mask/gas/explorer{
-	name = "First Team gas mask";
-	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 90, "rad" = 90, "fire" = 80, "acid" = 90, "wound" = 35);
-	color = "#454545"
-	},
-/obj/item/clothing/mask/gas/explorer{
-	name = "First Team gas mask";
-	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 90, "rad" = 90, "fire" = 80, "acid" = 90, "wound" = 35);
-	color = "#454545"
-	},
-/obj/item/clothing/mask/gas/explorer{
-	name = "First Team gas mask";
-	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 90, "rad" = 90, "fire" = 80, "acid" = 90, "wound" = 35);
-	color = "#454545"
-	},
-/obj/item/clothing/mask/gas/explorer{
-	name = "First Team gas mask";
-	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 90, "rad" = 90, "fire" = 80, "acid" = 90, "wound" = 35);
-	color = "#454545"
-	},
-/obj/item/clothing/mask/gas/explorer{
-	name = "First Team gas mask";
-	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 90, "rad" = 90, "fire" = 80, "acid" = 90, "wound" = 35);
-	color = "#454545"
-	},
-/obj/item/clothing/mask/gas/explorer{
-	name = "First Team gas mask";
-	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 90, "rad" = 90, "fire" = 80, "acid" = 90, "wound" = 35);
-	color = "#454545"
-	},
-/obj/item/clothing/mask/gas/explorer{
-	name = "First Team gas mask";
-	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 90, "rad" = 90, "fire" = 80, "acid" = 90, "wound" = 35);
-	color = "#454545"
-	},
-/obj/item/clothing/mask/gas/explorer{
-	name = "First Team gas mask";
-	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 90, "rad" = 90, "fire" = 80, "acid" = 90, "wound" = 35);
-	color = "#454545"
-	},
-/obj/item/clothing/mask/gas/explorer{
-	name = "First Team gas mask";
-	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 90, "rad" = 90, "fire" = 80, "acid" = 90, "wound" = 35);
-	color = "#454545"
-	},
+/obj/item/clothing/head/pentex/firstteam_helmet,
+/obj/item/clothing/head/pentex/firstteam_helmet,
+/obj/item/clothing/head/pentex/firstteam_helmet,
+/obj/item/clothing/head/pentex/firstteam_helmet,
+/obj/item/clothing/head/pentex/firstteam_helmet,
+/obj/item/clothing/head/pentex/firstteam_helmet,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/oilrig)
 "fuY" = (
@@ -34766,9 +34727,12 @@
 /area/vtm/cabaret)
 "jxv" = (
 /obj/structure/rack,
-/obj/item/clothing/head/pentex/pentex_beret{
-	armor = list("melee" = 70, "bullet" = 70, "laser" = 70, "energy" = 70, "bomb" = 70, "bio" = 70, "rad" = 70, "fire" = 70, "acid" = 70, "wound" = 70)
-	},
+/obj/item/clothing/shoes/vampire/firstteam_boots,
+/obj/item/clothing/shoes/vampire/firstteam_boots,
+/obj/item/clothing/shoes/vampire/firstteam_boots,
+/obj/item/clothing/shoes/vampire/firstteam_boots,
+/obj/item/clothing/shoes/vampire/firstteam_boots,
+/obj/item/clothing/shoes/vampire/firstteam_boots,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/oilrig)
 "jxG" = (
@@ -39055,12 +39019,12 @@
 /area/vtm/interior/cog/caern)
 "kHH" = (
 /obj/structure/rack,
-/obj/item/clothing/shoes/vampire/jackboots,
-/obj/item/clothing/shoes/vampire/jackboots,
-/obj/item/clothing/shoes/vampire/jackboots,
-/obj/item/clothing/shoes/vampire/jackboots,
-/obj/item/clothing/shoes/vampire/jackboots,
-/obj/item/clothing/shoes/vampire/jackboots,
+/obj/item/clothing/glasses/night,
+/obj/item/clothing/glasses/night,
+/obj/item/clothing/glasses/night,
+/obj/item/clothing/glasses/night,
+/obj/item/clothing/glasses/night,
+/obj/item/clothing/glasses/night,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/oilrig)
 "kHI" = (
@@ -41203,12 +41167,12 @@
 /area/vtm/interior/bianchiBank)
 "lmf" = (
 /obj/structure/rack,
-/obj/item/clothing/under/vampire/graveyard,
-/obj/item/clothing/under/vampire/graveyard,
-/obj/item/clothing/under/vampire/graveyard,
-/obj/item/clothing/under/vampire/graveyard,
-/obj/item/clothing/under/vampire/graveyard,
-/obj/item/clothing/under/vampire/graveyard,
+/obj/item/implanter/freedom,
+/obj/item/implanter/freedom,
+/obj/item/implanter/freedom,
+/obj/item/implanter/freedom,
+/obj/item/implanter/freedom,
+/obj/item/implanter/freedom,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/oilrig)
 "lmo" = (
@@ -42335,13 +42299,12 @@
 /area/vtm/sewer)
 "lDZ" = (
 /obj/structure/rack,
-/obj/item/clothing/glasses/night,
-/obj/item/clothing/glasses/night,
-/obj/item/clothing/glasses/night,
-/obj/item/clothing/glasses/night,
-/obj/item/clothing/glasses/night,
-/obj/item/clothing/glasses/night,
-/obj/item/clothing/glasses/night,
+/obj/item/clothing/suit/pentex/firstteam_armor,
+/obj/item/clothing/suit/pentex/firstteam_armor,
+/obj/item/clothing/suit/pentex/firstteam_armor,
+/obj/item/clothing/suit/pentex/firstteam_armor,
+/obj/item/clothing/suit/pentex/firstteam_armor,
+/obj/item/clothing/suit/pentex/firstteam_armor,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/oilrig)
 "lEl" = (
@@ -70024,41 +69987,12 @@
 /area/vtm/interior/bianchiBank)
 "sWR" = (
 /obj/structure/rack,
-/obj/item/clothing/suit/vampire/vest/army{
-	name = "first team vest";
-	color = "#06402B";
-	armor = list("melee" = 80, "bullet" = 80, "laser" = 60, "energy" = 60, "bomb" = 55, "bio" = 90, "rad" = 90, "fire" = 45, "acid" = 50, "wound" = 35)
-	},
-/obj/item/clothing/suit/vampire/vest/army{
-	name = "first team vest";
-	color = "#06402B";
-	armor = list("melee" = 80, "bullet" = 80, "laser" = 60, "energy" = 60, "bomb" = 55, "bio" = 90, "rad" = 90, "fire" = 45, "acid" = 50, "wound" = 35)
-	},
-/obj/item/clothing/suit/vampire/vest/army{
-	name = "first team vest";
-	color = "#06402B";
-	armor = list("melee" = 80, "bullet" = 80, "laser" = 60, "energy" = 60, "bomb" = 55, "bio" = 90, "rad" = 90, "fire" = 45, "acid" = 50, "wound" = 35)
-	},
-/obj/item/clothing/suit/vampire/vest/army{
-	name = "first team vest";
-	color = "#06402B";
-	armor = list("melee" = 80, "bullet" = 80, "laser" = 60, "energy" = 60, "bomb" = 55, "bio" = 90, "rad" = 90, "fire" = 45, "acid" = 50, "wound" = 35)
-	},
-/obj/item/clothing/suit/vampire/vest/army{
-	name = "first team vest";
-	color = "#06402B";
-	armor = list("melee" = 80, "bullet" = 80, "laser" = 60, "energy" = 60, "bomb" = 55, "bio" = 90, "rad" = 90, "fire" = 45, "acid" = 50, "wound" = 35)
-	},
-/obj/item/clothing/suit/vampire/vest/army{
-	name = "first team vest";
-	color = "#06402B";
-	armor = list("melee" = 80, "bullet" = 80, "laser" = 60, "energy" = 60, "bomb" = 55, "bio" = 90, "rad" = 90, "fire" = 45, "acid" = 50, "wound" = 35)
-	},
-/obj/item/clothing/suit/vampire/vest/army{
-	name = "first team vest";
-	color = "#06402B";
-	armor = list("melee" = 80, "bullet" = 80, "laser" = 60, "energy" = 60, "bomb" = 55, "bio" = 90, "rad" = 90, "fire" = 45, "acid" = 50, "wound" = 35)
-	},
+/obj/item/kitchen/knife/combat,
+/obj/item/kitchen/knife/combat,
+/obj/item/kitchen/knife/combat,
+/obj/item/kitchen/knife/combat,
+/obj/item/kitchen/knife/combat,
+/obj/item/kitchen/knife/combat,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/oilrig)
 "sWZ" = (
@@ -74848,12 +74782,12 @@
 /area/vtm/financialdistrict/construction)
 "uoY" = (
 /obj/structure/rack,
-/obj/item/clothing/mask/vampire/balaclava,
-/obj/item/clothing/mask/vampire/balaclava,
-/obj/item/clothing/mask/vampire/balaclava,
-/obj/item/clothing/mask/vampire/balaclava,
-/obj/item/clothing/mask/vampire/balaclava,
-/obj/item/clothing/mask/vampire/balaclava,
+/obj/item/clothing/under/pentex/firstteam_uniform,
+/obj/item/clothing/under/pentex/firstteam_uniform,
+/obj/item/clothing/under/pentex/firstteam_uniform,
+/obj/item/clothing/under/pentex/firstteam_uniform,
+/obj/item/clothing/under/pentex/firstteam_uniform,
+/obj/item/clothing/under/pentex/firstteam_uniform,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/oilrig)
 "upf" = (
@@ -83949,38 +83883,12 @@
 /area/vtm/financialdistrict)
 "wQB" = (
 /obj/structure/rack,
-/obj/item/clothing/gloves/vampire/investigator{
-	name = "first team gloves";
-	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 70, "rad" = 70, "fire" = 70, "acid" = 70)
-	},
-/obj/item/clothing/gloves/vampire/investigator{
-	name = "first team gloves";
-	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 70, "rad" = 70, "fire" = 70, "acid" = 70)
-	},
-/obj/item/clothing/gloves/vampire/investigator{
-	name = "first team gloves";
-	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 70, "rad" = 70, "fire" = 70, "acid" = 70)
-	},
-/obj/item/clothing/gloves/vampire/investigator{
-	name = "first team gloves";
-	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 70, "rad" = 70, "fire" = 70, "acid" = 70)
-	},
-/obj/item/clothing/gloves/vampire/investigator{
-	name = "first team gloves";
-	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 70, "rad" = 70, "fire" = 70, "acid" = 70)
-	},
-/obj/item/clothing/gloves/vampire/investigator{
-	name = "first team gloves";
-	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 70, "rad" = 70, "fire" = 70, "acid" = 70)
-	},
-/obj/item/clothing/gloves/vampire/investigator{
-	name = "first team gloves";
-	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 70, "rad" = 70, "fire" = 70, "acid" = 70)
-	},
-/obj/item/clothing/gloves/vampire/investigator{
-	name = "first team gloves";
-	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 60, "bomb" = 0, "bio" = 70, "rad" = 70, "fire" = 70, "acid" = 70)
-	},
+/obj/item/clothing/gloves/vampire/firstteam,
+/obj/item/clothing/gloves/vampire/firstteam,
+/obj/item/clothing/gloves/vampire/firstteam,
+/obj/item/clothing/gloves/vampire/firstteam,
+/obj/item/clothing/gloves/vampire/firstteam,
+/obj/item/clothing/gloves/vampire/firstteam,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/oilrig)
 "wQQ" = (
