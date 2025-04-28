@@ -8132,11 +8132,11 @@
 /area/vtm/pacificheights/forest)
 "cjK" = (
 /obj/machinery/button/door{
-	pixel_x = -8;
+	pixel_x = 22;
 	name = "helicopter door button";
 	id = "firstteam_helicopter"
 	},
-/turf/closed/wall/vampwall/metal/reinforced,
+/turf/open/floor/mineral/titanium/white,
 /area/vtm/interior/oilrig)
 "cjL" = (
 /obj/machinery/washing_machine,
@@ -457942,7 +457942,7 @@ mdA
 qce
 fmh
 fmh
-fmh
+cjK
 hQB
 hQB
 hQB
@@ -458202,7 +458202,7 @@ fkl
 fkl
 uUY
 fKs
-cjK
+fkl
 fkl
 fkl
 fmh
