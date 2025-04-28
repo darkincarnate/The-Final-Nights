@@ -16092,6 +16092,10 @@
 /obj/effect/decal/stock,
 /turf/open/floor/plating/asphalt,
 /area/vtm/pacificheights/community)
+"erD" = (
+/obj/machinery/light/warm,
+/turf/open/floor/plating/rust,
+/area/vtm/interior/oilrig)
 "erJ" = (
 /obj/structure/closet,
 /obj/item/clothing/under/vampire/military_fatigues,
@@ -26600,6 +26604,12 @@
 	},
 /turf/open/floor/plating/roofwalk,
 /area/vtm)
+"hie" = (
+/obj/machinery/light/warm{
+	dir = 8
+	},
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/oilrig)
 "hih" = (
 /obj/structure/table,
 /obj/item/storage/fancy/donut_box,
@@ -39019,12 +39029,12 @@
 /area/vtm/interior/cog/caern)
 "kHH" = (
 /obj/structure/rack,
-/obj/item/clothing/glasses/night,
-/obj/item/clothing/glasses/night,
-/obj/item/clothing/glasses/night,
-/obj/item/clothing/glasses/night,
-/obj/item/clothing/glasses/night,
-/obj/item/clothing/glasses/night,
+/obj/item/implanter/explosive,
+/obj/item/implanter/explosive,
+/obj/item/implanter/explosive,
+/obj/item/implanter/explosive,
+/obj/item/implanter/explosive,
+/obj/item/implanter/explosive,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/oilrig)
 "kHI" = (
@@ -42396,6 +42406,16 @@
 /obj/effect/landmark/start/giovannimafia,
 /turf/open/floor/plating/roofwalk,
 /area/vtm/interior/bianchiBank)
+"lEY" = (
+/obj/structure/rack,
+/obj/item/storage/firstaid/ifak,
+/obj/item/storage/firstaid/ifak,
+/obj/item/storage/firstaid/ifak,
+/obj/item/storage/firstaid/ifak,
+/obj/item/storage/firstaid/ifak,
+/obj/item/storage/firstaid/ifak,
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/oilrig)
 "lEZ" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/lavendergrass,
@@ -45044,30 +45064,12 @@
 /area/vtm/sewer/nosferatu_town)
 "mso" = (
 /obj/structure/rack,
-/obj/item/storage/backpack{
-	color = "#454545"
-	},
-/obj/item/storage/backpack{
-	color = "#454545"
-	},
-/obj/item/storage/backpack{
-	color = "#454545"
-	},
-/obj/item/storage/backpack{
-	color = "#454545"
-	},
-/obj/item/storage/backpack{
-	color = "#454545"
-	},
-/obj/item/storage/backpack{
-	color = "#454545"
-	},
-/obj/item/storage/backpack{
-	color = "#454545"
-	},
-/obj/item/storage/backpack{
-	color = "#454545"
-	},
+/obj/item/clothing/glasses/night,
+/obj/item/clothing/glasses/night,
+/obj/item/clothing/glasses/night,
+/obj/item/clothing/glasses/night,
+/obj/item/clothing/glasses/night,
+/obj/item/clothing/glasses/night,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/oilrig)
 "msq" = (
@@ -77567,6 +77569,11 @@
 /obj/effect/decal/cardboard,
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/sewer/nosferatu_town)
+"vco" = (
+/obj/structure/rack,
+/obj/item/storage/firstaid/medical,
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/oilrig)
 "vcp" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/plating/toilet,
@@ -454839,7 +454846,7 @@ bxT
 mdA
 uvm
 wQB
-xPP
+hie
 kHH
 lmf
 cYm
@@ -455097,11 +455104,11 @@ mdA
 gdr
 fuW
 xPP
+lEY
 xPP
 xPP
-pNY
 eyF
-mdA
+erD
 mdA
 mdA
 tXq
@@ -455611,11 +455618,11 @@ mdA
 uvm
 lDZ
 xPP
+vco
 xPP
 xPP
-pNY
 eyF
-mdA
+erD
 mdA
 mdA
 uvm
