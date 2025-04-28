@@ -16092,10 +16092,6 @@
 /obj/effect/decal/stock,
 /turf/open/floor/plating/asphalt,
 /area/vtm/pacificheights/community)
-"erD" = (
-/obj/machinery/light/warm,
-/turf/open/floor/plating/rust,
-/area/vtm/interior/oilrig)
 "erJ" = (
 /obj/structure/closet,
 /obj/item/clothing/under/vampire/military_fatigues,
@@ -16509,8 +16505,10 @@
 /turf/open/floor/plating/toilet,
 /area/vtm/interior/tzimisce_manor)
 "eyF" = (
-/obj/effect/turf_decal/caution/red,
-/turf/closed/wall/vampwall/metal,
+/obj/machinery/light/warm{
+	dir = 8
+	},
+/turf/open/floor/plating/vampplating,
 /area/vtm/interior/oilrig)
 "eyY" = (
 /obj/structure/extinguisher_cabinet{
@@ -26604,12 +26602,6 @@
 	},
 /turf/open/floor/plating/roofwalk,
 /area/vtm)
-"hie" = (
-/obj/machinery/light/warm{
-	dir = 8
-	},
-/turf/open/floor/plating/vampplating,
-/area/vtm/interior/oilrig)
 "hih" = (
 /obj/structure/table,
 /obj/item/storage/fancy/donut_box,
@@ -34625,8 +34617,9 @@
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/giovanni)
 "jvQ" = (
-/obj/machinery/light/small,
-/turf/open/floor/engine,
+/obj/structure/rack,
+/obj/item/storage/firstaid/medical,
+/turf/open/floor/plating/vampplating,
 /area/vtm/interior/oilrig)
 "jvS" = (
 /obj/effect/turf_decal/siding/white{
@@ -42406,16 +42399,6 @@
 /obj/effect/landmark/start/giovannimafia,
 /turf/open/floor/plating/roofwalk,
 /area/vtm/interior/bianchiBank)
-"lEY" = (
-/obj/structure/rack,
-/obj/item/storage/firstaid/ifak,
-/obj/item/storage/firstaid/ifak,
-/obj/item/storage/firstaid/ifak,
-/obj/item/storage/firstaid/ifak,
-/obj/item/storage/firstaid/ifak,
-/obj/item/storage/firstaid/ifak,
-/turf/open/floor/plating/vampplating,
-/area/vtm/interior/oilrig)
 "lEZ" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/lavendergrass,
@@ -62674,29 +62657,29 @@
 "qYx" = (
 /obj/structure/rack,
 /obj/item/gun/ballistic/automatic/vampire/aug{
-	desc = "A specialty Steyr AUG, a holdover from your days in the SWAT unit. For when the freaks come out to riot, you'll be ready.";
+	desc = "A specially manufactured AUG linked to one of Pentex's many subsidiaries. If this won't take down a beast, nothing will.";
 	name = "First Team AUG"
 	},
 /obj/item/gun/ballistic/automatic/vampire/aug{
-	desc = "A specialty Steyr AUG, a holdover from your days in the SWAT unit. For when the freaks come out to riot, you'll be ready.";
+	desc = "A specially manufactured AUG linked to one of Pentex's many subsidiaries. If this won't take down a beast, nothing will.";
 	name = "First Team AUG"
 	},
 /obj/item/gun/ballistic/automatic/vampire/aug{
-	desc = "A specialty Steyr AUG, a holdover from your days in the SWAT unit. For when the freaks come out to riot, you'll be ready.";
+	desc = "A specially manufactured AUG linked to one of Pentex's many subsidiaries. If this won't take down a beast, nothing will.";
 	name = "First Team AUG"
 	},
 /obj/item/gun/ballistic/automatic/vampire/aug{
-	desc = "A specialty Steyr AUG, a holdover from your days in the SWAT unit. For when the freaks come out to riot, you'll be ready.";
+	desc = "A specially manufactured AUG linked to one of Pentex's many subsidiaries. If this won't take down a beast, nothing will.";
 	name = "First Team AUG"
 	},
 /obj/item/gun/ballistic/automatic/vampire/aug{
-	desc = "A specialty Steyr AUG, a holdover from your days in the SWAT unit. For when the freaks come out to riot, you'll be ready.";
+	desc = "A specially manufactured AUG linked to one of Pentex's many subsidiaries. If this won't take down a beast, nothing will.";
 	name = "First Team AUG"
 	},
-/obj/item/ammo_box/magazine/vampaug,
-/obj/item/ammo_box/magazine/vampaug,
-/obj/item/ammo_box/magazine/vampaug,
-/obj/item/ammo_box/magazine/vampaug,
+/obj/item/gun/ballistic/automatic/vampire/aug{
+	desc = "A specially manufactured AUG linked to one of Pentex's many subsidiaries. If this won't take down a beast, nothing will.";
+	name = "First Team AUG"
+	},
 /obj/item/ammo_box/magazine/vampaug,
 /obj/item/ammo_box/magazine/vampaug,
 /obj/item/ammo_box/magazine/vampaug,
@@ -77004,6 +76987,7 @@
 	name = "helicopter door button";
 	id = "firstteam_helicopter"
 	},
+/obj/machinery/light/small,
 /turf/closed/wall/vampwall/metal/reinforced,
 /area/vtm/interior/oilrig)
 "uVc" = (
@@ -77569,11 +77553,6 @@
 /obj/effect/decal/cardboard,
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/sewer/nosferatu_town)
-"vco" = (
-/obj/structure/rack,
-/obj/item/storage/firstaid/medical,
-/turf/open/floor/plating/vampplating,
-/area/vtm/interior/oilrig)
 "vcp" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/plating/toilet,
@@ -89040,6 +89019,16 @@
 /obj/effect/decal/wallpaper/paper/stripe,
 /turf/closed/wall/vampwall/old,
 /area/vtm)
+"ylp" = (
+/obj/structure/rack,
+/obj/item/storage/firstaid/ifak,
+/obj/item/storage/firstaid/ifak,
+/obj/item/storage/firstaid/ifak,
+/obj/item/storage/firstaid/ifak,
+/obj/item/storage/firstaid/ifak,
+/obj/item/storage/firstaid/ifak,
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/oilrig)
 "ylB" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/effect/landmark/npcwall,
@@ -454846,7 +454835,7 @@ bxT
 mdA
 uvm
 wQB
-hie
+eyF
 kHH
 lmf
 cYm
@@ -455104,11 +455093,11 @@ mdA
 gdr
 fuW
 xPP
-lEY
+ylp
 xPP
 xPP
-eyF
-erD
+kvz
+mdA
 mdA
 mdA
 tXq
@@ -455618,11 +455607,11 @@ mdA
 uvm
 lDZ
 xPP
-vco
+jvQ
 xPP
 xPP
-eyF
-erD
+kvz
+mdA
 mdA
 mdA
 uvm
@@ -458468,7 +458457,7 @@ cOm
 dwm
 iXk
 uVa
-jvQ
+eeD
 eeD
 uKR
 eCG
@@ -458982,7 +458971,7 @@ cOm
 dwm
 jpj
 jtq
-jvQ
+eeD
 eeD
 xko
 eCG
