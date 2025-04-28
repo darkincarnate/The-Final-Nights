@@ -14100,6 +14100,21 @@
 /obj/structure/dresser,
 /turf/open/floor/plating/vampwood,
 /area/vtm/interior/chantry/basement)
+"dSl" = (
+/obj/structure/table,
+/obj/item/paper_bin{
+	pixel_y = 6
+	},
+/obj/item/pen/fourcolor,
+/obj/item/stamp/endroniaa{
+	pixel_x = -13
+	},
+/obj/item/stamp/denied{
+	pixel_y = 11;
+	pixel_x = -13
+	},
+/turf/open/floor/plating/granite,
+/area/vtm/interior/endron_facility)
 "dSs" = (
 /obj/structure/table/wood,
 /obj/structure/coclock,
@@ -243177,7 +243192,7 @@ tXX
 fAo
 vtl
 uOW
-ilT
+dSl
 tSa
 fAo
 ntq
