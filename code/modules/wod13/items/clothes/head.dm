@@ -304,8 +304,14 @@
 	name = "First Team helmet"
 	desc = "A black helmet with two, green-glowing eye-pieces that seem to stare through your soul."
 	icon_state = "fthelmet"
-	flags_inv = HIDEHAIR
 	armor = list(MELEE = 80, BULLET = 80, LASER = 80, ENERGY = 80, BOMB = 80, BIO = 80, RAD = 80, FIRE = 80, ACID = 80, WOUND = 80)
+	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEHAIR
+	clothing_flags = NO_HAT_TRICKS|SNUG_FIT
+	dynamic_hair_suffix = ""
+	dynamic_fhair_suffix = ""
+	visor_flags_inv = HIDEFACE|HIDESNOUT
+	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
+	visor_flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
 
 /obj/item/clothing/head/vampire/chauffeur
 	name = "chauffeur hat"
