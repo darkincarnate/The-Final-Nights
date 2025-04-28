@@ -1549,17 +1549,6 @@
 /obj/effect/decal/wallpaper/paper,
 /turf/closed/wall/vampwall/old,
 /area/vtm/interior/ghetto)
-"avE" = (
-/obj/structure/closet{
-	pixel_x = -7
-	},
-/obj/item/clothing/under/pentex/pentex_suitskirt,
-/obj/item/clothing/under/pentex/pentex_suitskirt,
-/obj/item/clothing/under/pentex/pentex_suitskirt,
-/turf/open/floor/plating/toilet{
-	color = "#636363"
-	},
-/area/vtm/interior/endron_facility)
 "avM" = (
 /obj/effect/decal/shadow,
 /obj/structure/railing{
@@ -3820,15 +3809,6 @@
 /obj/effect/turf_decal/weather/dirt,
 /turf/open/floor/plating/vampgrass,
 /area/vtm/interior/bianchiBank)
-"bal" = (
-/obj/machinery/light/small{
-	dir = 8;
-	pixel_x = 16
-	},
-/turf/open/floor/plating/toilet{
-	color = "#636363"
-	},
-/area/vtm/interior/endron_facility)
 "baE" = (
 /turf/closed/wall/vampwall/bar/low,
 /area/vtm/sewer)
@@ -26250,6 +26230,17 @@
 	},
 /turf/closed/wall/vampwall/rock,
 /area/vtm)
+"hgC" = (
+/obj/structure/closet{
+	pixel_x = -7
+	},
+/obj/item/clothing/under/pentex/pentex_shortsleeve,
+/obj/item/clothing/under/pentex/pentex_shortsleeve,
+/obj/item/clothing/under/pentex/pentex_shortsleeve,
+/turf/open/floor/plating/toilet{
+	color = "#636363"
+	},
+/area/vtm/interior/endron_facility)
 "hgF" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/effect/landmark/npcwall,
@@ -32652,21 +32643,6 @@
 /obj/effect/landmark/npcability,
 /turf/open/floor/plating/asphalt,
 /area/vtm/financialdistrict)
-"iXS" = (
-/obj/structure/table,
-/obj/item/paper_bin{
-	pixel_y = 6
-	},
-/obj/item/pen/fourcolor,
-/obj/item/stamp/endroniaa{
-	pixel_x = -13
-	},
-/obj/item/stamp/denied{
-	pixel_y = 11;
-	pixel_x = -13
-	},
-/turf/open/floor/plating/granite,
-/area/vtm/interior/endron_facility)
 "iXT" = (
 /obj/fusebox,
 /turf/open/floor/plating/circled,
@@ -36188,13 +36164,6 @@
 /obj/structure/curtain/cloth,
 /turf/closed/wall/vampwall/junk/alt/low/window,
 /area/vtm/sewer/nosferatu_town)
-"jXp" = (
-/obj/structure/curtain/cloth/fancy/mechanical/luxurious{
-	id = endronbranchlead;
-	pixel_y = 15
-	},
-/turf/closed/wall/vampwall/rich/low/window/reinforced,
-/area/vtm/interior/endron_facility)
 "jXv" = (
 /turf/open/floor/carpet/royalblack,
 /area/vtm/interior/banu)
@@ -43029,17 +42998,6 @@
 /obj/effect/decal/graffiti,
 /turf/open/floor/plating/vampcanalplating,
 /area/vtm/sewer)
-"lSB" = (
-/obj/structure/closet{
-	pixel_x = -7
-	},
-/obj/item/clothing/under/pentex/pentex_turtleneck,
-/obj/item/clothing/under/pentex/pentex_turtleneck,
-/obj/item/clothing/under/pentex/pentex_turtleneck,
-/turf/open/floor/plating/toilet{
-	color = "#636363"
-	},
-/area/vtm/interior/endron_facility)
 "lSE" = (
 /obj/effect/decal/bordur{
 	dir = 4
@@ -46373,9 +46331,9 @@
 /obj/structure/closet{
 	pixel_x = -7
 	},
-/obj/item/clothing/under/pentex/pentex_suit,
-/obj/item/clothing/under/pentex/pentex_suit,
-/obj/item/clothing/under/pentex/pentex_suit,
+/obj/item/clothing/under/pentex/pentex_turtleneck,
+/obj/item/clothing/under/pentex/pentex_turtleneck,
+/obj/item/clothing/under/pentex/pentex_turtleneck,
 /turf/open/floor/plating/toilet{
 	color = "#636363"
 	},
@@ -48117,6 +48075,15 @@
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/millennium_tower/f2)
+"nmk" = (
+/obj/machinery/light/small{
+	dir = 8;
+	pixel_x = 16
+	},
+/turf/open/floor/plating/toilet{
+	color = "#636363"
+	},
+/area/vtm/interior/endron_facility)
 "nmu" = (
 /obj/structure/table/wood/fancy/black,
 /turf/open/floor/plating/parquetry,
@@ -51965,6 +51932,13 @@
 /obj/effect/landmark/npcability,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/ghetto/old)
+"onR" = (
+/obj/structure/curtain/cloth/fancy/mechanical/luxurious{
+	id = endronbranchlead;
+	pixel_y = 15
+	},
+/turf/closed/wall/vampwall/rich/low/window/reinforced,
+/area/vtm/interior/endron_facility)
 "onU" = (
 /obj/structure/vampdoor/npc{
 	dir = 8
@@ -56363,6 +56337,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 8
 	},
+/obj/machinery/light/small,
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/vtm/interior/endron_facility)
 "pxy" = (
@@ -57852,6 +57827,21 @@
 	},
 /turf/open/floor/plating/vampcarpet,
 /area/vtm/interior/police/upstairs)
+"pPS" = (
+/obj/structure/table,
+/obj/item/paper_bin{
+	pixel_y = 6
+	},
+/obj/item/pen/fourcolor,
+/obj/item/stamp/endroniaa{
+	pixel_x = -13
+	},
+/obj/item/stamp/denied{
+	pixel_y = 11;
+	pixel_x = -13
+	},
+/turf/open/floor/plating/granite,
+/area/vtm/interior/endron_facility)
 "pQl" = (
 /obj/effect/decal/bordur{
 	dir = 4
@@ -70901,17 +70891,6 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/chantry)
-"tqt" = (
-/obj/structure/closet{
-	pixel_x = -7
-	},
-/obj/item/clothing/under/pentex/pentex_shortsleeve,
-/obj/item/clothing/under/pentex/pentex_shortsleeve,
-/obj/item/clothing/under/pentex/pentex_shortsleeve,
-/turf/open/floor/plating/toilet{
-	color = "#636363"
-	},
-/area/vtm/interior/endron_facility)
 "tqw" = (
 /obj/structure/table,
 /obj/item/paper{
@@ -75629,6 +75608,17 @@
 /obj/item/weedseed,
 /turf/open/floor/carpet,
 /area/vtm/interior/strip/toreador)
+"uGz" = (
+/obj/structure/closet{
+	pixel_x = -7
+	},
+/obj/item/clothing/under/pentex/pentex_suit,
+/obj/item/clothing/under/pentex/pentex_suit,
+/obj/item/clothing/under/pentex/pentex_suit,
+/turf/open/floor/plating/toilet{
+	color = "#636363"
+	},
+/area/vtm/interior/endron_facility)
 "uGF" = (
 /obj/machinery/light{
 	dir = 4;
@@ -76050,6 +76040,13 @@
 	},
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/millennium_tower/f4)
+"uNO" = (
+/obj/structure/curtain/cloth/fancy/mechanical/luxurious{
+	id = endroniaa;
+	pixel_y = 15
+	},
+/turf/closed/wall/vampwall/rich/low/window/reinforced,
+/area/vtm/interior/endron_facility)
 "uNP" = (
 /obj/machinery/light/small/red{
 	pixel_y = 24
@@ -88212,6 +88209,17 @@
 /obj/item/detective_scanner,
 /turf/open/floor/carpet/royalblack,
 /area/vtm/interior/police/fed)
+"yfk" = (
+/obj/structure/closet{
+	pixel_x = -7
+	},
+/obj/item/clothing/under/pentex/pentex_suitskirt,
+/obj/item/clothing/under/pentex/pentex_suitskirt,
+/obj/item/clothing/under/pentex/pentex_suitskirt,
+/turf/open/floor/plating/toilet{
+	color = "#636363"
+	},
+/area/vtm/interior/endron_facility)
 "yfl" = (
 /obj/effect/decal/asphaltline,
 /obj/effect/landmark/start/caitiff,
@@ -173850,10 +173858,10 @@ fAo
 qPT
 qdb
 fAo
-tqt
+hgC
+uGz
+yfk
 mNM
-avE
-lSB
 vAy
 fAo
 hyN
@@ -174108,9 +174116,9 @@ qdb
 qdb
 jcz
 akf
-bal
+nmk
 akf
-bal
+nmk
 akf
 fAo
 hyN
@@ -242215,7 +242223,7 @@ qdb
 qdb
 fAo
 fAo
-rjq
+uNO
 fAo
 fAo
 fAo
@@ -243244,7 +243252,7 @@ tXX
 fAo
 vtl
 uOW
-iXS
+pPS
 tSa
 fAo
 ntq
@@ -243500,8 +243508,8 @@ fAo
 fAo
 fAo
 fAo
-rjq
-rjq
+uNO
+uNO
 fAo
 fAo
 ntq
@@ -304667,8 +304675,8 @@ fAo
 fAo
 fAo
 fAo
-jXp
-jXp
+onR
+onR
 fAo
 fAo
 fAo
