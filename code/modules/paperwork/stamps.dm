@@ -99,5 +99,10 @@
 	icon_state = "stamp-syndicate"
 	dye_color = DYE_SYNDICATE
 
+/obj/item/stamp/endroncorporate
+	name = "Endron Corporate rubber stamp"
+	icon_state = "stamp-centcom"
+	dye_color = DYE_CENTCOM
+
 /obj/item/stamp/attack_paw(mob/user, list/modifiers)
 	return attack_hand(user, modifiers)
