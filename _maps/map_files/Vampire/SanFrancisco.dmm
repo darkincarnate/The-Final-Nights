@@ -12928,11 +12928,11 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/obj/item/stamp{
-	pixel_x = 12
-	},
 /obj/item/stamp/denied{
 	pixel_y = 12;
+	pixel_x = 12
+	},
+/obj/item/stamp/endroncorporate{
 	pixel_x = 12
 	},
 /turf/open/floor/carpet/green,
@@ -17305,7 +17305,10 @@
 /obj/item/clothing/under/pentex/pentex_executive_suit,
 /obj/item/clothing/under/pentex/pentex_executiveskirt,
 /obj/item/clothing/head/pentex/pentex_beret,
-/obj/item/clothing/glasses/vampire/yellow,
+/obj/item/clothing/glasses/vampire/yellow{
+	name = "green aviators";
+	color = "#008000"
+	},
 /obj/item/ammo_box/vampire/c44/silver,
 /obj/item/vamp/keys/pentex,
 /obj/item/vamp/keys/pentex,
@@ -43326,12 +43329,12 @@
 	pixel_y = 12;
 	pixel_x = 12
 	},
-/obj/item/stamp{
-	pixel_x = 12
-	},
 /obj/machinery/button/curtain{
 	id = endronexecutive;
 	pixel_y = 4
+	},
+/obj/item/stamp/endroncorporate{
+	pixel_x = 12
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/endron_facility)
