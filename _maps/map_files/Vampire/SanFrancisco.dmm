@@ -5813,6 +5813,10 @@
 "bCe" = (
 /turf/open/floor/plating/toilet,
 /area/vtm/interior/chantry)
+"bCm" = (
+/obj/machinery/photocopier,
+/turf/open/floor/plating/circled,
+/area/vtm/interior/wyrm_corrupted)
 "bCt" = (
 /obj/effect/decal/bordur,
 /obj/machinery/light/small{
@@ -147194,7 +147198,7 @@ puz
 lda
 hTk
 xTC
-ldi
+bCm
 hTk
 lda
 puz
