@@ -104,5 +104,10 @@
 	icon_state = "stamp-centcom"
 	dye_color = DYE_CENTCOM
 
+/obj/item/stamp/endroniaa
+	name = "Endron Internal Affairs rubber stamp"
+	icon_state = "stamp-chap"
+	dye_color = DYE_CHAP
+
 /obj/item/stamp/attack_paw(mob/user, list/modifiers)
 	return attack_hand(user, modifiers)
