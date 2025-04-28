@@ -869,12 +869,16 @@
   "</center>",
 "<hr color=\"0a3d0a\" size=\"4\">",
 "<br> The basis for asset requisition under Endron Directive 41(b) is <font color=\"black\" size=2><i> (check one or more) </i> </font>",
-"<br>[_] unwavering loyalty and compliance",
-"<br>[_] genetic compatibility with Project Thanatos",
-"<br>[_] combat readiness and/or expendability",
-"<br>[_] capacity for indefinite off-world deployment",
+
+"<br>[_] Unwavering loyalty and compliance",
+
+"<br>[_] Genetic compatibility with Project Thanatos",
+
+"<br>[_] Combat readiness and/or expendability",
+
+"<br>[_] Capacity for indefinite off-world deployment",
 "<hr color=\"0a3d0a\" size=\"4\">",
-"<br> This requisition is in relation to:",
+"<br> This application is in relation to:",
 "<br> [___________________________________________________________]",
 "<br> [___________________________________________________________]",
 "<br> [___________________________________________________________]",
@@ -885,15 +889,15 @@
     "<th>",
       "<div align=\"left\">",
         "<font color=\"white\" size=2>",
-          "<font size=5><right><code><em>Sworn before the Overseer and logged in the Omnivault</em></code> <br>",
-            "<code><em>Territory and Zone: [_____________________________] </em></code>",
+          "<font size=5><right><code><em>Sworn before the Corporate Board and logged in the employment database</em></code> <br>",
+            "<code><em>Branch and Division: [_____________________________] </em></code>",
     "<th>",
       "<div align=\"right\">",
         "<font color=\"white\" size=3>",
           "<font size=4>",
             "<center>",
-              "<code><em>Applicant's name and designation: [___________________]</em></code><br>",
-              "<code>Division Director Approval Code: [___________________]</code>",
+              "<code><em>Applicant's Signature: [___________________]</em></code><br>",
+              "<code>Acting Supervisor's Signature: [___________________]</code>",
             "</center>"
 		]
 	},
