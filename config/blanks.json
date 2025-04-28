@@ -817,8 +817,8 @@
 		]
 	},
 	{
-		"code": "END-E",
-		"category": "Endron",
+		"code": "END-EMP",
+		"category": "Endron International",
 		"name": "Application for Corporate Employment",
 		"info": [
 "<head>",
@@ -899,8 +899,8 @@
 	},
 	{
 		"code": "END-ADV",
-		"category": "Endron",
-		"name": "Endron advertisement",
+		"category": "Endron International",
+		"name": "Endron Advertisement",
 		"info": [
 			"<center><font size=\"5\" color=\"green\"><b>WELCOME TO A CLEANER, STRONGER SAN FRANCISCO</b></font></center>",
 
@@ -925,6 +925,62 @@
 "<center><font color=\"green\"><b>ENERGY THAT WORKS. PEOPLE WHO CARE. A FUTURE THAT LASTS.</b></font></center>",
 
 "<center><font size=\"2\">For local opportunities or inquiries, please contact your regional Endron Civic Liaison or your district’s Forward Outreach Officer.</font></center>"
+]
+},
+{
+	"code": "END-DISC",
+	"category": "Endron International",
+	"name": "Endron Disciplinary Action Record",
+	"info": [
+		"<center><font size=\"5\" color=\"green\"><b>ENDRON INTERNATIONAL - DISCIPLINARY ACTION PLAN</b></font></center>",
+
+"<hr>",
+
+"<center><b>EMPLOYEE DISCIPLINE RECORD</b></center>",
+
+"<b>Employee Name:</b> [_________________________]",
+"<b>Employee ID Number:</b> [_____________________]",
+
+"<b>Department:</b> [______________________________]",
+"<b>Supervisor Name:</b> [_________________________]",
+
+"<br>",
+
+"<b>Tier of Disciplinary Action (Select One):</b>",
+
+"<ul>",
+"<li>[_] Tier Zero — Verbal Warning",
+"<i>Informal correction issued. No file record created. Employee advised to improve immediately.</i></li>",
+
+"<li>[_] Tier One — Written Warning",
+"<i>Formal reprimand issued. Action Plan created and signed. Two strikes remaining.</i></li>",
+
+"<li>[_] Tier Two — Suspension",
+"<i>Temporary removal from duty without pay. Mandatory Action Plan revision required upon return.</i></li>",
+
+"<li>[_] Tier Three — Termination",
+"<i>Employment terminated. All company property reclaimed. Subject transferred to Medical Research Division as applicable.</i></li>",
+"</ul>",
+
+"<br>",
+
+"<b>Primary Infraction Type (Select One or More):</b>",
+
+"<ul>",
+"<li>[_] Class C — Minor (e.g., tardiness, low performance)</li>",
+"<li>[_] Class B — Serious (e.g., insubordination, contraband)</li>",
+"<li>[_] Class A — Critical (e.g., violence, corporate sabotage)</li>",
+"</ul>",
+
+"<br>",
+
+"<b>Notes/Additional Observations:</b>",
+"[___________________________________________________________________]",
+"[___________________________________________________________________]",
+
+"<hr>",
+
+"<center><font size=\"2\" color=\"gray\">For HR use only: All disciplinary actions are final pending executive orders.</font></center>"
 		]
 	}
 ]
