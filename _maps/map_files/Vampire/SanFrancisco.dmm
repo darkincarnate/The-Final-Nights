@@ -6425,6 +6425,13 @@
 /obj/structure/table/wood/fancy/red,
 /turf/open/floor/carpet/lone,
 /area/vtm/interior/chantry)
+"bIu" = (
+/obj/structure/chair/office{
+	dir = 1
+	},
+/mob/living/carbon/human/npc/endronsecurity,
+/turf/open/floor/plating/vampplating,
+/area/vtm/financialdistrict/construction)
 "bIw" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/carpet/royalblack,
@@ -10646,6 +10653,7 @@
 /obj/structure/chair/office{
 	dir = 4
 	},
+/mob/living/carbon/human/npc/endronsecurity,
 /turf/open/floor/plating/vampplating,
 /area/vtm)
 "cOi" = (
@@ -69770,6 +69778,7 @@
 /obj/structure/chair/office{
 	dir = 8
 	},
+/mob/living/carbon/human/npc/endronsecurity,
 /turf/open/floor/plating/vampplating,
 /area/vtm)
 "sGC" = (
@@ -176801,7 +176810,7 @@ eTM
 eTM
 aun
 nOW
-pbt
+bIu
 eTM
 eTM
 ygT
