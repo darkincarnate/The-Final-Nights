@@ -3285,7 +3285,7 @@
 "aRQ" = (
 /obj/structure/table,
 /obj/machinery/button{
-	id = 88
+	id = "endronparking"
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/financialdistrict/construction)
@@ -6425,13 +6425,6 @@
 /obj/structure/table/wood/fancy/red,
 /turf/open/floor/carpet/lone,
 /area/vtm/interior/chantry)
-"bIu" = (
-/obj/structure/chair/office{
-	dir = 1
-	},
-/mob/living/carbon/human/npc/endronsecurity,
-/turf/open/floor/plating/vampplating,
-/area/vtm/financialdistrict/construction)
 "bIw" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/carpet/royalblack,
@@ -11017,7 +11010,7 @@
 /area/vtm/anarch)
 "cTj" = (
 /obj/machinery/door/poddoor/shutters{
-	id = 88
+	id = "endronparking"
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/financialdistrict/construction)
@@ -49445,6 +49438,13 @@
 /obj/effect/decal/bordur,
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/park)
+"nty" = (
+/obj/structure/chair/office{
+	dir = 1
+	},
+/mob/living/carbon/human/npc/endronsecurity,
+/turf/open/floor/plating/vampplating,
+/area/vtm/financialdistrict/construction)
 "ntz" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 1
@@ -49741,7 +49741,7 @@
 "nxh" = (
 /obj/machinery/button{
 	pixel_y = 27;
-	id = 88
+	id = "endronparking"
 	},
 /obj/effect/decal/bordur{
 	dir = 8
@@ -176810,7 +176810,7 @@ eTM
 eTM
 aun
 nOW
-bIu
+nty
 eTM
 eTM
 ygT
