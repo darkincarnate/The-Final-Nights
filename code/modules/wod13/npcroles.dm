@@ -1320,12 +1320,18 @@
 		"Not just a mall cop, you know!"
 	)
 
-/mob/living/carbon/human/npc/guard
+/mob/living/carbon/human/npc/endronsecurity
 	staying = TRUE
 	fights_anyway = TRUE
 	max_stat = 4
-	my_weapon_type = /obj/item/gun/ballistic/automatic/vampire/mp5
+	my_weapon_type = /obj/item/gun/ballistic/automatic/vampire/m1911
 	my_backup_weapon_type = /obj/item/melee/classic_baton/vampire
+
+/mob/living/carbon/human/npc/endronsecurity/Initialize()
+	. = ..()
+	if(prob(66))
+		base_body_mod = "f"
+	AssignSocialRole(/datum/socialrole/endronsecurity)
 
 /datum/socialrole/guard
 	s_tones = list(
