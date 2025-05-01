@@ -3288,7 +3288,8 @@
 "aRQ" = (
 /obj/structure/table,
 /obj/machinery/button{
-	id = "endronparking"
+	id = "endronparking";
+	id_tag = "endronparking"
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/financialdistrict/construction)
@@ -11007,7 +11008,8 @@
 /area/vtm/anarch)
 "cTj" = (
 /obj/machinery/door/poddoor/shutters{
-	id = "endronparking"
+	id = "endronparking";
+	id_tag = "endronparking"
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/endron_facility)
@@ -13398,13 +13400,6 @@
 /obj/effect/decal/asphaltline,
 /turf/closed/wall/vampwall,
 /area/vtm)
-"dAg" = (
-/obj/structure/table,
-/obj/item/paper{
-	default_raw_text = "Branch Leader - 0666 | Executive - 0333 | Internal Affairs - 0432"
-	},
-/turf/open/floor/plating/vampplating/mono,
-/area/vtm/interior/endron_facility)
 "dAi" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 1
@@ -49721,7 +49716,8 @@
 "nxh" = (
 /obj/machinery/button{
 	pixel_y = 27;
-	id = "endronparking"
+	id = "endronparking";
+	id_tag = "endronparking"
 	},
 /obj/effect/decal/bordur{
 	dir = 8
@@ -78199,6 +78195,13 @@
 	},
 /turf/open/floor/plating/toilet,
 /area/vtm/jazzclub)
+"uYE" = (
+/obj/structure/table,
+/obj/item/paper{
+	default_raw_text = "Branch Leader - 0666 | Executive - 0333 | Internal Affairs - 0432"
+	},
+/turf/open/floor/plating/vampplating/mono,
+/area/vtm/interior/endron_facility)
 "uYF" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/big_vamprocks,
@@ -178060,7 +178063,7 @@ hEi
 nkF
 eTM
 aun
-dAg
+uYE
 cwA
 hFe
 aun
