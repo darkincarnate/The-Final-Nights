@@ -740,7 +740,10 @@
 /area/vtm/pacificheights/community)
 "akc" = (
 /obj/structure/table,
-/turf/open/floor/plating/vampplating/mono,
+/obj/item/vamp/phone/emergency{
+	number = "0333"
+	},
+/turf/open/floor/plating/parquetry,
 /area/vtm/interior/endron_facility)
 "akf" = (
 /turf/open/floor/plating/toilet{
@@ -13395,6 +13398,13 @@
 /obj/effect/decal/asphaltline,
 /turf/closed/wall/vampwall,
 /area/vtm)
+"dAg" = (
+/obj/structure/table,
+/obj/item/paper{
+	default_raw_text = "Branch Leader - 0666 | Executive - 0333 | Internal Affairs - 0432"
+	},
+/turf/open/floor/plating/vampplating/mono,
+/area/vtm/interior/endron_facility)
 "dAi" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 1
@@ -30015,6 +30025,11 @@
 /obj/machinery/button/curtain{
 	pixel_y = 6;
 	id = 2478
+	},
+/obj/item/vamp/phone/emergency{
+	number = "0432";
+	pixel_x = -10;
+	pixel_y = 4
 	},
 /turf/open/floor/plating/granite,
 /area/vtm/interior/endron_facility)
@@ -52165,7 +52180,9 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
-/obj/item/phone,
+/obj/item/vamp/phone/emergency{
+	number = "0666"
+	},
 /turf/open/floor/carpet/green,
 /area/vtm/interior/endron_facility)
 "oeI" = (
@@ -178043,8 +178060,8 @@ hEi
 nkF
 eTM
 aun
+dAg
 cwA
-akc
 hFe
 aun
 eTM
@@ -244606,7 +244623,7 @@ ksJ
 hEi
 kNY
 hEi
-rVy
+akc
 xMo
 xMo
 xMo
