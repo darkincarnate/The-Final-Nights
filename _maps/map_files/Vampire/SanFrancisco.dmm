@@ -743,7 +743,7 @@
 /obj/item/paper{
 	default_raw_text = "Branch Leader - 0666 | Executive - 0333 | Internal Affairs - 0432"
 	},
-/turf/open/floor/plating/vampplating/mono,
+/turf/open/floor/plating/granite,
 /area/vtm/interior/endron_facility)
 "akf" = (
 /turf/open/floor/plating/toilet{
@@ -1051,16 +1051,6 @@
 	},
 /turf/open/floor/wood,
 /area/vtm/interior/penumbra/enoch)
-"anW" = (
-/obj/structure/table,
-/obj/item/vamp/phone/emergency{
-	number = "0333"
-	},
-/obj/item/paper{
-	default_raw_text = "Branch Leader - 0666 | Executive - 0333 | Internal Affairs - 0432"
-	},
-/turf/open/floor/plating/parquetry,
-/area/vtm/interior/endron_facility)
 "aoa" = (
 /obj/effect/decal/wallpaper/light,
 /turf/closed/wall/vampwall/market,
@@ -3297,9 +3287,9 @@
 /area/vtm/interior/banu/haven)
 "aRQ" = (
 /obj/structure/table,
-/obj/machinery/button{
-	id = "endronparking";
-	id_tag = "endronparking"
+/obj/machinery/button/door{
+	id = 56;
+	name = "Parking Shutters Control"
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/financialdistrict/construction)
@@ -3732,13 +3722,6 @@
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/giovanni)
-"aWh" = (
-/obj/structure/table,
-/obj/item/paper{
-	default_raw_text = "Branch Leader - 0666 | Executive - 0333 | Internal Affairs - 0432"
-	},
-/turf/open/floor/plating/vampplating,
-/area/vtm/interior/endron_facility)
 "aWj" = (
 /obj/effect/decal/bordur{
 	dir = 8
@@ -5699,6 +5682,16 @@
 /turf/open/floor/plating/toilet{
 	color = "#636363"
 	},
+/area/vtm/interior/endron_facility)
+"bxw" = (
+/obj/structure/table,
+/obj/item/vamp/phone/emergency{
+	number = "0333"
+	},
+/obj/item/paper{
+	default_raw_text = "Branch Leader - 0666 | Executive - 0333 | Internal Affairs - 0432"
+	},
+/turf/open/floor/plating/parquetry,
 /area/vtm/interior/endron_facility)
 "bxH" = (
 /obj/structure/table/wood/fancy/black,
@@ -11025,8 +11018,13 @@
 /area/vtm/anarch)
 "cTj" = (
 /obj/machinery/door/poddoor/shutters{
-	id = "endronparking";
-	id_tag = "endronparking"
+	damage_deflection = 60;
+	id = 56;
+	max_integrity = 300;
+	name = "Parking Shutter"
+	},
+/obj/effect/turf_decal/stripes{
+	dir = 1
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/endron_facility)
@@ -39766,6 +39764,7 @@
 /obj/item/reagent_containers/spray/cleaner,
 /obj/item/reagent_containers/glass/bucket,
 /obj/item/mop,
+/obj/item/lightreplacer,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "kOf" = (
@@ -45021,6 +45020,13 @@
 /obj/effect/decal/cleanable/confetti,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/strip/toreador)
+"mkm" = (
+/obj/structure/table,
+/obj/item/paper{
+	default_raw_text = "Branch Leader - 0666 | Executive - 0333 | Internal Affairs - 0432"
+	},
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "mkp" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 8
@@ -45723,6 +45729,12 @@
 	},
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/millennium_tower)
+"mvf" = (
+/obj/structure/vampdoor/simple{
+	dir = 4
+	},
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "mvj" = (
 /obj/structure/vampdoor/anarch{
 	dir = 4;
@@ -49734,13 +49746,13 @@
 /turf/closed/wall/vampwall/rock,
 /area/vtm/sewer/nosferatu_town)
 "nxh" = (
-/obj/machinery/button{
-	pixel_y = 27;
-	id = "endronparking";
-	id_tag = "endronparking"
-	},
 /obj/effect/decal/bordur{
 	dir = 8
+	},
+/obj/machinery/button/door{
+	id = 56;
+	name = "Parking Shutters Control";
+	pixel_y = 28
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/endron_facility)
@@ -56165,6 +56177,13 @@
 /obj/effect/decal/cardboard,
 /turf/open/floor/plating/rough,
 /area/vtm/anarch)
+"pgB" = (
+/obj/structure/table,
+/obj/item/paper{
+	default_raw_text = "Branch Leader - 0666 | Executive - 0333 | Internal Affairs - 0432"
+	},
+/turf/open/floor/plating/vampplating/mono,
+/area/vtm/interior/endron_facility)
 "pgD" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 5
@@ -68048,13 +68067,6 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/chinatown)
-"siQ" = (
-/obj/structure/table,
-/obj/item/paper{
-	default_raw_text = "Branch Leader - 0666 | Executive - 0333 | Internal Affairs - 0432"
-	},
-/turf/open/floor/plating/granite,
-/area/vtm/interior/endron_facility)
 "siS" = (
 /obj/structure/railing{
 	dir = 1;
@@ -176791,7 +176803,7 @@ hyN
 hyN
 hyN
 rxR
-aWh
+mkm
 mzj
 eTM
 hEi
@@ -178083,7 +178095,7 @@ hEi
 nkF
 eTM
 aun
-akc
+pgB
 cwA
 hFe
 aun
@@ -241317,7 +241329,7 @@ dhk
 eTM
 eTM
 byR
-siQ
+akc
 hEi
 ntq
 aki
@@ -244130,7 +244142,7 @@ eTM
 wRJ
 wRJ
 hEi
-eTM
+mvf
 rIO
 ciD
 jdX
@@ -244646,7 +244658,7 @@ ksJ
 hEi
 kNY
 hEi
-anW
+bxw
 xMo
 xMo
 xMo
