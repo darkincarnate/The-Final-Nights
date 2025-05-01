@@ -1406,14 +1406,21 @@
 
 	neutral_phrases = list(
 		"No loitering.",
-		"I get paid to keep people like you out of here.",
-		"I could go for some wolf-meat right about now.",
+		"I'm kinda, like, a cop, you know.",
+		"I could go for some bearclaws right about now.",
+		"Like the uniform?",
+		"Hey, catch me later, I'll buy you a beer."
+	)
+	neutral_phrases = list(
+		"No loitering.",
+		"I'm kinda, like, a cop, you know?",
+		"I could go for some bearclaws right about now.",
 		"Like the uniform?",
 		"Hey, catch me later, I'll buy you a beer."
 	)
 	random_phrases = list(
 		"It's been a real quiet night.",
-		"My brothers and father work for Endron, too."
+		"My brothers and father are security guards, too."
 	)
 	answer_phrases = list("I need some coffee.")
 	help_phrases = list(
