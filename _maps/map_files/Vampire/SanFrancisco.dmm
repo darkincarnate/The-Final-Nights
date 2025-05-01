@@ -7355,13 +7355,6 @@
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/unionsquare)
-"bVR" = (
-/obj/machinery/light{
-	dir = 8;
-	light_color = "#6488EA"
-	},
-/turf/open/floor/plating/vampdirt,
-/area/vtm/pacificheights/forest)
 "bVT" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/brflowers,
@@ -10291,15 +10284,6 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/clinic/haven)
-"cJf" = (
-/obj/transfer_point_vamp{
-	icon = 'icons/obj/stairs.dmi';
-	icon_state = "stairs";
-	id = 727;
-	name = "stairs"
-	},
-/turf/open/floor/plating/asphalt,
-/area/vtm/pacificheights/forest)
 "cJk" = (
 /obj/structure/roadblock{
 	dir = 1
@@ -17501,13 +17485,6 @@
 	},
 /turf/open/floor/plating/vampgrass,
 /area/vtm)
-"eKy" = (
-/obj/machinery/light{
-	dir = 8;
-	light_color = "#6488EA"
-	},
-/turf/open/floor/plating/asphalt,
-/area/vtm/pacificheights/forest)
 "eKA" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 1;
@@ -35445,12 +35422,6 @@
 /obj/effect/decal/litter,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/sewer/nosferatu_town)
-"jBH" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/plating/asphalt,
-/area/vtm/pacificheights/forest)
 "jBJ" = (
 /obj/machinery/light/prince{
 	dir = 4
@@ -56857,15 +56828,6 @@
 /obj/structure/curtain,
 /turf/open/floor/plating/toilet,
 /area/vtm/anarch)
-"ppL" = (
-/obj/transfer_point_vamp{
-	icon = 'icons/obj/stairs.dmi';
-	icon_state = "stairs";
-	id = 725;
-	name = "stairs"
-	},
-/turf/open/floor/plating/asphalt,
-/area/vtm/pacificheights/forest)
 "ppP" = (
 /obj/machinery/light,
 /turf/closed/wall/vampwall/city,
@@ -60797,10 +60759,13 @@
 /turf/open/floor/carpet/royalblack,
 /area/vtm/interior/tzimisce_manor)
 "qrm" = (
-/obj/machinery/light{
-	dir = 4
+/obj/structure/roadblock{
+	dir = 1
 	},
-/turf/open/floor/plating/vampdirt,
+/obj/effect/decal/bordur{
+	dir = 1
+	},
+/turf/open/floor/plating/asphalt,
 /area/vtm/pacificheights/forest)
 "qrr" = (
 /obj/effect/decal/bordur,
@@ -61556,15 +61521,6 @@
 /obj/vampire_car/taxi,
 /turf/open/floor/plating/asphalt,
 /area/vtm/fishermanswharf)
-"qBa" = (
-/obj/transfer_point_vamp{
-	icon = 'icons/obj/stairs.dmi';
-	icon_state = "stairs";
-	id = 726;
-	name = "stairs"
-	},
-/turf/open/floor/plating/asphalt,
-/area/vtm/pacificheights/forest)
 "qBf" = (
 /obj/structure/table,
 /obj/item/newspaper,
@@ -175686,11 +175642,11 @@ pcT
 pcT
 pcT
 pcT
-bVR
+pcT
+qrm
+cJk
 dEo
-eKy
 dEo
-ppL
 dVp
 qHD
 "}
@@ -175944,10 +175900,10 @@ pcT
 pcT
 pcT
 pcT
+qrm
+cJk
 dEo
 dEo
-dEo
-qBa
 dVp
 qHD
 "}
@@ -176200,11 +176156,11 @@ cSx
 atu
 pcT
 pcT
+pcT
 qrm
+cJk
 dEo
-jBH
 dEo
-cJf
 dVp
 qHD
 "}
