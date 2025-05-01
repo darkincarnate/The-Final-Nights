@@ -740,13 +740,10 @@
 /area/vtm/pacificheights/community)
 "akc" = (
 /obj/structure/table,
-/obj/item/vamp/phone/emergency{
-	number = "0333"
-	},
 /obj/item/paper{
 	default_raw_text = "Branch Leader - 0666 | Executive - 0333 | Internal Affairs - 0432"
 	},
-/turf/open/floor/plating/parquetry,
+/turf/open/floor/plating/granite,
 /area/vtm/interior/endron_facility)
 "akf" = (
 /turf/open/floor/plating/toilet{
@@ -15604,13 +15601,6 @@
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/millennium_tower/ventrue)
-"ehj" = (
-/obj/structure/table,
-/obj/item/paper{
-	default_raw_text = "Branch Leader - 0666 | Executive - 0333 | Internal Affairs - 0432"
-	},
-/turf/open/floor/plating/vampplating/mono,
-/area/vtm/interior/endron_facility)
 "ehp" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/effect/turf_decal/weather/dirt,
@@ -17345,6 +17335,22 @@
 /obj/structure/table/wood,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/setite)
+"eIo" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/closet,
+/obj/item/clothing/under/pentex/pentex_janitor,
+/obj/item/clothing/under/pentex/pentex_janitor,
+/obj/item/clothing/head/pentex/pentex_whitehardhat,
+/obj/item/clothing/head/pentex/pentex_whitehardhat,
+/obj/item/clothing/gloves/vampire/cleaning,
+/obj/item/clothing/gloves/vampire/cleaning,
+/obj/item/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/spray/cleaner,
+/obj/item/lightreplacer,
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "eIs" = (
 /obj/machinery/light{
 	pixel_y = 32
@@ -17889,6 +17895,15 @@
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/vjanitor)
+"ePX" = (
+/obj/structure/closet,
+/obj/item/clothing/under/pentex/pentex_suitskirt,
+/obj/item/clothing/under/pentex/pentex_suitskirt,
+/obj/item/clothing/under/pentex/pentex_suitskirt,
+/turf/open/floor/plating/toilet{
+	color = "#636363"
+	},
+/area/vtm/interior/endron_facility)
 "ePZ" = (
 /obj/structure/table/wood,
 /obj/effect/decal/litter,
@@ -20611,13 +20626,10 @@
 /turf/open/floor/plating/vampgrass,
 /area/vtm/fishermanswharf)
 "fAo" = (
-/obj/structure/vampdoor/simple{
-	dir = 8
-	},
 /obj/effect/turf_decal/siding/white{
 	dir = 4
 	},
-/turf/open/floor/plating/vampplating,
+/turf/closed/wall/vampwall/rich,
 /area/vtm/interior/endron_facility)
 "fAp" = (
 /obj/structure/chair/stool/bar,
@@ -29747,6 +29759,11 @@
 	},
 /turf/open/floor/plating/toilet,
 /area/vtm/interior/ghetto)
+"hYV" = (
+/obj/structure/vampdoor/simple,
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "hYW" = (
 /turf/open/floor/carpet/black,
 /area/vtm/interior/banu/haven)
@@ -31668,13 +31685,6 @@
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/mansion)
-"iBG" = (
-/obj/structure/sink{
-	pixel_y = -1;
-	dir = 1
-	},
-/turf/open/floor/plating/vampplating,
-/area/vtm/interior/endron_facility)
 "iBO" = (
 /obj/structure/railing{
 	dir = 10;
@@ -41868,9 +41878,9 @@
 /turf/closed/wall/vampwall/painted,
 /area/vtm/interior/bianchiBank)
 "lrq" = (
-/obj/structure/table,
-/obj/item/paper{
-	default_raw_text = "Branch Leader - 0666 | Executive - 0333 | Internal Affairs - 0432"
+/obj/structure/sink{
+	pixel_y = -1;
+	dir = 1
 	},
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
@@ -49149,22 +49159,6 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/hotel)
-"npC" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/structure/closet,
-/obj/item/clothing/under/pentex/pentex_janitor,
-/obj/item/clothing/under/pentex/pentex_janitor,
-/obj/item/clothing/head/pentex/pentex_whitehardhat,
-/obj/item/clothing/head/pentex/pentex_whitehardhat,
-/obj/item/clothing/gloves/vampire/cleaning,
-/obj/item/clothing/gloves/vampire/cleaning,
-/obj/item/reagent_containers/glass/bucket,
-/obj/item/reagent_containers/spray/cleaner,
-/obj/item/lightreplacer,
-/turf/open/floor/plating/vampplating,
-/area/vtm/interior/endron_facility)
 "npH" = (
 /obj/structure/table/wood,
 /turf/open/floor/plating/parquetry/old,
@@ -55186,6 +55180,13 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/police)
+"oSr" = (
+/obj/structure/table,
+/obj/item/paper{
+	default_raw_text = "Branch Leader - 0666 | Executive - 0333 | Internal Affairs - 0432"
+	},
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "oSs" = (
 /obj/structure/chair/pew/right{
 	dir = 4
@@ -56203,15 +56204,6 @@
 /obj/structure/fluff/hedge,
 /turf/open/floor/bronze,
 /area/vtm/interior/giovanni)
-"phl" = (
-/obj/structure/closet,
-/obj/item/clothing/under/pentex/pentex_suitskirt,
-/obj/item/clothing/under/pentex/pentex_suitskirt,
-/obj/item/clothing/under/pentex/pentex_suitskirt,
-/turf/open/floor/plating/toilet{
-	color = "#636363"
-	},
-/area/vtm/interior/endron_facility)
 "phm" = (
 /obj/structure/vamprocks{
 	icon_state = "rock5"
@@ -57524,6 +57516,11 @@
 	},
 /turf/open/floor/carpet/royalblack,
 /area/vtm/interior/banu)
+"pzd" = (
+/obj/structure/mopbucket,
+/obj/item/mop,
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "pze" = (
 /obj/structure/table/abductor{
 	name = "elegant table";
@@ -60984,11 +60981,6 @@
 /obj/item/storage/fancy/nugget_box,
 /turf/open/floor/plating/vampbeach,
 /area/vtm/northbeach)
-"qur" = (
-/obj/structure/mopbucket,
-/obj/item/mop,
-/turf/open/floor/plating/vampplating,
-/area/vtm/interior/endron_facility)
 "quw" = (
 /obj/structure/hydrant,
 /turf/open/floor/plating/sidewalk,
@@ -68923,6 +68915,15 @@
 /obj/effect/landmark/npcability,
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/chinatown)
+"stw" = (
+/obj/structure/vampdoor/simple{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "stS" = (
 /obj/structure/table/wood,
 /turf/open/floor/plating/parquetry/old,
@@ -69029,13 +69030,6 @@
 /obj/structure/bonfire/dense,
 /turf/open/floor/plating/vampdirt,
 /area/vtm/sewer)
-"svu" = (
-/obj/structure/table,
-/obj/item/paper{
-	default_raw_text = "Branch Leader - 0666 | Executive - 0333 | Internal Affairs - 0432"
-	},
-/turf/open/floor/plating/granite,
-/area/vtm/interior/endron_facility)
 "svA" = (
 /obj/effect/decal/graffiti,
 /turf/open/floor/plating/sidewalk/poor,
@@ -73927,11 +73921,6 @@
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior)
-"tOj" = (
-/obj/structure/vampdoor/simple,
-/obj/effect/turf_decal/siding/thinplating/dark,
-/turf/open/floor/plating/vampplating,
-/area/vtm/interior/endron_facility)
 "tOp" = (
 /obj/structure/rack/tacobell/horizontal,
 /obj/machinery/mineral/equipment_vendor/fastfood/bacotell,
@@ -77061,6 +77050,13 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/clinic)
+"uHQ" = (
+/obj/structure/table,
+/obj/item/paper{
+	default_raw_text = "Branch Leader - 0666 | Executive - 0333 | Internal Affairs - 0432"
+	},
+/turf/open/floor/plating/vampplating/mono,
+/area/vtm/interior/endron_facility)
 "uHX" = (
 /obj/structure/table,
 /obj/item/lighter,
@@ -77187,6 +77183,16 @@
 	},
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/strip)
+"uJX" = (
+/obj/structure/table,
+/obj/item/vamp/phone/emergency{
+	number = "0333"
+	},
+/obj/item/paper{
+	default_raw_text = "Branch Leader - 0666 | Executive - 0333 | Internal Affairs - 0432"
+	},
+/turf/open/floor/plating/parquetry,
+/area/vtm/interior/endron_facility)
 "uKh" = (
 /obj/structure/trashcan{
 	pixel_x = 3;
@@ -175291,8 +175297,8 @@ hEi
 hEi
 hEi
 hEi
-npC
-qur
+eIo
+pzd
 hEi
 tsH
 hEi
@@ -175549,7 +175555,7 @@ lxB
 lxB
 hEi
 eTM
-iBG
+lrq
 hEi
 bxt
 hEi
@@ -175805,7 +175811,7 @@ ntA
 wWN
 gXE
 hEi
-fAo
+stw
 fAo
 hEi
 akf
@@ -176064,11 +176070,11 @@ wWN
 bjS
 eTM
 eTM
-tOj
+hYV
 akf
 asb
 aTx
-phl
+ePX
 twe
 hEi
 hyN
@@ -176822,7 +176828,7 @@ hyN
 hyN
 hyN
 rxR
-lrq
+oSr
 mzj
 eTM
 hEi
@@ -178114,7 +178120,7 @@ hEi
 nkF
 eTM
 aun
-ehj
+uHQ
 cwA
 hFe
 aun
@@ -241344,11 +241350,11 @@ hEi
 eTM
 eTM
 eTM
-dhk
+aun
 eTM
 eTM
 byR
-svu
+akc
 hEi
 ntq
 aki
@@ -244677,7 +244683,7 @@ ksJ
 hEi
 kNY
 hEi
-akc
+uJX
 xMo
 xMo
 xMo
