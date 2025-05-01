@@ -23393,7 +23393,7 @@
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/oldchurch)
 "glF" = (
-/obj/effect/decal/cleanable/blood/footprints,
+/obj/effect/decal/garou_glyph/dancers,
 /turf/open/floor/plating/circled,
 /area/vtm/interior/wyrm_corrupted)
 "glN" = (
@@ -38190,7 +38190,7 @@
 /turf/open/floor/plating/asphalt,
 /area/vtm/ghetto/old)
 "kqv" = (
-/obj/effect/decal/cleanable/blood/bubblegum,
+/obj/effect/decal/garou_glyph/hive,
 /turf/open/floor/plating/circled,
 /area/vtm/interior/wyrm_corrupted)
 "kqF" = (
@@ -151037,7 +151037,7 @@ niP
 wTV
 dhF
 dhF
-kqv
+dhF
 jyN
 niP
 puz
@@ -151292,7 +151292,7 @@ jba
 dhF
 xhF
 dhF
-kqv
+dhF
 dhF
 dhF
 dhF
@@ -151805,9 +151805,9 @@ hTk
 dhF
 dhF
 hWE
-glF
-glF
-glF
+dhF
+dhF
+dhF
 dhF
 dhF
 jkE
@@ -152319,7 +152319,7 @@ dhF
 dhF
 dhF
 xhF
-kqv
+dhF
 dhF
 dhF
 dhF
@@ -153348,7 +153348,7 @@ dhc
 dhc
 nYS
 puz
-dhF
+glF
 dtb
 ouH
 puz
@@ -153607,7 +153607,7 @@ nYS
 ohc
 dhF
 dtb
-dhF
+kqv
 puz
 nYS
 dhc
