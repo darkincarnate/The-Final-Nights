@@ -26342,7 +26342,8 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/ghetto)
 "gYT" = (
-/obj/structure/table/wood,
+/obj/item/clothing/mask/cigarette,
+/obj/structure/table/wood/poker,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "gYX" = (
@@ -40128,8 +40129,8 @@
 /turf/closed/wall/vampwall,
 /area/vtm/hotel)
 "kRM" = (
-/obj/structure/table/wood,
 /obj/item/cigbutt/cigarbutt,
+/obj/structure/table/wood/poker,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "kRO" = (
@@ -42316,6 +42317,16 @@
 /obj/vampire_car/police,
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/police)
+"lxi" = (
+/obj/machinery/light{
+	dir = 4;
+	bulb_colour = "#9400cf"
+	},
+/obj/structure/chair/greyscale{
+	dir = 8
+	},
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "lxr" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
 /turf/open/floor/plating/parquetry/old,
@@ -47883,6 +47894,13 @@
 /obj/effect/landmark/npcactivity,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/ghetto/old)
+"mVH" = (
+/obj/machinery/light{
+	dir = 4;
+	bulb_colour = "#9400cf"
+	},
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "mVM" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 1
@@ -47902,6 +47920,16 @@
 	},
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/chinatown)
+"mVY" = (
+/obj/structure/vampdoor/glass/pentex{
+	dir = 4;
+	lockpick_difficulty = 16
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 8
+	},
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "mWj" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 10
@@ -56574,10 +56602,20 @@
 /turf/closed/wall/vampwall/rich/old/low/window,
 /area/vtm/church/interior/haven)
 "pka" = (
-/obj/machinery/light/floor{
-	bulb_colour = "#DE6EE2"
+/obj/structure/fluff/hedge,
+/obj/structure/railing{
+	dir = 1;
+	layer = 4;
+	pixel_y = 16
 	},
-/turf/open/floor/light,
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/railing{
+	layer = 4;
+	pixel_y = -2
+	},
+/turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "pkb" = (
 /obj/machinery/light{
@@ -63061,6 +63099,11 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm)
+"qTC" = (
+/obj/item/stack/dollar/hundred,
+/obj/structure/table/wood/poker,
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "qTD" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 1
@@ -64253,8 +64296,19 @@
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/financialdistrict)
 "rjb" = (
-/obj/structure/table/wood,
-/obj/item/clothing/mask/cigarette,
+/obj/structure/fluff/hedge,
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 1;
+	layer = 4;
+	pixel_y = 16
+	},
+/obj/structure/railing{
+	layer = 4;
+	pixel_y = -2
+	},
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "rjf" = (
@@ -66380,8 +66434,7 @@
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/anarch/basement)
 "rLg" = (
-/obj/structure/table/wood,
-/obj/item/toy/cards/deck,
+/obj/structure/table/wood/poker,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "rLs" = (
@@ -69229,6 +69282,12 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/vtm/interior/millennium_tower)
+"swt" = (
+/obj/machinery/light{
+	bulb_colour = "#9400cf"
+	},
+/turf/closed/wall/vampwall/rich,
+/area/vtm/interior/endron_facility)
 "swu" = (
 /mob/living/carbon/human/npc/shop{
 	resistant_to_disciplines = 1
@@ -89931,12 +89990,8 @@
 /turf/open/floor/carpet/red,
 /area/vtm/interior/millennium_tower)
 "ygd" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/obj/structure/chair/greyscale{
-	dir = 8
-	},
+/obj/item/toy/cards/deck,
+/obj/structure/table/wood/poker,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "yge" = (
@@ -307097,7 +307152,7 @@ eTM
 eTM
 fBZ
 dbg
-pka
+dbg
 dbg
 wkq
 eTM
@@ -307606,7 +307661,7 @@ hEi
 eTM
 eTM
 eTM
-mpq
+swt
 eTM
 eTM
 vjl
@@ -308125,9 +308180,9 @@ eTM
 eTM
 bWe
 bWe
-bWe
-bWe
 eTM
+bWe
+bWe
 eTM
 uaQ
 hEi
@@ -308380,11 +308435,11 @@ cPh
 hEi
 eTM
 eTM
-gYT
 rLg
+ygd
 rjb
 gYT
-eTM
+rLg
 eTM
 icU
 nrL
@@ -308639,9 +308694,9 @@ eTM
 eTM
 kRM
 rLg
-gYT
-gYT
-eTM
+pka
+qTC
+ygd
 eTM
 tdp
 nrL
@@ -308893,12 +308948,12 @@ eTM
 eTM
 hEi
 eTM
-fOg
+mVH
 xIg
 xIg
-xIg
-ygd
 eTM
+xIg
+lxi
 eTM
 eTM
 hEi
@@ -309157,7 +309212,7 @@ xXS
 hEi
 hEi
 hEi
-aBb
+mVY
 hEi
 hEi
 hEi
