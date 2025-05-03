@@ -71606,6 +71606,9 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
+/obj/item/veil_contract,
+/obj/item/veil_contract,
+/obj/item/veil_contract,
 /turf/open/floor/carpet/green,
 /area/vtm/interior/endron_facility)
 "tij" = (
