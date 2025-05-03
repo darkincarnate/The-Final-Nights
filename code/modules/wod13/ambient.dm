@@ -484,7 +484,7 @@
 	icon_state = "supply"
 	zone_type = "masquerade"
 	music = /datum/vampiremusic/forest
-	fire_controled = FALSE
+	fire_controled = TRUE
 	yang_chi = 0
 	yin_chi = 1
 	wall_rating = LOW_WALL_RATING
@@ -514,7 +514,7 @@
 	icon_state = "graveyard"
 	zone_type = "battle"
 	music = /datum/vampiremusic/forest
-	fire_controled = FALSE
+	fire_controled = TRUE
 	yang_chi = 0
 	yin_chi = 2
 	wall_rating = LOW_WALL_RATING
