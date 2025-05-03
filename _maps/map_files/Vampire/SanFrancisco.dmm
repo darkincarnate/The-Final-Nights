@@ -20663,6 +20663,7 @@
 /obj/item/reagent_containers/glass/bucket,
 /obj/item/reagent_containers/spray/cleaner,
 /obj/item/lightreplacer,
+/obj/item/reagent_containers/spray/cleaner,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "fAp" = (
