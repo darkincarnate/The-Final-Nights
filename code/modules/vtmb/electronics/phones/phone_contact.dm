@@ -153,3 +153,46 @@
 		name = GLOB.harpyname + " - " + name
 		return TRUE
 	..()
+
+/datum/phonecontact/endronlead
+	name = "Branch Leader"
+
+/datum/phonecontact/endronlead/check_global_contacts()
+	if(number != GLOB.endronleadnumber && name_check != GLOB.endronleadname)
+		number = GLOB.endronleadnumber
+		name = GLOB.endronleadname + " - " + name
+		return TRUE
+	..()
+
+/datum/phonecontact/endronexecutive
+	name = "Endron Executive"
+
+/datum/phonecontact/endronexecutive/check_global_contacts()
+	if(number != GLOB.endronexecutivenumber && name_check != GLOB.endronexecutivename)
+		number = GLOB.endronexecutivenumber
+		name = GLOB.endronexecutivename + " - " + name
+		return TRUE
+	..()
+
+/datum/phonecontact/internalaffairs
+	name = "Internal Affairs"
+
+/datum/phonecontact/internalaffairs/check_global_contacts()
+	if(number != GLOB.internalaffairsnumber && name_check != GLOB.internalaffairsname)
+		number = GLOB.internalaffairsnumber
+		name = GLOB.internalaffairsname + " - " + name
+		return TRUE
+	..()
+
+/datum/phonecontact/endronchief
+	name = "Chief of Security"
+
+/datum/phonecontact/endronchief/check_global_contacts()
+	if(number != GLOB.endronchiefnumber && name_check != GLOB.endronchiefname)
+		number = GLOB.endronchiefnumber
+		name = GLOB.endronchiefname + " - " + name
+		return TRUE
+	..()
+
+
+
