@@ -5556,7 +5556,7 @@
 /area/vtm/interior/giovanni)
 "bvn" = (
 /obj/structure/chair/stool/bar,
-/turf/open/floor/plating/vampplating,
+/turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/endron_facility)
 "bvA" = (
 /obj/structure/chair/comfy{
@@ -17549,6 +17549,10 @@
 	},
 /turf/open/floor/plating/roofwalk,
 /area/vtm/pacificheights/forest)
+"eLK" = (
+/obj/structure/table,
+/turf/open/floor/plating/vampplating/mono,
+/area/vtm/interior/endron_facility)
 "eLP" = (
 /obj/effect/landmark/npcbeacon,
 /obj/effect/landmark/npcactivity,
@@ -37613,6 +37617,10 @@
 	},
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/chinatown)
+"khU" = (
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/open/floor/plating/vampplating/mono,
+/area/vtm/interior/endron_facility)
 "kij" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 6
@@ -39672,7 +39680,7 @@
 "kMz" = (
 /obj/structure/table,
 /obj/underplate,
-/turf/open/floor/plating/vampplating,
+/turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/endron_facility)
 "kMP" = (
 /obj/structure/closet/cardboard,
@@ -41796,6 +41804,10 @@
 	},
 /turf/open/floor/carpet,
 /area/vtm/interior/shop)
+"lqc" = (
+/obj/structure/fluff/hedge,
+/turf/open/floor/plating/vampplating/mono,
+/area/vtm/interior/endron_facility)
 "lqg" = (
 /obj/structure/bed/maint,
 /obj/effect/decal/cardboard,
@@ -47368,7 +47380,7 @@
 /obj/machinery/light{
 	pixel_y = 32
 	},
-/turf/open/floor/plating/vampplating,
+/turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/endron_facility)
 "mQv" = (
 /obj/item/reagent_containers/food/drinks/beer/vampire{
@@ -50819,7 +50831,7 @@
 "nKB" = (
 /obj/structure/table,
 /obj/item/trash/raisins,
-/turf/open/floor/plating/vampplating,
+/turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/endron_facility)
 "nKC" = (
 /obj/structure/railing{
@@ -58569,7 +58581,7 @@
 	pixel_x = -3;
 	pixel_y = 5
 	},
-/turf/open/floor/plating/vampplating,
+/turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/endron_facility)
 "pLZ" = (
 /obj/effect/turf_decal/siding/white,
@@ -60301,7 +60313,7 @@
 "qkf" = (
 /obj/structure/table,
 /obj/machinery/griddle,
-/turf/open/floor/plating/vampplating,
+/turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/endron_facility)
 "qkh" = (
 /obj/structure/table,
@@ -67533,13 +67545,8 @@
 	},
 /area/vtm/interior/endron_facility)
 "saN" = (
-/obj/structure/vampdoor/glass/pentex{
-	dir = 4;
-	lockpick_difficulty = 16
-	},
-/obj/effect/turf_decal/stripes/red/line{
-	dir = 8
-	},
+/obj/structure/vampdoor/glass/pentex,
+/obj/effect/turf_decal/trimline/blue/filled/warning,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "saQ" = (
@@ -68779,7 +68786,7 @@
 "sst" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/drinks/bottle/vampirewater,
-/turf/open/floor/plating/vampplating,
+/turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/endron_facility)
 "ssv" = (
 /obj/effect/turf_decal/siding/white{
@@ -78279,7 +78286,7 @@
 	name = "full cream milk"
 	},
 /obj/item/storage/box/ingredients/carnivore,
-/turf/open/floor/plating/vampplating,
+/turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/endron_facility)
 "uZs" = (
 /obj/effect/landmark/start/baali,
@@ -78952,11 +78959,6 @@
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/plating/vampdirt,
 /area/vtm/graveyard)
-"vjl" = (
-/obj/structure/vampdoor/glass/pentex,
-/obj/effect/turf_decal/trimline/blue/filled/warning,
-/turf/open/floor/plating/vampplating,
-/area/vtm/interior/endron_facility)
 "vjp" = (
 /obj/structure/chair/wood{
 	dir = 4;
@@ -84109,7 +84111,7 @@
 "wFF" = (
 /obj/structure/table,
 /obj/item/trash/plate,
-/turf/open/floor/plating/vampplating,
+/turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/endron_facility)
 "wFH" = (
 /obj/structure/flora/ausbushes/ppflowers,
@@ -240809,9 +240811,9 @@ ntq
 ntq
 hEi
 mQu
-ttF
+eLK
 wFF
-uaQ
+lqc
 eTM
 dhw
 rZE
@@ -241068,7 +241070,7 @@ hEi
 bvn
 bvn
 bvn
-eTM
+wWN
 eTM
 eTM
 hEi
@@ -241322,10 +241324,10 @@ ntq
 ntq
 ntq
 hEi
-eTM
-eTM
-eTM
-eTM
+wWN
+wWN
+wWN
+wWN
 eTM
 eTM
 hEi
@@ -241580,7 +241582,7 @@ ntq
 ntq
 hEi
 qkf
-eTM
+wWN
 kMz
 bvn
 eTM
@@ -241837,7 +241839,7 @@ ntq
 ntq
 hEi
 pLY
-eTM
+wWN
 nKB
 bvn
 eTM
@@ -242093,8 +242095,8 @@ ntq
 ntq
 ntq
 hEi
-svk
-eTM
+khU
+wWN
 wFF
 bvn
 eTM
@@ -242351,9 +242353,9 @@ ntq
 ntq
 mpq
 uZi
-eTM
-eTM
-eTM
+wWN
+wWN
+wWN
 eTM
 eTM
 rxR
@@ -242607,10 +242609,10 @@ ntq
 ntq
 ntq
 biz
-eTM
-eTM
-eTM
-eTM
+wWN
+wWN
+wWN
+wWN
 eTM
 eTM
 hEi
@@ -242866,8 +242868,8 @@ ntq
 rxR
 kMz
 bvn
-eTM
-eTM
+wWN
+wWN
 eTM
 eTM
 eTM
@@ -243123,8 +243125,8 @@ ntq
 rxR
 wFF
 bvn
-eTM
-eTM
+wWN
+wWN
 eTM
 eTM
 eTM
@@ -243380,8 +243382,8 @@ ntq
 rxR
 sst
 bvn
-eTM
-eTM
+wWN
+wWN
 eTM
 hEi
 hEi
@@ -306347,7 +306349,7 @@ hEi
 kIq
 eTM
 eTM
-vjl
+saN
 eTM
 eTM
 euD
@@ -306604,7 +306606,7 @@ hEi
 bvh
 eTM
 eTM
-vjl
+saN
 eTM
 eTM
 dbg
@@ -308926,7 +308928,7 @@ xXS
 hEi
 hEi
 hEi
-saN
+aBb
 hEi
 hEi
 hEi
