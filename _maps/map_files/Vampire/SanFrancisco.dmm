@@ -18677,16 +18677,14 @@
 /turf/open/floor/bronze,
 /area/vtm/interior/giovanni)
 "fbO" = (
-/obj/structure/vampdoor/glass/pentex{
-	dir = 4;
-	lockpick_difficulty = 16;
-	locked = 0
-	},
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 8
 	},
 /obj/effect/decal/bordur{
 	dir = 4
+	},
+/obj/structure/vampdoor/glass{
+	dir = 8
 	},
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
@@ -54559,7 +54557,7 @@
 /area/vtm/interior/police/fed)
 "oKK" = (
 /obj/structure/vampdoor/glass/pentex,
-/obj/effect/turf_decal/siding/white,
+/obj/effect/turf_decal/trimline/green/filled/warning,
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/endron_facility)
 "oKL" = (
@@ -67535,8 +67533,13 @@
 	},
 /area/vtm/interior/endron_facility)
 "saN" = (
-/obj/structure/vampdoor/simple,
-/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/structure/vampdoor/glass/pentex{
+	dir = 4;
+	lockpick_difficulty = 16
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 8
+	},
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "saQ" = (
@@ -78949,6 +78952,11 @@
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/plating/vampdirt,
 /area/vtm/graveyard)
+"vjl" = (
+/obj/structure/vampdoor/glass/pentex,
+/obj/effect/turf_decal/trimline/blue/filled/warning,
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "vjp" = (
 /obj/structure/chair/wood{
 	dir = 4;
@@ -176048,7 +176056,7 @@ wWN
 bjS
 eTM
 eTM
-saN
+rZE
 akf
 nfv
 aTx
@@ -306339,7 +306347,7 @@ hEi
 kIq
 eTM
 eTM
-uIF
+vjl
 eTM
 eTM
 euD
@@ -306596,7 +306604,7 @@ hEi
 bvh
 eTM
 eTM
-uIF
+vjl
 eTM
 eTM
 dbg
@@ -308918,7 +308926,7 @@ xXS
 hEi
 hEi
 hEi
-rBB
+saN
 hEi
 hEi
 hEi
