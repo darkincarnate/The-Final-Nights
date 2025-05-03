@@ -14422,6 +14422,13 @@
 /obj/item/reagent_containers/glass/bowl/mushroom_bowl,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/forest)
+"dRk" = (
+/obj/structure/chair/stool/bar,
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 4
+	},
+/turf/open/floor/plating/vampplating/mono,
+/area/vtm/interior/endron_facility)
 "dRm" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/vampfence/rich{
@@ -20685,6 +20692,12 @@
 /obj/item/storage/box/lights/mixed,
 /turf/open/floor/plating/saint,
 /area/vtm/church/interior/staff)
+"fAV" = (
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 4
+	},
+/turf/open/floor/plating/vampplating/mono,
+/area/vtm/interior/endron_facility)
 "fAW" = (
 /obj/machinery/light{
 	dir = 8
@@ -24410,6 +24423,10 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/open/floor/plating/vampgrass,
 /area/vtm/pacificheights/forest)
+"gAe" = (
+/obj/effect/turf_decal/siding/thinplating/light,
+/turf/open/floor/plating/vampplating/mono,
+/area/vtm/interior/endron_facility)
 "gAj" = (
 /obj/structure/chair/wood/wings{
 	dir = 1
@@ -37202,6 +37219,13 @@
 /obj/structure/coclock,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/church/interior/staff)
+"kbY" = (
+/obj/effect/turf_decal/siding/thinplating/light,
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 4
+	},
+/turf/open/floor/plating/vampplating/mono,
+/area/vtm/interior/endron_facility)
 "kcn" = (
 /obj/structure/chair/comfy/shuttle,
 /obj/machinery/light/prince{
@@ -41805,7 +41829,10 @@
 /turf/open/floor/carpet,
 /area/vtm/interior/shop)
 "lqc" = (
-/obj/structure/fluff/hedge,
+/obj/structure/fluff/hedge{
+	pixel_y = 5
+	},
+/obj/effect/turf_decal/siding/thinplating/light,
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/endron_facility)
 "lqg" = (
@@ -51427,6 +51454,13 @@
 /obj/effect/landmark/npcactivity,
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/financialdistrict/construction)
+"nSl" = (
+/obj/structure/chair/stool/bar{
+	pixel_y = 9
+	},
+/obj/effect/turf_decal/siding/thinplating/light,
+/turf/open/floor/plating/vampplating/mono,
+/area/vtm/interior/endron_facility)
 "nSm" = (
 /obj/machinery/light/small{
 	dir = 8;
@@ -68786,6 +68820,9 @@
 "sst" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/drinks/bottle/vampirewater,
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 4
+	},
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/endron_facility)
 "ssv" = (
@@ -241070,7 +241107,7 @@ hEi
 bvn
 bvn
 bvn
-wWN
+gAe
 eTM
 eTM
 hEi
@@ -241327,7 +241364,7 @@ hEi
 wWN
 wWN
 wWN
-wWN
+gAe
 eTM
 eTM
 hEi
@@ -241584,7 +241621,7 @@ hEi
 qkf
 wWN
 kMz
-bvn
+nSl
 eTM
 eTM
 hEi
@@ -241841,7 +241878,7 @@ hEi
 pLY
 wWN
 nKB
-bvn
+nSl
 eTM
 eTM
 rxR
@@ -242098,7 +242135,7 @@ hEi
 khU
 wWN
 wFF
-bvn
+nSl
 eTM
 eTM
 jRr
@@ -242355,7 +242392,7 @@ mpq
 uZi
 wWN
 wWN
-wWN
+gAe
 eTM
 eTM
 rxR
@@ -242612,7 +242649,7 @@ biz
 wWN
 wWN
 wWN
-wWN
+gAe
 eTM
 eTM
 hEi
@@ -242869,7 +242906,7 @@ rxR
 kMz
 bvn
 wWN
-wWN
+gAe
 eTM
 eTM
 eTM
@@ -243126,7 +243163,7 @@ rxR
 wFF
 bvn
 wWN
-wWN
+gAe
 eTM
 eTM
 eTM
@@ -243381,9 +243418,9 @@ ntq
 ntq
 rxR
 sst
-bvn
-wWN
-wWN
+dRk
+fAV
+kbY
 eTM
 hEi
 hEi
