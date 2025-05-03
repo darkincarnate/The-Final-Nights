@@ -14,6 +14,10 @@ GLOBAL_VAR_INIT(lasombranumber, "")
 GLOBAL_VAR_INIT(tremerenumber, "")
 GLOBAL_VAR_INIT(voivodenumber, "")
 GLOBAL_VAR_INIT(harpynumber, "")
+GLOBAL_VAR_INIT(leadnumber, "")
+GLOBAL_VAR_INIT(executivenumber, "")
+GLOBAL_VAR_INIT(secchiefnumber, "")
+GLOBAL_VAR_INIT(affairsnumber, "")
 
 // Important Names for contacts
 
@@ -31,3 +35,7 @@ GLOBAL_VAR_INIT(lasombraname, "")
 GLOBAL_VAR_INIT(tremerename, "")
 GLOBAL_VAR_INIT(voivodename, "")
 GLOBAL_VAR_INIT(harpyname, "")
+GLOBAL_VAR_INIT(leadname, "")
+GLOBAL_VAR_INIT(executivename, "")
+GLOBAL_VAR_INIT(secchiefname, "")
+GLOBAL_VAR_INIT(affairsname, "")
