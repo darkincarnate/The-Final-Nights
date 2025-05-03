@@ -72998,6 +72998,10 @@
 /obj/structure/fluff/hedge,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/strip)
+"tBn" = (
+/obj/fusebox,
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility)
 "tBo" = (
 /obj/effect/decal/bordur,
 /obj/effect/decal/bordur{
@@ -83739,6 +83743,10 @@
 /obj/item/stack/rods/ten,
 /turf/open/floor/plating/vampbeach,
 /area/vtm/northbeach)
+"wBs" = (
+/obj/fusebox,
+/turf/open/floor/plating/circled,
+/area/vtm/interior/wyrm_corrupted)
 "wBy" = (
 /obj/structure/table/glass,
 /obj/item/storage/box/cups,
@@ -148669,7 +148677,7 @@ dhc
 nYS
 puz
 puz
-dhF
+wBs
 dxC
 dhF
 dxC
@@ -175521,7 +175529,7 @@ lxB
 lxB
 lxB
 hEi
-eTM
+tBn
 nom
 hEi
 bxt
@@ -243891,7 +243899,7 @@ uWp
 eTM
 eTM
 eTM
-byR
+xWN
 hEi
 ntq
 ntq
@@ -244147,7 +244155,7 @@ eTM
 ygs
 eTM
 eTM
-eTM
+byR
 icA
 hEi
 ntq
@@ -244402,7 +244410,7 @@ hEi
 eTM
 eTM
 mpq
-xWN
+eTM
 eTM
 vTy
 sPp
