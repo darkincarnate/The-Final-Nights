@@ -46190,9 +46190,9 @@
 /obj/structure/railing/metal{
 	dir = 1
 	},
-/obj/machinery/light/small/pink{
-	dir = 4;
-	pixel_x = -16
+/obj/machinery/light{
+	dir = 8;
+	bulb_colour = "#9400cf"
 	},
 /turf/open/floor/light,
 /area/vtm/interior/endron_facility)
@@ -56573,6 +56573,12 @@
 /obj/effect/decal/wallpaper/blue/low,
 /turf/closed/wall/vampwall/rich/old/low/window,
 /area/vtm/church/interior/haven)
+"pka" = (
+/obj/machinery/light/floor{
+	bulb_colour = "#DE6EE2"
+	},
+/turf/open/floor/light,
+/area/vtm/interior/endron_facility)
 "pkb" = (
 /obj/machinery/light{
 	dir = 4
@@ -81329,9 +81335,9 @@
 /area/vtm/interior/cog/caern)
 "vPn" = (
 /obj/effect/turf_decal/siding/thinplating/light,
-/obj/machinery/light/small/pink{
-	dir = 4;
-	pixel_x = -16
+/obj/machinery/light{
+	dir = 8;
+	bulb_colour = "#9400cf"
 	},
 /turf/open/floor/light,
 /area/vtm/interior/endron_facility)
@@ -179611,9 +179617,9 @@ hyN
 hEi
 hEi
 hEi
-rxR
-rxR
-rxR
+aun
+aun
+aun
 hEi
 hEi
 fbO
@@ -179621,9 +179627,9 @@ hEi
 fbO
 hEi
 hEi
-rxR
-rxR
-rxR
+aun
+aun
+aun
 hEi
 hEi
 hEi
@@ -307091,7 +307097,7 @@ eTM
 eTM
 fBZ
 dbg
-dbg
+pka
 dbg
 wkq
 eTM
