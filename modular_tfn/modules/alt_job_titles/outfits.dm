@@ -59,12 +59,12 @@
 	gloves = /obj/item/clothing/gloves/vampire/cleaning
 	backpack_contents = list(/obj/item/passport=1, /obj/item/cockclock=1, /obj/item/flashlight=1, /obj/item/vamp/creditcard=1, /obj/item/reagent_containers/spray/cleaner)
 
-/datum/outfit/job/endron/endronsecretary
+/datum/outfit/job/garou/endron/endronsecretary
 	name = "Endron Employee (Endron Secretary)"
 	uniform = /obj/item/clothing/under/pentex/pentex_suit
 	backpack_contents = list(/obj/item/passport=1, /obj/item/cockclock=1, /obj/item/flashlight=1, /obj/item/vamp/creditcard=1, /obj/item/clipboard=1, /obj/item/pen=1, /obj/item/folder/blue=1)
 
-/datum/outfit/job/endron/endronsecretary/pre_equip(mob/living/carbon/human/H)
+/datum/outfit/job/garou/endron/endronsecretary/pre_equip(mob/living/carbon/human/H)
 	..()
 	if(H.gender == FEMALE)
 		uniform = /obj/item/clothing/under/pentex/pentex_suitskirt
