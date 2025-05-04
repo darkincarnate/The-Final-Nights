@@ -62,11 +62,10 @@
 /datum/outfit/job/endron/endronsecretary
 	name = "Endron Employee (Endron Secretary)"
 	uniform = /obj/item/clothing/under/pentex/pentex_suit
-	gloves = null
 	suit = null
 	backpack_contents = list(/obj/item/passport=1, /obj/item/cockclock=1, /obj/item/flashlight=1, /obj/item/vamp/creditcard=1, /obj/item/clipboard=1, /obj/item/pen=1, /obj/item/folder/blue=1)
 
-/datum/outfit/job/towerwork/endronsecretary/pre_equip(mob/living/carbon/human/H)
+/datum/outfit/job/endron/endronsecretary/pre_equip(mob/living/carbon/human/H)
 	..()
 	if(H.gender == FEMALE)
 		uniform = /obj/item/clothing/under/pentex/pentex_suitskirt
