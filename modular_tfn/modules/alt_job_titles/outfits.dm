@@ -76,41 +76,4 @@
 	gloves = /obj/item/clothing/gloves/vampire/latex
 	backpack_contents = list(/obj/item/passport=1, /obj/item/cockclock=1, /obj/item/flashlight=1, /obj/item/vamp/creditcard=1, /obj/item/clipboard=1, /obj/item/pen=1, /obj/item/folder/blue=1)
 
-/datum/outfit/job/garou/endron/endronsecretary
-	name = "Endron Employee (Endron Secretary)"
-	uniform = /obj/item/clothing/under/pentex/pentex_suit
-	backpack_contents = list(
-		/obj/item/passport = 1,
-		/obj/item/cockclock = 1,
-		/obj/item/flashlight = 1,
-		/obj/item/vamp/creditcard = 1,
-		/obj/item/clipboard = 1,
-		/obj/item/pen = 1,
-		/obj/item/folder/blue = 1
-	)
-
-/datum/outfit/job/garou/endron/endronsecretary/pre_equip(mob/living/carbon/human/H)
-	..()
-
-	if(H.w_uniform)
-		H.u_equip(H.w_uniform)
-		qdel(H.w_uniform)
-
-	if(H.shoes)
-		H.u_equip(H.shoes)
-		qdel(H.shoes)
-
-	if(H.gender == FEMALE)
-		var/obj/item/clothing/under/pentex/pentex_suitskirt/skirt = new
-		H.equip_to_slot(skirt, SLOT_W_UNIFORM)
-
-		var/obj/item/clothing/shoes/vampire/heels/heels = new
-		H.equip_to_slot(heels, SLOT_W_SHOES)
-	else
-		var/obj/item/clothing/under/pentex/pentex_suit/suit = new
-		H.equip_to_slot(suit, SLOT_W_UNIFORM)
-
-		var/obj/item/clothing/shoes/black/shoes = new
-		H.equip_to_slot(shoes, SLOT_W_SHOES)
-
 // ENDRON ROLES END HERE
