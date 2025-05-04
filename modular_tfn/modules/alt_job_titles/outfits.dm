@@ -51,7 +51,7 @@
 // ENDRON ROLES BEGIN HERE
 
 /datum/outfit/job/garou/endron/endronjanitor
-	name = "Endron Employee (Janitor)"
+	name = "Endron Employee (Endron Janitor)"
 	uniform = /obj/item/clothing/under/pentex/pentex_janitor
 	suit = null
 	head = /obj/item/clothing/head/pentex/pentex_whitehardhat
@@ -60,7 +60,7 @@
 	backpack_contents = list(/obj/item/passport=1, /obj/item/cockclock=1, /obj/item/flashlight=1, /obj/item/vamp/creditcard=1, /obj/item/reagent_containers/spray/cleaner)
 
 /datum/outfit/job/endron/endronsecretary
-	name = "Endron Employee (Secretary)"
+	name = "Endron Employee (Endron Secretary)"
 	uniform = /obj/item/clothing/under/pentex/pentex_suit
 	gloves = null
 	suit = null
