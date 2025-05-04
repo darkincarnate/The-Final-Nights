@@ -64,7 +64,7 @@
 	uniform = /obj/item/clothing/under/pentex/pentex_suit
 	gloves = null
 	suit = null
-	backpack_contents = list(/obj/item/passport=1, /obj/item/cockclock=1, /obj/item/flashlight=1, /obj/item/vamp/creditcard=1, /obj/item/clipboard=1, /obj/item/pen=1, /obj/item/folder/green=1)
+	backpack_contents = list(/obj/item/passport=1, /obj/item/cockclock=1, /obj/item/flashlight=1, /obj/item/vamp/creditcard=1, /obj/item/clipboard=1, /obj/item/pen=1, /obj/item/folder/blue=1)
 
 /datum/outfit/job/towerwork/towerpersonalattendant/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -87,4 +87,4 @@
 	uniform = /obj/item/clothing/under/pentex/pentex_turtleneck
 	suit = /obj/item/clothing/suit/pentex/pentex_labcoat_alt
 	gloves = /obj/item/clothing/gloves/vampire/latex
-	backpack_contents = list(/obj/item/passport=1, /obj/item/cockclock=1, /obj/item/flashlight=1, /obj/item/vamp/creditcard=1, /obj/item/clipboard=1, /obj/item/pen=1, /obj/item/folder/green=1)
+	backpack_contents = list(/obj/item/passport=1, /obj/item/cockclock=1, /obj/item/flashlight=1, /obj/item/vamp/creditcard=1, /obj/item/clipboard=1, /obj/item/pen=1, /obj/item/folder/blue=1)
