@@ -59,17 +59,6 @@
 	gloves = /obj/item/clothing/gloves/vampire/cleaning
 	backpack_contents = list(/obj/item/passport=1, /obj/item/cockclock=1, /obj/item/flashlight=1, /obj/item/vamp/creditcard=1, /obj/item/reagent_containers/spray/cleaner)
 
-/datum/outfit/job/garou/endron/endronsecretary
-	name = "Endron Employee (Endron Secretary)"
-	uniform = /obj/item/clothing/under/pentex/pentex_suit
-	backpack_contents = list(/obj/item/passport=1, /obj/item/cockclock=1, /obj/item/flashlight=1, /obj/item/vamp/creditcard=1, /obj/item/clipboard=1, /obj/item/pen=1, /obj/item/folder/blue=1)
-
-/datum/outfit/job/garou/endron/endronsecretary/pre_equip(mob/living/carbon/human/H)
-	..()
-	if(H.gender == FEMALE)
-		uniform = /obj/item/clothing/under/pentex/pentex_suitskirt
-		shoes = /obj/item/clothing/shoes/vampire/heels
-
 /datum/outfit/job/garou/endron/endronlabourer
 	name = "Endron Employee (Endron Labourer)"
 	uniform = /obj/item/clothing/under/pentex/pentex_shortsleeve
@@ -86,5 +75,16 @@
 	suit = /obj/item/clothing/suit/pentex/pentex_labcoat_alt
 	gloves = /obj/item/clothing/gloves/vampire/latex
 	backpack_contents = list(/obj/item/passport=1, /obj/item/cockclock=1, /obj/item/flashlight=1, /obj/item/vamp/creditcard=1, /obj/item/clipboard=1, /obj/item/pen=1, /obj/item/folder/blue=1)
+
+/datum/outfit/job/garou/endron/endronsecretary
+	name = "Endron Employee (Endron Secretary)"
+	uniform = /obj/item/clothing/under/pentex/pentex_suit
+	backpack_contents = list(/obj/item/passport=1, /obj/item/cockclock=1, /obj/item/flashlight=1, /obj/item/vamp/creditcard=1, /obj/item/clipboard=1, /obj/item/pen=1, /obj/item/folder/blue=1)
+
+/datum/outfit/job/garou/endron/endronsecretary/pre_equip(mob/living/carbon/human/H)
+	..()
+	if(H.gender == FEMALE)
+		uniform = /obj/item/clothing/under/pentex/pentex_suitskirt
+		shoes = /obj/item/clothing/shoes/vampire/heels
 
 // ENDRON ROLES END HERE
