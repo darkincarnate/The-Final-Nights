@@ -95,7 +95,7 @@
 	minimal_masquerade = 5
 	allowed_species = list("Werewolf", "Vampire", "Human")
 	allowed_tribes = list("Black Spiral Dancers")
-    allowed_bloodlines = list("True Brujah", "Daughters of Cacophony", "Salubri", "Baali", "Brujah", "Tremere", "Ventrue", "Nosferatu", "Toreador", "Malkavian", "Giovanni", "Ministry", "Tzimisce", "Lasombra", "Caitiff")
+	allowed_bloodlines = list("True Brujah", "Daughters of Cacophony", "Salubri", "Baali", "Brujah", "Tremere", "Ventrue", "Nosferatu", "Toreador", "Malkavian", "Giovanni", "Ministry", "Tzimisce", "Lasombra", "Caitiff")
 
 	my_contact_is_important = TRUE
 	known_contacts = list(
