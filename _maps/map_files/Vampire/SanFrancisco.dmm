@@ -7370,6 +7370,12 @@
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/floor/plating/vampdirt,
 /area/vtm/pacificheights/forest)
+"bWa" = (
+/obj/structure/dresser{
+	pixel_y = 12
+	},
+/turf/open/floor/plating/parquetry/rich,
+/area/vtm/interior/endron_facility/restricted)
 "bWd" = (
 /obj/structure/closet/cardboard,
 /turf/open/floor/plating/concrete,
@@ -69496,6 +69502,10 @@
 /obj/item/flashlight/lantern,
 /turf/closed/wall/vampwall/bar/low,
 /area/vtm/interior/penumbra/enoch)
+"sCn" = (
+/obj/structure/dresser,
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility/restricted)
 "sCo" = (
 /obj/effect/decal/litter,
 /obj/effect/landmark/npcactivity,
@@ -306420,7 +306430,7 @@ wzO
 dbg
 vPn
 bEx
-bEx
+sCn
 gMh
 qFc
 iAL
@@ -308737,7 +308747,7 @@ bEx
 gMh
 nEp
 iAL
-iAL
+bWa
 vMJ
 aRU
 bpG
