@@ -41182,12 +41182,11 @@
 /area/vtm/interior/bianchiBank)
 "lmf" = (
 /obj/structure/rack,
-/obj/item/implanter/freedom,
-/obj/item/implanter/freedom,
-/obj/item/implanter/freedom,
-/obj/item/implanter/freedom,
-/obj/item/implanter/freedom,
-/obj/item/implanter/freedom,
+/obj/item/implanter/adrenalin,
+/obj/item/implanter/adrenalin,
+/obj/item/implanter/adrenalin,
+/obj/item/implanter/adrenalin,
+/obj/item/implanter/adrenalin,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/oilrig)
 "lmo" = (
@@ -142298,7 +142297,7 @@ nYS
 aLz
 ajD
 ajD
-bRX
+ajD
 asb
 ygs
 biz
