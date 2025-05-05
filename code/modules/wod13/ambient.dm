@@ -489,6 +489,16 @@
 	yin_chi = 1
 	wall_rating = LOW_WALL_RATING
 
+/area/vtm/interior/endron_facility/helipad
+	name = "Endron Helipad"
+	icon_state = "supply"
+	zone_type = "battle"
+	music = /datum/vampiremusic/forest
+	fire_controled = FALSE
+	yang_chi = 0
+	yin_chi = 1
+	wall_rating = LOW_WALL_RATING
+
 /area/vtm/interior/endron_facility/forest
 	name = "Endron Forest Worksite"
 	icon_state = "supply"
