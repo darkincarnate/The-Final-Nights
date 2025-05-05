@@ -2912,7 +2912,7 @@
 	layer = 4
 	},
 /turf/open/floor/plating/vampcanal,
-/area/vtm/interior/endron_facility/restricted)
+/area/vtm/interior/endron_facility/helipad)
 "aLD" = (
 /obj/effect/decal/shadow{
 	pixel_y = -32
@@ -3856,7 +3856,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/rough,
-/area/vtm/interior/endron_facility/restricted)
+/area/vtm/interior/endron_facility/helipad)
 "aYq" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -6254,7 +6254,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/rough,
-/area/vtm/interior/endron_facility/restricted)
+/area/vtm/interior/endron_facility/helipad)
 "bFb" = (
 /obj/effect/decal/cardboard,
 /obj/effect/decal/trash,
@@ -7104,7 +7104,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/rough,
-/area/vtm/interior/endron_facility/restricted)
+/area/vtm/interior/endron_facility/helipad)
 "bRZ" = (
 /obj/structure/chair/wood{
 	dir = 8
@@ -16682,7 +16682,7 @@
 	pixel_y = 22
 	},
 /turf/open/floor/plating/vampcanal,
-/area/vtm/interior/endron_facility/restricted)
+/area/vtm/interior/endron_facility/helipad)
 "exJ" = (
 /obj/structure/vampfence/rich{
 	dir = 8
@@ -16775,7 +16775,7 @@
 /obj/structure/window/reinforced/indestructable,
 /obj/effect/decal/bordur,
 /turf/open/floor/plating/rough,
-/area/vtm/interior/endron_facility/restricted)
+/area/vtm/interior/endron_facility/helipad)
 "ezp" = (
 /obj/structure/fire_barrel,
 /turf/open/floor/plating/vampdirt,
@@ -22203,7 +22203,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/vampplating,
-/area/vtm/interior/endron_facility/restricted)
+/area/vtm/interior/endron_facility/helipad)
 "fVl" = (
 /obj/structure/vampdoor/glass/pentex,
 /obj/effect/turf_decal/siding/white,
@@ -27510,7 +27510,7 @@
 	layer = 4
 	},
 /turf/open/floor/plating/vampcanal,
-/area/vtm/interior/endron_facility/restricted)
+/area/vtm/interior/endron_facility/helipad)
 "hri" = (
 /obj/structure/table/wood/fancy/black,
 /obj/item/candle,
@@ -27617,7 +27617,7 @@
 /area/vtm/interior/laundromat)
 "hsA" = (
 /turf/open/floor/plating/vampplating/stone,
-/area/vtm/interior/endron_facility/restricted)
+/area/vtm/interior/endron_facility/helipad)
 "hsE" = (
 /obj/structure/stairs/north,
 /obj/structure/railing{
@@ -28733,7 +28733,7 @@
 	pixel_y = 22
 	},
 /turf/open/floor/plating/rough,
-/area/vtm/interior/endron_facility/restricted)
+/area/vtm/interior/endron_facility/helipad)
 "hJW" = (
 /obj/structure/stairs/north,
 /turf/open/floor/plating/sidewalk,
@@ -33794,7 +33794,7 @@
 	layer = 4
 	},
 /turf/open/floor/plating/vampcanal,
-/area/vtm/interior/endron_facility/restricted)
+/area/vtm/interior/endron_facility/helipad)
 "jgA" = (
 /obj/structure/railing{
 	dir = 1;
@@ -33941,7 +33941,7 @@
 /area/vtm/pacificheights/community)
 "jjb" = (
 /turf/open/floor/plating/vampcanal,
-/area/vtm/interior/endron_facility/restricted)
+/area/vtm/interior/endron_facility/helipad)
 "jji" = (
 /obj/structure/chair/comfy{
 	dir = 1
@@ -35755,7 +35755,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/rough,
-/area/vtm/interior/endron_facility/restricted)
+/area/vtm/interior/endron_facility/helipad)
 "jHr" = (
 /obj/structure/table,
 /obj/item/melee/vampirearms/fireaxe,
@@ -38127,7 +38127,7 @@
 /area/vtm/graveyard/interior)
 "kpV" = (
 /turf/open/floor/plating/rough,
-/area/vtm/interior/endron_facility/restricted)
+/area/vtm/interior/endron_facility/helipad)
 "kpW" = (
 /obj/effect/decal/graffiti,
 /turf/open/floor/plating/rough,
@@ -39794,7 +39794,7 @@
 	layer = 4
 	},
 /turf/open/floor/plating/vampcanal,
-/area/vtm/interior/endron_facility/restricted)
+/area/vtm/interior/endron_facility/helipad)
 "kPv" = (
 /obj/structure/table/wood,
 /obj/item/canvas/twentythree_nineteen{
@@ -43579,6 +43579,9 @@
 /obj/structure/lamppost/sidewalk,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/unionsquare)
+"lPe" = (
+/turf/open/floor/plating/vampplating,
+/area/vtm/interior/endron_facility/helipad)
 "lPj" = (
 /obj/structure/vampdoor/setite/high_sec,
 /turf/open/floor/plating/parquetry/old,
@@ -45411,7 +45414,7 @@
 "mrc" = (
 /obj/structure/railing,
 /turf/open/floor/plating/vampcanal,
-/area/vtm/interior/endron_facility/restricted)
+/area/vtm/interior/endron_facility/helipad)
 "mrd" = (
 /obj/effect/decal/wallpaper/grey,
 /turf/closed/wall/vampwall,
@@ -47473,7 +47476,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/rough,
-/area/vtm/interior/endron_facility/restricted)
+/area/vtm/interior/endron_facility/helipad)
 "mSj" = (
 /obj/structure/vampstatue,
 /turf/open/water,
@@ -49144,7 +49147,7 @@
 /obj/structure/window/reinforced/indestructable,
 /obj/effect/decal/bordur,
 /turf/open/floor/plating/rough,
-/area/vtm/interior/endron_facility/restricted)
+/area/vtm/interior/endron_facility/helipad)
 "npw" = (
 /obj/item/kirbyplants/random,
 /obj/structure/extinguisher_cabinet{
@@ -49260,7 +49263,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/rough,
-/area/vtm/interior/endron_facility/restricted)
+/area/vtm/interior/endron_facility/helipad)
 "nrw" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 8
@@ -58234,7 +58237,7 @@
 	name = "stairs"
 	},
 /turf/open/floor/plating/vampplating,
-/area/vtm/interior/endron_facility/restricted)
+/area/vtm/interior/endron_facility/helipad)
 "pIv" = (
 /obj/structure/railing{
 	layer = 4
@@ -59896,7 +59899,7 @@
 	layer = 4
 	},
 /turf/open/floor/plating/vampcanal,
-/area/vtm/interior/endron_facility/restricted)
+/area/vtm/interior/endron_facility/helipad)
 "qfv" = (
 /obj/structure/vampdoor/food_pantry,
 /turf/open/floor/plating/parquetry/old,
@@ -63285,7 +63288,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/rough,
-/area/vtm/interior/endron_facility/restricted)
+/area/vtm/interior/endron_facility/helipad)
 "qYr" = (
 /obj/effect/decal/bordur{
 	dir = 1
@@ -65619,7 +65622,7 @@
 	pixel_y = -13
 	},
 /turf/open/floor/plating/rough,
-/area/vtm/interior/endron_facility/restricted)
+/area/vtm/interior/endron_facility/helipad)
 "rCX" = (
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/techshop)
@@ -66874,7 +66877,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/rough,
-/area/vtm/interior/endron_facility/restricted)
+/area/vtm/interior/endron_facility/helipad)
 "rTg" = (
 /obj/effect/decal/bordur,
 /obj/effect/landmark/npcability,
@@ -71047,7 +71050,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/rough,
-/area/vtm/interior/endron_facility/restricted)
+/area/vtm/interior/endron_facility/helipad)
 "tbe" = (
 /obj/structure/table/wood,
 /turf/open/floor/carpet/black,
@@ -71586,7 +71589,7 @@
 	pixel_y = 16
 	},
 /turf/open/floor/plating/vampcanal,
-/area/vtm/interior/endron_facility/restricted)
+/area/vtm/interior/endron_facility/helipad)
 "tib" = (
 /mob/living/simple_animal/pet/rat,
 /turf/open/floor/plating/sidewalk/poor,
@@ -71803,6 +71806,9 @@
 /obj/item/paperplane,
 /turf/open/floor/plating/bacotell,
 /area/vtm/clinic/haven)
+"tls" = (
+/turf/closed/wall/vampwall/rich,
+/area/vtm/interior/endron_facility/helipad)
 "tlx" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 1
@@ -71963,7 +71969,7 @@
 	pixel_y = 16
 	},
 /turf/open/floor/plating/vampcanal,
-/area/vtm/interior/endron_facility/restricted)
+/area/vtm/interior/endron_facility/helipad)
 "tnz" = (
 /obj/structure/table/wood,
 /obj/structure/table/wood,
@@ -72533,7 +72539,7 @@
 	},
 /obj/effect/decal/bordur,
 /turf/open/floor/plating/rough,
-/area/vtm/interior/endron_facility/restricted)
+/area/vtm/interior/endron_facility/helipad)
 "tvi" = (
 /obj/structure/table,
 /obj/structure/table/wood,
@@ -73041,7 +73047,7 @@
 	pixel_y = 16
 	},
 /turf/open/floor/plating/vampcanal,
-/area/vtm/interior/endron_facility/restricted)
+/area/vtm/interior/endron_facility/helipad)
 "tCa" = (
 /obj/machinery/light/prince{
 	dir = 1;
@@ -81020,7 +81026,7 @@
 	name = "stairs"
 	},
 /turf/open/floor/plating/vampplating,
-/area/vtm/interior/endron_facility/restricted)
+/area/vtm/interior/endron_facility/helipad)
 "vMR" = (
 /obj/effect/decal/bordur{
 	dir = 8
@@ -449628,10 +449634,10 @@ mrc
 hJV
 kpV
 rCR
-gMh
-gMh
-gMh
-gMh
+tls
+tls
+tls
+tls
 qVK
 nYS
 dhc
@@ -449886,9 +449892,9 @@ kpV
 kpV
 kpV
 fVk
-bEx
+lPe
 vML
-gMh
+tls
 qVK
 nYS
 dhc
@@ -450143,9 +450149,9 @@ kpV
 kpV
 kpV
 fVk
-bEx
+lPe
 pIs
-gMh
+tls
 qVK
 nYS
 dhc
@@ -450399,10 +450405,10 @@ kPl
 hJV
 kpV
 rCR
-gMh
-gMh
-gMh
-gMh
+tls
+tls
+tls
+tls
 cWN
 nYS
 dhc
