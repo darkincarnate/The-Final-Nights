@@ -83551,6 +83551,7 @@
 "wxT" = (
 /obj/structure/rack,
 /obj/item/storage/box/handcuffs,
+/obj/item/storage/box/teargas,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility/restricted)
 "wxX" = (
