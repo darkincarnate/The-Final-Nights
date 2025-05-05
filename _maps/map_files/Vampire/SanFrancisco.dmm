@@ -72420,6 +72420,10 @@
 	},
 /turf/closed/wall/vampwall/painted/low,
 /area/vtm/interior/bianchiBank)
+"ttf" = (
+/obj/structure/table,
+/turf/open/floor/plating/vampplating/mono,
+/area/vtm/interior/endron_facility)
 "ttp" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 10
@@ -79964,6 +79968,10 @@
 /obj/manholeup,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/shop)
+"vxs" = (
+/obj/structure/closet/crate/bin,
+/turf/open/floor/plating/vampplating/mono,
+/area/vtm/interior/endron_facility)
 "vxt" = (
 /obj/effect/decal/wallpaper/paper/darkred,
 /obj/machinery/light/small{
@@ -177926,9 +177934,9 @@ fWl
 eTM
 eTM
 aun
-wWN
+ttf
 wcd
-wWN
+vxs
 aun
 eTM
 eTM
