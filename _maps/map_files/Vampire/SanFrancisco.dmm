@@ -51472,12 +51472,12 @@
 /area/vtm/interior/strip/elysium)
 "nSQ" = (
 /obj/structure/railing{
-	dir = 1;
-	layer = 4;
-	pixel_y = 16
+	dir = 8
 	},
 /obj/structure/railing{
-	dir = 8
+	dir = 1;
+	layer = 4;
+	pixel_y = 12
 	},
 /turf/open/openspace,
 /area/vtm/interior/endron_facility/restricted)
@@ -78190,7 +78190,8 @@
 /area/vtm/chinatown)
 "uYm" = (
 /obj/machinery/light{
-	dir = 4
+	dir = 4;
+	pixel_y = -27
 	},
 /turf/open/floor/carpet/green,
 /area/vtm/interior/endron_facility)
@@ -84984,10 +84985,12 @@
 /turf/open/floor/plating/vampdirt,
 /area/vtm/forest)
 "wRw" = (
+/obj/structure/sign/warning/biohazard,
 /obj/machinery/light{
-	dir = 4
+	dir = 4;
+	pixel_y = -28
 	},
-/turf/open/floor/plating/vampplating/mono,
+/turf/closed/wall/vampwall/metal/reinforced,
 /area/vtm/interior/wyrm_corrupted)
 "wRG" = (
 /obj/structure/chair/wood/wings{
@@ -87681,7 +87684,7 @@
 /obj/structure/railing{
 	dir = 1;
 	layer = 4;
-	pixel_y = 16
+	pixel_y = 12
 	},
 /turf/open/floor/plasteel/stairs/right{
 	dir = 4
@@ -148248,8 +148251,8 @@ dhc
 dhc
 nYS
 nYS
-niP
 wRw
+iMN
 iMN
 rbZ
 puz
@@ -179208,8 +179211,8 @@ jSj
 eTM
 fOg
 vJg
-wZM
 uYm
+wZM
 wZM
 gEZ
 fOg
