@@ -3294,15 +3294,6 @@
 /obj/item/chair/wood/wings,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/banu/haven)
-"aRQ" = (
-/obj/structure/table,
-/obj/machinery/button/door{
-	id = 56;
-	name = "Parking Shutters Control";
-	pixel_y = 7
-	},
-/turf/open/floor/plating/sidewalk,
-/area/vtm/financialdistrict/construction)
 "aRT" = (
 /obj/structure/curtain/bounty,
 /obj/structure/closet/crate/coffin,
@@ -3850,13 +3841,6 @@
 /obj/vampire_computer,
 /turf/open/floor/carpet,
 /area/vtm/interior/millennium_tower/f4)
-"aYp" = (
-/obj/structure/window/reinforced/indestructable{
-	alpha = 0;
-	dir = 4
-	},
-/turf/open/floor/plating/rough,
-/area/vtm/interior/endron_facility/helipad)
 "aYq" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -20640,6 +20624,8 @@
 /obj/item/lightreplacer,
 /obj/item/reagent_containers/spray/cleaner,
 /obj/item/wire_cutters,
+/obj/item/storage/bag/trash,
+/obj/item/storage/bag/trash,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "fAp" = (
@@ -49152,6 +49138,9 @@
 	},
 /obj/structure/window/reinforced/indestructable,
 /obj/effect/decal/bordur,
+/obj/effect/decal/bordur{
+	dir = 4
+	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/endron_facility/helipad)
 "npw" = (
@@ -174071,7 +174060,7 @@ ptd
 maE
 oZH
 vzL
-aRQ
+hyN
 uIB
 nxh
 qLC
@@ -451441,19 +451430,19 @@ nYS
 iYY
 bRX
 bRX
+bRX
+bRX
+bRX
+bRX
+bRX
+bRX
+bRX
+bRX
+bRX
 nrq
-nrq
-nrq
-nrq
-nrq
-nrq
-nrq
-nrq
-nrq
-nrq
-aYp
-aYp
-aYp
+bRX
+bRX
+bRX
 npt
 nYS
 dhc
