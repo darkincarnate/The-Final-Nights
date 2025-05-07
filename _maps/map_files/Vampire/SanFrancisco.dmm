@@ -9360,7 +9360,7 @@
 /obj/vampire_computer{
 	owner = "Clerk"
 	},
-/turf/open/floor/plating/vampplating/mono,
+/turf/closed/wall/vampwall/rich/low,
 /area/vtm/interior/endron_facility)
 "cwE" = (
 /obj/machinery/light/prince{
@@ -21925,7 +21925,7 @@
 /obj/item/paper{
 	default_raw_text = "Branch Leader - 0666 | Executive - 0333 | Internal Affairs - 0432"
 	},
-/turf/open/floor/plating/vampplating/mono,
+/turf/closed/wall/vampwall/rich/low,
 /area/vtm/interior/endron_facility)
 "fRQ" = (
 /obj/machinery/light/small{
@@ -28427,7 +28427,7 @@
 	pixel_y = 6
 	},
 /obj/item/pen/fourcolor,
-/turf/open/floor/plating/vampplating/mono,
+/turf/closed/wall/vampwall/rich/low,
 /area/vtm/interior/endron_facility)
 "hFy" = (
 /obj/effect/decal/litter,
