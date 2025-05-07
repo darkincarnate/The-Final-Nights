@@ -83578,6 +83578,9 @@
 /obj/structure/rack,
 /obj/item/storage/box/handcuffs,
 /obj/item/storage/box/teargas,
+/obj/item/melee/classic_baton/vampire,
+/obj/item/melee/classic_baton/vampire,
+/obj/item/melee/classic_baton/vampire,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility/restricted)
 "wxX" = (
