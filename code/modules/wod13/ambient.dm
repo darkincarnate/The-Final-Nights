@@ -490,17 +490,7 @@
 	wall_rating = LOW_WALL_RATING
 
 /area/vtm/interior/endron_facility
-	name = "Endron Headquarters"
-	icon_state = "supply"
-	zone_type = "masquerade"
-	music = /datum/vampiremusic/forest
-	fire_controled = TRUE
-	yang_chi = 0
-	yin_chi = 1
-	wall_rating = LOW_WALL_RATING
-
-/area/vtm/interior/endron_facility/helipad
-	name = "Endron Helipad"
+	name = "Endron Facility"
 	icon_state = "supply"
 	zone_type = "battle"
 	music = /datum/vampiremusic/forest
@@ -534,7 +524,7 @@
 	icon_state = "graveyard"
 	zone_type = "battle"
 	music = /datum/vampiremusic/forest
-	fire_controled = TRUE
+	fire_controled = FALSE
 	yang_chi = 0
 	yin_chi = 2
 	wall_rating = LOW_WALL_RATING
