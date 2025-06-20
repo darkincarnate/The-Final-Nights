@@ -46,6 +46,7 @@
 	var/socks = "Nude" //Which socks the player wants
 	var/backpack = DBACKPACK		//Which backpack type the player has chosen.
 	var/jumpsuit_style = PREF_SUIT		//suit/skirt
+	var/underwear_visibility = NONE ///Flag for showing/hiding underwear, toggleable by a verb
 
 	//Equipment slots
 	var/obj/item/clothing/wear_suit = null
@@ -90,8 +91,6 @@
 
 	var/last_repainted_mark
 
-	//var/given_penis = FALSE
-
 	///Performs CPR on the target after a delay. //[Lucia] what does this mean?
 	var/last_cpr_exp = 0
 
@@ -126,7 +125,6 @@
 
 	bloodquality = 2
 
-	var/soul_state = SOUL_PRESENT
 
 	var/can_be_embraced = TRUE
 

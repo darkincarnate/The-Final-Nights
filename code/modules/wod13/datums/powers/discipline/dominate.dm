@@ -6,7 +6,7 @@
 
 /datum/discipline/dominate/post_gain()
 	. = ..()
-	if(level >= 1)
+	if(level >= 5)
 		var/obj/effect/proc_holder/spell/voice_of_god/voice_of_domination = new(owner)
 		owner.mind.AddSpell(voice_of_domination)
 		RegisterSignal(owner, COMSIG_MOB_EMOTE, PROC_REF(on_snap))
@@ -82,7 +82,7 @@
 
 	if(ishuman(target))
 		var/mob/living/carbon/human/human_target = target
-		if(human_target.clane?.name == "Gargoyle")
+		if(human_target.clane?.name == CLAN_GARGOYLE)
 			return TRUE
 
 	var/mypower = SSroll.storyteller_roll(owner.get_total_social(), difficulty = base_difficulty, mobs_to_show_output = owner, numerical = TRUE)
