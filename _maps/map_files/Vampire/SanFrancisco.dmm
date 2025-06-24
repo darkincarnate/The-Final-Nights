@@ -26716,6 +26716,12 @@
 /obj/effect/decal/litter,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/mansion)
+"hax" = (
+/obj/machinery/vamp/atm{
+	pixel_y = 25
+	},
+/turf/open/floor/plating/sidewalk/rich,
+/area/vtm/financialdistrict)
 "haD" = (
 /obj/weapon_showcase,
 /obj/structure/coclock,
@@ -29560,11 +29566,13 @@
 	},
 /obj/item/clothing/suit/hooded/heisenberg,
 /obj/item/clothing/gloves/vampire/latex,
-/obj/item/clothing/mask/vampire,
 /obj/machinery/button/door{
 	pixel_y = 29;
 	name = "Quarantine Lockdown";
 	id = 55555
+	},
+/obj/item/clothing/mask/gas/explorer{
+	name = "endron gasmask"
 	},
 /turf/open/floor/plating/toilet{
 	icon_state = "toilet4"
@@ -58769,11 +58777,11 @@
 	},
 /obj/item/clothing/suit/hooded/heisenberg,
 /obj/item/clothing/gloves/vampire/latex,
-/obj/item/clothing/gloves/vampire/latex,
-/obj/item/clothing/mask/vampire,
-/obj/item/clothing/mask/vampire,
 /obj/machinery/light{
 	dir = 8
+	},
+/obj/item/clothing/mask/gas/explorer{
+	name = "endron gasmask"
 	},
 /turf/open/floor/plating/toilet{
 	icon_state = "toilet4"
@@ -75930,6 +75938,11 @@
 "tWx" = (
 /obj/effect/turf_decal/siding/white,
 /obj/structure/vampdoor/glass/pentex,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = 965;
+	pixel_y = -11;
+	dir = 1
+	},
 /turf/open/floor/plating/toilet{
 	icon_state = "toilet4"
 	},
@@ -83716,7 +83729,9 @@
 	},
 /obj/item/clothing/suit/hooded/heisenberg,
 /obj/item/clothing/gloves/vampire/latex,
-/obj/item/clothing/mask/vampire,
+/obj/item/clothing/mask/gas/explorer{
+	name = "endron gasmask"
+	},
 /turf/open/floor/plating/toilet{
 	icon_state = "toilet4"
 	},
@@ -86560,9 +86575,6 @@
 /obj/machinery/button/door{
 	id = 965
 	},
-/obj/effect/turf_decal/caution/red{
-	pixel_y = -15
-	},
 /turf/closed/wall/vampwall/metal/reinforced,
 /area/vtm/interior/endron_facility/restricted)
 "wLg" = (
@@ -87740,6 +87752,7 @@
 /obj/machinery/light{
 	pixel_y = 32
 	},
+/obj/machinery/vending/boozeomat,
 /turf/open/floor/plating/toilet{
 	icon_state = "toilet4"
 	},
@@ -180117,7 +180130,7 @@ eTM
 eTM
 csD
 uIB
-lld
+hax
 lld
 kev
 wbX
