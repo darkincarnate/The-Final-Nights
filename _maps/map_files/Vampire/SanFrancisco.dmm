@@ -12825,9 +12825,6 @@
 /obj/structure/chair/wood{
 	dir = 4
 	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
-	},
 /turf/open/floor/carpet/green,
 /area/vtm/interior/endron_facility)
 "dsr" = (
@@ -17402,12 +17399,6 @@
 	},
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/fishermanswharf/lower)
-"eHn" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
-	},
-/turf/open/floor/carpet/green,
-/area/vtm/interior/endron_facility)
 "eHs" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/plating/vampgrass,
@@ -19352,6 +19343,7 @@
 /obj/structure/window/reinforced/spawner/north,
 /obj/structure/table/rolling,
 /obj/item/storage/backpack/duffelbag/med/surgery,
+/obj/item/stack/medical/bone_gel,
 /turf/open/floor/plating/toilet{
 	icon_state = "toilet4"
 	},
@@ -25790,12 +25782,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/strip/toreador)
-"gOe" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 10
-	},
-/turf/open/floor/carpet/green,
-/area/vtm/interior/endron_facility)
 "gOj" = (
 /turf/open/floor/plating/toilet,
 /area/vtm/interior/millennium_tower/ventrue)
@@ -30155,10 +30141,6 @@
 /obj/effect/landmark/start/graveyardkeeper,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/graveyard/interior)
-"hYw" = (
-/obj/effect/turf_decal/siding/wood,
-/turf/open/floor/carpet/green,
-/area/vtm/interior/endron_facility)
 "hYC" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
 /obj/effect/turf_decal/siding/wideplating/dark{
@@ -37161,6 +37143,7 @@
 /obj/structure/window/reinforced/spawner,
 /obj/structure/table/rolling,
 /obj/item/storage/backpack/duffelbag/med/surgery,
+/obj/item/stack/medical/bone_gel,
 /turf/open/floor/plating/toilet{
 	icon_state = "toilet4"
 	},
@@ -43185,12 +43168,6 @@
 /obj/effect/decal/wallpaper/light,
 /turf/closed/wall/vampwall/rich,
 /area/vtm/interior/strip/toreador)
-"lBa" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 9
-	},
-/turf/open/floor/carpet/green,
-/area/vtm/interior/endron_facility)
 "lBk" = (
 /obj/effect/turf_decal/siding/red{
 	dir = 4
@@ -63072,12 +63049,6 @@
 "qEE" = (
 /turf/open/floor/plating/toilet,
 /area/vtm/anarch/basement)
-"qEN" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/turf/open/floor/carpet/green,
-/area/vtm/interior/endron_facility)
 "qEX" = (
 /obj/machinery/light/small/red{
 	dir = 8;
@@ -66953,14 +66924,6 @@
 /obj/item/binoculars,
 /turf/open/floor/carpet/green,
 /area/vtm/interior/bianchiBank)
-"rDn" = (
-/obj/structure/table/wood,
-/obj/item/flashlight/lamp/green,
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/turf/open/floor/carpet/green,
-/area/vtm/interior/endron_facility)
 "rDs" = (
 /obj/machinery/light/small{
 	pixel_y = 32
@@ -246677,11 +246640,11 @@ opH
 qGg
 hrS
 rrA
-lBa
-eHn
-eHn
-eHn
-gOe
+wZM
+wZM
+wZM
+wZM
+wZM
 rrA
 xar
 rrA
@@ -246934,11 +246897,11 @@ opH
 hkH
 hrS
 mzk
-qEN
+wZM
 gpu
 hol
 shQ
-hYw
+wZM
 rrA
 xar
 rrA
@@ -246946,10 +246909,10 @@ jwP
 rrA
 frY
 rrA
-lBa
+wZM
 dso
 dso
-eHn
+wZM
 ihA
 ntq
 ntq
@@ -247191,11 +247154,11 @@ opH
 hkH
 hrS
 xVX
-qEN
+wZM
 wZM
 gwP
 wZM
-hYw
+wZM
 rrA
 xar
 rrA
@@ -247203,7 +247166,7 @@ jwP
 rrA
 frY
 rrA
-rDn
+gpu
 ezR
 rGA
 iBv
@@ -247448,11 +247411,11 @@ opH
 hkH
 hrS
 eHL
-qEN
+wZM
 ddF
 sYf
 vVy
-hYw
+wZM
 rrA
 hrS
 uQA
@@ -247460,7 +247423,7 @@ uQA
 uQA
 hrS
 rrA
-qEN
+wZM
 wZM
 nQs
 vVy
