@@ -87284,6 +87284,10 @@
 	dir = 8;
 	locked = 1
 	},
+/obj/effect/turf_decal/siding/white{
+	dir = 8;
+	color = "#636363"
+	},
 /turf/open/floor/plating/grate,
 /area/vtm/interior/wyrm_corrupted)
 "wWE" = (
