@@ -4403,6 +4403,11 @@
 /mob/living/carbon/human/npc/bandit,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/pacificheights/industrial)
+"bjw" = (
+/turf/open/floor/plating/shit{
+	icon_state = "blood"
+	},
+/area/vtm/interior/giovanni/basement)
 "bjD" = (
 /turf/closed/wall/vampwall/brick,
 /area/vtm/interior/apartment)
@@ -8066,6 +8071,13 @@
 /obj/vampire_car/retro/rand,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/shop)
+"cgI" = (
+/obj/effect/turf_decal/weather/dirt,
+/obj/effect/turf_decal/weather/dirt{
+	dir = 4
+	},
+/turf/open/floor/plating/stone,
+/area/vtm/interior/giovanni/basement)
 "cgK" = (
 /obj/structure/sign/warning/docking,
 /turf/closed/wall/vampwall/junk/alt,
@@ -14138,6 +14150,18 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/jazzclub)
+"dLQ" = (
+/obj/structure/vampdoor/wood/giovanni/high_security{
+	lockpick_difficulty = 8;
+	locked = 0
+	},
+/obj/effect/turf_decal/siding/white{
+	color = "#636363"
+	},
+/turf/open/floor/plating/toilet{
+	color = "#919191"
+	},
+/area/vtm/interior/giovanni/basement)
 "dMb" = (
 /obj/structure/table/wood,
 /obj/item/trash/plate{
@@ -23759,6 +23783,9 @@
 /obj/structure/fluff/hedge,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/interior/shop)
+"gmJ" = (
+/turf/open/floor/plating/stone,
+/area/vtm/interior/giovanni/basement)
 "gmL" = (
 /obj/structure/curtain/bounty{
 	pixel_y = -27
@@ -26781,6 +26808,17 @@
 	icon_state = "canal_concrete"
 	},
 /area/vtm/interior/nosferatu_office)
+"hby" = (
+/obj/effect/turf_decal/weather/dirt,
+/obj/effect/turf_decal/weather/dirt{
+	dir = 4
+	},
+/obj/effect/turf_decal/weather/dirt{
+	dir = 8
+	},
+/obj/structure/statue/bone/skull,
+/turf/open/floor/plating/stone,
+/area/vtm/interior/giovanni/basement)
 "hbQ" = (
 /obj/structure/table/wood,
 /obj/effect/turf_decal/siding/wood{
@@ -31751,7 +31789,8 @@
 /area/vtm/church/interior/staff)
 "ips" = (
 /obj/structure/vampdoor/wood/giovanni/high_security{
-	lockpick_difficulty = 8
+	lockpick_difficulty = 8;
+	locked = 0
 	},
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/giovanni)
@@ -32674,6 +32713,13 @@
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/supply)
+"iCe" = (
+/obj/effect/decal/cleanable/blood/old{
+	icon_state = "trails_1-old";
+	pixel_x = -17
+	},
+/turf/open/floor/plating/stone,
+/area/vtm/interior/giovanni/basement)
 "iCi" = (
 /obj/effect/landmark/npcactivity,
 /turf/open/floor/plating/sidewalk/poor,
@@ -34333,6 +34379,13 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/police/fed)
+"iXr" = (
+/obj/effect/turf_decal/weather/dirt,
+/obj/effect/turf_decal/weather/dirt{
+	dir = 8
+	},
+/turf/open/floor/plating/stone,
+/area/vtm/interior/giovanni/basement)
 "iXt" = (
 /obj/structure/chair/comfy/brown{
 	color = "#50C878";
@@ -34849,6 +34902,10 @@
 /obj/effect/decal/litter,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/pacificheights/industrial)
+"jeJ" = (
+/obj/effect/decal/kopatich,
+/turf/open/floor/plating/woodfancy,
+/area/vtm/interior/giovanni)
 "jeM" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/plating/parquetry/old,
@@ -46560,6 +46617,10 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/chantry/basement)
+"meP" = (
+/obj/structure/vampstatue/angel,
+/turf/open/floor/plating/stone,
+/area/vtm/interior/giovanni/basement)
 "meQ" = (
 /obj/machinery/light/red{
 	dir = 8
@@ -65977,6 +66038,14 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/anarch)
+"qTb" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 4
+	},
+/turf/open/floor/plating/shit{
+	icon_state = "blood"
+	},
+/area/vtm/interior/giovanni/basement)
 "qTh" = (
 /obj/machinery/libraryscanner,
 /obj/structure/railing{
@@ -70202,6 +70271,12 @@
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/plating/vampgrass,
 /area/vtm/forest)
+"sbs" = (
+/obj/effect/decal/cleanable/blood/old{
+	icon_state = "floor5-old"
+	},
+/turf/open/floor/plating/stone,
+/area/vtm/interior/giovanni/basement)
 "sbz" = (
 /obj/effect/turf_decal/siding/wideplating/corner{
 	color = "#004136"
@@ -72926,6 +73001,14 @@
 /mob/living/carbon/human/npc/walkby,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/financialdistrict/library)
+"sNg" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 1
+	},
+/turf/open/floor/plating/shit{
+	icon_state = "blood"
+	},
+/area/vtm/interior/giovanni/basement)
 "sNl" = (
 /turf/closed/wall/vampwall,
 /area/vtm/interior/vjanitor)
@@ -76660,6 +76743,12 @@
 	icon_state = "canal_concrete"
 	},
 /area/vtm/interior/nosferatu_office)
+"tJZ" = (
+/obj/effect/decal/cleanable/blood/old{
+	icon_state = "trails_1-old"
+	},
+/turf/open/floor/plating/stone,
+/area/vtm/interior/giovanni/basement)
 "tKa" = (
 /obj/structure/table,
 /obj/item/reagent_containers/glass/bottle/formaldehyde,
@@ -92437,6 +92526,16 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/police/court)
+"xVA" = (
+/obj/effect/turf_decal/weather/dirt,
+/obj/effect/turf_decal/weather/dirt{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/blood/old{
+	icon_state = "floor5-old"
+	},
+/turf/open/floor/plating/stone,
+/area/vtm/interior/giovanni/basement)
 "xVB" = (
 /obj/structure/dresser,
 /obj/effect/turf_decal/siding/wideplating/dark{
@@ -100772,12 +100871,12 @@ xfw
 xfw
 xfw
 xfw
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
+rCB
+rCB
+rCB
+rCB
+rCB
+rCB
 xfw
 xfw
 xfw
@@ -100973,14 +101072,14 @@ rCB
 rCB
 rCB
 rCB
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
+rCB
+rCB
+bnb
+bnb
+bnb
+bnb
+rCB
+rCB
 xfw
 xfw
 xfw
@@ -101175,15 +101274,15 @@ bnb
 bnb
 bnb
 rCB
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
+rCB
+bnb
+bnb
+qTb
+bjw
+bnb
+bnb
+rCB
+rCB
 xfw
 xfw
 xfw
@@ -101377,15 +101476,15 @@ vIl
 cWs
 bnb
 rCB
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
+bnb
+bnb
+gmJ
+iXr
+gPK
+bjw
+bnb
+bnb
+rCB
 xfw
 xfw
 xfw
@@ -101578,16 +101677,16 @@ prZ
 tua
 prZ
 bnb
+bnb
+bnb
+meP
+gmJ
+gmJ
+xVA
+gPK
+bjw
+bnb
 rCB
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
 xfw
 xfw
 xfw
@@ -101778,18 +101877,18 @@ bnb
 nuA
 tua
 dPc
-pCS
+tua
+dLQ
+tJZ
+tJZ
+gmJ
+iCe
+gmJ
+gmJ
+hby
+sNg
 bnb
 rCB
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
 xfw
 xfw
 xfw
@@ -101982,16 +102081,16 @@ prZ
 tua
 prZ
 bnb
+bnb
+bnb
+meP
+sbs
+gmJ
+cgI
+iHV
+bjw
+bnb
 rCB
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
 xfw
 xfw
 xfw
@@ -102185,15 +102284,15 @@ prZ
 tua
 bnb
 rCB
+bnb
+bnb
+gmJ
+cgI
+iHV
+bjw
+bnb
+bnb
 rCB
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
 xfw
 xfw
 xfw
@@ -102388,14 +102487,14 @@ prZ
 bnb
 bnb
 rCB
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
+bnb
+bnb
+buB
+bjw
+bnb
+bnb
+rCB
+rCB
 xfw
 xfw
 xfw
@@ -102590,13 +102689,13 @@ tua
 nyc
 bnb
 rCB
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
+rCB
+bnb
+bnb
+bnb
+bnb
+rCB
+rCB
 xfw
 xfw
 xfw
@@ -102792,12 +102891,12 @@ prZ
 bnb
 bnb
 rCB
-xfw
-xfw
-xfw
-xfw
-xfw
-xfw
+rCB
+rCB
+rCB
+rCB
+rCB
+rCB
 xfw
 xfw
 xfw
@@ -186418,7 +186517,7 @@ qEh
 esR
 nIQ
 nIQ
-nIQ
+jeJ
 nIQ
 nIQ
 nIQ
