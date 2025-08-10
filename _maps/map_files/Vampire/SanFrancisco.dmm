@@ -23390,6 +23390,15 @@
 	},
 /turf/open/floor/plating/stone,
 /area/vtm/forest/caves)
+"gfh" = (
+/obj/effect/turf_decal/siding/wood{
+	color = "#665136";
+	dir = 1
+	},
+/turf/open/floor/plating/sidewalkalt{
+	color = "#8a8a8a"
+	},
+/area/vtm)
 "gfn" = (
 /obj/structure/table/wood,
 /obj/structure/sink{
@@ -182797,7 +182806,7 @@ oYt
 "}
 (41,1,3) = {"
 uvs
-vrx
+uvs
 knk
 vsy
 vsy
@@ -183403,7 +183412,7 @@ oYt
 "}
 (44,1,3) = {"
 uvs
-vrx
+uvs
 xra
 xra
 xra
@@ -183605,7 +183614,7 @@ oYt
 "}
 (45,1,3) = {"
 rCB
-vrx
+uvs
 xra
 xra
 xra
@@ -183807,7 +183816,7 @@ oYt
 "}
 (46,1,3) = {"
 rCB
-vrx
+uvs
 xra
 xra
 xra
@@ -184211,7 +184220,7 @@ oYt
 "}
 (48,1,3) = {"
 rCB
-wUD
+hxQ
 qEh
 kfZ
 kfZ
@@ -184413,7 +184422,7 @@ oYt
 "}
 (49,1,3) = {"
 rCB
-wUD
+hxQ
 qEh
 aFm
 dmr
@@ -184614,8 +184623,8 @@ eku
 oYt
 "}
 (50,1,3) = {"
-xfw
-wUD
+hxQ
+hxQ
 qEh
 esR
 nIQ
@@ -186635,7 +186644,7 @@ iXN
 "}
 (60,1,3) = {"
 rCB
-wUD
+hxQ
 qEh
 esR
 nIQ
@@ -186837,7 +186846,7 @@ iXN
 "}
 (61,1,3) = {"
 rCB
-wUD
+hxQ
 qEh
 sXD
 dJc
@@ -187039,7 +187048,7 @@ iXN
 "}
 (62,1,3) = {"
 rCB
-wUD
+hxQ
 qEh
 kfZ
 kfZ
@@ -225218,7 +225227,7 @@ iXN
 "}
 (51,1,4) = {"
 uvs
-mjT
+gfh
 eHX
 hUV
 hUV
@@ -225420,7 +225429,7 @@ iXN
 "}
 (52,1,4) = {"
 uvs
-mjT
+gfh
 eHX
 hUV
 hUV
@@ -225622,7 +225631,7 @@ iXN
 "}
 (53,1,4) = {"
 uvs
-mjT
+gfh
 jnk
 grI
 grI
@@ -225824,7 +225833,7 @@ iXN
 "}
 (54,1,4) = {"
 uvs
-mjT
+gfh
 eHX
 hUV
 hUV
@@ -226026,7 +226035,7 @@ iXN
 "}
 (55,1,4) = {"
 uvs
-mjT
+gfh
 eHX
 hUV
 hUV
@@ -227846,7 +227855,7 @@ iXN
 mjT
 mjT
 mjT
-gxB
+mjT
 ijU
 ocf
 lJt
@@ -228048,7 +228057,7 @@ iXN
 mjT
 mjT
 mjT
-gxB
+mjT
 ijU
 nNq
 bVz
@@ -228250,7 +228259,7 @@ iXN
 mjT
 mjT
 mjT
-gxB
+mjT
 ijU
 xnm
 bVz
@@ -228452,7 +228461,7 @@ iXN
 mjT
 mjT
 mjT
-gxB
+mjT
 ijU
 haf
 vXX
@@ -228654,7 +228663,7 @@ iXN
 mjT
 mjT
 mjT
-gxB
+mjT
 jjw
 jjw
 tzJ
