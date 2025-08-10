@@ -17336,13 +17336,6 @@
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/financialdistrict/library)
-"eEf" = (
-/obj/structure/railing{
-	dir = 8;
-	pixel_x = 2
-	},
-/turf/closed/wall/vampwall/rich,
-/area/vtm/interior/giovanni)
 "eEj" = (
 /obj/structure/barrels/rand,
 /turf/open/floor/plating/sidewalk/poor,
@@ -186248,8 +186241,8 @@ geq
 nEO
 tCM
 tCM
-eEf
-eEf
+jjw
+jjw
 jjw
 xra
 xra
