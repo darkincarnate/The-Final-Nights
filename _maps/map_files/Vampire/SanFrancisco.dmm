@@ -41,6 +41,12 @@
 	},
 /turf/open/floor/plating/vampcarpet,
 /area/vtm/anarch/basement)
+"aaK" = (
+/obj/effect/decal/cleanable/blood/old{
+	icon_state = "trails_1-old"
+	},
+/turf/open/floor/plating/church,
+/area/vtm/interior/giovanni/basement)
 "aaO" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 1
@@ -14151,15 +14157,8 @@
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/jazzclub)
 "dLQ" = (
-/obj/structure/vampdoor/wood/giovanni/high_security{
-	lockpick_difficulty = 8;
-	locked = 0
-	},
-/obj/effect/turf_decal/siding/white{
-	color = "#636363"
-	},
-/turf/open/floor/plating/toilet{
-	color = "#919191"
+/turf/closed/wall/vampwall/rich/old{
+	density = 0
 	},
 /area/vtm/interior/giovanni/basement)
 "dMb" = (
@@ -101877,7 +101876,7 @@ bnb
 nuA
 tua
 dPc
-tua
+aaK
 dLQ
 tJZ
 tJZ
