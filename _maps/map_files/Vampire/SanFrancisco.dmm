@@ -21195,6 +21195,13 @@
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/floor/plating/vampgrass,
 /area/vtm)
+"fCj" = (
+/obj/structure/fluff/hedge,
+/obj/machinery/light/prince{
+	pixel_y = 29
+	},
+/turf/open/floor/plating/church,
+/area/vtm/interior/giovanni)
 "fCn" = (
 /obj/structure/lamppost/one{
 	dir = 8
@@ -23268,6 +23275,20 @@
 	},
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/littleitaly)
+"geq" = (
+/obj/structure/railing{
+	dir = 8;
+	pixel_x = 2
+	},
+/obj/effect/turf_decal/siding/wood{
+	color = "#503e28";
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 4
+	},
+/turf/open/floor/plating/woodfancy,
+/area/vtm/interior/giovanni)
 "get" = (
 /obj/effect/decal/cleanable/blood/old{
 	icon_state = "floor2-old"
@@ -34580,6 +34601,10 @@
 /obj/effect/decal/bordur{
 	dir = 9
 	},
+/obj/machinery/light/prince{
+	dir = 4;
+	pixel_y = 7
+	},
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/giovanni)
 "jad" = (
@@ -34901,10 +34926,6 @@
 /obj/effect/decal/litter,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/pacificheights/industrial)
-"jeJ" = (
-/obj/effect/decal/kopatich,
-/turf/open/floor/plating/woodfancy,
-/area/vtm/interior/giovanni)
 "jeM" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/plating/parquetry/old,
@@ -44209,6 +44230,7 @@
 /obj/effect/decal/bordur{
 	dir = 5
 	},
+/obj/effect/turf_decal/siding/wideplating/dark,
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/giovanni)
 "lxu" = (
@@ -52796,6 +52818,9 @@
 /obj/machinery/button/curtain{
 	pixel_y = -21;
 	id = 91
+	},
+/obj/effect/turf_decal/siding/wideplating/dark/corner{
+	dir = 4
 	},
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/giovanni)
@@ -67945,6 +67970,21 @@
 /obj/effect/decal/wallpaper/red,
 /turf/closed/wall/vampwall/brick,
 /area/vtm/interior)
+"rrP" = (
+/obj/structure/railing{
+	dir = 8;
+	pixel_x = 2
+	},
+/obj/effect/turf_decal/siding/wood{
+	color = "#503e28";
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wideplating/dark/corner,
+/turf/open/floor/plating/woodfancy,
+/area/vtm/interior/giovanni)
 "rrR" = (
 /obj/structure/lamppost/sidewalk/chinese{
 	dir = 4;
@@ -69133,6 +69173,12 @@
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/shop)
+"rJF" = (
+/obj/machinery/light/prince{
+	dir = 8
+	},
+/turf/open/floor/plating/stone,
+/area/vtm/interior/giovanni/basement)
 "rJK" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/plating/parquetry/old,
@@ -73509,6 +73555,15 @@
 	},
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/tzimisce_manor)
+"sTL" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 8
+	},
+/obj/machinery/light/prince{
+	dir = 8
+	},
+/turf/open/floor/plating/woodfancy,
+/area/vtm/interior/giovanni)
 "sUi" = (
 /obj/structure/trashcan,
 /turf/open/floor/plating/concrete,
@@ -83066,6 +83121,12 @@
 /obj/effect/decal/pallet,
 /turf/open/floor/plating/dirt,
 /area/vtm/financialdistrict/construction)
+"vwC" = (
+/obj/machinery/light/prince{
+	dir = 4
+	},
+/turf/open/floor/plating/stone,
+/area/vtm/interior/giovanni/basement)
 "vwL" = (
 /obj/effect/decal/bordur{
 	dir = 8
@@ -83739,6 +83800,9 @@
 "vIl" = (
 /obj/item/storage/fancy/candle_box,
 /obj/structure/table/wood/fancy/royalblack,
+/obj/machinery/light/prince{
+	dir = 4
+	},
 /turf/open/floor/plating/saint,
 /area/vtm/interior/giovanni/basement)
 "vIp" = (
@@ -85878,6 +85942,15 @@
 	},
 /turf/open/floor/plating/toilet,
 /area/vtm/interior/apartment)
+"wkT" = (
+/obj/effect/decal/bordur{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wideplating/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/plating/woodfancy,
+/area/vtm/interior/giovanni)
 "wkY" = (
 /obj/item/cigbutt,
 /turf/open/floor/plating/rough/cave,
@@ -101477,7 +101550,7 @@ bnb
 rCB
 bnb
 bnb
-gmJ
+vwC
 iXr
 gPK
 bjw
@@ -102285,7 +102358,7 @@ bnb
 rCB
 bnb
 bnb
-gmJ
+rJF
 cgI
 iHV
 bjw
@@ -185299,7 +185372,7 @@ oYt
 "}
 (54,1,3) = {"
 ijU
-kfZ
+fCj
 gYC
 gxB
 gxB
@@ -185703,7 +185776,7 @@ oYt
 "}
 (56,1,3) = {"
 ijU
-kfZ
+fCj
 gYC
 gxB
 gxB
@@ -186112,8 +186185,8 @@ lfm
 nIQ
 nIQ
 vQK
-hzB
-hzB
+rrP
+geq
 nEO
 tCM
 tCM
@@ -186313,10 +186386,10 @@ jjw
 qEh
 ihP
 nIQ
-nIQ
-nIQ
-nIQ
-nIQ
+nNq
+bVz
+bVz
+xRZ
 nIQ
 rbI
 jjw
@@ -186515,10 +186588,10 @@ wUD
 qEh
 esR
 nIQ
-nIQ
-jeJ
-nIQ
-nIQ
+nNq
+bVz
+bVz
+xRZ
 nIQ
 rbI
 jjw
@@ -186718,9 +186791,9 @@ qEh
 sXD
 dJc
 lxn
-nIQ
-nIQ
-nIQ
+bVz
+bVz
+xRZ
 lkq
 lkq
 nIQ
@@ -186919,10 +186992,10 @@ wUD
 qEh
 kfZ
 kfZ
-lfm
-nIQ
-nIQ
-nIQ
+wkT
+sTL
+vXX
+wZw
 nIQ
 nIQ
 nIQ
