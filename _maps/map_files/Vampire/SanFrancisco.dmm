@@ -1027,6 +1027,10 @@
 	},
 /turf/open/floor/plating/bacotell,
 /area/vtm/interior/endron_facility)
+"anM" = (
+/obj/structure/bookcase/random/nonfiction,
+/turf/open/floor/plating/woodfancy,
+/area/vtm/interior/giovanni)
 "anP" = (
 /obj/effect/decal/wallpaper/grey,
 /turf/closed/wall/vampwall/market,
@@ -2392,11 +2396,12 @@
 /turf/open/floor/plating/vampgrass,
 /area/vtm/interior/cog/caern)
 "aFm" = (
-/obj/structure/bookcase/random{
-	pixel_y = 20
-	},
 /obj/effect/decal/bordur{
 	dir = 8
+	},
+/obj/structure/bookcase/random/nonfiction{
+	pixel_y = 20;
+	density = 0
 	},
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/giovanni)
@@ -13887,6 +13892,10 @@
 "dHP" = (
 /turf/closed/wall/vampwall/brick/low/window,
 /area/vtm/interior/apartment)
+"dHS" = (
+/obj/structure/bookcase/random/reference,
+/turf/open/floor/plating/woodfancy,
+/area/vtm/interior/giovanni)
 "dIg" = (
 /obj/effect/decal/fakelattice{
 	density = 0
@@ -17340,10 +17349,6 @@
 /obj/structure/barrels/rand,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/interior/endron_facility/plant)
-"eEq" = (
-/obj/effect/decal/painting,
-/turf/closed/wall/vampwall/rich,
-/area/vtm/interior/giovanni)
 "eEt" = (
 /turf/open/floor/plating/toilet{
 	color = "#919191"
@@ -18139,9 +18144,7 @@
 /turf/open/floor/plating/roofwalk,
 /area/vtm/interior/bianchiBank)
 "eOa" = (
-/obj/structure/vampdoor/wood/giovanni/high_security{
-	lockpick_difficulty = 24
-	},
+/obj/structure/vampdoor/wood/giovanni/high_security,
 /obj/effect/turf_decal/siding/white{
 	dir = 1;
 	color = "#636363"
@@ -24958,8 +24961,7 @@
 /area/vtm/sewer/nosferatu_bar)
 "gCw" = (
 /obj/structure/vampdoor/wood/giovanni/high_security{
-	dir = 4;
-	lockpick_difficulty = 8
+	dir = 4
 	},
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/giovanni)
@@ -31172,12 +31174,6 @@
 /obj/structure/closet/cabinet,
 /turf/open/floor/carpet,
 /area/vtm/interior)
-"ihP" = (
-/obj/structure/bookcase/random{
-	pixel_y = 20
-	},
-/turf/open/floor/plating/woodfancy,
-/area/vtm/interior/giovanni)
 "iib" = (
 /obj/structure/stalagmite,
 /turf/open/floor/plating/dirt,
@@ -31849,10 +31845,7 @@
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/church/interior/staff)
 "ips" = (
-/obj/structure/vampdoor/wood/giovanni/high_security{
-	lockpick_difficulty = 8;
-	locked = 0
-	},
+/obj/structure/vampdoor/wood/giovanni/high_security,
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/giovanni)
 "ipt" = (
@@ -33500,9 +33493,7 @@
 /turf/open/floor/plating/rough/cave,
 /area/vtm/forest/caves)
 "iKH" = (
-/obj/structure/vampdoor/wood/giovanni/high_security{
-	lockpick_difficulty = 24
-	},
+/obj/structure/vampdoor/wood/giovanni/high_security,
 /obj/effect/turf_decal/siding/white{
 	dir = 3;
 	color = "#636363"
@@ -33712,13 +33703,6 @@
 /obj/item/storage/box/masks,
 /turf/open/floor/plating/circled,
 /area/vtm/interior/wyrm_corrupted)
-"iNZ" = (
-/obj/structure/curtain/bounty{
-	pixel_y = 15;
-	pixel_x = 32
-	},
-/turf/open/floor/plating/woodfancy,
-/area/vtm/interior/giovanni)
 "iOb" = (
 /obj/structure/toilet{
 	dir = 8;
@@ -34268,6 +34252,9 @@
 	},
 /obj/effect/decal/bordur{
 	dir = 4
+	},
+/obj/effect/decal/painting{
+	pixel_y = 32
 	},
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/giovanni)
@@ -37345,8 +37332,9 @@
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/interior/millennium_tower/f3)
 "jMs" = (
-/obj/structure/bookcase/random{
-	pixel_y = 20
+/obj/structure/bookcase/random/nonfiction{
+	pixel_y = 20;
+	density = 0
 	},
 /turf/open/floor/plating/parquetry/rich,
 /area/vtm/interior/giovanni)
@@ -37517,7 +37505,7 @@
 "jOL" = (
 /obj/structure/vampdoor/wood/giovanni/high_security{
 	dir = 4;
-	lockpick_difficulty = 18
+	lockpick_difficulty = 20
 	},
 /obj/effect/turf_decal/siding/white{
 	color = "#636363";
@@ -54253,6 +54241,15 @@
 /obj/effect/landmark/npcbeacon,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/ghetto)
+"nVj" = (
+/obj/structure/vampdoor/wood/giovanni/high_security{
+	lockpick_difficulty = 20
+	},
+/obj/effect/turf_decal/siding/wood{
+	color = "#503e28"
+	},
+/turf/open/floor/plating/woodfancy,
+/area/vtm/interior/giovanni)
 "nVm" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/lavendergrass,
@@ -59144,6 +59141,10 @@
 /obj/item/chair/plastic,
 /turf/open/floor/plating/concrete,
 /area/vtm/sewer/police)
+"phX" = (
+/obj/structure/bookcase/random/religion,
+/turf/open/floor/plating/woodfancy,
+/area/vtm/interior/giovanni)
 "pie" = (
 /obj/effect/decal/wallpaper/light,
 /turf/closed/wall/vampwall/painted,
@@ -73911,8 +73912,9 @@
 	},
 /area/vtm/sewer/nosferatu_warren)
 "sXD" = (
-/obj/structure/bookcase/random{
-	pixel_y = 20
+/obj/structure/bookcase/random/nonfiction{
+	pixel_y = 20;
+	density = 0
 	},
 /obj/effect/decal/bordur{
 	dir = 4
@@ -77770,7 +77772,7 @@
 	},
 /area/vtm/sewer/nosferatu_warren)
 "tWk" = (
-/obj/structure/bookcase/random,
+/obj/structure/bookcase/random/fiction,
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/giovanni)
 "tWo" = (
@@ -78704,9 +78706,6 @@
 /area/vtm/forest/caves)
 "uiU" = (
 /obj/machinery/griddle,
-/obj/structure/curtain/bounty{
-	pixel_y = -27
-	},
 /turf/open/floor/plating/bacotell,
 /area/vtm/interior/giovanni)
 "ujm" = (
@@ -80192,6 +80191,13 @@
 /obj/effect/landmark/npcbeacon,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/financialdistrict/library)
+"uEu" = (
+/obj/structure/curtain/bounty{
+	pixel_y = 8
+	},
+/obj/effect/decal/wallpaper/paper/darkred/low,
+/turf/closed/wall/vampwall/rich/low/window,
+/area/vtm/interior/giovanni)
 "uEv" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4;
@@ -87678,7 +87684,7 @@
 "wHi" = (
 /obj/structure/vampdoor/wood/giovanni/high_security{
 	dir = 4;
-	lockpick_difficulty = 24
+	lockpick_difficulty = 20
 	},
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/giovanni)
@@ -89088,10 +89094,6 @@
 /turf/open/floor/carpet,
 /area/vtm/interior/chantry)
 "wYI" = (
-/obj/structure/curtain/bounty{
-	pixel_y = 15;
-	pixel_x = 32
-	},
 /obj/effect/landmark/start/giovannimafia,
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/giovanni)
@@ -91140,9 +91142,6 @@
 /obj/machinery/reagentgrinder{
 	pixel_y = 12
 	},
-/obj/structure/curtain/bounty{
-	pixel_y = -27
-	},
 /turf/open/floor/plating/bacotell,
 /area/vtm/interior/giovanni)
 "xCZ" = (
@@ -92727,9 +92726,6 @@
 /obj/structure/table/wood,
 /obj/machinery/processor{
 	pixel_y = 12
-	},
-/obj/structure/curtain/bounty{
-	pixel_y = -27
 	},
 /turf/open/floor/plating/bacotell,
 /area/vtm/interior/giovanni)
@@ -146868,7 +146864,7 @@ ijU
 jgI
 ycp
 xCW
-ssx
+xDO
 wJp
 wgt
 bdM
@@ -147070,7 +147066,7 @@ ijU
 vtj
 ycp
 uiU
-ssx
+xDO
 wJp
 wgt
 aQK
@@ -147272,7 +147268,7 @@ ijU
 wWv
 ycp
 xWm
-ssx
+xDO
 wJp
 wgt
 aQK
@@ -147665,11 +147661,11 @@ ijU
 qDW
 lVw
 imr
-iNZ
+nIQ
 wYI
-iNZ
+nIQ
 wYI
-iNZ
+nIQ
 nIQ
 fZy
 ijU
@@ -147867,11 +147863,11 @@ jjw
 jjw
 jjw
 jjw
-ssx
-ssx
-ssx
-ssx
-ssx
+tzJ
+tzJ
+tzJ
+tzJ
+tzJ
 jjw
 jjw
 jjw
@@ -183627,9 +183623,9 @@ ijU
 kfZ
 kfZ
 ijU
-tWk
-tWk
-tWk
+anM
+anM
+anM
 jjw
 jjw
 jjw
@@ -184030,7 +184026,7 @@ ydz
 eOa
 nIQ
 nIQ
-gGH
+ips
 nIQ
 nIQ
 nIQ
@@ -184435,10 +184431,10 @@ smj
 nIQ
 nIQ
 ijU
-tWk
-tWk
-tWk
-tWk
+dHS
+dHS
+phX
+phX
 ujO
 gqT
 xDO
@@ -184828,7 +184824,7 @@ oYt
 jjw
 jjw
 qEh
-ihP
+mjB
 nIQ
 nIQ
 nIQ
@@ -185633,7 +185629,7 @@ eku
 oYt
 "}
 (55,1,3) = {"
-eEq
+ijU
 iUg
 agc
 gxB
@@ -186444,7 +186440,7 @@ oYt
 jjw
 jjw
 qEh
-ihP
+mjB
 nIQ
 nNq
 bVz
@@ -227255,7 +227251,7 @@ hUV
 hUV
 hUV
 hUV
-hff
+nVj
 ybp
 vXX
 vXX
@@ -227457,7 +227453,7 @@ eGx
 eGx
 eGx
 eGx
-xDO
+uEu
 nIQ
 nIQ
 nIQ
@@ -228468,7 +228464,7 @@ vXX
 vXD
 eCL
 hgt
-jjw
+ijU
 kfZ
 kfZ
 ijU
