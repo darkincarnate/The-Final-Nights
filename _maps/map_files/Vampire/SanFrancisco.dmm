@@ -73172,9 +73172,6 @@
 	plane = 4;
 	pixel_y = 16
 	},
-/obj/effect/turf_decal/siding/wideplating/dark{
-	dir = 1
-	},
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/giovanni)
 "sSr" = (
@@ -145019,7 +145016,7 @@ ijU
 oET
 gYi
 gYi
-wZw
+nIQ
 nIQ
 nIQ
 nNq
