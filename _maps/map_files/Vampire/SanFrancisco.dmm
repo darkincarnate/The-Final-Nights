@@ -87805,12 +87805,12 @@
 "wJe" = (
 /obj/item/clothing/head/bunnyhead{
 	pixel_y = 10;
-	color = FFC0CB
+	color = "#FFC0CB"
 	},
 /obj/item/clothing/suit/bunnysuit{
 	pixel_y = -4;
 	pixel_x = 1;
-	color = FFC0CB
+	color = "#FFC0CB"
 	},
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/giovanni)
