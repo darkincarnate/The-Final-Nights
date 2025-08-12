@@ -33725,6 +33725,18 @@
 /obj/item/clothing/gloves/vampire/latex,
 /obj/item/clothing/gloves/vampire/latex,
 /obj/item/storage/box/masks,
+/obj/item/clothing/mask/gas/explorer{
+	name = "endron gas mask"
+	},
+/obj/item/clothing/mask/gas/explorer{
+	name = "endron gas mask"
+	},
+/obj/item/clothing/mask/gas/explorer{
+	name = "endron gas mask"
+	},
+/obj/item/clothing/mask/gas/explorer{
+	name = "endron gas mask"
+	},
 /turf/open/floor/plating/circled,
 /area/vtm/interior/wyrm_corrupted)
 "iOb" = (
