@@ -2912,6 +2912,7 @@
 "aOl" = (
 /obj/item/trash/plate,
 /obj/structure/table/wood,
+/obj/item/gun/syringe/blowgun,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/ghetto)
 "aOr" = (
@@ -12575,6 +12576,11 @@
 	},
 /turf/open/floor/carpet/red,
 /area/vtm/interior)
+"dop" = (
+/obj/structure/table/wood,
+/obj/item/gun/syringe/blowgun,
+/turf/open/floor/plating/parquetry/old,
+/area/vtm/hotel)
 "dor" = (
 /obj/structure/vampfence/corner/rich{
 	dir = 4;
@@ -24823,6 +24829,11 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/supply)
+"gBz" = (
+/obj/effect/decal/pallet,
+/obj/item/gun/syringe/blowgun,
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/endron_facility/plant)
 "gBK" = (
 /obj/vampire_computer,
 /obj/structure/table/wood/fancy/royalblack,
@@ -30741,13 +30752,13 @@
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility/restricted)
 "idl" = (
-/obj/structure/table/wood/bar,
 /obj/item/paper_bin{
 	pixel_y = 5
 	},
 /obj/item/pen{
 	pixel_y = 8
 	},
+/obj/structure/table/wood,
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/giovanni)
 "idn" = (
@@ -50896,6 +50907,11 @@
 /obj/effect/landmark/npcbeacon,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/chinatown)
+"ncE" = (
+/obj/structure/table/wood,
+/obj/item/gun/syringe/blowgun,
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/apartment)
 "ncG" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
@@ -58578,8 +58594,8 @@
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/interior/giovanni)
 "oXZ" = (
-/obj/structure/table/wood/bar,
 /obj/item/flashlight/lamp/green,
+/obj/structure/table/wood,
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/giovanni)
 "oYc" = (
@@ -71366,8 +71382,8 @@
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/police)
 "smh" = (
-/obj/structure/table/wood/bar,
 /obj/item/storage/book/bible,
+/obj/structure/table/wood,
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/giovanni)
 "smi" = (
@@ -77822,6 +77838,14 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/ghetto)
+"tVy" = (
+/obj/effect/decal/pallet,
+/obj/structure/closet/crate/maint,
+/obj/item/gun/syringe/blowgun,
+/turf/open/floor/plating/toilet{
+	color = "#919191"
+	},
+/area/vtm/interior/techshop)
 "tVG" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 1;
@@ -82335,8 +82359,8 @@
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/supply)
 "vgQ" = (
-/obj/structure/table/wood/bar,
 /obj/vampire_computer,
+/obj/structure/table/wood,
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/giovanni)
 "vhc" = (
@@ -88534,6 +88558,10 @@
 	},
 /turf/open/floor/plating/church,
 /area/vtm/interior/giovanni/basement)
+"wQL" = (
+/obj/item/gun/syringe/blowgun,
+/turf/closed/wall/vampwall/market/low,
+/area/vtm/sewer/police)
 "wQN" = (
 /obj/machinery/light/cold{
 	pixel_y = 32
@@ -90483,6 +90511,10 @@
 	},
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/strip)
+"xqG" = (
+/obj/item/gun/syringe/blowgun,
+/turf/open/floor/plating/vampbeach,
+/area/vtm/fishermanswharf/lower)
 "xqN" = (
 /obj/item/kirbyplants{
 	icon_state = "plant4";
@@ -93232,6 +93264,10 @@
 /obj/vampire_computer,
 /turf/open/floor/plating/parquetry,
 /area/vtm/clinic)
+"ybD" = (
+/obj/item/gun/syringe/blowgun,
+/turf/open/floor/plating/stone,
+/area/vtm/sewer)
 "ybG" = (
 /obj/effect/decal/asphaltline/alt,
 /turf/open/floor/plating/asphalt,
@@ -111155,7 +111191,7 @@ lht
 lht
 lht
 lht
-brg
+ybD
 fRr
 hDi
 cBs
@@ -113101,7 +113137,7 @@ apJ
 apJ
 cqA
 hwO
-efH
+wQL
 cqA
 cqA
 ewc
@@ -118443,7 +118479,7 @@ cSt
 uMR
 uMR
 uMR
-uMR
+xqG
 oSK
 uMR
 uMR
@@ -119547,7 +119583,7 @@ umm
 sHM
 sHM
 vQk
-wuc
+ncE
 fgG
 eCz
 eou
@@ -134774,7 +134810,7 @@ eXP
 vcn
 vcn
 vcn
-uzh
+gBz
 now
 goA
 wiu
@@ -206324,7 +206360,7 @@ cMg
 pNo
 dsl
 idh
-nrU
+dop
 ret
 txN
 fGT
@@ -211213,7 +211249,7 @@ qfr
 pDY
 mIK
 qfr
-gHS
+tVy
 lyU
 wMD
 wZa
