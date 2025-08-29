@@ -31188,13 +31188,13 @@
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility/restricted)
 "idl" = (
-/obj/structure/table/wood/bar,
 /obj/item/paper_bin{
 	pixel_y = 5
 	},
 /obj/item/pen{
 	pixel_y = 8
 	},
+/obj/structure/table/wood,
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/giovanni)
 "idn" = (
@@ -59633,8 +59633,8 @@
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/interior/giovanni)
 "oXZ" = (
-/obj/structure/table/wood/bar,
 /obj/item/flashlight/lamp/green,
+/obj/structure/table/wood,
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/giovanni)
 "oYc" = (
@@ -72564,8 +72564,8 @@
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/police)
 "smh" = (
-/obj/structure/table/wood/bar,
 /obj/item/storage/book/bible,
+/obj/structure/table/wood,
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/giovanni)
 "smi" = (
@@ -83709,8 +83709,8 @@
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/supply)
 "vgQ" = (
-/obj/structure/table/wood/bar,
 /obj/vampire_computer,
+/obj/structure/table/wood,
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/giovanni)
 "vhc" = (
@@ -188718,7 +188718,7 @@ cRV
 mSY
 cFy
 nIQ
-nIQ
+hgt
 nIQ
 nIQ
 oLS
