@@ -14121,6 +14121,14 @@
 /area/vtm/interior/shop)
 "dHb" = (
 /obj/structure/table,
+/obj/item/kitchen/rollingpin{
+	pixel_y = 11;
+	pixel_x = -7
+	},
+/obj/item/kitchen/knife{
+	pixel_y = 5;
+	pixel_x = 7
+	},
 /turf/open/floor/plating/toilet,
 /area/vtm/interior/tzimisce_manor)
 "dHe" = (
@@ -16222,6 +16230,8 @@
 /obj/item/clothing/shoes/vampire/heels,
 /obj/item/clothing/shoes/vampire,
 /obj/item/clothing/shoes/vampire,
+/obj/item/clothing/accessory/maidapron,
+/obj/item/clothing/accessory/maidapron,
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/tzimisce_manor)
 "ekm" = (
@@ -43149,6 +43159,17 @@
 	color = "#bfbfbf"
 	},
 /area/vtm/interior/wyrm_corrupted)
+"laE" = (
+/obj/effect/turf_decal/siding/wood{
+	color = "#503e28";
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/reagent_dispensers/watertank/high,
+/turf/open/floor/plating/woodfancy,
+/area/vtm/interior/tzimisce_manor)
 "laQ" = (
 /obj/structure/roofstuff/alt2,
 /obj/effect/decal/bordur/corner{
@@ -48059,27 +48080,6 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/supply)
-"mkI" = (
-/obj/structure/closet/crate/freezer/fridge,
-/obj/item/storage/box/ingredients/vegetarian,
-/obj/item/storage/box/ingredients/carnivore,
-/obj/item/reagent_containers/food/condiment/milk{
-	name = "full cream milk"
-	},
-/obj/item/storage/box/ingredients/american,
-/obj/item/storage/fancy/egg_box,
-/obj/item/reagent_containers/food/condiment/milk{
-	name = "full cream milk"
-	},
-/obj/item/storage/box/ingredients/vegetarian,
-/obj/item/storage/box/ingredients/exotic,
-/obj/item/food/dough,
-/obj/item/food/dough,
-/obj/item/food/cheesewheel,
-/obj/item/food/grown/tomato,
-/obj/item/food/grown/tomato,
-/turf/open/floor/plating/toilet,
-/area/vtm/interior/tzimisce_manor)
 "mkL" = (
 /obj/effect/decal/litter,
 /turf/open/floor/plating/rough,
@@ -59005,15 +59005,24 @@
 /turf/open/floor/plating/dirt,
 /area/vtm/sewer/nosferatu_warren)
 "oPk" = (
-/obj/structure/closet/secure_closet/freezer,
-/obj/item/reagent_containers/food/condiment/vampiremilk,
-/obj/item/reagent_containers/food/condiment/vampiremilk,
-/obj/item/food/meat/slab/human,
-/obj/item/food/meat/slab/human,
-/obj/item/food/meat/slab/human,
+/obj/structure/closet/crate/freezer/fridge,
+/obj/item/storage/box/ingredients/vegetarian,
+/obj/item/storage/box/ingredients/carnivore,
+/obj/item/reagent_containers/food/condiment/milk{
+	name = "full cream milk"
+	},
+/obj/item/storage/box/ingredients/american,
 /obj/item/storage/fancy/egg_box,
-/obj/item/reagent_containers/food/condiment/flour,
-/obj/item/reagent_containers/food/condiment/flour,
+/obj/item/reagent_containers/food/condiment/milk{
+	name = "full cream milk"
+	},
+/obj/item/storage/box/ingredients/vegetarian,
+/obj/item/storage/box/ingredients/exotic,
+/obj/item/food/dough,
+/obj/item/food/dough,
+/obj/item/food/cheesewheel,
+/obj/item/food/grown/tomato,
+/obj/item/food/grown/tomato,
 /obj/item/reagent_containers/blood/random,
 /turf/open/floor/plating/toilet,
 /area/vtm/interior/tzimisce_manor)
@@ -64088,10 +64097,7 @@
 	dir = 6
 	},
 /obj/structure/flora/ausbushes/sparsegrass,
-/obj/structure/sink{
-	pixel_y = 16;
-	plane = 3
-	},
+/obj/structure/reagent_dispensers/watertank/high,
 /turf/open/floor/plating/vampgrass,
 /area/vtm/interior/tzimisce_manor)
 "qdS" = (
@@ -64264,6 +64270,7 @@
 /obj/machinery/light/prince{
 	dir = 1
 	},
+/obj/item/kitchen/knife/butcher,
 /turf/open/floor/plating/toilet,
 /area/vtm/interior/tzimisce_manor)
 "qfY" = (
@@ -65780,6 +65787,21 @@
 /obj/structure/flora/junglebush/c,
 /turf/open/floor/plating/shit,
 /area/vtm/sewer/nosferatu_warren)
+"qyq" = (
+/obj/structure/closet/secure_closet/freezer,
+/obj/item/reagent_containers/food/condiment/vampiremilk,
+/obj/item/reagent_containers/food/condiment/vampiremilk,
+/obj/item/food/meat/slab/human,
+/obj/item/food/meat/slab/human,
+/obj/item/food/meat/slab/human,
+/obj/item/storage/fancy/egg_box,
+/obj/item/reagent_containers/food/condiment/flour,
+/obj/item/reagent_containers/food/condiment/flour,
+/obj/item/reagent_containers/blood/random,
+/obj/item/reagent_containers/food/condiment/sugar,
+/obj/item/reagent_containers/food/condiment/sugar,
+/turf/open/floor/plating/toilet,
+/area/vtm/interior/tzimisce_manor)
 "qyD" = (
 /obj/effect/decal/bordur{
 	dir = 1
@@ -67847,6 +67869,7 @@
 /obj/item/melee/vampirearms/handsickle,
 /obj/item/reagent_containers/glass/bucket/wooden,
 /obj/item/cultivator/rake,
+/obj/item/clothing/gloves/botanic_leather,
 /turf/open/floor/plating/roofwalk/cobblestones,
 /area/vtm/interior/tzimisce_manor)
 "qXQ" = (
@@ -73923,18 +73946,27 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/setite/basement)
 "sEU" = (
-/obj/structure/closet/secure_closet/freezer,
+/obj/structure/closet/crate/freezer/fridge,
+/obj/item/storage/box/ingredients/vegetarian,
+/obj/item/storage/box/ingredients/carnivore,
+/obj/item/reagent_containers/food/condiment/milk{
+	name = "full cream milk"
+	},
+/obj/item/storage/box/ingredients/american,
+/obj/item/storage/fancy/egg_box,
+/obj/item/reagent_containers/food/condiment/milk{
+	name = "full cream milk"
+	},
+/obj/item/storage/box/ingredients/vegetarian,
+/obj/item/storage/box/ingredients/exotic,
+/obj/item/food/dough,
+/obj/item/food/dough,
+/obj/item/food/cheesewheel,
+/obj/item/food/grown/tomato,
+/obj/item/food/grown/tomato,
 /obj/machinery/light/prince{
 	dir = 1
 	},
-/obj/item/reagent_containers/food/condiment/vampiremilk,
-/obj/item/reagent_containers/food/condiment/vampiremilk,
-/obj/item/food/meat/slab/human,
-/obj/item/food/meat/slab/human,
-/obj/item/food/meat/slab/human,
-/obj/item/storage/fancy/egg_box,
-/obj/item/reagent_containers/food/condiment/flour,
-/obj/item/reagent_containers/food/condiment/flour,
 /obj/item/reagent_containers/blood/random,
 /turf/open/floor/plating/toilet,
 /area/vtm/interior/tzimisce_manor)
@@ -93165,6 +93197,11 @@
 "xGG" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_y = 32
+	},
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = -12;
+	pixel_y = -5
 	},
 /turf/open/floor/plating/toilet,
 /area/vtm/interior/tzimisce_manor)
@@ -142137,7 +142174,7 @@ mtG
 mtG
 skd
 lfj
-mkI
+oPk
 mtG
 oPk
 lfj
@@ -142543,7 +142580,7 @@ hCS
 lfj
 hBi
 mtG
-oPk
+qyq
 lfj
 bEh
 uMn
@@ -182130,7 +182167,7 @@ nDW
 kjG
 nDW
 lfj
-mVn
+laE
 mVn
 mVn
 mEC
