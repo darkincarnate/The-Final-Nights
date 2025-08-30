@@ -873,18 +873,6 @@
 /obj/structure/table/wood/fancy/royalblack,
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/setite/basement)
-"alH" = (
-/obj/structure/guncase{
-	anchored = 1
-	},
-/obj/item/gun/ballistic/automatic/vampire/deagle/c50{
-	name = "Rebellion";
-	desc = "An extremely powerful, and rare, handcannon. This one seems to bolster silver engravings with anti-authority sentiments."
-	},
-/obj/item/ammo_box/magazine/m50,
-/obj/item/ammo_box/magazine/m50,
-/turf/open/floor/plating/parquetry/old,
-/area/vtm/anarch/basement)
 "alM" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 5
@@ -29095,12 +29083,6 @@
 /obj/effect/decal/coastline,
 /turf/open/floor/plating/vampdirt,
 /area/vtm/interior/cog/caern)
-"hBb" = (
-/obj/structure/table,
-/obj/item/gun/ballistic/automatic/pistol/deagle,
-/obj/item/ammo_box/magazine/m50/ctf,
-/turf/open/floor/plating/concrete,
-/area/vtm/supply)
 "hBe" = (
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/chantry/basement)
@@ -51211,15 +51193,6 @@
 /obj/machinery/light/prince{
 	pixel_y = 32
 	},
-/obj/item/gun/ballistic/automatic/vampire/deagle/c50{
-	name = "Compliance";
-	color = "#B2A9A9";
-	desc = "An extremely powerful, and rare, handcannon. This one seems to bolster gold engravings with pro-authority sentiments."
-	},
-/obj/item/ammo_box/magazine/m50,
-/obj/item/ammo_box/magazine/m50,
-/obj/item/ammo_box/magazine/m50,
-/obj/item/ammo_box/vampire/c50,
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/millennium_tower/f2)
 "mVH" = (
@@ -92279,6 +92252,13 @@
 	},
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/baywalk)
+"xtV" = (
+/obj/structure/table,
+/obj/item/gun/ballistic/automatic/vampire/deagle,
+/obj/item/ammo_box/magazine/m44,
+/obj/item/ammo_box/magazine/m44,
+/turf/open/floor/plating/concrete,
+/area/vtm/supply)
 "xuj" = (
 /obj/structure/chair/plastic{
 	dir = 4
@@ -132444,7 +132424,7 @@ skm
 niE
 eGb
 gnR
-alH
+aGe
 tFd
 tFd
 tFd
@@ -136479,7 +136459,7 @@ lFj
 bkQ
 azZ
 lUq
-hBb
+xtV
 fLI
 qur
 eku
