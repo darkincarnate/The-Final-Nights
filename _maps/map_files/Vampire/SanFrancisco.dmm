@@ -17898,6 +17898,13 @@
 "eHH" = (
 /turf/closed/wall/vampwall/brick,
 /area/vtm/interior/littleitaly)
+"eHJ" = (
+/obj/machinery/light/prince{
+	dir = 8;
+	pixel_y = 18
+	},
+/turf/open/floor/plating/woodfancy,
+/area/vtm/interior/tzimisce_manor)
 "eHO" = (
 /obj/structure/bed,
 /obj/item/restraints/handcuffs,
@@ -139489,15 +139496,15 @@ lfj
 xff
 jGe
 jGe
-jGe
 dRD
+jGe
 jGe
 uDB
 lfj
 vOw
 vKJ
 uru
-tst
+cAx
 aIr
 lfj
 ekd
@@ -140297,7 +140304,7 @@ lfj
 xff
 jGe
 jGe
-jGe
+eHJ
 jGe
 jGe
 kks
