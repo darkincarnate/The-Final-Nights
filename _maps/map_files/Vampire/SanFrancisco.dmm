@@ -38716,13 +38716,6 @@
 /obj/effect/landmark/start/voivode,
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/tzimisce_manor)
-"jWW" = (
-/obj/effect/turf_decal/siding/wideplating{
-	color = "#5a2355";
-	dir = 1
-	},
-/turf/open/openspace,
-/area/vtm)
 "jXb" = (
 /obj/machinery/light{
 	dir = 4
@@ -52908,16 +52901,8 @@
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/hotel)
 "nrY" = (
-/obj/effect/turf_decal/siding/wideplating/corner{
-	color = "#5a2355";
-	dir = 1
-	},
 /obj/structure/railing{
 	dir = 8
-	},
-/obj/effect/turf_decal/siding/wideplating/corner{
-	color = "#5a2355";
-	dir = 1
 	},
 /obj/effect/turf_decal/siding/wood{
 	color = "#9a704a"
@@ -85221,15 +85206,7 @@
 /turf/open/floor/carpet/red,
 /area/vtm/interior)
 "vEy" = (
-/obj/effect/turf_decal/siding/wideplating/corner{
-	color = "#5a2355";
-	dir = 4
-	},
 /obj/structure/railing{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/wideplating/corner{
-	color = "#5a2355";
 	dir = 4
 	},
 /obj/effect/turf_decal/siding/wood{
@@ -221728,7 +221705,7 @@ ogy
 sPs
 rhl
 bYw
-jWW
+mjT
 qGJ
 bYw
 sxN
@@ -221930,7 +221907,7 @@ uKo
 tDo
 rhl
 bYw
-jWW
+mjT
 qGJ
 bYw
 cbW
@@ -222132,7 +222109,7 @@ ogy
 sPs
 rhl
 bYw
-jWW
+mjT
 qGJ
 bYw
 eHz
