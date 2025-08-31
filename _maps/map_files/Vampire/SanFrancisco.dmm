@@ -13854,6 +13854,12 @@
 	},
 /turf/open/floor/carpet/black,
 /area/vtm/interior/nosferatu_office)
+"dDn" = (
+/obj/machinery/light/cold{
+	dir = 4
+	},
+/turf/open/floor/circuit/red,
+/area/vtm/interior/wyrm_corrupted)
 "dDt" = (
 /obj/machinery/light/prince{
 	light_power = 0.45;
@@ -18551,6 +18557,9 @@
 /obj/item/food/salami,
 /obj/item/food/salami,
 /obj/item/food/salami,
+/obj/machinery/light/cold{
+	dir = 8
+	},
 /turf/open/floor/plating/bacotell,
 /area/vtm/interior/wyrm_corrupted)
 "ePk" = (
@@ -19351,6 +19360,13 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/financialdistrict)
+"eYD" = (
+/obj/structure/flora/ausbushes/grassybush,
+/obj/machinery/light/cold{
+	dir = 8
+	},
+/turf/open/floor/plating/vampgrass,
+/area/vtm/interior/wyrm_corrupted)
 "eYN" = (
 /obj/effect/decal/bordur{
 	dir = 8
@@ -58664,6 +58680,12 @@
 /obj/fusebox,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/apartment)
+"oJP" = (
+/obj/machinery/light/cold{
+	dir = 8
+	},
+/turf/open/indestructible/necropolis/air,
+/area/vtm/interior/wyrm_corrupted)
 "oJS" = (
 /obj/structure/lattice/grate{
 	dir = 4
@@ -59048,6 +59070,16 @@
 /obj/item/reagent_containers/blood/random,
 /turf/open/floor/plating/toilet,
 /area/vtm/interior/tzimisce_manor)
+"oPm" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 9;
+	plane = -2
+	},
+/obj/machinery/light/cold{
+	dir = 4
+	},
+/turf/open/floor/plating/shit,
+/area/vtm/interior/wyrm_corrupted)
 "oPn" = (
 /obj/structure/rack,
 /obj/item/storage/box/actionfigure,
@@ -64158,10 +64190,16 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/ghetto)
 "qel" = (
-/obj/machinery/light/cold{
-	dir = 4
+/obj/structure/sink{
+	pixel_y = -2;
+	dir = 8;
+	pixel_x = 9
 	},
-/turf/open/floor/plating/circled,
+/obj/effect/turf_decal/siding/white/end{
+	color = "#636363";
+	dir = 8
+	},
+/turf/open/floor/plating/grate,
 /area/vtm/interior/wyrm_corrupted)
 "qeq" = (
 /obj/effect/decal/bordur{
@@ -70595,6 +70633,12 @@
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/shop)
+"rJE" = (
+/obj/machinery/light/cold{
+	dir = 4
+	},
+/turf/open/floor/plating/asteroid/basalt,
+/area/vtm/interior/wyrm_corrupted)
 "rJK" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/plating/parquetry/old,
@@ -95521,10 +95565,6 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/vjanitor)
-"ykn" = (
-/mob/living/carbon/human/npc/endronsecurity,
-/turf/open/floor/plating/circled,
-/area/vtm/interior/wyrm_corrupted)
 "ykw" = (
 /obj/effect/decal/litter,
 /obj/machinery/light/small{
@@ -97905,7 +97945,7 @@ jmr
 jmr
 xEJ
 xEJ
-xEJ
+oJP
 xEJ
 siM
 xEJ
@@ -97913,7 +97953,7 @@ jmr
 hxN
 lcB
 hxN
-oBK
+eYD
 pCZ
 upw
 jmr
@@ -99310,7 +99350,7 @@ jmr
 ncE
 sIV
 qel
-ykn
+hkz
 qel
 sIV
 hFU
@@ -100327,19 +100367,19 @@ rCB
 rCB
 jmr
 jmr
-wtR
+rJE
 wtR
 wtR
 fZE
-noE
+oPm
 eVQ
 jmr
-eqC
+dDn
 odV
 weO
 weO
 cgd
-eqC
+dDn
 jmr
 jmr
 rCB
