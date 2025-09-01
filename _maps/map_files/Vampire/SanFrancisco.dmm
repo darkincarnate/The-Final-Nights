@@ -6968,7 +6968,8 @@
 /obj/machinery/light/cold{
 	dir = 8
 	},
-/turf/open/floor/circuit/red,
+/obj/effect/decal/gut_floor,
+/turf/open/indestructible/necropolis,
 /area/vtm/interior/wyrm_corrupted)
 "bTn" = (
 /obj/structure/table/wood,
@@ -16625,7 +16626,7 @@
 /turf/open/floor/carpet/royalblack,
 /area/vtm/interior/millennium_tower/f3)
 "eqC" = (
-/turf/open/floor/circuit/red,
+/turf/open/indestructible/necropolis,
 /area/vtm/interior/wyrm_corrupted)
 "eqR" = (
 /obj/effect/decal/bordur,
@@ -34096,13 +34097,9 @@
 /turf/open/floor/plating/vampgrass,
 /area/vtm/pacificheights)
 "iLY" = (
-/mob/living/simple_animal/hostile/eldritch/stalker{
-	AIStatus = 1;
-	health = 250;
-	melee_damage_lower = 35;
-	melee_damage_upper = 50
-	},
-/turf/open/floor/mineral/plastitanium/red,
+/mob/living/simple_animal/hostile/fister,
+/obj/effect/decal/gut_floor,
+/turf/open/indestructible/necropolis,
 /area/vtm/interior/wyrm_corrupted)
 "iMc" = (
 /obj/effect/turf_decal/siding/wideplating/dark{
@@ -38814,6 +38811,10 @@
 "jXr" = (
 /turf/closed/wall/vampwall/brick/low,
 /area/vtm)
+"jXI" = (
+/mob/living/simple_animal/hostile/fister,
+/turf/open/indestructible/necropolis,
+/area/vtm/interior/wyrm_corrupted)
 "jXJ" = (
 /obj/structure/chair/stool/bar,
 /obj/effect/landmark/start/towerwork,
@@ -46148,7 +46149,7 @@
 	dir = 4;
 	pixel_y = -8
 	},
-/turf/open/floor/mineral/plastitanium/red,
+/turf/open/indestructible/necropolis,
 /area/vtm/interior/wyrm_corrupted)
 "lKJ" = (
 /obj/effect/turf_decal/siding/white{
@@ -50128,12 +50129,7 @@
 /obj/effect/decal/bordur{
 	dir = 8
 	},
-/mob/living/simple_animal/hostile/eldritch/rust_spirit{
-	AIStatus = 1;
-	health = 200;
-	melee_damage_lower = 40;
-	melee_damage_upper = 60
-	},
+/mob/living/simple_animal/hostile/tanker,
 /turf/open/floor/plating/shit{
 	icon_state = "blood"
 	},
@@ -68122,13 +68118,6 @@
 	icon_state = "stone8"
 	},
 /area/vtm/sewer/tzimisce_sanctum)
-"raQ" = (
-/mob/living/simple_animal/hostile/eldritch/ash_spirit{
-	AIStatus = 1;
-	health = 200
-	},
-/turf/open/floor/circuit/red,
-/area/vtm/interior/wyrm_corrupted)
 "raR" = (
 /obj/structure/foodrack{
 	dir = 4;
@@ -72505,13 +72494,8 @@
 /turf/open/floor/plating/circled,
 /area/vtm/interior/shop)
 "siM" = (
-/mob/living/simple_animal/hostile/eldritch/raw_prophet{
-	AIStatus = 1;
-	health = 200;
-	melee_damage_lower = 25;
-	melee_damage_upper = 35
-	},
-/turf/open/floor/mineral/plastitanium/red,
+/mob/living/simple_animal/hostile/biter,
+/turf/open/indestructible/necropolis,
 /area/vtm/interior/wyrm_corrupted)
 "siO" = (
 /obj/effect/decal/bordur,
@@ -73273,7 +73257,8 @@
 /turf/open/floor/carpet/green,
 /area/vtm/interior/endron_facility/restricted)
 "stG" = (
-/turf/open/floor/mineral/plastitanium/red,
+/obj/effect/decal/gut_floor,
+/turf/open/indestructible/necropolis,
 /area/vtm/interior/wyrm_corrupted)
 "stK" = (
 /obj/effect/turf_decal/siding/wood{
@@ -97565,8 +97550,8 @@ sto
 sto
 sto
 mjS
-raQ
-stG
+eqC
+eqC
 odV
 weO
 jmr
@@ -97767,8 +97752,8 @@ sto
 sto
 sto
 mjS
+jXI
 eqC
-stG
 lcj
 jZs
 jmr
@@ -97969,7 +97954,7 @@ sto
 sto
 sto
 mjS
-eqC
+stG
 stG
 stG
 siM
@@ -98171,7 +98156,7 @@ sto
 sto
 sto
 mjS
-stG
+eqC
 stG
 eqC
 lKD
