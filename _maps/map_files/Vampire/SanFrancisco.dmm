@@ -2736,6 +2736,15 @@
 	},
 /turf/open/floor/carpet/blue,
 /area/vtm/interior)
+"aKL" = (
+/obj/effect/turf_decal/stripes{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/blood{
+	icon_state = "splatter1-old"
+	},
+/turf/open/floor/plating/circled,
+/area/vtm/interior/wyrm_corrupted)
 "aKX" = (
 /obj/effect/turf_decal/siding/wideplating{
 	color = "#802d29";
@@ -77369,15 +77378,6 @@
 	},
 /turf/open/floor/plating/circled,
 /area/vtm/interior/wyrm_corrupted)
-"twD" = (
-/obj/structure/railing/metal{
-	plane = 4.1
-	},
-/obj/structure/railing/metal{
-	plane = 4.1
-	},
-/turf/open/floor/plating/circled,
-/area/vtm/interior/wyrm_corrupted)
 "twP" = (
 /obj/structure/chair{
 	dir = 1
@@ -99369,7 +99369,7 @@ kGu
 gXi
 kpM
 hcr
-hcr
+aKL
 hcr
 hcr
 qel
@@ -99571,7 +99571,7 @@ jmr
 jmr
 jmr
 jmr
-jmr
+wvY
 jmr
 jmr
 jmr
@@ -100172,8 +100172,8 @@ fJb
 iUv
 jmr
 mnF
-twD
-wvY
+osS
+jmr
 xEJ
 xEJ
 xEJ
