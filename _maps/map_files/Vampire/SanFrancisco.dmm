@@ -78192,10 +78192,6 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/clinic)
-"tHH" = (
-/obj/machinery/light/cold,
-/turf/open/floor/plating/asteroid/basalt,
-/area/vtm/interior/wyrm_corrupted)
 "tHJ" = (
 /turf/closed/wall/vampwall/old,
 /area/vtm/interior)
@@ -97773,8 +97769,8 @@ jmr
 mBL
 jmr
 jmr
-jmr
-tHH
+gXi
+wtR
 wtR
 fZE
 aZh
