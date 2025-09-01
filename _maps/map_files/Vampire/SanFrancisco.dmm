@@ -10470,6 +10470,18 @@
 /obj/effect/landmark/start/hound,
 /turf/open/floor/mineral/plastitanium,
 /area/vtm/interior/millennium_tower/f2)
+"cLu" = (
+/obj/structure/guncase{
+	anchored = 1
+	},
+/obj/item/gun/ballistic/automatic/vampire/beretta,
+/obj/machinery/light/cold{
+	dir = 1
+	},
+/turf/open/floor/plating/circled{
+	color = "#b0b0b0"
+	},
+/area/vtm/interior/wyrm_corrupted)
 "cLy" = (
 /obj/structure/vampdoor/police{
 	locked = 0;
@@ -98372,10 +98384,10 @@ jmr
 ikf
 ikf
 jmr
-jmr
+gXi
 vwq
 sto
-vwq
+cLu
 jmr
 jmr
 nou
