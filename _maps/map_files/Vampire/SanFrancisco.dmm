@@ -50128,6 +50128,12 @@
 /obj/effect/decal/bordur{
 	dir = 8
 	},
+/mob/living/simple_animal/hostile/eldritch/rust_spirit{
+	AIStatus = 1;
+	health = 200;
+	melee_damage_lower = 40;
+	melee_damage_upper = 60
+	},
 /turf/open/floor/plating/shit{
 	icon_state = "blood"
 	},
@@ -65930,15 +65936,6 @@
 	},
 /turf/open/floor/carpet/red,
 /area/vtm/interior/littleitaly)
-"qyY" = (
-/mob/living/simple_animal/hostile/eldritch/rust_spirit{
-	AIStatus = 1;
-	health = 200;
-	melee_damage_lower = 40;
-	melee_damage_upper = 60
-	},
-/turf/open/floor/circuit/red,
-/area/vtm/interior/wyrm_corrupted)
 "qzc" = (
 /obj/effect/decal/bordur/corner{
 	dir = 1
@@ -97975,7 +97972,7 @@ mjS
 eqC
 stG
 stG
-stG
+siM
 jmr
 rCB
 xfw
@@ -98174,9 +98171,9 @@ sto
 sto
 sto
 mjS
-siM
 stG
-qyY
+stG
+eqC
 lKD
 jmr
 rCB
