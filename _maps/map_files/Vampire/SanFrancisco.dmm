@@ -45558,6 +45558,12 @@
 /obj/effect/decal/bordur,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/financialdistrict)
+"lCZ" = (
+/obj/structure/curtain/bounty{
+	pixel_y = 15
+	},
+/turf/closed/wall/vampwall/rich/old/low/window,
+/area/vtm/interior/tzimisce_manor)
 "lDe" = (
 /turf/open/floor/plating/rough,
 /area/vtm/interior/setite/basement)
@@ -139320,9 +139326,9 @@ lfj
 lfj
 lfj
 lfj
-rSH
-rSH
-rSH
+lCZ
+lCZ
+lCZ
 lfj
 lfj
 lfj
@@ -180516,7 +180522,7 @@ prs
 oYt
 "}
 (21,1,3) = {"
-xfw
+rCB
 rCB
 lfj
 cqc
@@ -180718,8 +180724,8 @@ prs
 oYt
 "}
 (22,1,3) = {"
-xfw
 rCB
+lfj
 lfj
 lfj
 lfj
