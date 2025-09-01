@@ -585,13 +585,6 @@
 	},
 /turf/open/floor/plating/industrial,
 /area/vtm/interior/shop)
-"ahN" = (
-/obj/structure/table,
-/obj/machinery/light/cold{
-	dir = 1
-	},
-/turf/open/floor/plating/circled,
-/area/vtm/interior/wyrm_corrupted)
 "ahU" = (
 /obj/bubway{
 	pixel_y = 40
@@ -778,6 +771,12 @@
 	},
 /turf/open/floor/plating/granite/black,
 /area/vtm/jazzclub)
+"ake" = (
+/obj/structure/railing/metal{
+	dir = 1
+	},
+/turf/open/floor/plating/circled,
+/area/vtm/interior/wyrm_corrupted)
 "aki" = (
 /obj/machinery/light/small/red{
 	dir = 8;
@@ -12350,14 +12349,6 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/church/interior)
-"djb" = (
-/obj/structure/railing/metal{
-	dir = 1
-	},
-/turf/open/floor/plasteel/stairs{
-	dir = 4
-	},
-/area/vtm/interior/wyrm_corrupted)
 "dji" = (
 /obj/effect/decal/bordur{
 	dir = 1
@@ -24792,12 +24783,6 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/church/interior)
-"gwN" = (
-/obj/structure/railing/metal{
-	dir = 9
-	},
-/turf/open/floor/plating/circled,
-/area/vtm/interior/wyrm_corrupted)
 "gwQ" = (
 /obj/effect/turf_decal/siding/wideplating{
 	color = "#802d29";
@@ -36407,12 +36392,6 @@
 /obj/effect/decal/trash,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/ghetto)
-"jqf" = (
-/obj/structure/railing/metal{
-	dir = 10
-	},
-/turf/open/floor/plating/circled,
-/area/vtm/interior/wyrm_corrupted)
 "jqi" = (
 /obj/structure/fence/corner{
 	dir = 8
@@ -39015,14 +38994,6 @@
 /obj/structure/stairs/north,
 /turf/open/floor/carpet,
 /area/vtm/interior/bianchiBank)
-"jZC" = (
-/obj/structure/railing/metal{
-	plane = 4.1
-	},
-/turf/open/floor/plasteel/stairs{
-	dir = 4
-	},
-/area/vtm/interior/wyrm_corrupted)
 "jZG" = (
 /obj/effect/turf_decal/siding/wideplating{
 	color = "#004136";
@@ -48440,9 +48411,6 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/supply)
 "mnF" = (
-/obj/structure/railing/metal{
-	plane = 4.1
-	},
 /obj/machinery/light/red{
 	pixel_y = 32
 	},
@@ -57468,6 +57436,12 @@
 	},
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/giovanni/basement)
+"osS" = (
+/obj/structure/railing/metal{
+	plane = 4.1
+	},
+/turf/open/floor/plating/circled,
+/area/vtm/interior/wyrm_corrupted)
 "osW" = (
 /obj/fusebox/transformer,
 /turf/open/floor/plating/concrete,
@@ -62823,6 +62797,15 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/hotel)
+"pLE" = (
+/obj/machinery/light/red{
+	pixel_y = 32
+	},
+/obj/structure/railing/metal{
+	dir = 1
+	},
+/turf/open/floor/plating/circled,
+/area/vtm/interior/wyrm_corrupted)
 "pLG" = (
 /obj/effect/decal/bordur/corner,
 /obj/structure/lamppost/sidewalk,
@@ -67377,19 +67360,8 @@
 	},
 /area/vtm/interior/shop)
 "qQO" = (
-/obj/structure/closet,
-/obj/item/reagent_containers/spray/cleaner,
-/obj/item/clothing/under/pentex/pentex_janitor,
-/obj/item/clothing/shoes/vampire/jackboots,
-/obj/item/clothing/head/pentex/pentex_whitehardhat,
-/obj/item/mop,
-/obj/item/reagent_containers/glass/bucket,
-/obj/effect/turf_decal/delivery,
-/obj/item/clothing/mask/vampire,
-/obj/item/clothing/gloves/vampire/cleaning,
-/turf/open/floor/plating/circled{
-	color = "#b0b0b0"
-	},
+/obj/machinery/mineral/equipment_vendor/fastfood/snacks,
+/turf/open/floor/plating/circled,
 /area/vtm/interior/wyrm_corrupted)
 "qQP" = (
 /obj/structure/railing/metal{
@@ -76637,12 +76609,11 @@
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/shop)
 "tmc" = (
-/obj/effect/turf_decal/raven{
-	dir = 1
+/obj/structure/railing/metal{
+	plane = 4.1
 	},
-/turf/open/floor/plating/circled{
-	color = "#b0b0b0"
-	},
+/obj/structure/closet/crate/bin,
+/turf/open/floor/plating/circled,
 /area/vtm/interior/wyrm_corrupted)
 "tmk" = (
 /turf/open/floor/plasteel/stairs,
@@ -76930,10 +76901,11 @@
 	},
 /area/vtm/interior/techshop)
 "tpC" = (
-/obj/effect/turf_decal/raven,
-/turf/open/floor/plating/circled{
-	color = "#b0b0b0"
+/obj/structure/railing/metal{
+	dir = 1
 	},
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/open/floor/plating/circled,
 /area/vtm/interior/wyrm_corrupted)
 "tpK" = (
 /obj/structure/vampfence/rich{
@@ -77398,12 +77370,13 @@
 /turf/open/floor/plating/circled,
 /area/vtm/interior/wyrm_corrupted)
 "twD" = (
-/obj/effect/decal/cleanable/blood{
-	icon_state = "splatter1-old"
+/obj/structure/railing/metal{
+	plane = 4.1
 	},
-/turf/open/floor/plating/circled{
-	color = "#b0b0b0"
+/obj/structure/railing/metal{
+	plane = 4.1
 	},
+/turf/open/floor/plating/circled,
 /area/vtm/interior/wyrm_corrupted)
 "twP" = (
 /obj/structure/chair{
@@ -86035,15 +86008,6 @@
 	icon_state = "acid"
 	},
 /area/vtm/interior/endron_facility/plant)
-"vNB" = (
-/obj/structure/railing/metal{
-	dir = 1
-	},
-/obj/machinery/light/red{
-	dir = 1
-	},
-/turf/open/floor/plating/circled,
-/area/vtm/interior/wyrm_corrupted)
 "vNX" = (
 /obj/machinery/shower{
 	pixel_y = 18
@@ -99803,7 +99767,7 @@ sIV
 aVd
 rHC
 jmr
-qQO
+hkz
 tmc
 jmr
 xEJ
@@ -99996,17 +99960,17 @@ xfw
 xfw
 rCB
 jmr
-sto
-gwN
-xKk
-sIV
-sIV
-sIV
-sIV
+ake
 sIV
 xKk
-jqf
-sto
+sIV
+sIV
+sIV
+sIV
+sIV
+xKk
+sIV
+osS
 jmr
 xEJ
 lsk
@@ -100198,14 +100162,14 @@ xfw
 xfw
 rCB
 jmr
-sto
-vNB
+pLE
+sIV
 jmr
 qHS
 dIP
 sIV
 fJb
-ahN
+iUv
 jmr
 mnF
 twD
@@ -100400,8 +100364,8 @@ xfw
 xfw
 rCB
 jmr
-sto
-djb
+uoi
+uoi
 jmr
 iUv
 elD
@@ -100409,8 +100373,8 @@ jch
 naj
 iUv
 jmr
-jZC
-sto
+uoi
+uoi
 jmr
 xEJ
 vit
