@@ -7141,7 +7141,7 @@
 	plane = -2
 	},
 /mob/living/simple_animal/hostile/netherworld{
-	health = 200;
+	health = 400;
 	melee_damage_lower = 45;
 	melee_damage_upper = 65
 	},
@@ -18490,7 +18490,7 @@
 	plane = -2
 	},
 /mob/living/simple_animal/hostile/netherworld{
-	health = 200;
+	health = 400;
 	melee_damage_lower = 45;
 	melee_damage_upper = 65
 	},
@@ -26844,6 +26844,10 @@
 /obj/structure/fluff/hedge,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/setite)
+"gXi" = (
+/obj/machinery/light/cold,
+/turf/closed/wall/vampwall/metal/reinforced,
+/area/vtm/interior/wyrm_corrupted)
 "gXm" = (
 /obj/effect/decal/bordur/corner,
 /obj/structure/fluff/hedge,
@@ -40397,7 +40401,6 @@
 /area/vtm/sabbat_lair)
 "kpM" = (
 /obj/item/kirbyplants/random,
-/obj/machinery/light/cold,
 /obj/effect/turf_decal/stripes{
 	dir = 4
 	},
@@ -51905,7 +51908,6 @@
 /area/vtm/chinatown)
 "ncE" = (
 /obj/item/kirbyplants/random,
-/obj/machinery/light/cold,
 /turf/open/floor/plating/circled,
 /area/vtm/interior/wyrm_corrupted)
 "ncG" = (
@@ -73050,6 +73052,11 @@
 /obj/structure/fire_barrel,
 /turf/open/floor/plating/rough,
 /area/vtm/sewer)
+"sqG" = (
+/obj/effect/decal/gut_floor,
+/mob/living/simple_animal/hostile/biter,
+/turf/open/indestructible/necropolis,
+/area/vtm/interior/wyrm_corrupted)
 "src" = (
 /obj/effect/decal/bordur,
 /obj/structure/closet/crate/large,
@@ -74276,6 +74283,18 @@
 	},
 /turf/open/floor/plating/vampcanal,
 /area/vtm/sewer)
+"sHX" = (
+/obj/structure/closet,
+/obj/item/clothing/suit/hooded/heisenberg,
+/obj/item/clothing/mask/vampire,
+/obj/item/clothing/gloves/vampire/latex,
+/obj/machinery/light/cold{
+	dir = 1
+	},
+/turf/open/floor/plating/circled{
+	color = "#b0b0b0"
+	},
+/area/vtm/interior/wyrm_corrupted)
 "sId" = (
 /obj/structure/closet/crate/freezer/fridge,
 /obj/effect/turf_decal/siding/white{
@@ -78530,7 +78549,7 @@
 	plane = -2
 	},
 /mob/living/simple_animal/hostile/netherworld{
-	health = 200;
+	health = 400;
 	melee_damage_lower = 45;
 	melee_damage_upper = 65
 	},
@@ -97348,7 +97367,7 @@ mYy
 kbO
 kSL
 mjS
-stG
+sqG
 stG
 aFX
 mJt
@@ -97955,7 +97974,7 @@ sto
 sto
 mjS
 stG
-stG
+sqG
 stG
 siM
 jmr
@@ -98550,7 +98569,7 @@ qSF
 qyG
 jmV
 iUv
-jmr
+gXi
 coT
 sto
 sto
@@ -98563,7 +98582,7 @@ pbw
 anv
 sto
 sto
-coT
+sHX
 jmr
 rCB
 xfw
@@ -98954,7 +98973,7 @@ qfZ
 mKA
 mKA
 mKA
-jmr
+gXi
 ncE
 tIz
 tIz
@@ -99358,7 +99377,7 @@ msI
 xBl
 xBl
 kGu
-jmr
+gXi
 kpM
 hcr
 hcr
