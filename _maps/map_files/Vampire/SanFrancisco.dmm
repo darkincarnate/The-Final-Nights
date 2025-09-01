@@ -928,6 +928,16 @@
 /obj/effect/decal/pallet,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/sewer)
+"anv" = (
+/obj/machinery/shower{
+	dir = 8;
+	pixel_y = 2
+	},
+/obj/effect/turf_decal/box,
+/turf/open/floor/plating/circled{
+	color = "#b0b0b0"
+	},
+/area/vtm/interior/wyrm_corrupted)
 "anL" = (
 /obj/structure/table,
 /obj/effect/turf_decal/siding/white{
@@ -7240,16 +7250,6 @@
 /obj/manholedown,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/financialdistrict/library)
-"bWK" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 10
-	},
-/obj/effect/turf_decal/weather/dirt{
-	dir = 4;
-	plane = -2
-	},
-/turf/open/floor/plating/shit,
-/area/vtm/interior/wyrm_corrupted)
 "bWU" = (
 /obj/effect/turf_decal/siding/white{
 	color = "#636363";
@@ -8120,6 +8120,16 @@
 	},
 /turf/open/floor/carpet/red,
 /area/vtm/interior/laundromat)
+"cgE" = (
+/obj/structure/table,
+/obj/machinery/button/door{
+	pixel_y = 6;
+	id = "917"
+	},
+/turf/open/floor/plating/circled{
+	color = "#b0b0b0"
+	},
+/area/vtm/interior/wyrm_corrupted)
 "cgF" = (
 /obj/vampire_car/retro/rand,
 /turf/open/floor/plating/rough,
@@ -8788,6 +8798,15 @@
 	},
 /turf/open/floor/carpet/red,
 /area/vtm/interior/millennium_tower)
+"coT" = (
+/obj/structure/closet,
+/obj/item/clothing/suit/hooded/heisenberg,
+/obj/item/clothing/mask/vampire,
+/obj/item/clothing/gloves/vampire/latex,
+/turf/open/floor/plating/circled{
+	color = "#b0b0b0"
+	},
+/area/vtm/interior/wyrm_corrupted)
 "coY" = (
 /obj/effect/turf_decal/siding/white{
 	color = "#636363";
@@ -19041,9 +19060,6 @@
 	},
 /turf/open/floor/plating/vampgrass,
 /area/vtm/interior/millennium_tower/f3)
-"eVQ" = (
-/turf/open/floor/plating/shit,
-/area/vtm/interior/wyrm_corrupted)
 "eVY" = (
 /turf/closed/wall/vampwall/rich/old{
 	density = 0
@@ -27614,6 +27630,16 @@
 	},
 /turf/open/floor/carpet,
 /area/vtm/interior/banu/haven)
+"hhc" = (
+/obj/structure/table,
+/obj/machinery/button/door{
+	pixel_y = 6;
+	id = "297"
+	},
+/turf/open/floor/plating/circled{
+	color = "#b0b0b0"
+	},
+/area/vtm/interior/wyrm_corrupted)
 "hhe" = (
 /obj/structure/table,
 /obj/item/gun/ballistic/shotgun/vampire,
@@ -29299,6 +29325,16 @@
 	},
 /turf/open/floor/plating/industrial,
 /area/vtm/interior/littleitaly/apartments)
+"hEU" = (
+/obj/effect/turf_decal/box,
+/obj/machinery/shower{
+	dir = 8;
+	pixel_y = 2
+	},
+/turf/open/floor/plating/circled{
+	color = "#b0b0b0"
+	},
+/area/vtm/interior/wyrm_corrupted)
 "hFk" = (
 /obj/structure/stalagmite,
 /turf/open/floor/plating/rough/cave{
@@ -31766,6 +31802,27 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/police/court)
+"ikf" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 4;
+	color = "#636363"
+	},
+/obj/effect/turf_decal/siding/white{
+	dir = 8;
+	color = "#636363"
+	},
+/obj/structure/vampdoor/reinf{
+	lock_id = "pentex";
+	lockpick_difficulty = 20;
+	dir = 8
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	dir = 8;
+	id = "917";
+	max_integrity = 1000
+	},
+/turf/open/floor/plating/grate,
+/area/vtm/interior/wyrm_corrupted)
 "ikg" = (
 /obj/structure/vampfence/rich{
 	dir = 4
@@ -34959,13 +35016,6 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/supply)
-"iXS" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 9;
-	plane = -2
-	},
-/turf/open/floor/plating/asteroid/basalt,
-/area/vtm/interior/wyrm_corrupted)
 "iXX" = (
 /obj/structure/rack,
 /obj/item/storage/toolbox/mechanical,
@@ -43059,6 +43109,13 @@
 /obj/effect/landmark/npcbeacon,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/pacificheights)
+"kZD" = (
+/obj/machinery/camera{
+	dir = 4;
+	pixel_y = -8
+	},
+/turf/open/floor/plating/asteroid/basalt,
+/area/vtm/interior/wyrm_corrupted)
 "kZM" = (
 /obj/structure/fireplace,
 /obj/effect/turf_decal/siding/wideplating/dark,
@@ -45619,15 +45676,6 @@
 /obj/effect/landmark/npcwall,
 /turf/open/floor/plating/vampgrass,
 /area/vtm/forest)
-"lEX" = (
-/obj/effect/turf_decal/weather/dirt{
-	plane = -2
-	},
-/obj/machinery/camera{
-	dir = 4
-	},
-/turf/open/floor/plating/shit,
-/area/vtm/interior/wyrm_corrupted)
 "lFa" = (
 /obj/machinery/door/poddoor/shutters{
 	damage_deflection = 60;
@@ -49972,10 +50020,6 @@
 /area/vtm/financialdistrict/library)
 "mIw" = (
 /obj/effect/turf_decal/weather/dirt{
-	dir = 4;
-	plane = -2
-	},
-/obj/effect/turf_decal/weather/dirt{
 	dir = 1;
 	plane = -2
 	},
@@ -52657,6 +52701,27 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/clinic/haven)
+"nou" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 4;
+	color = "#636363"
+	},
+/obj/effect/turf_decal/siding/white{
+	dir = 8;
+	color = "#636363"
+	},
+/obj/structure/vampdoor/reinf{
+	lock_id = "pentex";
+	lockpick_difficulty = 20;
+	dir = 8
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	dir = 8;
+	id = "297";
+	max_integrity = 1000
+	},
+/turf/open/floor/plating/grate,
+/area/vtm/interior/wyrm_corrupted)
 "now" = (
 /obj/effect/decal/pallet,
 /obj/structure/barrels/rand,
@@ -74820,6 +74885,13 @@
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/plating/vampgrass,
 /area/vtm/forest)
+"sQs" = (
+/obj/item/kirbyplants/random,
+/obj/machinery/light/cold{
+	dir = 1
+	},
+/turf/open/floor/plating/circled,
+/area/vtm/interior/wyrm_corrupted)
 "sQu" = (
 /obj/effect/decal/wallpaper/blue,
 /turf/closed/wall/vampwall/painted,
@@ -85225,6 +85297,16 @@
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/sewer/nosferatu_warren)
+"vDV" = (
+/obj/effect/turf_decal/stripes{
+	dir = 4
+	},
+/obj/item/kirbyplants/random,
+/obj/machinery/light/cold{
+	dir = 1
+	},
+/turf/open/floor/plating/circled,
+/area/vtm/interior/wyrm_corrupted)
 "vEd" = (
 /obj/effect/turf_decal/siding/white{
 	color = "#6e635a";
@@ -97880,7 +97962,7 @@ bUw
 sIV
 sIV
 hkz
-jmr
+mjS
 tLB
 wtR
 wtR
@@ -98086,7 +98168,7 @@ mjS
 oMo
 mIw
 wtR
-wtR
+kZD
 mjS
 sto
 sto
@@ -98095,7 +98177,7 @@ mjS
 siM
 stG
 qyY
-stG
+lKD
 jmr
 rCB
 xfw
@@ -98284,20 +98366,20 @@ sIV
 sIV
 fJb
 oaz
-mjS
-eVQ
-bWK
-wtR
-wtR
-mjS
+jmr
+jmr
+ikf
+ikf
+jmr
+jmr
+vwq
 sto
-sto
-sto
-mjS
-eqC
-eqC
-eqC
-eqC
+vwq
+jmr
+jmr
+nou
+nou
+jmr
 jmr
 rCB
 xfw
@@ -98487,19 +98569,19 @@ qyG
 jmV
 iUv
 jmr
-lEX
-iXS
-wtR
-wtR
-jmr
-vwq
+coT
 sto
-vwq
-jmr
-eqC
-stG
-stG
-lKD
+sto
+hEU
+pbw
+cgE
+sto
+hhc
+pbw
+anv
+sto
+sto
+coT
 jmr
 rCB
 xfw
@@ -98903,7 +98985,7 @@ sIV
 vZF
 tIz
 tIz
-sIV
+sQs
 jmr
 oQZ
 xfw
@@ -99105,7 +99187,7 @@ sIV
 sIV
 sIV
 tKB
-yec
+sIV
 jmr
 rCB
 xfw
@@ -99307,7 +99389,7 @@ hcr
 hcr
 hcr
 hcr
-hcr
+vDV
 jmr
 rCB
 xfw
