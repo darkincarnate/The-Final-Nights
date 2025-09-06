@@ -59603,6 +59603,7 @@
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/strip)
 "oNx" = (
+/obj/effect/landmark/start/first_team,
 /turf/open/floor/mineral/titanium/white,
 /area/vtm/interior/endron_facility/restricted)
 "oNz" = (
@@ -90267,6 +90268,7 @@
 /turf/open/floor/plating/church,
 /area/vtm/interior/giovanni)
 "wGm" = (
+/obj/effect/landmark/start/first_team,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/endron_facility/restricted)
 "wGt" = (
