@@ -1222,7 +1222,7 @@
 /obj/effect/decal/bordur{
 	dir = 5
 	},
-/turf/open/space/basic,
+/turf/open/indestructible/necropolis,
 /area/vtm/interior/endron_facility/restricted)
 "aqu" = (
 /obj/structure/closet/crate/bin,
@@ -2975,7 +2975,7 @@
 /obj/effect/turf_decal/siding/white{
 	color = "#636363"
 	},
-/obj/machinery/door/poddoor/shutters/preopen{
+/obj/machinery/door/poddoor/shutters{
 	id = 135;
 	max_integrity = 500
 	},
@@ -6591,10 +6591,10 @@
 	dir = 8;
 	locked = 1
 	},
-/obj/machinery/door/poddoor/shutters/preopen{
+/obj/machinery/door/poddoor/shutters{
 	id = 136;
-	max_integrity = 500;
-	dir = 4
+	dir = 8;
+	max_integrity = 500
 	},
 /turf/open/floor/plating/grate,
 /area/vtm/interior/endron_facility/restricted)
@@ -20728,9 +20728,6 @@
 /obj/effect/turf_decal/stripes{
 	dir = 8
 	},
-/obj/machinery/light/small/red{
-	pixel_y = 32
-	},
 /turf/open/floor/plating/circled{
 	color = "#b0b0b0"
 	},
@@ -25936,10 +25933,10 @@
 	dir = 8;
 	locked = 1
 	},
-/obj/machinery/door/poddoor/shutters/preopen{
+/obj/machinery/door/poddoor/shutters{
 	id = 137;
-	max_integrity = 500;
-	dir = 4
+	dir = 8;
+	max_integrity = 500
 	},
 /turf/open/floor/plating/grate,
 /area/vtm/interior/endron_facility/restricted)
@@ -26670,7 +26667,7 @@
 /obj/effect/decal/bordur{
 	dir = 1
 	},
-/turf/open/space/basic,
+/turf/open/indestructible/necropolis,
 /area/vtm/interior/endron_facility/restricted)
 "gPC" = (
 /obj/effect/decal/bordur{
@@ -33664,7 +33661,7 @@
 /obj/effect/turf_decal/siding/white{
 	color = "#636363"
 	},
-/obj/machinery/door/poddoor/shutters/preopen{
+/obj/machinery/door/poddoor/shutters{
 	id = 138;
 	max_integrity = 500
 	},
@@ -42011,9 +42008,6 @@
 "kCE" = (
 /obj/effect/turf_decal/stripes{
 	dir = 4
-	},
-/obj/machinery/light/small/red{
-	pixel_y = 32
 	},
 /turf/open/floor/plating/circled{
 	color = "#b0b0b0"
@@ -55595,7 +55589,7 @@
 /area/vtm/sewer/nosferatu_warren)
 "nPh" = (
 /obj/effect/decal/gut_floor,
-/turf/open/space/basic,
+/turf/open/indestructible/necropolis,
 /area/vtm/interior/endron_facility/restricted)
 "nPp" = (
 /obj/structure/filingcabinet{
@@ -61904,6 +61898,14 @@
 "prs" = (
 /turf/open/openspace,
 /area/vtm/supply)
+"prL" = (
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = 140;
+	max_integrity = 500;
+	dir = 1
+	},
+/turf/closed/wall/vampwall/metal/glass,
+/area/vtm/interior/endron_facility/restricted)
 "prT" = (
 /obj/effect/decal/bordur{
 	dir = 1
@@ -68710,6 +68712,15 @@
 /obj/effect/landmark/start/liaison,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/anarch)
+"qZj" = (
+/obj/structure/chair/green{
+	dir = 4
+	},
+/obj/machinery/light/cold{
+	dir = 8
+	},
+/turf/open/floor/plating/circled,
+/area/vtm/interior/endron_facility/restricted)
 "qZx" = (
 /obj/effect/decal/pallet,
 /turf/open/floor/plating/concrete,
@@ -75356,6 +75367,9 @@
 /obj/item/clothing/mask/vampire,
 /obj/item/clothing/gloves/vampire/latex,
 /obj/effect/turf_decal/stripes{
+	dir = 1
+	},
+/obj/machinery/light/small{
 	dir = 1
 	},
 /turf/open/floor/plating/circled{
@@ -87977,7 +87991,7 @@
 	dir = 4
 	},
 /mob/living/simple_animal/hostile/tanker,
-/turf/open/space/basic,
+/turf/open/indestructible/necropolis,
 /area/vtm/interior/endron_facility/restricted)
 "wcF" = (
 /turf/open/floor/plating/vampplating/mono,
@@ -90194,7 +90208,7 @@
 /obj/effect/decal/bordur{
 	dir = 6
 	},
-/turf/open/space/basic,
+/turf/open/indestructible/necropolis,
 /area/vtm/interior/endron_facility/restricted)
 "wDO" = (
 /obj/structure/table/reinforced,
@@ -97043,7 +97057,7 @@ eSU
 wBt
 okZ
 hOa
-hOa
+qZj
 myb
 xOs
 xOs
@@ -98884,7 +98898,7 @@ jBR
 jog
 jBR
 jBR
-wlF
+prL
 fmW
 sMT
 okZ
@@ -99288,7 +99302,7 @@ jBR
 bhT
 jBR
 jBR
-wlF
+prL
 kCE
 sMT
 okZ
