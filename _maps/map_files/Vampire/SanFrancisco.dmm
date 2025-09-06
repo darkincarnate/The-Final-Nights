@@ -50572,9 +50572,9 @@
 /turf/open/floor/plating/parquetry/rich,
 /area/vtm/interior/millennium_tower/f3)
 "mGV" = (
-/obj/structure/closet/secure_closet/personal/patient,
 /obj/item/clothing/under/vampire/nurse/nurseg,
 /obj/item/clothing/shoes/vampire/white,
+/obj/structure/closet,
 /turf/open/floor/plating/circled{
 	color = "#b0b0b0"
 	},
