@@ -86585,9 +86585,9 @@
 /obj/effect/turf_decal/stripes{
 	dir = 8
 	},
-/obj/machinery/door/poddoor/shutters/preopen{
-	dir = 8;
+/obj/machinery/door/poddoor/shutters{
 	id = 133;
+	dir = 8;
 	max_integrity = 500
 	},
 /turf/open/floor/plating/circled{
