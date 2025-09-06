@@ -7038,14 +7038,6 @@
 /mob/living/carbon/human/npc/walkby,
 /turf/open/floor/plating/rough,
 /area/vtm/pacificheights)
-"bRh" = (
-/obj/elevator_button{
-	anchored = 1;
-	id = 76;
-	pixel_x = 21
-	},
-/turf/open/floor/plating/concrete,
-/area/vtm/interior/endron_facility/plant)
 "bRi" = (
 /obj/structure/table/wood,
 /turf/open/floor/plating/parquetry/old,
@@ -38106,7 +38098,7 @@
 /area/vtm/interior/techshop)
 "jGB" = (
 /obj/effect/decal/pallet,
-/obj/machinery/light/cold{
+/obj/machinery/light/red{
 	dir = 1
 	},
 /turf/open/floor/plating/vampplating/mono,
@@ -52175,7 +52167,11 @@
 	pixel_y = 32
 	},
 /obj/effect/decal/pallet,
-/obj/structure/barrels/rand,
+/obj/elevator_button{
+	anchored = 1;
+	id = 76;
+	pixel_y = 25
+	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/endron_facility/plant)
 "mYE" = (
@@ -83859,15 +83855,6 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/littleitaly/apartments)
-"uUH" = (
-/obj/effect/turf_decal/siding/white{
-	dir = 1;
-	color = "#636363"
-	},
-/obj/elevator_door/start_closed,
-/obj/elevator_door/start_closed,
-/turf/open/floor/plating/vampplating/mono,
-/area/vtm/interior/endron_facility/plant)
 "uUL" = (
 /obj/effect/decal/support,
 /turf/open/floor/plating/granite/black,
@@ -89981,7 +89968,7 @@
 /turf/open/floor/plating/vampcanal,
 /area/vtm/interior)
 "wBt" = (
-/obj/machinery/light/cold{
+/obj/machinery/light/red{
 	dir = 1
 	},
 /turf/open/floor/plating/vampplating/mono,
@@ -137451,7 +137438,7 @@ tvm
 goA
 mYC
 uzh
-vcn
+xLj
 goA
 aEw
 hMf
@@ -137654,7 +137641,7 @@ iSh
 vcn
 vcn
 vcn
-uUH
+uHg
 hMf
 hMf
 wwM
@@ -138057,7 +138044,7 @@ qlZ
 goA
 olN
 vcn
-bRh
+vcn
 goA
 xts
 hMf
