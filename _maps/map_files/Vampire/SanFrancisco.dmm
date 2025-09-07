@@ -97588,6 +97588,10 @@
 	dir = 8;
 	pixel_y = 5
 	},
+/obj/machinery/light/red{
+	dir = 4;
+	pixel_y = 16
+	},
 /turf/open/floor/plating/circled{
 	color = "#b0b0b0"
 	},
