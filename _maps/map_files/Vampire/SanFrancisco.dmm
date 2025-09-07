@@ -16428,17 +16428,6 @@
 /obj/item/vamp/phone/clean,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/vjanitor)
-"egl" = (
-/obj/effect/decal/pallet,
-/obj/structure/closet/crate/large{
-	pixel_y = -21;
-	plane = 3;
-	pixel_x = 17;
-	anchored = 1;
-	density = 0
-	},
-/turf/open/floor/plating/concrete,
-/area/vtm/interior/endron_facility/plant)
 "ego" = (
 /obj/effect/decal/bordur{
 	dir = 1
@@ -29973,6 +29962,16 @@
 /obj/item/gun/ballistic/automatic/vampire/beretta,
 /turf/open/floor/plating/concrete,
 /area/vtm/sewer/police)
+"hBD" = (
+/obj/machinery/light/red{
+	dir = 1
+	},
+/obj/structure/closet/crate/large{
+	anchored = 1
+	},
+/obj/effect/decal/pallet,
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/endron_facility/plant)
 "hBL" = (
 /obj/effect/decal/bordur{
 	dir = 4
@@ -35597,16 +35596,6 @@
 	},
 /turf/open/floor/plating/vampgrass,
 /area/vtm/pacificheights)
-"iSh" = (
-/obj/effect/decal/bordur,
-/obj/effect/decal/bordur{
-	dir = 1
-	},
-/obj/machinery/door/poddoor/shutters{
-	id = "12"
-	},
-/turf/open/floor/plating/rough,
-/area/vtm/interior/endron_facility/plant)
 "iSl" = (
 /obj/machinery/light/dim{
 	pixel_y = 32
@@ -41233,18 +41222,6 @@
 /obj/structure/table/wood,
 /turf/open/floor/carpet/green,
 /area/vtm/interior)
-"klI" = (
-/obj/machinery/light/red{
-	pixel_y = 32
-	},
-/obj/effect/decal/pallet,
-/obj/elevator_button{
-	anchored = 1;
-	id = 76;
-	pixel_y = 25
-	},
-/turf/open/floor/plating/concrete,
-/area/vtm/interior/endron_facility/plant)
 "klK" = (
 /obj/effect/decal/bordur,
 /obj/structure/fluff/hedge,
@@ -58276,13 +58253,11 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/shop)
 "olN" = (
-/obj/machinery/button/door{
-	pixel_y = 33;
-	id = "12"
+/obj/elevator_button_up{
+	pixel_y = 30;
+	id = 76
 	},
-/obj/effect/decal/pallet,
-/obj/structure/closet/crate/large,
-/turf/open/floor/plating/concrete,
+/turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/endron_facility/plant)
 "olT" = (
 /obj/structure/vampipe{
@@ -81723,13 +81698,6 @@
 "ucp" = (
 /turf/closed/wall/vampwall/rich,
 /area/vtm/jazzclub)
-"ucs" = (
-/obj/machinery/light/red{
-	dir = 1
-	},
-/obj/effect/decal/pallet,
-/turf/open/floor/plating/vampplating/mono,
-/area/vtm/interior/endron_facility/plant)
 "ucu" = (
 /obj/structure/table/wood,
 /turf/open/floor/plating/parquetry,
@@ -84063,11 +84031,10 @@
 /turf/open/floor/plating/dirt/jungle,
 /area/vtm/sewer/nosferatu_warren)
 "uHg" = (
+/obj/elevator_door/start_closed,
 /obj/effect/turf_decal/siding/white{
-	dir = 1;
 	color = "#636363"
 	},
-/obj/elevator_door/start_closed,
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/endron_facility/plant)
 "uHn" = (
@@ -88105,6 +88072,13 @@
 /obj/machinery/washing_machine,
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/setite)
+"vMz" = (
+/obj/effect/decal/pallet,
+/obj/machinery/light/red{
+	dir = 1
+	},
+/turf/open/floor/plating/vampplating/mono,
+/area/vtm/interior/endron_facility/plant)
 "vMH" = (
 /obj/structure/chair/wood/wings{
 	dir = 1
@@ -94504,14 +94478,6 @@
 	},
 /turf/open/openspace,
 /area/vtm)
-"xsr" = (
-/obj/machinery/light/red{
-	dir = 1
-	},
-/obj/effect/decal/pallet,
-/obj/structure/closet/crate/large,
-/turf/open/floor/plating/concrete,
-/area/vtm/interior/endron_facility/plant)
 "xss" = (
 /obj/structure/chair/plastic{
 	dir = 4
@@ -94546,11 +94512,16 @@
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/endron_facility/restricted)
 "xts" = (
-/obj/elevator_button_down{
-	id = 76;
-	pixel_y = 30
+/obj/effect/decal/pallet,
+/obj/structure/closet/crate/large{
+	anchored = 1
 	},
-/turf/open/floor/plating/vampplating/mono,
+/obj/elevator_button{
+	anchored = 1;
+	id = 76;
+	pixel_y = 31
+	},
+/turf/open/floor/plating/concrete,
 /area/vtm/interior/endron_facility/plant)
 "xtx" = (
 /turf/open/floor/plating/circled,
@@ -138840,13 +138811,13 @@ fIP
 tvm
 tvm
 goA
-klI
-uzh
-xLj
-goA
 aEw
 hMf
 iwe
+goA
+xOe
+uzh
+hBD
 goA
 dOF
 ycd
@@ -139041,14 +139012,14 @@ tvm
 tvm
 tvm
 tvm
-iSh
-vcn
-vcn
-vcn
-uHg
+goA
 hMf
 hMf
 wwM
+uHg
+vcn
+vcn
+uzh
 goA
 ruB
 ycd
@@ -139243,14 +139214,14 @@ tvm
 tvm
 tvm
 tvm
-iSh
-vcn
-vcn
-vcn
-uHg
+goA
 wwM
 hMf
 hMf
+uHg
+vcn
+vcn
+vcn
 goA
 ruB
 ycd
@@ -139447,12 +139418,12 @@ tvm
 qlZ
 goA
 olN
-vcn
-vcn
+hMf
+vMz
 goA
 xts
-hMf
-ucs
+vcn
+jaq
 goA
 ruB
 hdQ
@@ -139649,11 +139620,11 @@ tvm
 eEj
 goA
 goA
+goA
+goA
+goA
+goA
 kLG
-goA
-goA
-goA
-goA
 goA
 goA
 ruB
@@ -139850,13 +139821,13 @@ tvm
 tvm
 iKv
 goA
-vcn
-vcn
-egl
-xOe
 nkX
 pLl
-xsr
+nkX
+xOe
+vcn
+vcn
+hfp
 goA
 eZm
 fvh
