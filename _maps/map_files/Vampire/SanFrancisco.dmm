@@ -25552,6 +25552,14 @@
 	},
 /turf/open/floor/plating/stone,
 /area/vtm/interior/cog/caern)
+"gwy" = (
+/obj/machinery/light/red{
+	dir = 1
+	},
+/obj/structure/closet/crate/large,
+/obj/effect/decal/pallet,
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/endron_facility/plant)
 "gwE" = (
 /obj/effect/decal/wallpaper/paper,
 /turf/closed/wall/vampwall/old,
@@ -26803,6 +26811,16 @@
 /obj/effect/decal/litter,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/financialdistrict/library)
+"gLb" = (
+/obj/machinery/light/red{
+	dir = 1
+	},
+/obj/effect/decal/pallet,
+/obj/structure/closet/crate/large{
+	anchored = 1
+	},
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/endron_facility/plant)
 "gLm" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 1
@@ -58253,9 +58271,9 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/shop)
 "olN" = (
-/obj/elevator_button_up{
-	pixel_y = 30;
-	id = 76
+/obj/elevator_button_down{
+	id = 76;
+	pixel_y = 30
 	},
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/endron_facility/plant)
@@ -84031,10 +84049,10 @@
 /turf/open/floor/plating/dirt/jungle,
 /area/vtm/sewer/nosferatu_warren)
 "uHg" = (
-/obj/elevator_door/start_closed,
 /obj/effect/turf_decal/siding/white{
 	color = "#636363"
 	},
+/obj/elevator_door,
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/endron_facility/plant)
 "uHn" = (
@@ -94513,9 +94531,6 @@
 /area/vtm/interior/endron_facility/restricted)
 "xts" = (
 /obj/effect/decal/pallet,
-/obj/structure/closet/crate/large{
-	anchored = 1
-	},
 /obj/elevator_button{
 	anchored = 1;
 	id = 76;
@@ -139423,7 +139438,7 @@ vMz
 goA
 xts
 vcn
-jaq
+gLb
 goA
 ruB
 hdQ
@@ -139827,7 +139842,7 @@ nkX
 xOe
 vcn
 vcn
-hfp
+gwy
 goA
 eZm
 fvh
