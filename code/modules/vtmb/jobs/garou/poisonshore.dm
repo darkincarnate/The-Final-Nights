@@ -42,7 +42,7 @@
 	id = /obj/item/card/id/garou/spiral/lead
 	ears = /obj/item/p25radio
 	uniform =  /obj/item/clothing/under/pentex/pentex_executive_suit
-	shoes = /obj/item/clothing/shoes/vampire/businessblack
+	shoes = /obj/item/clothing/shoes/vampire/white
 	suit = /obj/item/clothing/suit/pentex/pentex_labcoat_alt
 	l_pocket = /obj/item/vamp/phone/endron_lead
 	r_pocket = /obj/item/vamp/keys/pentex/leader
@@ -107,7 +107,7 @@
 	id = /obj/item/card/id/garou/spiral/executive
 	ears = /obj/item/p25radio
 	uniform =  /obj/item/clothing/under/pentex/pentex_executive_suit
-	shoes = /obj/item/clothing/shoes/vampire/businessblack
+	shoes = /obj/item/clothing/shoes/vampire/white
 	l_pocket = /obj/item/vamp/phone/endron_exec
 	r_pocket = /obj/item/vamp/keys/pentex/leader
 	backpack_contents = list(/obj/item/phone_book=1, /obj/item/passport=1, /obj/item/cockclock=1, /obj/item/flashlight=1, /obj/item/vamp/creditcard/seneschal=1)
