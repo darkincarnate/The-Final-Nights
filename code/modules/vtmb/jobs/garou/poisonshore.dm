@@ -57,7 +57,7 @@
 	..()
 	if(H.gender == FEMALE)
 		uniform = /obj/item/clothing/under/pentex/pentex_executiveskirt
-		shoes = /obj/item/clothing/shoes/vampire/heels
+		shoes = /obj/item/clothing/shoes/vampire/heels/white
 
 /obj/effect/landmark/start/garou/spiral/lead
 	name = "Endron Branch Lead"
@@ -121,7 +121,7 @@
 	..()
 	if(H.gender == FEMALE)
 		uniform = /obj/item/clothing/under/pentex/pentex_executiveskirt
-		shoes = /obj/item/clothing/shoes/vampire/heels
+		shoes = /obj/item/clothing/shoes/vampire/heels/white
 
 /obj/effect/landmark/start/garou/spiral/executive
 	name = "Endron Executive"
