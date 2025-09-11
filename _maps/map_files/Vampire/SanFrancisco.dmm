@@ -24649,6 +24649,8 @@
 /obj/item/clothing/mask/gas/explorer{
 	name = "endron gas mask"
 	},
+/obj/item/reagent_containers/spray/cleaner,
+/obj/item/reagent_containers/spray/cleaner,
 /turf/open/floor/plating/circled{
 	color = "#b0b0b0"
 	},
@@ -54880,6 +54882,11 @@
 	pixel_x = -10
 	},
 /turf/open/floor/plating/woodfancy,
+/area/vtm/interior/endron_facility/restricted)
+"njB" = (
+/obj/structure/table,
+/obj/item/reagent_containers/spray/cleaner,
+/turf/open/floor/plating/circled,
 /area/vtm/interior/endron_facility/restricted)
 "njE" = (
 /obj/structure/bookcase/random/religion{
@@ -101632,7 +101639,7 @@ xfw
 rCB
 uRD
 dIB
-dIB
+njB
 nAh
 uRD
 qki
