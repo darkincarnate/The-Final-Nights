@@ -64247,11 +64247,6 @@
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/giovanni)
 "puj" = (
-/obj/structure/vampfence/rich{
-	dir = 4;
-	pixel_y = 15;
-	name = "bars"
-	},
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = 140;
 	max_integrity = 500;
