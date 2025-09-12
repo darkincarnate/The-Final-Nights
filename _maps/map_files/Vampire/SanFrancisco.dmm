@@ -64255,7 +64255,8 @@
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = 140;
 	max_integrity = 500;
-	dir = 4
+	dir = 4;
+	icon = 'icons/obj/doors/shutters_topless.dmi'
 	},
 /turf/closed/wall/vampwall/metal/glass,
 /area/vtm/interior/endron_facility/restricted)
