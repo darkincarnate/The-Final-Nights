@@ -13091,10 +13091,8 @@
 /area/vtm/interior/giovanni)
 "dky" = (
 /obj/structure/table/wood,
-/obj/machinery/fax{
-	visible_to_network = 0;
-	special_networks = list(list("fax_name" = "Federal Government", "fax_id" = "policeadmin", "color" = "blue", "emag_needed" = 0));
-	pixel_y = 5
+/obj/machinery/fax/fbi{
+	pixel_y = 3
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/police/fed)
