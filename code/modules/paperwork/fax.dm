@@ -110,7 +110,7 @@
 	special_networks = list(list(fax_name = "Federal Government", fax_id = "policeadmin", color = "blue", emag_needed = FALSE))
 
 /obj/machinery/fax/fbi
-	fax_name = "FBI Blacksite"
+	fax_name = "FBI Field Office"
 	fax_id = "fbi"
 	special_networks = list(list(fax_name = "Federal Bureau of Investigation", fax_id = "fbiadmin", color = "blue", emag_needed = FALSE))
 
