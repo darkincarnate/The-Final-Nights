@@ -5113,6 +5113,11 @@
 /obj/structure/railing/metal{
 	dir = 4
 	},
+/obj/structure/guncase,
+/obj/item/gun/ballistic/automatic/vampire/uzi,
+/obj/item/gun/ballistic/automatic/vampire/uzi,
+/obj/item/gun/ballistic/automatic/vampire/beretta,
+/obj/item/gun/ballistic/automatic/vampire/beretta,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/techshop)
 "boL" = (
@@ -13350,6 +13355,24 @@
 /obj/item/stack/dollar/five,
 /turf/open/floor/plating/vampcanalplating,
 /area/vtm/sewer)
+"dmu" = (
+/obj/structure/table/wood,
+/obj/item/gun/ballistic/automatic/vampire/uzi,
+/obj/item/gun/ballistic/automatic/vampire/uzi,
+/obj/item/ammo_box/magazine/vamp9mm{
+	pixel_x = 6
+	},
+/obj/item/ammo_box/magazine/vamp9mm{
+	pixel_x = 6
+	},
+/obj/item/ammo_box/magazine/vamp9mm{
+	pixel_x = 6
+	},
+/obj/item/ammo_box/magazine/vamp9mm{
+	pixel_x = 6
+	},
+/turf/open/floor/plating/vampcanal,
+/area/vtm/interior/sabbat_lair)
 "dmw" = (
 /obj/effect/decal/pallet,
 /turf/open/floor/plating/sidewalk/poor,
@@ -14065,6 +14088,34 @@
 /obj/item/reagent_containers/food/drinks/beer/vampire{
 	pixel_y = 8;
 	pixel_x = -7
+	},
+/obj/item/ammo_box/magazine/vamp9mm{
+	pixel_x = 6
+	},
+/obj/item/ammo_box/magazine/vamp9mm{
+	pixel_x = 6
+	},
+/obj/item/ammo_box/magazine/vamp9mm{
+	pixel_x = 6
+	},
+/obj/item/ammo_box/magazine/vamp9mm{
+	pixel_x = 6
+	},
+/obj/item/ammo_box/magazine/semi9mm{
+	pixel_y = 6;
+	pixel_x = 7
+	},
+/obj/item/ammo_box/magazine/semi9mm{
+	pixel_y = 6;
+	pixel_x = 7
+	},
+/obj/item/ammo_box/magazine/semi9mm{
+	pixel_y = 6;
+	pixel_x = 7
+	},
+/obj/item/ammo_box/magazine/semi9mm{
+	pixel_y = 6;
+	pixel_x = 7
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/techshop)
@@ -25629,6 +25680,16 @@
 	color = "#b0b0b0"
 	},
 /area/vtm/interior/endron_facility/restricted)
+"glQ" = (
+/obj/structure/table/wood,
+/obj/item/gun/ballistic/automatic/vampire/m1911,
+/obj/item/gun/ballistic/automatic/vampire/m1911,
+/obj/item/ammo_box/magazine/vamp45acp,
+/obj/item/ammo_box/magazine/vamp45acp,
+/obj/item/ammo_box/magazine/vamp45acp,
+/obj/item/ammo_box/magazine/vamp45acp,
+/turf/open/floor/plating/vampcanal,
+/area/vtm/interior/sabbat_lair)
 "glR" = (
 /obj/structure/fluff/hedge{
 	density = 0
@@ -41528,11 +41589,10 @@
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/cog/caern)
 "kgg" = (
-/obj/item/candle/infinite{
-	anchored = 1;
-	pixel_x = 11;
-	pixel_y = 8
-	},
+/obj/structure/table/wood,
+/obj/item/melee/vampirearms/baseball,
+/obj/item/melee/vampirearms/baseball,
+/obj/item/melee/vampirearms/knife,
 /turf/open/floor/plating/vampcanal,
 /area/vtm/interior/sabbat_lair)
 "kgi" = (
@@ -87646,15 +87706,10 @@
 /area/vtm/interior/vjanitor)
 "vin" = (
 /obj/structure/table/wood,
-/obj/item/paper_bin{
-	pixel_y = 6
-	},
-/obj/item/pen{
-	pixel_y = 7
-	},
 /obj/structure/vampipe{
 	pixel_y = 32
 	},
+/obj/machinery/mineral/equipment_vendor/restricted/police,
 /turf/open/floor/plating/vampdirt,
 /area/vtm/interior/police/fed)
 "vio" = (
@@ -108215,7 +108270,7 @@ xfw
 xfw
 rCB
 uVg
-nVo
+dmu
 pDX
 phZ
 dsT
@@ -108417,7 +108472,7 @@ xfw
 xfw
 rCB
 uVg
-pDX
+glQ
 pDX
 aUw
 dsT
@@ -108620,7 +108675,7 @@ rCB
 rCB
 uVg
 kgg
-fZr
+pDX
 phZ
 dsT
 lkJ
