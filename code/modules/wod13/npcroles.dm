@@ -1377,7 +1377,7 @@
 	. = ..()
 	if(prob(66))
 		set_body_model(FAT_BODY_MODEL)
-	AssignSocialRole(/datum/socialrole/endronsecurity)
+	AssignSocialRole(/datum/socialrole/endronlabsecurity)
 
 /datum/socialrole/endronlabsecurity
 	s_tones = list(
@@ -1486,7 +1486,7 @@
 	. = ..()
 	if(prob(0))
 		set_body_model(FAT_BODY_MODEL)
-	AssignSocialRole(/datum/socialrole/endronsecurity)
+	AssignSocialRole(/datum/socialrole/endronlabsecurity)
 
 /mob/living/carbon/human/npc/endronexecsecurity
 	staying = TRUE
@@ -1499,7 +1499,7 @@
 	. = ..()
 	if(prob(0))
 		set_body_model(FAT_BODY_MODEL)
-	AssignSocialRole(/datum/socialrole/endronsecurity)
+	AssignSocialRole(/datum/socialrole/endronexecsecurity)
 
 /datum/socialrole/endronexecsecurity
 	s_tones = list(
@@ -1606,9 +1606,9 @@
 
 /mob/living/carbon/human/npc/endronexecsecurity/Initialize()
 	. = ..()
-	if(prob(66))
+	if(prob(0))
 		set_body_model(FAT_BODY_MODEL)
-	AssignSocialRole(/datum/socialrole/endronsecurity)
+	AssignSocialRole(/datum/socialrole/endronexecsecurity)
 
 /datum/socialrole/guard
 	s_tones = list(
