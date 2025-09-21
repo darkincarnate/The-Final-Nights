@@ -32,7 +32,7 @@
 
 	known_contacts = null
 
-	v_duty = "You are the current branch leader for the Endron Oil Refinery, operating out of San Francisco. Your job is to fuel production, keep your clowns in line, and to bring forth the banes that will ultimately allow the Wyrm to prevail over the Weaver. Mind your Security Team, they are more than willing to turn on you if you give them a reason."
+	v_duty = "You are the current Leader of the Endron San Francisco Branch. Your job is to fuel production, keep your clowns in line, and to bring forth the banes that will ultimately allow the Wyrm to prevail over the Weaver. Mind your Security Team, they are more than willing to turn on you if you give them a reason."
 	experience_addition = 25
 
 /datum/outfit/job/garou/endronlead
@@ -98,7 +98,7 @@
 
 	known_contacts = null
 
-	v_duty = "You are an acting executive for the Endron Oil Refinery, operating out of San Francisco. With discretion to the Branch Leader, a position you may aim for, your job is to fuel production, aid in bringing forth banes, and sate the heads of the Wyrm. Expand!"
+	v_duty = "You are an Executive for Endron International, operating out of San Francisco. With discretion to the Branch Leader, a position you may aim for, your job is to fuel production, aid in bringing forth banes, and sate the heads of the Wyrm. Expand!"
 
 /datum/outfit/job/garou/endronexec
 	name = "Endron Regional Executive"
@@ -161,7 +161,7 @@
 
 	known_contacts = null
 
-	v_duty = "You are the internal affairs agent operating in the Endron Oil Refinery. You know the bloody and vile needs commanded of destruction will lead to jeopardy, and your duty is to see excellence on task rewarded and acknowledged, and curb the invariable atrocities that could endanger the greater plans of Pentex."
+	v_duty = "You are an Internal Affairs Agent operating in the Endron Water Treatment Plant. You know the bloody and vile needs commanded of destruction will lead to jeopardy, and your duty is to see excellence on task rewarded and acknowledged, and curb the invariable atrocities that could endanger the greater plans of Pentex."
 
 /datum/outfit/job/garou/endronaffairs
 	name = "Endron Internal Affairs"
@@ -225,7 +225,7 @@
 
 	known_contacts = null
 
-	v_duty = "You are an acting chief of security for the Endron Oil Refinery, operating out of San Francisco. You have control of the local Dancer Pack as your Security Team. You may have to follow orders from those you see as below you. Do not forget your true allegiances, however."
+	v_duty = "You are the Chief of Security for the Endron Water Treatment Plant, operating out of San Francisco. You have control of the local Dancer Pack as your Security Team. You may have to follow orders from those you see as below you. Do not forget your true allegiances, however."
 
 /datum/outfit/job/garou/endronsecchief
 	name = "Endron Chief of Security"
@@ -287,7 +287,7 @@
 
 	known_contacts = null
 
-	v_duty = "You are an acting security for the Endron Oil Refinery, operating out of San Francisco. While you are a mighty Garou, your superiors may not be. Follow orders, first and foremost, but do not abandon your true allegiance."
+	v_duty = "You are a Security Agent for the Endron Water Treatment Plant, operating out of San Francisco. While you are a mighty Garou, your superiors may not be. Follow orders, first and foremost, but do not abandon your true allegiance."
 
 /datum/outfit/job/garou/endronsec
 	name = "Endron Security Agent"
@@ -347,7 +347,7 @@
 
 	known_contacts = null
 
-	v_duty ="You are an employee for the Endron Oil Refinery, operating out of San Francisco. Your bosses can be a little strange; give credence to the security team and executives for tasks on the night shift, and avoid getting negative attention from the branch manager or internal affairs."
+	v_duty ="You are an Employee for Endron International, operating out of San Francisco. Your bosses can be a little strange; give credence to the security team and executives for tasks on the night shift, and avoid getting negative attention from the branch manager or internal affairs."
 
 /datum/outfit/job/garou/endron
 	name = "Endron Employee"
