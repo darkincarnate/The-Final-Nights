@@ -1279,7 +1279,7 @@
 	)
 
 	min_age = 18
-	max_age = 85
+	max_age = 55
 	preferedgender = MALE
 	male_names = null
 	surnames = null
@@ -1388,7 +1388,7 @@
 	)
 
 	min_age = 18
-	max_age = 85
+	max_age = 55
 	preferedgender = MALE
 	male_names = null
 	surnames = null
@@ -1510,7 +1510,7 @@
 	)
 
 	min_age = 18
-	max_age = 85
+	max_age = 45
 	preferedgender = MALE
 	male_names = null
 	surnames = null
@@ -1596,19 +1596,6 @@
 		"Freeze!!",
 		"Not just a mall cop, you know!"
 	)
-
-/mob/living/carbon/human/npc/endronexecsecurity
-	staying = TRUE
-	fights_anyway = TRUE
-	max_stat = 5
-	my_weapon_type = /obj/item/gun/ballistic/automatic/vampire/deagle
-	my_backup_weapon_type = /obj/item/melee/classic_baton/vampire
-
-/mob/living/carbon/human/npc/endronexecsecurity/Initialize()
-	. = ..()
-	if(prob(0))
-		set_body_model(FAT_BODY_MODEL)
-	AssignSocialRole(/datum/socialrole/endronexecsecurity)
 
 /datum/socialrole/guard
 	s_tones = list(
