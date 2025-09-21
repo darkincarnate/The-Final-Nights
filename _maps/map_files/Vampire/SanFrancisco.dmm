@@ -14742,7 +14742,7 @@
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/chinatown)
 "dFs" = (
-/mob/living/carbon/human/npc/endronsecurity,
+/mob/living/carbon/human/npc/endronexecsecurity,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility/restricted)
 "dFB" = (
@@ -37812,7 +37812,7 @@
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/chantry)
 "jjS" = (
-/mob/living/carbon/human/npc/endronsecurity,
+/mob/living/carbon/human/npc/endronlabsecurity,
 /turf/open/floor/plating/circled,
 /area/vtm/interior/endron_facility/restricted)
 "jjV" = (
@@ -98804,10 +98804,6 @@
 	},
 /turf/open/floor/carpet,
 /area/vtm/interior/banu/haven)
-"xVv" = (
-/mob/living/carbon/human/npc/bouncer/endron/endron_lab,
-/turf/open/floor/plating/circled,
-/area/vtm/interior/endron_facility/restricted)
 "xVx" = (
 /obj/effect/decal/wallpaper/stone/low{
 	pixel_y = 24
@@ -100542,7 +100538,7 @@ vwC
 jSx
 bBZ
 jxJ
-xVv
+jjS
 msX
 msX
 nIe
