@@ -27,12 +27,12 @@
 	display_order = JOB_DISPLAY_ORDER_ENDRON
 
 	minimal_masquerade = 5
-	allowed_species = list("Werewolf")
+	allowed_species = list("Werewolf", "Vampire", "Human")
 	allowed_tribes = list("Black Spiral Dancers")
 
 	known_contacts = null
 
-	v_duty = "You are the current branch leader for the Endron Oil Refinery, operating out of San Francisco. Your job is to fuel production, keep your clowns in line, and to bring forth the banes that will ultimately allow the Wyrm to prevail over the Weaver."
+	v_duty = "You are the current branch leader for the Endron Oil Refinery, operating out of San Francisco. Your job is to fuel production, keep your clowns in line, and to bring forth the banes that will ultimately allow the Wyrm to prevail over the Weaver. Mind your Security Team, they are more than willing to turn on you if you give them a reason."
 	experience_addition = 25
 
 /datum/outfit/job/garou/endronlead
@@ -156,7 +156,7 @@
 	display_order = JOB_DISPLAY_ORDER_ENDRON
 
 	minimal_masquerade = 4
-	allowed_species = list("Werewolf")
+	allowed_species = list("Werewolf", "Vampire")
 	allowed_tribes = list("Black Spiral Dancers")
 
 	known_contacts = null
@@ -282,9 +282,8 @@
 	display_order = JOB_DISPLAY_ORDER_ENDRON
 
 	minimal_masquerade = 3
-	allowed_species = list("Werewolf", "Vampire", "Human", "Ghoul")
+	allowed_species = list("Werewolf")
 	allowed_tribes = list("Black Spiral Dancers")
-	allowed_bloodlines = list(CLAN_TRUE_BRUJAH, CLAN_BAALI, CLAN_BRUJAH, CLAN_TREMERE, CLAN_VENTRUE, CLAN_NOSFERATU, CLAN_TOREADOR, CLAN_MALKAVIAN, CLAN_GIOVANNI, CLAN_SETITES, CLAN_TZIMISCE, CLAN_LASOMBRA, CLAN_NONE)
 
 	known_contacts = null
 
