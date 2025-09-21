@@ -670,6 +670,14 @@ SUBSYSTEM_DEF(carpool)
 	dir = WEST
 	baggage_limit = 45
 
+/obj/vampire_car/endroncar
+	icon_state = "endron"
+	max_passengers = 4
+	dir = SOUTH
+	access = "pentex"
+	baggage_limit = 45
+	baggage_max = WEIGHT_CLASS_BULKY
+
 /obj/vampire_car/limousine/giovanni
 	icon_state = "giolimo"
 	max_passengers = 6

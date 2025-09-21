@@ -61580,6 +61580,12 @@
 	},
 /turf/open/floor/plating/stone,
 /area/vtm/forest/caves)
+"oNk" = (
+/obj/vampire_car/endroncar{
+	dir = 8
+	},
+/turf/open/floor/plating/asphalt,
+/area/vtm/interior/endron_facility)
 "oNv" = (
 /obj/structure/railing/metal{
 	dir = 1;
@@ -171998,9 +172004,9 @@ kIU
 ijP
 dNC
 opE
-pvg
 lxy
 pvg
+oNk
 kIU
 vBb
 jBa
