@@ -56867,8 +56867,11 @@
 	pixel_x = -8;
 	id = 133
 	},
-/obj/machinery/fax/endron{
-	pixel_y = 4
+/obj/item/paper_bin{
+	pixel_y = 6
+	},
+/obj/item/pen{
+	pixel_y = 8
 	},
 /turf/open/floor/plating/circled{
 	color = "#b0b0b0"
