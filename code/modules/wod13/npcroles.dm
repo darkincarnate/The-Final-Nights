@@ -1377,7 +1377,7 @@
 	. = ..()
 	if(prob(66))
 		set_body_model(FAT_BODY_MODEL)
-	AssignSocialRole(/datum/socialrole/endronlabsecurity)
+	AssignSocialRole(/datum/socialrole/endronsecurity)
 
 /datum/socialrole/endronlabsecurity
 	s_tones = list(
@@ -1482,24 +1482,11 @@
 	my_weapon_type = /obj/item/gun/ballistic/automatic/vampire/m1911
 	my_backup_weapon_type = /obj/item/melee/classic_baton/vampire
 
-/mob/living/carbon/human/npc/endronexecsecurity/Initialize()
+/mob/living/carbon/human/npc/endronlabsecurity/Initialize()
 	. = ..()
 	if(prob(0))
 		set_body_model(FAT_BODY_MODEL)
 	AssignSocialRole(/datum/socialrole/endronlabsecurity)
-
-/mob/living/carbon/human/npc/endronexecsecurity
-	staying = TRUE
-	fights_anyway = TRUE
-	max_stat = 4
-	my_weapon_type = /obj/item/gun/ballistic/automatic/vampire/deagle
-	my_backup_weapon_type = /obj/item/melee/classic_baton/vampire
-
-/mob/living/carbon/human/npc/endronexecsecurity/Initialize()
-	. = ..()
-	if(prob(0))
-		set_body_model(FAT_BODY_MODEL)
-	AssignSocialRole(/datum/socialrole/endronexecsecurity)
 
 /datum/socialrole/endronexecsecurity
 	s_tones = list(
@@ -1596,6 +1583,19 @@
 		"Freeze!!",
 		"Not just a mall cop, you know!"
 	)
+
+/mob/living/carbon/human/npc/endronexecsecurity
+	staying = TRUE
+	fights_anyway = TRUE
+	max_stat = 4
+	my_weapon_type = /obj/item/gun/ballistic/automatic/vampire/deagle
+	my_backup_weapon_type = /obj/item/melee/classic_baton/vampire
+
+/mob/living/carbon/human/npc/endronexecsecurity/Initialize()
+	. = ..()
+	if(prob(0))
+		set_body_model(FAT_BODY_MODEL)
+	AssignSocialRole(/datum/socialrole/endronexecsecurity)
 
 /datum/socialrole/guard
 	s_tones = list(
