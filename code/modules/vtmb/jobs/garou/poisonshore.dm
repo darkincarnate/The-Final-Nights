@@ -287,7 +287,7 @@
 
 	known_contacts = null
 
-	v_duty = "You are an acting security for the Endron Oil Refinery, operating out of San Francisco. While you are a mighty Garou, your superiors may not. Follow orders, first and foremost, but do not abandon your true allegiance."
+	v_duty = "You are an acting security for the Endron Oil Refinery, operating out of San Francisco. While you are a mighty Garou, your superiors may not be. Follow orders, first and foremost, but do not abandon your true allegiance."
 
 /datum/outfit/job/garou/endronsec
 	name = "Endron Security Agent"
