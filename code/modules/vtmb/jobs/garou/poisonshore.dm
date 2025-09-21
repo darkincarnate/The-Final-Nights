@@ -64,7 +64,7 @@
 	icon_state = "Prince"
 
 /datum/job/vamp/garou/spiral/executive
-	title = "Endron Executive"
+	title = "Endron Regional Executive"
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD|DEADMIN_POSITION_SECURITY
 	department_head = list("Endron International")
 	faction = "Vampire"
@@ -101,7 +101,7 @@
 	v_duty = "You are an acting executive for the Endron Oil Refinery, operating out of San Francisco. With discretion to the Branch Leader, a position you may aim for, your job is to fuel production, aid in bringing forth banes, and sate the heads of the Wyrm. Expand!"
 
 /datum/outfit/job/garou/endronexec
-	name = "Endron Executive"
+	name = "Endron Regional Executive"
 	jobtype = /datum/job/vamp/garou/spiral/executive
 
 	id = /obj/item/card/id/garou/spiral/executive
@@ -136,7 +136,7 @@
 	minimal_renownrank = 2
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "Pentex and Endron's Executive Board."
+	supervisors = "Pentex and the Global Endron Executive Board."
 	selection_color = "#015334"
 
 	req_admin_notify = 1
