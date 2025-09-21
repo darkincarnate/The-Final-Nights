@@ -56862,12 +56862,13 @@
 /area/vtm/interior/strip)
 "nJC" = (
 /obj/structure/table,
-/obj/item/paper_bin,
-/obj/item/pen,
 /obj/machinery/button/door{
 	pixel_y = 32;
 	pixel_x = -8;
 	id = 133
+	},
+/obj/machinery/fax/endron{
+	pixel_y = 4
 	},
 /turf/open/floor/plating/circled{
 	color = "#b0b0b0"
@@ -82626,6 +82627,11 @@
 	},
 /turf/open/floor/carpet/royalblack,
 /area/vtm/interior/millennium_tower/f3)
+"tTG" = (
+/obj/structure/table/wood,
+/obj/machinery/fax/endron,
+/turf/open/floor/plating/woodfancy,
+/area/vtm/interior/endron_facility/restricted)
 "tTI" = (
 /obj/structure/table/wood,
 /obj/item/kitchen/knife/butcher{
@@ -83689,11 +83695,6 @@
 /obj/effect/decal/rugs,
 /turf/open/floor/plating/concrete,
 /area/vtm/sewer/nosferatu_warren)
-"ugC" = (
-/obj/structure/table,
-/obj/machinery/fax/endron,
-/turf/open/floor/plating/vampplating/mono,
-/area/vtm/interior/endron_facility)
 "ugE" = (
 /obj/effect/landmark/npcbeacon,
 /obj/effect/landmark/npcability,
@@ -172186,7 +172187,7 @@ pij
 pij
 iss
 lSs
-ugC
+dRQ
 xiN
 dRQ
 uDh
@@ -253385,7 +253386,7 @@ mjT
 mjT
 mjT
 dRb
-xOa
+tTG
 pzx
 qdj
 hZx
