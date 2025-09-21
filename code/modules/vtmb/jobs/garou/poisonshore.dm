@@ -136,7 +136,7 @@
 	minimal_renownrank = 2
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "The Branch Lead."
+	supervisors = "Pentex and Endron's Executive Board."
 	selection_color = "#015334"
 
 	req_admin_notify = 1
@@ -199,7 +199,7 @@
 	minimal_renownrank = 3
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "The Branch Lead."
+	supervisors = "The Wyrm... and the Branch Lead."
 	selection_color = "#015334"
 
 	req_admin_notify = 1
@@ -225,7 +225,7 @@
 
 	known_contacts = null
 
-	v_duty = "You are an acting chief of security for the Endron Oil Refinery, operating out of San Francisco. With discretion to the Branch Leader, your job is to keep the complex and it's source of taint under control with the help of your security team, and to turn over contract violators to internal affairs or the executives."
+	v_duty = "You are an acting chief of security for the Endron Oil Refinery, operating out of San Francisco. You have control of the local Dancer Pack as your Security Team. You may have to follow orders from those you see as below you. Do not forget your true allegiances, however."
 
 /datum/outfit/job/garou/endronsecchief
 	name = "Endron Chief of Security"
@@ -261,7 +261,7 @@
 
 	total_positions = 5
 	spawn_positions = 5
-	supervisors = "The Branch Lead and the Security Chief."
+	supervisors = "The Wyrm, the Security Chief and the Branch Lead."
 	selection_color = "#015334"
 
 	req_admin_notify = 1
@@ -287,7 +287,7 @@
 
 	known_contacts = null
 
-	v_duty = "You are an acting security for the Endron Oil Refinery, operating out of San Francisco. Under the chief of security's direction, your job is to keep the complex free of nosy meddlers, pick up contract violators, and to assist the chief in tackling threats to corporate assets."
+	v_duty = "You are an acting security for the Endron Oil Refinery, operating out of San Francisco. While you are a mighty Garou, your superiors may not. Follow orders, first and foremost, but do not abandon your true allegiance."
 
 /datum/outfit/job/garou/endronsec
 	name = "Endron Security Agent"
