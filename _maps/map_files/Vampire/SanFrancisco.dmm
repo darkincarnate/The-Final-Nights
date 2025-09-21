@@ -24789,6 +24789,12 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/police)
+"gaa" = (
+/obj/item/charcoal_stick,
+/turf/open/floor/plating/circled{
+	color = "#b0b0b0"
+	},
+/area/vtm/interior/wyrm_corrupted)
 "gai" = (
 /obj/structure/vampipe{
 	icon_state = "piping5";
@@ -104578,7 +104584,7 @@ rCB
 jmr
 jmr
 jmr
-sto
+gaa
 xEJ
 aop
 jmr
@@ -104782,7 +104788,7 @@ uGf
 xEJ
 pYN
 xEJ
-sto
+gaa
 xEJ
 uGf
 jmr
