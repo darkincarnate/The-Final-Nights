@@ -1370,7 +1370,7 @@
 	staying = TRUE
 	fights_anyway = TRUE
 	max_stat = 4
-	my_weapon_type = /obj/item/gun/ballistic/automatic/vampire/m1911
+	my_weapon_type = /obj/item/gun/ballistic/automatic/vampire/mp5
 	my_backup_weapon_type = /obj/item/melee/classic_baton/vampire
 
 /mob/living/carbon/human/npc/endronsecurity/Initialize()
@@ -1479,7 +1479,7 @@
 	staying = TRUE
 	fights_anyway = TRUE
 	max_stat = 4
-	my_weapon_type = /obj/item/gun/ballistic/automatic/vampire/m1911
+	my_weapon_type = /obj/item/gun/ballistic/automatic/vampire/mp5
 	my_backup_weapon_type = /obj/item/melee/classic_baton/vampire
 
 /mob/living/carbon/human/npc/endronlabsecurity/Initialize()
