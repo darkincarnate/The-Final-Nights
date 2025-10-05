@@ -48801,7 +48801,7 @@
 /obj/structure/vampipe{
 	pixel_y = 32
 	},
-/obj/machinery/mineral/equipment_vendor/restricted/police,
+/obj/item/storage/box/handcuffs,
 /turf/open/floor/plating/vampdirt,
 /area/vtm/interior/police/fed)
 "ljX" = (
