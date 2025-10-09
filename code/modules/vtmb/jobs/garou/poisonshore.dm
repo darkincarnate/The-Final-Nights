@@ -159,6 +159,7 @@
 	minimal_masquerade = 4
 	allowed_species = list("Werewolf", "Vampire")
 	allowed_tribes = list("Black Spiral Dancers")
+	allowed_bloodlines = list(CLAN_TRUE_BRUJAH, CLAN_BAALI, CLAN_BRUJAH, CLAN_TREMERE, CLAN_VENTRUE, CLAN_NOSFERATU, CLAN_TOREADOR, CLAN_MALKAVIAN, CLAN_GIOVANNI, CLAN_SETITES, CLAN_TZIMISCE, CLAN_LASOMBRA, CLAN_NONE)
 
 	known_contacts = null
 
