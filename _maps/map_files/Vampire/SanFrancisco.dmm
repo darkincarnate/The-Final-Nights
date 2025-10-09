@@ -38308,6 +38308,13 @@
 	},
 /turf/closed/wall/vampwall/junk/low,
 /area/vtm/interior/laundromat)
+"iOy" = (
+/obj/effect/decal/bordur,
+/obj/vampire_car/endroncar{
+	dir = 4
+	},
+/turf/open/floor/plating/sidewalk,
+/area/vtm/pacificheights/industrial)
 "iOA" = (
 /obj/manholedown,
 /turf/open/floor/plating/sidewalkalt,
@@ -149158,7 +149165,7 @@ cTJ
 tvm
 xBY
 tao
-hdQ
+iOy
 uDw
 vGb
 uDw
