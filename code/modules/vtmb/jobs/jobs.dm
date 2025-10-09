@@ -109,9 +109,9 @@
 			to_chat(H, "<span class='userdanger'>The God has punished you for your sins!</span>", confidential = TRUE)
 
 /obj/item/card/id/prince
-	name = "leader badge"
-	id_type_name = "leader badge"
-	desc = "King in the castle!"
+	name = "Company President badge"
+	id_type_name = "Company President badge"
+	desc = "A badge denoting the wearer as the President of TransAmerica."
 	icon = 'code/modules/wod13/items.dmi'
 	icon_state = "id6"
 	inhand_icon_state = "card-id"
@@ -122,8 +122,8 @@
 	worn_icon_state = "id6"
 
 /obj/item/card/id/sheriff
-	name = "head security badge"
-	id_type_name = "head security badge"
+	name = "head corporate security agent badge"
+	id_type_name = "head corporate security agent badgee"
 	desc = "A badge which shows honour and dedication."
 	icon = 'code/modules/wod13/items.dmi'
 	icon_state = "id4"
@@ -135,8 +135,8 @@
 	worn_icon_state = "id4"
 
 /obj/item/card/id/camarilla
-	name = "security badge"
-	id_type_name = "security badge"
+	name = "corporate security agent badge"
+	id_type_name = "corporate security security badge"
 	desc = "A badge which shows honour and dedication."
 	icon = 'code/modules/wod13/items.dmi'
 	icon_state = "id3"
@@ -148,9 +148,9 @@
 	worn_icon_state = "id3"
 
 /obj/item/card/id/clerk
-	name = "clerk badge"
-	id_type_name = "clerk badge"
-	desc = "A badge which shows bureaucracy qualification."
+	name = "Company Vice President badge"
+	id_type_name = "Company Vice President badge"
+	desc = "A badge denoting the wearer as the Vice President of TransAmerica."
 	icon = 'code/modules/wod13/items.dmi'
 	icon_state = "id1"
 	inhand_icon_state = "card-id"
