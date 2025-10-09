@@ -122,8 +122,8 @@
 	worn_icon_state = "id6"
 
 /obj/item/card/id/sheriff
-	name = "head corporate security agent badge"
-	id_type_name = "head corporate security agent badgee"
+	name = "Head Security Agent badge"
+	id_type_name = "Head Security Agent badge"
 	desc = "A badge which shows honour and dedication."
 	icon = 'code/modules/wod13/items.dmi'
 	icon_state = "id4"
@@ -135,7 +135,7 @@
 	worn_icon_state = "id4"
 
 /obj/item/card/id/camarilla
-	name = "corporate security agent badge"
+	name = "Corporate Security Agent badge"
 	id_type_name = "corporate security security badge"
 	desc = "A badge which shows honour and dedication."
 	icon = 'code/modules/wod13/items.dmi'
