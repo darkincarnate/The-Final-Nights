@@ -1484,8 +1484,6 @@
 
 /mob/living/carbon/human/npc/endronlabsecurity/Initialize()
 	. = ..()
-	if(prob(0))
-		set_body_model(FAT_BODY_MODEL)
 	AssignSocialRole(/datum/socialrole/endronlabsecurity)
 
 /datum/socialrole/endronexecsecurity
