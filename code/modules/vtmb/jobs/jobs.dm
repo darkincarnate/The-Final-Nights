@@ -500,6 +500,21 @@
 	worn_icon = 'code/modules/wod13/worn.dmi'
 	worn_icon_state = "rubyBadge"
 
+// PRINCE ASSIGNMENT BADGES
+
+/obj/item/card/id/elysium
+	name = "Keeper of Elysium badge"
+	id_type_name = "elysium badge"
+	desc = "A badge which identifies you as the Keeper of Elysium."
+	icon = 'code/modules/wod13/items.dmi'
+	icon_state = "elysiumBadge"
+	inhand_icon_state = "card-id"
+	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
+	onflooricon = 'code/modules/wod13/onfloor.dmi'
+	worn_icon = 'code/modules/wod13/worn.dmi'
+	worn_icon_state = "elysiumBadge"
+
 // GAROU
 /obj/item/card/id/garou
 	name = "Base Garou ID"
