@@ -49919,9 +49919,7 @@
 /turf/open/floor/plating/rough/cave,
 /area/vtm/forest/caves)
 "lxy" = (
-/obj/vampire_car/track{
-	access = "pentex"
-	},
+/obj/vampire_car/endrontruck,
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/endron_facility)
 "lxz" = (
@@ -55545,8 +55543,7 @@
 /area/vtm/sewer)
 "mNy" = (
 /obj/effect/decal/bordur,
-/obj/vampire_car/track{
-	access = "pentex";
+/obj/vampire_car/endrontruck{
 	dir = 4
 	},
 /turf/open/floor/plating/sidewalk,
