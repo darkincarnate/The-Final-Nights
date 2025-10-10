@@ -109,9 +109,9 @@
 			to_chat(H, "<span class='userdanger'>The God has punished you for your sins!</span>", confidential = TRUE)
 
 /obj/item/card/id/prince
-	name = "Company President badge"
-	id_type_name = "Company President badge"
-	desc = "A badge denoting the wearer as the President of TransAmerica."
+	name = "chief executive officer badge"
+	id_type_name = "C.E.O. badge"
+	desc = "A badge denoting the wearer as the C.E.O. of the TransAmerica Corporation."
 	icon = 'code/modules/wod13/items.dmi'
 	icon_state = "id6"
 	inhand_icon_state = "card-id"
@@ -122,8 +122,8 @@
 	worn_icon_state = "id6"
 
 /obj/item/card/id/sheriff
-	name = "Head Security Agent badge"
-	id_type_name = "Head Security Agent badge"
+	name = "head of security badge"
+	id_type_name = "head of security badge"
 	desc = "A badge which shows honour and dedication."
 	icon = 'code/modules/wod13/items.dmi'
 	icon_state = "id4"
@@ -135,7 +135,7 @@
 	worn_icon_state = "id4"
 
 /obj/item/card/id/camarilla
-	name = "Corporate Security Agent badge"
+	name = "corporate security badge"
 	id_type_name = "corporate security security badge"
 	desc = "A badge which shows honour and dedication."
 	icon = 'code/modules/wod13/items.dmi'
@@ -148,9 +148,9 @@
 	worn_icon_state = "id3"
 
 /obj/item/card/id/clerk
-	name = "Company Vice President badge"
-	id_type_name = "Company Vice President badge"
-	desc = "A badge denoting the wearer as the Vice President of TransAmerica."
+	name = "chief operating officer badge"
+	id_type_name = "chief operating officer"
+	desc = "A badge denoting the wearer as the C.O.O. of the TransAmerica Corporation."
 	icon = 'code/modules/wod13/items.dmi'
 	icon_state = "id1"
 	inhand_icon_state = "card-id"
