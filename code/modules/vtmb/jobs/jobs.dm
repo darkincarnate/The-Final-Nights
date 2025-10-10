@@ -346,9 +346,9 @@
 	registered_name_is_public = FALSE
 
 /obj/item/card/id/primogen
-	name = "mysterious primogen badge"
-	id_type_name = "mysterious primogen badge"
-	desc = "Sponsored by the Shadow Government."
+	name = "board director badge"
+	id_type_name = "board director badge"
+	desc = "This badge denotes the wearer as a member of the TransAmerica Corporation's Board of Directors."
 	icon = 'code/modules/wod13/items.dmi'
 	icon_state = "id12"
 	inhand_icon_state = "card-id"
