@@ -111,7 +111,7 @@
 /obj/item/card/id/prince
 	name = "chief executive officer badge"
 	id_type_name = "C.E.O. badge"
-	desc = "A badge denoting the wearer as the C.E.O. of the TransAmerica Corporation."
+	desc = "A badge denoting the wearer as the C.E.O. of the Transamerica Corporation."
 	icon = 'code/modules/wod13/items.dmi'
 	icon_state = "id6"
 	inhand_icon_state = "card-id"
@@ -150,7 +150,7 @@
 /obj/item/card/id/clerk
 	name = "chief operating officer badge"
 	id_type_name = "chief operating officer"
-	desc = "A badge denoting the wearer as the C.O.O. of the TransAmerica Corporation."
+	desc = "A badge denoting the wearer as the C.O.O. of the Transamerica Corporation."
 	icon = 'code/modules/wod13/items.dmi'
 	icon_state = "id1"
 	inhand_icon_state = "card-id"
@@ -161,8 +161,8 @@
 	worn_icon_state = "id1"
 
 /obj/item/card/id/clerk/harpy
-	name = "Public Relations Clerk badge"
-	desc = "A badge which shows social qualifications."
+	name = "public relations manager badge"
+	desc = "A badge which denotes the wearer as a PR Manager of Transamerica."
 
 /obj/item/card/id/bruiser
 	name = "member badge"
@@ -348,7 +348,7 @@
 /obj/item/card/id/primogen
 	name = "board director badge"
 	id_type_name = "board director badge"
-	desc = "This badge denotes the wearer as a member of the TransAmerica Corporation's Board of Directors."
+	desc = "This badge denotes the wearer as a member of the Transamerica Corporation's Board of Directors."
 	icon = 'code/modules/wod13/items.dmi'
 	icon_state = "id12"
 	inhand_icon_state = "card-id"
