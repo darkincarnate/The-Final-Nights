@@ -4,7 +4,6 @@
 	department_head = list("Endron International")
 	faction = "Vampire"
 
-	minimal_renownrank = 4
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "The Board and Yourself."
@@ -75,7 +74,6 @@
 	supervisors = "The Branch Lead, and yourself."
 	selection_color = "#015334"
 
-	minimal_renownrank = 3
 	req_admin_notify = 1
 	minimal_player_age = 25
 	exp_requirements = 150
@@ -134,7 +132,6 @@
 	department_head = list("Endron International")
 	faction = "Vampire"
 
-	minimal_renownrank = 2
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "Pentex and the Global Endron Executive Board."
