@@ -260,7 +260,7 @@
 
 	total_positions = 5
 	spawn_positions = 5
-	supervisors = "The Wyrm, the Security Chief and the Branch Lead."
+	supervisors = "The Security Chief and the Executives."
 	selection_color = "#015334"
 
 	req_admin_notify = 1
@@ -281,12 +281,12 @@
 	display_order = JOB_DISPLAY_ORDER_ENDRON
 
 	minimal_masquerade = 3
-	allowed_species = list("Werewolf")
+	allowed_species = list("Werewolf", "Human", "Ghoul")
 	allowed_tribes = list("Black Spiral Dancers")
 
 	known_contacts = null
 
-	v_duty = "You are a Security Agent for the Endron Water Treatment Plant, operating out of San Francisco. While you are a mighty Garou, your superiors may not be. Follow orders, first and foremost, but do not abandon your true allegiance."
+	v_duty = "You are a Security Agent for the Endron Water Treatment Plant, operating out of San Francisco."
 
 /datum/outfit/job/garou/endronsec
 	name = "Endron Security Agent"
